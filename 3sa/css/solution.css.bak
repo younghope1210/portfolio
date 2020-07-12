@@ -1,0 +1,158 @@
+
+
+.Visual{width:100%; height:118px; margin:0 auto; overflow:hidden; background:url(../images/company/skin.jpg) no-repeat center top;}
+.Visual p{width:1200px; margin:0 auto; font-size:40px; font-weight:bold; color:#fff; text-align:center; padding-top:40px; font-family: 'Noto Sans KR', sans-serif;}
+
+/*공통*/
+h3{width:100%; height:100px; padding-top:30px; border-bottom:1px solid #ccc; text-align:center; font-size:36px; font-weight:bold; color:#000; }
+h3 img{width:60px; height:3px; margin:0 auto; border:0; vertical-align:bottom; margin-bottom:8px;}
+h3 span.H3-Text{display:block; height:40px; text-align:center;}
+
+
+
+/*솔루션 페이지 시작*/
+
+#Solution{width:1200px; height:auto; margin:0 auto;}
+#Solution .Solution-Con{width:1200px; height:auto; margin:0 auto; }
+
+
+/*솔루션 페이지 탭 시작*/
+
+#Solution #Tab{width:1150px; height:58px; line-height:58px;margin:20px auto; }
+
+#Solution #Tab ul li{width:381px; float:left;}
+#Solution #Tab ul li a{display:block; width:100%; height:auto; text-align:center; font-size:20px; color:#000; border:1px solid #d6d3d3;}
+#Solution #Tab ul li a:hover{background:#f85915; color:#fff;}
+#Solution #Tab ul li a.active{background-color:#f85915; color:#fff;}
+
+/*공통*/
+
+#Solution h4{height:50px; font-size:36px; text-align:center; color:#000; padding-top:30px;	}
+
+/*----------------회사소개 페이지 시작----------------*/
+
+
+#Company-Con{width:100%; height:auto; overflow:hidden; }
+
+#Company-Con .Com-Summary{width:100%; height:auto; margin:0 auto; border-bottom:1px solid #f1efef;}
+#Company-Con .Com-Summary p.Info-Img{width:846px; height:239px; margin:0px auto;}
+#Company-Con .Com-Summary .Summary-Con{width:100%; height:auto margin:0 auto;}
+#Company-Con .Com-Summary .Summary-Con p{text-align:center; font-size:17px;} 
+#Company-Con .Com-Summary .Summary-Con p span{display:block; height:25px;}
+#Company-Con .Com-Summary .Summary-Con p.Slogan{font-size:30px; color:#f41414; font-style:italic; margin:25px auto;}
+#Company-Con .Com-Summary .Summary-Con p.Greeting{margin-top:20px;} 
+
+#Company-Con .Com-Info{width:90%; height:auto; margin:50px auto; overflow:hidden; }
+#Company-Con .Com-Info p{width:307px; height:302px; float:left;}
+#Company-Con .Com-Info .Com-Info-Con{width:700px; height:auto; float:left; margin-top:15px; margin-left:30px;}
+
+#Company-Con .Com-Info .Com-Info-Con dl{width:700px; height:40px; font-size:14px; font-weight:bold; font-family:dotum; }
+#Company-Con .Com-Info .Com-Info-Con dl dt{width:117px; height:30px; background:url(../images/company/th_back2.jpg) no-repeat; text-align:center; color:#fff; line-height:30px; float:left;}
+#Company-Con .Com-Info .Com-Info-Con dl dd{float:left; line-height:30px; margin-left:20px; color:#000;}
+
+
+/*회사연혁*/
+
+#Company-Con .Com-History{width:90%; height:auto; margin:50px auto; overflow:hidden; }
+#Company-Con .Com-History p.History-Img{width:989px; height:1126px; margin:0 auto; }
+
+
+
+/*----------------솔루션 소개 페이지 시작----------------*/
+
+
+#Solution-Con{width:100%; height:auto; overflow:hidden;}
+
+
+/* 솔루션 강점 */
+
+
+#Solution-Con .Strong-Point{width:100%; height:auto; margin:20px auto; border-bottom:1px solid #f1efef;}
+#Solution-Con .Strong-Point p.Info-Img{width:1090px; height:246px; margin:20px auto;}
+
+
+/* 솔루션 주요기능 */
+
+#Solution-Con .Main-Function{width:100%; height:auto; margin:0 auto; border-bottom:1px solid #f1efef;}
+#Solution-Con .Main-Function .Main-Function-Con{width:97%; height:auto; margin:20px auto; overflow:hidden;}
+.Main-Function .Main-Function-Con dl{width:375px; height:auto; float:left; margin:20px 5px; }	
+.Main-Function .Main-Function-Con dl dd{font-size:18px; text-align:center; color:#000; margin-top:10px;}
+.Main-Function .Main-Function-Con dl dd span{display:block; margin-top:5px;}
+
+
+/*1석 3조의 효과*/
+
+#Solution-Con .Effect{width:100%; height:auto; margin:20px auto; border-bottom:1px solid #f1efef;}
+#Solution-Con .Effect p{width:1110px; height:391px; margin:0 auto; padding-bottom:100px;} 
+
+
+/*----------------이용금액 페이지 시작----------------*/
+
+/*이용금액*/
+
+#Price-Con{width:100%; height:auto; overflow:hidden; }
+#Price-Con .Price-Table{width:100%; height:auto; margin:0 auto; border-bottom:1px solid #f1efef; }
+#Price-Con .Price-Table table{width:1170px; height:180px; margin:0 auto; font-weight:normal; margin-top:20px;}
+#Price-Con .Price-Table table th.Division{height:48px; background:url(../images/company/th_back.jpg) repeat-x; font-size:18px; color:#fff; font-weight:normal;}
+
+#Price-Con .Price-Table table th.Col-017358{background:#017358; font-size:18px; color:#fff; height:48px; border-right:1px solid #fff; font-weight:normal;}
+#Price-Con .Price-Table table th.Col-017358 span{font-size:14px;}
+#Price-Con .Price-Table table td.Col-028c6b{background:#028c6b; font-size:26px; color:#fff; border-right:1px solid #fff;}
+#Price-Con .Price-Table table td.Col-028c6b span{font-size:18px;}
+
+
+#Price-Con .Price-Table table th.Col-f3f3f3{background:#f3f3f3; font-size:18px;  height:48px; border-right:1px solid #dcd9d9;  border-bottom:1px solid #dcd9d9; font-weight:normal;}
+#Price-Con .Price-Table table th.Col-f3f3f3 span{font-size:14px;}
+#Price-Con .Price-Table table td.Col-ffffff{background:#ffffff; font-size:18px; border-right:1px solid #dcd9d9;   border-bottom:1px solid #dcd9d9;}
+#Price-Con .Price-Table table td.Col-ffffff span{font-size:18px;}
+
+
+#Price-Con .Price-Table table th.Col-e9e6e6{background:#f3f3f3; font-size:18px;  height:48px; border-right:1px solid #dcd9d9;  border-bottom:1px solid #dcd9d9; font-weight:normal;}
+#Price-Con .Price-Table table th.Col-e9e6e6 span{font-size:14px;}
+#Price-Con .Price-Table table td.Col-f4f3f3{background:#ffffff; font-size:18px; border-right:1px solid #dcd9d9;   border-bottom:1px solid #dcd9d9;}
+#Price-Con .Price-Table table td.Col-f4f3f3 span{font-size:18px;}
+
+
+#Price-Con .Price-Table ul{font-family:dotum; font-size:14px; font-weight:bold; margin-top:20px; margin-left:20px; color:#000;}
+#Price-Con .Price-Table ul li{height:30px;}
+#Price-Con .Price-Table ul li span{color:#f85915;}
+
+#Price-Con .Price-Table dl {margin-left:20px; margin-top:20px; height:auto;  padding-bottom:30px; }
+#Price-Con .Price-Table dl dt{width:213px; height:34px; background:#f85915; color:#fff; font-size:18px; text-align:center; line-height:34px; border-radius:20px;}
+#Price-Con .Price-Table dl dd{height:40px; line-height:40px; font-size:14px; font-weight:bold; font-family:dotum; color:#000; margin-left:20px;}
+
+
+
+
+
+/*상담신청*/
+
+
+
+#Price-Con .Advice-App{width:100%; height:auto; margin:20px auto;  }
+
+#Price-Con .Advice-App .Advice-Con{width:96%; margin:0 auto; } 
+
+
+
+.Advice-App .Advice-Con p{ padding-bottom:10px; padding-bottom:30px; }
+.Advice-App .Advice-Con p img{width:1149px; height:164px; margin-top:20px;}
+						
+.Advice-App .Advice-Con table{width:100%; height:auto; border-top:2px solid #f85915; font-family:dotum;}
+.Advice-App .Advice-Con table p img{width:1149px; height:164px; margin:20px auto;}
+.Advice-App .Advice-Con table th{width:200px; height:35px; color:#000; background:#eeeded; border-bottom:1px solid #e2e1e1; }
+
+.Advice-App .Advice-Con table th.Advice-Text-Area{height:247px;}
+.Advice-App .Advice-Con table td{ border-bottom:1px solid #e2e1e1; }
+.Advice-App .Advice-Con table td input{width:360px; height:25px; border:1px solid #e2e1e1; border-bottom:1px solid #e2e1e1; }
+
+.Advice-App .Advice-Con table td textarea{width:937px; height:215px; border:1px solid #e2e1e1; overflow-y:auto;}
+
+
+.Advice-App .Advice-Con .Agree{width:100%; height:auto;}
+.Advice-App .Advice-Con .Agree h5{ background:url(../images/company/bullet_orange.gif) 0 5px no-repeat; text-indent:15px; margin-top:20px; margin-bottom:10px; font-size:18px; color:#000;}
+.Agree-Con{width:1150px; height:172px; overflow-y:auto; border:1px solid #e2e1e1;}
+
+.Advice-App .Advice-Con .Agree-Check{font-family:dotum; font-size:12px;  padding-top:10px;}
+
+.Advice-App .Btn-Submit	{width:269px; height:54px; margin:20px auto;}		

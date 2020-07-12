@@ -1,0 +1,108 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+/*로그인 박스 시작 */
+
+#portamento_container {float:left; border:1px solid red;}
+#portamento_container #Navi{position:fixed;} 
+
+
+
+/*상품별 LNB 시작*/
+
+#Lnb-Product-Type{width:200px; height:243px; background:url(../images/lnb/lnb_back.gif) no-repeat;}
+#Lnb-Product-Type h3{width:192px; height:26px; margin:0 auto; padding-top:3px;}
+#Lnb-Product-Type ul {margin-top:20px; margin-left:4px;}
+#Lnb-Product-Type ul li{width:188px; height:36px; position:relative;}
+#Lnb-Product-Type ul li.Lnb-a a.Lnb-a-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px; background:url(../images/lnb/lnb_menu_a.gif) no-repeat; }
+
+#Lnb-Product-Type ul li.Lnb-a a.Lnb-a-Menu:hover{background:url(../images/lnb/lnb_menu_a_over.gif) no-repeat;}
+
+
+#Lnb-Product-Type ul li.Lnb-b a.Lnb-b-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px;background:url(../images/lnb/lnb_menu_b.gif) no-repeat; }
+#Lnb-Product-Type ul li.Lnb-b a.Lnb-b-Menu:hover{background:url(../images/lnb/lnb_menu_b_over.gif) no-repeat;}
+
+#Lnb-Product-Type ul li.Lnb-c a.Lnb-c-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px;background:url(../images/lnb/lnb_menu_c.gif) no-repeat; }
+#Lnb-Product-Type ul li.Lnb-c a.Lnb-c-Menu:hover{background:url(../images/lnb/lnb_menu_c_over.gif) no-repeat;}
+
+#Lnb-Product-Type ul li.Lnb-d a.Lnb-d-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px;background:url(../images/lnb/lnb_menu_d.gif) no-repeat; }
+#Lnb-Product-Type ul li.Lnb-d a.Lnb-d-Menu:hover{background:url(../images/lnb/lnb_menu_d_over.gif) no-repeat;}
+
+#Lnb-Product-Type ul li.Lnb-e a.Lnb-e-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px;background:url(../images/lnb/lnb_menu_e.gif) no-repeat; }
+#Lnb-Product-Type ul li.Lnb-e a.Lnb-e-Menu:hover{background:url(../images/lnb/lnb_menu_e_over.gif) no-repeat;}
+
+#Lnb-Product-Type ul li.Lnb-f a.Lnb-f-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px;background:url(../images/lnb/lnb_menu_f.gif) no-repeat; }
+#Lnb-Product-Type ul li.Lnb-f a.Lnb-f-Menu:hover{background:url(../images/lnb/lnb_menu_f_over.gif) no-repeat;}
+
+#Lnb-Product-Type ul li.Lnb-g a.Lnb-g-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px;background:url(../images/lnb/lnb_menu_g.gif) no-repeat; }
+#Lnb-Product-Type ul li.Lnb-g a.Lnb-g-Menu:hover{background:url(../images/lnb/lnb_menu_g_over.gif) no-repeat;}
+
+/*서브메뉴 시작*/
+
+#Lnb-Product-Type ul li ul.Sub_Menu{ width:400px; height:auto; padding-top:20px; border:2px solid #d64747; position:absolute; top:0; left:190px; background:#FFF; z-index:50;}
+#Lnb-Product-Type ul li ul.Sub_Menu li{width:100%;}
+#Lnb-Product-Type ul li ul.Sub_Menu li a{color:#333;}
+#Lnb-Product-Type ul li ul.Sub_Menu li a:hover{font-weight:bold; color:#4763b6; text-decoration:underline;}
+.Sub_Menu img{vertical-align:middle;}
+
+
+
+
+/*브랜드별 LNB_2 시작*/
+
+
+#Lnb-Brand-Type{width:200px; height:243px; background:url(../images/lnb/lnb_back.gif) no-repeat; margin-top:20px;}
+#Lnb-Brand-Type h3{width:192px; height:26px; margin:0 auto; padding-top:3px;}
+
+#Lnb-Brand-Type ul{width:188px; height:auto; margin:10px auto; margin-top:20px; margin-left:4px;}
+#Lnb-Brand-Type ul li{width:188px; height:36px; position:relative;}
+
+
+#Lnb-Brand-Type ul li.Lnb-dy a.Lnb-dy-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px; background:url(../images/lnb/lnb_menu_meritz.gif) no-repeat;}
+#Lnb-Brand-Type ul li.Lnb-dy a.Lnb-dy-Menu:hover{background:url(../images/lnb/lnb_menu_meritz_over.gif) no-repeat;}
+
+#Lnb-Brand-Type ul li.Lnb-lg a.Lnb-lg-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px; background:url(../images/lnb/lnb_menu_kb.gif) no-repeat;}
+#Lnb-Brand-Type ul li.Lnb-lg a.Lnb-lg-Menu:hover{background:url(../images/lnb/lnb_menu_kb_over.gif) no-repeat;}
+
+#Lnb-Brand-Type ul li.Lnb-hd a.Lnb-hd-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px; background:url(../images/lnb/lnb_menu_hyundai.gif) no-repeat;}
+#Lnb-Brand-Type ul li.Lnb-hd a.Lnb-hd-Menu:hover{background:url(../images/lnb/lnb_menu_hyundai_over.gif) no-repeat;}
+
+#Lnb-Brand-Type ul li.Lnb-sy a.Lnb-sy-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px; background:url(../images/lnb/lnb_menu_heungkuk.gif) no-repeat;}
+#Lnb-Brand-Type ul li.Lnb-sy a.Lnb-sy-Menu:hover{background:url(../images/lnb/lnb_menu_heungkuk_over.gif) no-repeat;}
+
+#Lnb-Brand-Type ul li.Lnb-gr a.Lnb-gr-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px; background:url(../images/lnb/lnb_menu_mg.gif) no-repeat;}
+#Lnb-Brand-Type ul li.Lnb-gr a.Lnb-gr-Menu:hover{background:url(../images/lnb/lnb_menu_mg_over.gif) no-repeat;}
+
+
+
+
+
+/*#Lnb-Brand-Type ul li.Lnb-meritz a.Lnb-meritz-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px; background:url(../images/lnb/lnb_menu_meritz.gif) no-repeat;}
+#Lnb-Brand-Type ul li.Lnb-meritz a.Lnb-meritz-Menu:hover{background:url(../images/lnb/lnb_menu_meritz_over.gif) no-repeat;}
+
+#Lnb-Brand-Type ul li.Lnb-kb a.Lnb-kb-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px; background:url(../images/lnb/lnb_menu_kb.gif) no-repeat;}
+#Lnb-Brand-Type ul li.Lnb-kb a.Lnb-kb-Menu:hover{background:url(../images/lnb/lnb_menu_kb_over.gif) no-repeat;}
+
+#Lnb-Brand-Type ul li.Lnb-Hyundai a.Lnb-Hyundai-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px; background:url(../images/lnb/lnb_menu_hyundai.gif) no-repeat;}
+#Lnb-Brand-Type ul li.Lnb-Hyundai a.Lnb-Hyundai-Menu:hover{background:url(../images/lnb/lnb_menu_hyundai_over.gif) no-repeat;}
+
+#Lnb-Brand-Type ul li.Lnb-Heungkuk a.Lnb-Heungkuk-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px; background:url(../images/lnb/lnb_menu_heungkuk.gif) no-repeat;}
+#Lnb-Brand-Type ul li.Lnb-Heungkuk a.Lnb-Heungkuk-Menu:hover{background:url(../images/lnb/lnb_menu_heungkuk_over.gif) no-repeat;}
+
+#Lnb-Brand-Type ul li.Lnb-mg a.Lnb-mg-Menu{display:block; width:188px; height:36px; font-size:0; text-indent:-9999px; background:url(../images/lnb/lnb_menu_mg.gif) no-repeat;}
+#Lnb-Brand-Type ul li.Lnb-mg a.Lnb-mg-Menu:hover{background:url(../images/lnb/lnb_menu_mg_over.gif) no-repeat;}
+*/
+
+/*서브메뉴 시작*/
+
+#Lnb-Brand-Type ul li ul.Sub_Menu2{ width:400px; height:auto; padding-left:20px; padding-top:20px; border:2px solid #d64747; position:absolute; top:-195px; left:180px; background:#FFF;  z-index:50;}
+#Lnb-Brand-Type ul li ul.Sub_Menu2 li{width:100%;}
+#Lnb-Brand-Type ul li ul.Sub_Menu2 li a{color:#333;}
+#Lnb-Brand-Type ul li ul.Sub_Menu2 li a:hover{font-weight:bold; color:#d64747; text-decoration:underline;}
+
+.Sub_Menu2 img{vertical-align:middle; margin-right:10px;}
+
+
+

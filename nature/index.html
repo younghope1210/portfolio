@@ -1,0 +1,413 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> 오가닉  </title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/overtext.js"></script>
+
+
+</head>
+<body onContextmenu="return false">
+
+
+<div id="wrapper">
+		
+    <div id="header">
+    	
+    
+            <div id="header_con">
+            <h1><a href="#"><img src="images/logo.png" alt="스페셜 에디션 안내버튼" /></a></h1>
+            <div class="util_menu">
+                <ul>
+                    <li><a href="#"> Home </a></li>
+                    <li>|</li>
+                    <li><a href="#"> My Account  </a></li>
+                    <li>|</li>
+                    <li><a href="#"> Shopping Cart  </a></li>
+                     <li>|</li>
+                    <li><a href="#"> Checkout </a></li>
+                     <li>|</li>
+                  
+                    <li><a href="#">Wish List (0)</a></li>
+    
+                </ul>
+            </div><!--e://utilmenu-->
+            
+          
+            <div class="search_con">
+            	<input type="search" /><a href="#">SEARCH</a>
+            </div><!--e://search_con-->
+            
+            
+             </div><!--e://header_con-->
+               <div id="gnb">
+            	
+                <ul>
+                	<li><a href="#">NATURAL COSMETIC</a></li>
+                     <li><a href="#">NATURAL SKIN CARE</a></li>
+                     <li><a href="#">BNATURAL MEN'S CARE </a></li>
+                     <li><a href="#">NATURAL PERFUMES</a></li>
+                      <li><a href="#">NATURAL BODY CARE </a></li>
+                </ul>
+            
+            </div><!--e://gnb-->
+            
+    </div><!--e://header-->
+    <div id="container">
+    	<div id="contents">
+        	 <div id="visual">
+            	 <div id="visual_con">
+                    <div class="sliderbutton bnt_prev"><img src="images/btn_prev.png" width="32" height="76" alt="Previous" onclick="slideshow.move(-1)" /></div>
+                    
+                    <div id="slider">
+                        <ul>
+                            <li>
+                             <img src="images/visual-bnr_a.jpg" width="2000" height="600" alt="visual" />
+                            </li>
+                            <li>
+                             <img src="images/visual-bnr_b.jpg" width="2000" height="600" alt="visual" />
+                            </li>
+                            <li>
+                             <img src="images/visual-bnr_c.jpg" width="2000" height="600" alt="visual" />
+                            </li>
+                            <li>
+                             <img src="images/visual-bnr_d.jpg" width="2000" height="600" alt="visual" />
+                            </li>
+
+                        </ul>
+                    </div><!--e://slider-->
+                    
+                    <div class="sliderbutton bnt_next"><img src="images/btn_next.png" width="32" height="76" alt="Next" onclick="slideshow.move(1)" /></div>
+        
+        </div><!--e://visual_con-->
+        
+       <div class="pagination_con"> 
+            <ul id="pagination" class="pagination">
+                <li onclick="slideshow.pos(0)">1</li>
+                <li onclick="slideshow.pos(1)">2</li>
+                <li onclick="slideshow.pos(2)">3</li>
+                <li onclick="slideshow.pos(3)">4</li>
+            </ul>	
+       </div> <!--e://pagination_con-->
+        
+        <script type="text/javascript">
+			var slideshow=new TINY.slider.slide('slideshow',{
+				id:'slider',
+				auto:3,
+				resume:true,
+				vertical:false,
+				navid:'pagination',
+				activeclass:'current',
+				position:0
+			});
+			</script>
+					
+        
+    
+    </div><!--e://visual-->
+        	
+            <div id="contents_section">
+            	
+                <div class="top_section">
+                    <ul>
+                        <li><a href="#"><img src="images/banner1.jpg" alt="new" /></a></li>
+                         <li><a href="#"><img src="images/banner2.jpg" alt="new" /></a></li>
+                          <li><a href="#"><img src="images/banner3.jpg" alt="new" /></a></li>
+                           <li><a href="#"><img src="images/banner4.jpg" alt="new" /></a></li>
+                      
+                        
+                    </ul>
+                </div> <!--e://top_section-->
+                <div class="info_section">
+                	<ul>
+                    	<li class="info_a">
+                        	
+                            Free Shipping 
+                            <span>on orders over $99</span>
+                            <em>
+                            	Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+
+                            </em>
+                             <a href="#"><img src="images/btn_circle.png" alt="공지사항 확인하러 가기" /></a>
+                        </li>
+                    	
+                        
+                        <li class="info_b">
+                        	
+                            Order return
+                            <span>Returns within 14 days</span>
+                            <em>
+                            	Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+
+                            </em>
+                            <a href="#"><img src="images/btn_circle.png" alt="공지사항 확인하러 가기" /></a>
+                        </li>
+                        
+                        
+                        <li class="info_c">
+                        	
+                         COD
+                            <span>Cash on delivery</span>
+                            <em>
+                            	Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                            </em>
+                           <a href="#"><img src="images/btn_circle.png" alt="공지사항 확인하러 가기" /></a>
+                        </li>
+                        
+                    </ul>
+                </div><!--e://info_sectionn-->
+                
+             
+                
+               <div class="product_con">
+                	<h3></i>FEATURED PRODUCTS</h3>
+                   
+                     <ul class="product_a procuct ">
+                        <li class="thumbnail"> 
+                            <div class="thumbnail speedslow2" style="float:left;">
+        <a href="#"><img src="images/product_thumbnail_1.jpg" alt="상품 썸네일" /></a>
+                                <div class="title_description">
+                                    <h2>New Product</h2>
+                                    <p> 20% offer!</p>
+                                    <a href="#" target="blank">buy now!</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="title"><a href="#">Modern Contemporary Self Storage Furniture Hipster by Zuo Modern</a></li>
+                         <li class="price">$80.00–$95.00<span>$85.00–$95.00 </span></li>
+                      </ul>
+                        
+                      
+                      
+                     <ul class="product_b procuct ">
+                        <li class="thumbnail"> 
+                            <div class="thumbnail speedslow2" style="float:left;">
+        <a href="#"><img src="images/product_thumbnail_2.jpg" alt="상품 썸네일" /></a>
+                                <div class="title_description">
+                                    <h2>New Product</h2>
+                                    <p> 20% offer!</p>
+                                    <a href="#" target="blank">buy now!</a>
+                                </div>
+                            </div>
+                        </li>
+                        
+                             
+                         <script type="text/javascript">
+
+
+                    $(".speedslow2").overText({
+                        side:"top",
+                        background:'#365823',
+                        speed:300,
+                        showText:"buy now!"
+                    });
+                
+                    </script>  
+            
+                	
+                        
+                        
+                        <li class="title"><a href="#">Modern Contemporary Self Storage Furniture Hipster by Zuo Modern</a></li>
+                         <li class="price">$80.00–$95.00<span>$85.00–$95.00 </span></li>
+                      </ul>
+                      
+                       <ul class="product_c procuct ">
+                        <li class="thumbnail"> 
+                            <div class="thumbnail speedslow2" style="float:left;">
+        <a href="#"><img src="images/product_thumbnail_3.jpg" alt="상품 썸네일" /></a>
+                                <div class="title_description">
+                                    <h2>New Product</h2>
+                                    <p> 20% offer!</p>
+                                    <a href="#" target="blank">buy now!</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="title"><a href="#">Modern Contemporary Self Storage Furniture Hipster by Zuo Modern</a></li>
+                         <li class="price">$80.00–$95.00<span>$85.00–$95.00 </span></li>
+                      </ul>
+                    
+                    	
+                        
+                       <ul class="product_d procuct ">
+                        <li class="thumbnail"> 
+                            <div class="thumbnail speedslow2" style="float:left;">
+        <a href="#"><img src="images/product_thumbnail_4.jpg" alt="상품 썸네일" /></a>
+                                <div class="title_description">
+                                    <h2>New Product</h2>
+                                    <p> 20% offer!</p>
+                                    <a href="#" target="blank">buy now!</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="title"><a href="#">Modern Contemporary Self Storage Furniture Hipster by Zuo Modern</a></li>
+                         <li class="price">$80.00–$95.00<span>$85.00–$95.00 </span></li>
+                      </ul>
+                    	
+                       <ul class="product_e procuct ">
+                        <li class="thumbnail"> 
+                            <div class="thumbnail speedslow2" style="float:left;">
+        <a href="#"><img src="images/product_thumbnail_5.jpg" alt="상품 썸네일" /></a>
+                                <div class="title_description">
+                                    <h2>New Product</h2>
+                                    <p> 20% offer!</p>
+                                    <a href="#" target="blank">buy now!</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="title"><a href="#">Modern Contemporary Self Storage Furniture Hipster by Zuo Modern</a></li>
+                         <li class="price">$80.00–$95.00<span>$85.00–$95.00 </span></li>
+                      </ul>
+                    
+                    	 <ul class="product_f procuct ">
+                        <li class="thumbnail"> 
+                            <div class="thumbnail speedslow2" style="float:left;">
+        <a href="#"><img src="images/product_thumbnail_6.jpg" alt="상품 썸네일" /></a>
+                                <div class="title_description">
+                                    <h2>New Product</h2>
+                                    <p> 20% offer!</p>
+                                    <a href="#" target="blank">buy now!</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="title"><a href="#">Modern Contemporary Self Storage Furniture Hipster by Zuo Modern</a></li>
+                         <li class="price">$80.00–$95.00<span>$85.00–$95.00 </span></li>
+                      </ul>
+                    	
+                         <ul class="product_g procuct ">
+                        <li class="thumbnail"> 
+                            <div class="thumbnail speedslow2" style="float:left;">
+        <a href="#"><img src="images/product_thumbnail_7.jpg" alt="상품 썸네일" /></a>
+                                <div class="title_description">
+                                    <h2>New Product</h2>
+                                    <p> 20% offer!</p>
+                                    <a href="#" target="blank">buy now!</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="title"><a href="#">Modern Contemporary Self Storage Furniture Hipster by Zuo Modern</a></li>
+                         <li class="price">$80.00–$95.00<span>$85.00–$95.00 </span></li>
+                      </ul>
+                        
+                        
+                       <ul class="product_h procuct ">
+                        <li class="thumbnail"> 
+                            <div class="thumbnail speedslow2" style="float:left;">
+        <a href="#"><img src="images/product_thumbnail_8.jpg" alt="상품 썸네일" /></a>
+                                <div class="title_description">
+                                    <h2>New Product</h2>
+                                    <p> 20% offer!</p>
+                                    <a href="#" target="blank">buy now!</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="title"><a href="#">Modern Contemporary Self Storage Furniture Hipster by Zuo Modern</a></li>
+                         <li class="price">$80.00–$95.00<span>$85.00–$95.00 </span></li>
+                      </ul>
+                         
+                        
+                    
+                    
+                </div><!--e://product_con-->
+                
+                
+                
+                
+                 <div class="baby_product">
+                    	
+                         <div class="baby_product_con">
+                            <h3>Baby Sink Care Set</h3>
+                            	<ul>
+                                	<li class="thumbnail"><a href="#"><img src="images/baby_product_a.png" alt="상품 썸네일" /></a></li>
+                                    <li class="title">Modern Contemporary Self Storage Furniture Hipster by Zuo Modern</li>					<li class="price">$80.00–$95.00</li>	
+                                </ul>
+                                <ul>
+                                	<li class="thumbnail"><a href="#"><img src="images/baby_product_b.png" alt="상품 썸네일" /></a></li>
+                                    <li class="title">Modern Contemporary Self Storage Furniture Hipster by Zuo Modern</li>					<li class="price">$80.00–$95.00</li>	
+                                </ul>
+                                <ul>
+                                	<li class="thumbnail"><a href="#"><img src="images/baby_product_c.png" alt="상품 썸네일" /></a></li>
+                                    <li class="title">Modern Contemporary Self Storage Furniture Hipster by Zuo Modern</li>					<li class="price">$80.00–$95.00</li>	
+                                </ul>a
+                               
+                    	 </div>  <!--e://baby_product_con--> 
+                    </div>  <!--e://baby_product--> 
+                
+                
+                   
+                <!--<div class="about">
+                    	
+                         <div class="about_con">
+                            <h3>ABOUT STORE
+                            
+                                <span>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</span>
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    	 </div>  <!--e://about_con--> 
+                    </div>  <!--e://about--> 
+                   
+                  
+               
+                   <div class="logo_con">
+                   		<ul>
+                        	<li class="logo_a"><a href="#"><img src="images/visual/brand_logo_a.gif" alt="패밀리 사이트 로고" /></a></li>
+                            <li class="logo_b"><a href="#"><img src="images/visual/brand_logo_b.gif" alt="패밀리 사이트 로고" /></a></li>
+                            <li class="logo_c"><a href="#"><img src="images/visual/brand_logo_c.gif" alt="패밀리 사이트 로고" /></a></li>
+                            <li class="logo_d"><a href="#"><img src="images/visual/brand_logo_d.gif" alt="패밀리 사이트 로고" /></a></li>
+                            <li class="logo_e"><a href="#"><img src="images/visual/brand_logo_e.gif" alt="패밀리 사이트 로고" /></a></li>
+                            <li class="logo_f"><a href="#"><img src="images/visual/brand_logo_f.gif" alt="패밀리 사이트 로고" /></a></li>
+                        </ul>
+                   </div><!--e://logo_con"-->
+        
+                   
+      </div><!--e://contents_section-->
+        
+        </div><!--e://contents-->
+    		
+    	<div id="footer">
+    	<div class="footer_con">
+        	<h2><a href="#"><img src="images/bottom_logo.jpg" alt="스페셜 에디션 안내버튼" /></a></h2>
+            <div class="site_guide">
+          	<ul>
+                <li><a href="#">브랜드소개</a> </li>
+                <li> | </li>	
+                <li><a href="#"> 이용안내</a> </li>
+                 <li> | </li>
+                <li><a href="#">이용약관</a> </li>
+                 <li> | </li>
+                <li><a href="#">개인정보취급방침</a> </li>
+                 <li> | </li>
+                <li><a href="#">회원가입</a> </li>
+                 <li> | </li>
+                <li><a href="#">고객센터</a> </li>
+                 <li> | </li>
+                <li><a href="#">회사위치</a> </li>
+            </ul>    
+            </div><!--e://site_guide-->
+            <address>
+상호:ILLUMINATION of BLOSSOM  / 대표:허서영 /대표전화:010-6579-1817 / 주소:서울시 강서구 화곡동 352-1 동궁아트빌 501호 사업자 등록번호:109-12-26163 / 통신판매신고번호:제 2010-서울강서-0781호 / 개인정보관리책임자:허서영</address>
+           <p class="copyright">Copyright ⓒ 2016 Fragrance All rights Reserved</p> 
+        </div><!--e://footer_con-->
+    
+    </div><!--e://footer-->
+    </div><!--e://container-->
+	
+
+</div><!--e://wrapper-->
+
+
+
+</body>
+
+
+
+</html>

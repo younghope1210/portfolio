@@ -1,0 +1,142 @@
+#Container{width:100%; height:auto; margin:0 auto; padding-top:117px; }
+
+
+.Visual{width:100%; height:auto; margin:0 auto; overflow:hidden; background:url(../images/main/visual_back.jpg) center no-repeat;}
+.Visual p{width:1195px; height:500px; margin:0 auto; }
+
+
+
+/*메인시작 */
+
+
+
+#Main{width:100%; height:auto; margin:0 auto;  }
+
+
+
+/*카테고리 배너 시작 */
+
+.Main-Section-A{width:1185px; height:auto; margin:50px auto; padding-left:12px; overflow:hidden; }
+
+/*공통*/
+.Main-Section-A .Bnr-Category{width:283px; height:220px; float:left; margin-right:11.2px; margin-bottom:15px; position:relative;
+
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+  transition: all 1s ease;
+
+}
+
+.Main-Section-A .Bnr-Category h3{ font-size:26px; margin-top:20px; margin-left:10px; color:#fff;}
+.Main-Section-A .Bnr-Category h3 span{display:block;}
+.Main-Section-A .Bnr-Category p{width:95%; height:auto; font-size:16px; margin-top:20px; margin-left:10px; color:#fff;}
+.Main-Section-A .Bnr-Category p span{display:block; margin-top:3px;}
+.Main-Section-A .Bnr-Category a{display:block; width:80px; height:20px; font-family:dotum; text-align:center; position:absolute; bottom:6px; right:10px; color:#fff; font-weight:bold;}
+
+
+
+
+.Main-Section-A .Bnr-Category-A,
+.Main-Section-A .Bnr-Category-E {background:#a4a4a2;
+
+}
+
+
+
+.Main-Section-A .Bnr-Category-B,
+.Main-Section-A .Bnr-Category-F{background:#fc8535;}
+
+
+
+.Main-Section-A .Bnr-Category-C{background:#41476b}
+.Main-Section-A .Bnr-Category-D{background:#15af90}
+
+
+.Main-Section-A .Bnr-Category:hover{background:#2f2e46;}
+
+
+
+
+/*스킨처리*/
+
+
+.Main-Section-A .Bnr-Skin-A,
+.Main-Section-A .Bnr-Skin-B{width:283px; height:220px; overflow:hidden; }
+	
+.Main-Section-A .Bnr-Skin-A img,
+.Main-Section-A .Bnr-Skin-B img{width:283px; height:220px; 	
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;}
+.Main-Section-A .Bnr-Skin-A img:hover,
+.Main-Section-A .Bnr-Skin-B img:hover
+{width:320px; height:240px;}
+
+
+
+/* 공지사항 및 편리한 기능 시작 */
+
+
+.Main-Section-B{width:100%; height:350px; margin:0 auto; overflow:hidden;  background:url(../images/main/visual_test.jpg) repeat-x }
+
+.Main-Section-B-Contents{width:1185px; margin:60px auto;}
+.Main-Section-B h3{font-size:22px; height:45px; line-height:45px; font-weight:bold; color:#000; border-bottom:1px solid #9c9c9c; }
+.Main-Section-B .Notice{width:385px; height:auto; overflow:hidden;  float:left; position:relative;}
+.Main-Section-B .Notice p.More{width:60px; height:30px; font-weight:bold; position:absolute; top:20px; right:0; font-family:dotum; color:#000;}
+.Main-Section-B .Notice p.More em{ color:#f9520b;  font-size:14px;}
+.Main-Section-B .Notice p.More a{display:block; color:#000;}
+
+.Main-Section-B .Notice ul{margin-top:20px; font-family:dotum; font-size:14px; font-weight:bold; color:#333333;}
+.Main-Section-B .Notice ul li{height:30px;}
+.Main-Section-B .Notice ul li a{display:block; color:#333333;}
+.Main-Section-B .Notice ul li a:hover{color:#f9520b;}
+
+.Main-Section-B .Convenient{width:764px;  float:left; margin-left:12px;}
+.Main-Section-B .Convenient .Banner-Con {width:374px;  float:left;}
+.Main-Section-B .Convenient .Banner-Con h4{width:347px; height:126px; position:relative; margin-top:12px;}
+
+.Main-Section-B .Convenient .Banner-Con h4 em{display:inline-block;  width:374px; height:126px; overflow:hidden;  }
+.Main-Section-B .Convenient .Banner-Con h4 em img{ width:374px; height:126px;
+
+-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease; }
+
+.Main-Section-B .Convenient .Banner-Con h4 em img:hover{width:400px; height:140px;}
+
+
+.Main-Section-B .Convenient .Banner-Con h4 span{position:absolute; height:30px; top:50px; left:100px; font-size:24px; font-weight:bold; color:#fff; }
+.Main-Section-B .Convenient .Banner-Con h4 span img{vertical-align:middle;}
+.Main-Section-B .Convenient .Site-Menual{margin-right:12px;}
+
+.Main-Section-B .Convenient p.Explain{width:100%; height:30px; text-align:center; font-size:17px; line-height:30px; color:#000;}
+.Main-Section-B .Convenient p.Explain span{color:#f85915;}
+
+
+/* 프로모션 및 공급가격 안내 */
+
+.Main-Section-C{width:1165px; height:auto; margin:20px auto; margin-left:12px; overflow:hidden; }
+
+.Main-Section-C h3{font-size:22px; height:45px; line-height:45px; font-weight:bold; color:#000; border-bottom:1px solid #e0dede; }
+.Main-Section-C .Promotion{width:570px; height:auto; float:left; margin-right:15px; }
+.Main-Section-C .Promotion p{width:560px; height:201px;  margin:12px auto;}
+
+.Main-Section-C .Price-Info{width:570px; height:auto; float:left; }
+
+.Main-Section-C .Price-Info table{width:560px; height:148px; margin:12px auto; font-family:dotum; font-size:14px; font-weight:bold; border:1px solid #d5d5d5;}
+.Main-Section-C .Price-Info table th.Col-f8353d{height:38px; color:#fff; background:#7d8197; border-right:1px solid #d5d5d5; border-bottom:1px solid #acadb3;}
+.Main-Section-C .Price-Info table td.Col-e7161e{height:7px; background:#6f738a; border-right:1px solid #d5d5d5;}
+.Main-Section-C .Price-Info table td{height:32px; border:1px solid #d5d5d5;}
+.Main-Section-C .Price-Info table td.Font-333333{color:#333333;}
+.Main-Section-C .Price-Info table td.Font-f10d0d{color:#f10d0d;}
+
+
+
+.Main-Section-C ul{font-family:dotum; color:#f10d0d; margin:10px;}
+.Main-Section-C ul li{height:18px;}

@@ -1,0 +1,19 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+.Login-Page{width:780px; height:auto; margin-bottom:150px;  }
+
+.Login-Page .Login-Page-Con{width:730px; margin:0 auto;}
+.Login-Page .Login-Con{width:730px; height:195px; margin:0 auto; background:#f1f0f0;}
+.Login-Page h3{font-size:20px; color:#000; margin-top:1px; font-weight:bold;}
+.Login-Page h4{width:730px; height:165px;  margin:15px 0;}
+.Login-Page h5{width:730px; height:111px; }
+.Login-Page .Login-Con table{width:550px; height:90px; float:left; margin-top:50px; margin-left:70px; }
+.Login-Page .Login-Con table input{width:287px; height:30px; border:1px solid #cccccc;}
+.Login-Page .Login-Con table th{width:100px; text-align:left;  text-indent:20px; background:url(../images/login/bullet_red.gif) 2px 20px no-repeat;}
+
+.Login-Page .Login-Con table td.wid_300{width:300px;}
+.Login-Page .Login-Con p{clear:both; width:700px; height:30px; text-align:center; padding-top:15px;}
+

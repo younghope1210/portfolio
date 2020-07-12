@@ -1,0 +1,100 @@
+
+
+.Visual{width:100%; height:120px; margin:0 auto; overflow:hidden; background:url(../images/notice/skin.jpg) no-repeat center top;}
+.Visual p{width:1200px; margin:0 auto; font-size:40px; font-weight:bold; color:#fff; text-align:center; padding-top:40px; font-family: 'Noto Sans KR', sans-serif;}
+
+/*공통*/
+h3{width:100%; height:100px; border-bottom:1px solid #ccc; text-align:center; font-size:36px; font-weight:bold; color:#000;}
+h3 img{width:60px; height:3px; margin:0 auto; border:0; vertical-align:bottom; margin-bottom:8px;}
+h3 span.H3-Text{display:block; height:40px; text-align:center;}
+
+
+
+#Notice-Lsit{width:1200px; height:auto; margin:50px auto;}
+#Notice-Lsit .Notice-Lsit-Con{width:1185px; height:auto; margin:0 auto;}
+#Notice-Lsit .Notice-Lsit-Con .Search-Input{width:1185px; height:70px; border:1px solid #ebeaea; background:#f6f6f6;}
+
+.Search-Input table{width:1000px; height:36px; margin:17px auto; font-family:dotum; font-size:14px; color:#000; }
+.Search-Input table th{background:url(../images/common/bullet_squear_orange.gif) 30px 13px no-repeat;}
+.Search-Input table select{width:180px; height:33px; border:1px solid #e2e2e2;}
+.Search-Input table input{width:420px; height:33px; border:1px solid #e2e2e2;}
+.Search-Input table td a{display:block; width:140px; height:34px;  line-height:35px; border-radius:5px; background:#ff6e0d; color:#fff; font-weight:bold;}
+
+
+
+
+
+/* 공지사항 게시판 리스트 시작 */
+
+.Search-List{width:1185px; height:auto; margin:50px auto; }
+.Search-List table{width:100%; height:auto; border-top:3px solid #f85915;  border-bottom:2px solid #c2c2c2; font-family:dotum; color:#000;}
+.Search-List table th{height:50px; background:#f9f8f8; border-bottom:1px solid #c2c2c2; }
+.Search-List table td{height:50px; border-bottom:1px solid #c2c2c2; border-right:1px solid #c2c2c2;}
+
+.Search-List table td.Notic-Title{height:50px; border-bottom:1px solid #c2c2c2; text-align:left; padding-left:20px; font-size:14px;}
+.Search-List table td.Notic-Title a{display:block;  font-weight:bold; color:#000;}
+.Search-List table td.Notic-Title a:hover{text-decoration:underline; color:#f20006;}
+
+
+.Search-List table td.Col-316809{color:#316809;}
+.Search-List table td.Product-Name a{font-weight:bold; color:#f85915; text-align:left;}
+.Search-List table td.Product-Name a:hover{color:#f01717; text-decoration:underline;}
+
+.Search-List .Paging{width:100%; height:30px; margin:50px auto;  font-family:dotum; }
+.Search-List .Paging .Paging-Con{ text-align:center;}
+.Search-List .Paging .Paging-Con span{width:20px; height:20px; font-size:14px;}
+.Search-List .Paging .Paging-Con span a{display:inline-block; width:20px; height:20px; line-height:20px; font-weight:bold; color:#000; }
+.Search-List .Paging .Paging-Con span a:hover{color:#fb0c0c;}
+
+
+.Search-List .Paging .Paging-Con span.Prev,
+.Search-List .Paging .Paging-Con span.Next{width:25px; height:25px; }
+.Search-List .Paging .Paging-Con span.Prev a,
+.Search-List .Paging .Paging-Con span.Next a{width:25px; height:25px; line-height:25px; background:#d3d1d1; color:#fff;}
+
+.Search-List .Paging .Paging-Con span.Prev a:hover,
+.Search-List .Paging .Paging-Con span.Next a:hover{ background:#9e9d9d;}
+
+
+
+/* 공지사항 보기 시작 */
+
+
+#Notice-View{width:1200px; height:auto; margin:50px auto;}
+#Notice-View .Notice-View-Con{width:1185px; height:auto; padding-bottom:50px; margin:0 auto;}
+#Notice-View .Notice-View-Con .Search-Input{width:1185px; height:70px; border:1px solid #ebeaea; background:#f6f6f6;}
+
+.Search-Input table{width:1000px; height:36px; margin:17px auto; font-family:dotum; font-size:14px; color:#000; }
+.Search-Input table th{background:url(../images/common/bullet_squear_orange.gif) 30px 13px no-repeat;}
+.Search-Input table select{width:180px; height:33px; border:1px solid #e2e2e2;}
+.Search-Input table input{width:420px; height:33px; border:1px solid #e2e2e2;}
+.Search-Input table td a{display:block; width:140px; height:34px;  line-height:35px; border-radius:5px; background:#ff6e0d; color:#fff; font-weight:bold;}
+
+
+#Notice-View .Editor-View{width:1185px; height:auto; margin:50px auto;}
+#Notice-View .Editor-View table{width:100%; height:auto; border-top:3px solid #f85915; font-family:dotum; color:#000; font-size:14px;}
+#Notice-View .Editor-View table th{width:190px; height:37px; background:#f9f8f8; border-bottom:1px solid #e4e3e2; border-left:1px solid #e4e3e2; border-right:1px solid #e4e3e2; font-weight:bold;}
+#Notice-View .Editor-View table td{border-bottom:1px solid #e4e3e2;}
+#Notice-View .Editor-View table td img{vertical-align:middle; margin-left:10px;}
+
+#Notice-View .Editor-View table td .Notice-Contents-Editor{padding:30px 15px; text-align:left;}
+#Notice-View .Editor-View table td.Prev,
+#Notice-View .Editor-View table td.Next{padding-left:20px; text-align:left; }
+#Notice-View .Editor-View table td.Prev a,
+#Notice-View .Editor-View table td.Next a{ color:#000;}
+
+#Notice-View .Editor-View table td.Prev a:hover,
+#Notice-View .Editor-View table td.Next a:hover{text-decoration:underline; color:#f20006;}
+
+
+
+
+#Notice-View ul.Bnt-Con{width:300px; height:50px; float:left; margin-top:20px; font-size:14px; font-weight:bold; font-family:dotum;}
+#Notice-View ul li{float:left; width:102px; height:36px; }
+#Notice-View ul li a{display:block; width:102px; height:36px; text-align:center; color:#fff; line-height:40px; border-radius:5px;}
+#Notice-View ul li.Btn-Modify {margin-right:10px;}
+#Notice-View ul li.Btn-Modify a{background-color:#ff6e0d;}
+#Notice-View ul li.Btn-delete a{background-color:#6c738a;}
+
+#Notice-View p{width:102px; height:36px; float:right; margin-top:20px;  font-size:14px; font-weight:bold; font-family:dotum;}
+#Notice-View p a{display:block; width:102px; height:36px; text-align:center; color:#fff;  background-color:#6c738a; line-height:40px; border-radius:5px;}

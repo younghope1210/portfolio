@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <title>틸만 중앙 전시장</title>
+	 <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/header.css" />
+	  <link rel="stylesheet" type="text/css" href="../css/common.css" />
+	  <link rel="stylesheet" type="text/css" href="../css/sub_partnership_app.css" />
+	
+	 <!--<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />-->
+
+
+
+ </head>
+ <body>
+
+
+	<div id="Wrapper">
+		
+		<div id="Container">
+
+			<div id="Header">
+				<div id="Header-Con">
+				
+				<h1><a href="#"><img src="../images/header/h1_logo.gif" alt="틸만 로고"  /></a></h1>
+				
+				<!--★★★★★★★★★★★ 유틸메뉴 시작 ★★★★★★★★★★★  -->
+
+				<div id="Util-Menu">
+					
+
+						<ul>
+							<li class="Info-A"><img src="../images/header/icon_headset.png" alt="제품문의 아이콘" />제품문의</li>
+							<li class="Info-B"><img src="../images/header/icon_telephone.png" alt="전화번호출력" />02-3476-0901</li>
+							<li class="Info-C"><img src="../images/header/icon_phone.png" alt="핸드폰번호출력" />010-6730-0440</li>
+						</ul>
+					
+				</div><!--e://Util-Menu-->
+
+				<!-- ★★★★★★★★★★★ GNB 시작 ★★★★★★★★★★★ -->
+
+				<div id="Gnb">
+				
+					<ul id="Gnb_Bar">
+						<li><a href="#">회사소개</a></li>		
+						<li><a href="#">제품소개</a></li>	
+						<li><a href="#">제품타입</a></li>	
+						<li><a href="#">파트너모집</a></li>	
+						<li><a href="#">커뮤니티</a></li>	
+					</ul>
+
+					<p><a href="#">빠른 상담예약</a></p>
+					
+				</div><!--e://Gnb-->
+				<div id="Gnb-Sub-Con" style="display:none;">
+					
+					<div id="Gnb-Sub-Contents" >
+						<ul>
+							<li><a href="#">틸만이란?</a></li>
+							<li><a href="#">인증서리스트</a></li>
+							<li><a href="#">전시장갤러리</a></li>
+							<li><a href="#">오시는길</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">상품리스트</a></li>
+							<li><a href="#">전기레인지란?</a></li>
+							<li><a href="#">틸만소개영상</a></li>
+							<li><a href="#">서비스안내</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">인덕션특징</a></li>
+							<li><a href="#">하이라이트특징</a></li>
+							<li><a href="#">타이별차이점</a></li>
+							
+						</ul>
+						<ul>
+							<li><a href="#">파트너모집</a></li>
+							<li><a href="#">파트너신청</a></li>
+							
+						</ul>
+						<ul>
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">Q&A</a></li>
+							<li><a href="#">설치후기</a></li>
+							<li><a href="#">EVENT</a></li>
+						</ul>
+
+					</div><!--e://Gnb-Sub-Contents-->
+
+				</div>	<!--e://Gnb-Sub-Con-->
+
+				</div><!--e://Header-Con-->
+			</div><!--e://header-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+
+		
+		
+			<script src="../js/jquery-1.9.1.min.js"></script>
+		    <script src="../js/jquery.slides.min.js"></script>
+
+
+			<script>
+				var zoomx = 100;
+				  $(document).ready(function() {
+					$("#Gnb_Bar").hover(
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideDown(400);
+					  },
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideUp(600);
+					  }
+					);
+
+					$("#Gnb-Sub-Con").hover(
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideDown(400);
+					  },
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideUp(600);
+					  }
+					);
+
+				  
+
+				//class="tabBtn tabBtngroupA" tar="lastA_1" tarc="lastA_1" tarx="tabBtngroupA"
+				  });
+
+				</script>
+			
+
+			<div id="Contents">
+
+
+			<!-- ★★★★★★★★★★★ visual ★★★★★★★★★★★ -->
+				
+					<div id="Sub-Visual">
+					  <div id="Visual-Con">
+						
+						
+						<p class="Top-Skin"><span class="Tiny-Title">Intelligent Look </span>틸만의 디지털 원터치 패널방식 <span class="Squer">Thielmann Ceramic Range</span></p>
+							
+						</div>
+					</div><!--e://Sub-Visual-->
+					
+				</div><!--e://Visual-->
+
+				<div id="Partnership-App">
+					<div id="Partnership-App-Con">
+						<h3><span>파트너<em>신청</em></span></h3>
+						
+						<div class="Agreement">
+							<p class="Agreement-Title">개인정보의 수집 및 이용에 대한 안내 </p>
+
+							<div class="Agreement-Con">
+								<ul class="Agreement-List">
+									<li>• <span class="Col-Red">수집항목</span> : 이름, 이메일, 전화번호(문의에 대한 답변 시 사용)</li>
+									<li>• <span class="Col-Red">수집목적</span> : 문의 / 신고접수 및 결과 회신</li>
+									<li>• <span class="Col-Red">수집기간 </span>: 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에 해당 정보를 파기합니다</li>
+								</ul>
+								<p class="Explain">※ 단, 관계 법령의 규정에 의하여 보존할 필요가 있는 경우 일정 기간 동안 개인정보를 보관할 수 있습니다</p>
+								<ul class="Explain-List"> 
+									<li>   - 소비자의 불만 또는 분쟁처리에 관한 기록 : 3년 (전자상거래등에서의 소비자보호에 관한 법률)</li>
+									<li>  - 위의 개인정보 소집 및 이용에 동의합니다.(동의 후 문의가 가능합니다)<li>  
+									
+								</ul>
+							</div><!--e://"Agreement-Con-->
+							<p class="Agreement-Check"><input type="checkbox" />위의 개인 정보 수집 및 이용에 동의합니다.</p>
+						
+							<div class="Partnership-App-tabel">
+								
+								<table>
+									<tr>
+										<th>제목</th>
+										<td><input type="text" /></td>
+									</tr>
+											<tr>
+										<th>이름</th>
+										<td><input type="text" /></td>
+									</tr>
+								    <tr>
+										<th>전화번호</th>
+										<td><input type="text" /></td>
+									</tr>
+									<tr>
+										<th>이메일</th>
+										<td><input type="text" /></td>
+									</tr>
+									 <tr>
+										<th>거주지</th>
+										<td><input type="text" /></td>
+									</tr>
+									<tr>
+										<th>내용</th>
+										<td ><textarea>123</textarea></td>
+									</tr>
+							
+								</table>
+								<p class="Btn-Submit"><a href="#"><img src="../images/partnership/btn_partner.gif" alt="파트너신청" /></a> </p>	
+							</div><!--e://Partnership-App-tabel-->
+						</div><!--e://Agreement-->
+						
+								
+						
+					</div><!--e://Partnership__App-Con-->	
+					
+				</div><!--e://Partnership_App-->	 
+					
+			</div><!--e://Contents-->
+		
+		</div><!--e://Container-->
+
+		<div id="Footer">
+			<div id="Footer-Con">
+				<h2><img src="../images/footer/f_logo.gif" alt="F-logo" /></h2>
+		
+				<address>
+					
+					<ul>
+						<li>| 상호 : 틸만㈜ | 사이트명 : 틸만중앙전시장 | 대표 : 채수민 </li>
+						<li>| 사업자등록번호 : 107-87-67225 | 통신판매업신고 : 2012-서울서초-0543호 | 고객센터 : 02-3476-0901 </li>
+						<li>| 방문판매업신고번호 : 제 2012-서울서초-0055호  제 2012-서울서초-0055호 | 개인정보관리책임자 : 심정은 </li>
+						<li>| 이메일 : webmaster@tilman.co.kr  | 주소 : 서울 서초구 반포동 107-6번지 대국빌딩 1층 </li>
+						<li class="Copyright">Copyrightⓒ 2016 CSM㈜ All rights </li>
+					</ul>
+					
+				</address>
+				
+				
+				
+			</div><!--e://Footer-Con-->	
+			<div style="clear:both; width:1800px;"></div>
+				<div id="Certifi-Mark">
+					<ul>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_kcl.gif" alt="한국건설 생활환경 시험연구원" /><span>한국건설생활환경<em>시험연구원</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_ccm.gif" alt="소비자중심경영 인증" /><span>소비자중심경영<em>인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_ktc.gif" alt="한국전기전자시험연구소 적자파 적합인증" /><span>한국전기전자시험연구소<em>적자파 적합인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_iec.gif" alt="안전보건공단 위험성평가 인증" /><span>안전보건공단<em>위험성평가 인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_kipo.gif" alt="특허청상표등록" /><span>특허청<em>상표등록</em></span></a></li>
+
+					</ul>
+				</div><!--e://Certifi-Mark-->	
+		
+		</div><!--e://Footer-->	
+	
+		
+	</div><!--e://Wrapper-->
+
+  
+
+ </body>
+</html>

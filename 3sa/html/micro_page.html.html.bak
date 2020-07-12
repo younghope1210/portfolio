@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>3사비교견적</title>
+       <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/common.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/header2.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/micro.css" />
+				
+ </head>
+ <body>
+	
+	<div id="Wrapper">
+		
+		<!--**********************************헤더 시작********************************** -->
+		<div id="Header">
+			<div class="Header-Con">
+				<h1><a href="#index.asp"><img src="../images/header/h1.gif" alt="CI"  /> </a></h1>
+				<p class="Slogan"><img src="../images/micro/slogan.gif" alt="내 손안의 설계 매니저 3개사 보험사 비교를 한번에!" /></p>
+				<p class="Customer-Number"><img src="../images/micro/customer_number.gif" alt="상담신청 : 02.777.9277" /></p>
+			</div><!--e://Header-Con-->
+		</div><!--e://Header-->
+		<!--**********************************섹션시작********************************** -->
+		<div id="Container">
+			
+			<div class="Visual">
+				<div class="Visual-Con">
+					
+					<div class="Explain-Con">
+						<div class="Explain-A">
+							<table>
+								<tr>
+									<th class="Col-167e76">구매수량</th>
+									<th class="Col-23a49a">개인단가</th>
+									<th class="Col-23a49a">지점·지사단가</th>
+									<th class="Col-23a49a">본부급이상</th>
+								</tr>
+								<tr>
+									<th class="Col-383f69">월요금<span>(원)</span></th>
+									<td class="Col-6f77ae price">50,000</th>
+									<td class="Col-6f77ae price">200,000</th>
+									<td class="Col-6f77ae price" style="border-right:0;">800,000</th>
+								</tr>
+								<tr>
+									<th class="Col-383f69">월간 총 산출건수</th>
+									<td class="Col-6f77ae">100건</th>
+									<td class="Col-6f77ae">1,000건</th>
+									<td class="Col-6f77ae" style="border-right:0;">5,000건</th>
+								</tr>
+								<tr>
+									<th class="Col-383f69">사용 인원수</th>
+									<td class="Col-6f77ae">1명</th>
+									<td class="Col-6f77ae">20명</th>
+									<td class="Col-6f77ae" style="border-right:0;">100명</th>
+								</tr>
+							</table>
+							<ul>
+								<li>* 1000 Copy 이상 or 솔루션분양 별도협의 </li>
+								<li>* 1년간 비용을 일시 결재시는 20% 할인가 적용 </li>	
+								<li>* 부가세 (  VAT ) 별도  </li>	
+							</ul>
+
+						</div><!--e://Explain-A-->
+
+						<div class="Explain-B">
+							<ul>
+								<li><span>1</span>손해보험  3사  보험료를 설계 한번으로!</li>
+								<li><span>2</span>설계 매니저 통하지 않고 직접설계</li>
+								<li><span>3</span>3개사 보장내용 비교를 동시에 </li>
+								<li><span>4</span>고객 니즈에 맞는 맞춤설계가능</li>
+								<li><span>5</span>시간, 장소 구분없이 언제 어디서나 <em>설계가능! </em>
+									<em>(PC, 스마트폰, 테블릿PC 사용가능)</em></li>
+
+							</ul>
+						</div><!--e://Explain-B-->
+
+						<div class="Explain-C">
+							<ul>
+								<li><span>1</span>설계메니저/총무업무 부담 해소로
+								<em>지점장, 대표님들의 리쿠르팅 고민 해결!</em></li>
+								<li><span>2</span>고객니즈에 맞는 맞춤설계 및 상품비교로
+								<em>FC님들의 적극적 영업 활동 지원!</em></li>
+								<li><span>3</span>언제 어디서나 신속한 응대로 고객만족!</li>
+							</ul>
+						</div><!--e://Explain-C-->
+
+
+					</div><!--e://Explain-Con-->
+				</div><!--e://Visual-Con-->
+			</div><!--e://Visual-->
+				<div id="contents">
+
+				<!--**********************************비교 견적내기 시작********************************** -->
+
+				<div id="Comparison-Quotation">
+					
+				<!--**********************************보험상품 종류 선택********************************** -->
+
+					<div class="Ins-Choice">
+						<h3><span>1</span>보험상품 종류 선택</h3>
+
+						<div class="Ins-Type">
+							<h4><em class="Corner-A"><img src="../images/comparison_quotation/corner-a.png" alt="모서리" /></em><span>Step1</span> 보험종류<em  class="Corner-B"><img src="../images/comparison_quotation/corner-b.png" alt="모서리" /></em></h4>
+							<table>
+								<tr>
+									<td class="Radio-Wid"><input type="radio" name="Category-Check" /></td>
+									<td class="Category"><span>1</span> 실손,종합보험</td>
+								</tr>
+								<tr>
+									<td class="Radio-Wid"><input type="radio" name="Category-Check"  /></td>
+									<td class="Category"><span>2</span> 어린이보험</td>
+								</tr>
+								<tr>
+									<td class="Radio-Wid"><input type="radio" name="Category-Check"  /></td>
+									<td class="Category"><span>3</span> 암보험</td>
+								</tr>
+								<tr>
+									<td class="Radio-Wid"><input type="radio" name="Category-Check"  /></td>
+									<td class="Category"><span>4</span> 실버보험</td>
+								</tr>
+								<tr>
+									<td class="Radio-Wid"><input type="radio" name="Category-Check"  /></td>
+									<td class="Category"><span>5</span> 운전자보험</td>
+								</tr>
+							</table>
+						</div><!--e://Ins-Type-->
+					
+						<div class="Ins-Company">
+							
+							<h4><em class="Corner-A"><img src="../images/comparison_quotation/corner-a.png" alt="모서리" /></em><span>Step2</span> 보험회사 <em class="explain">(3개사를 선택하세요.)</em><em  class="Corner-B"><img src="../images/comparison_quotation/corner-b.png" alt="모서리" /></em></h4>
+							<table>
+								<tr>
+									<td class="Checkbox-Wid"><input type="checkbox" /></td>
+									<td class="Brand-Info"><span><img src="../images/brand_logo/logo_meritz_48.png" alt="원수사별로고" /></span>메리츠화재</td>
+									<td class="Product-Name"><input type="text" value="알파플러스" /></td>
+									<td class="Btn-Main-Choice"><a href="#"><img src="../images/comparison_quotation/btn_main_choice.gif" alt="메인상품선택" /></a></td>
+								</tr>
+								<tr>
+									<td class="Checkbox-Wid"><input type="checkbox" /></td>
+									<td class="Brand-Info"><span><img src="../images/brand_logo/logo_kb_48.png" alt="원수사별로고" /></span>KB손해</td>
+									<td class="Product-Name"><input type="text" value="닥터플러스" /></td>
+									<td class="Btn-Main-Choice"><a href="#"><img src="../images/comparison_quotation/btn_main_choice.gif" alt="메인상품선택" /></a></td>
+								</tr>
+								<tr>
+									<td class="Checkbox-Wid"><input type="checkbox" /></td>
+									<td class="Brand-Info"><span><img src="../images/brand_logo/logo_hyundai_48.png" alt="원수사별로고" /></span>현대해상</td>
+									<td class="Product-Name"><input type="text" value="알파플러스" /></td>
+									<td class="Btn-Main-Choice"><a href="#"><img src="../images/comparison_quotation/btn_main_choice.gif" alt="메인상품선택" /></a></td>
+								</tr> 
+								<tr>
+									<td class="Checkbox-Wid"><input type="checkbox" /></td>
+									<td class="Brand-Info"><span><img src="../images/brand_logo/logo_heungkuk_48.png" alt="원수사별로고" /></span>흥국화재</td>
+									<td class="Product-Name"><input type="text" value="행복을 多주는 가족사랑 통합보험" /></td>
+									<td class="Btn-Main-Choice"><a href="#"><img src="../images/comparison_quotation/btn_main_choice.gif" alt="메인상품선택" /></a></td>
+								</tr>
+								<tr>
+									<td class="Checkbox-Wid"><input type="checkbox" /></td>
+									<td class="Brand-Info"><span><img src="../images/brand_logo/logo_mg_48.png" alt="원수사별로고" /></span>MG손해</td>
+									<td class="Product-Name"><input type="text" value="행복을 多주는 가족사랑 통합보험" /></td>
+									<td class="Btn-Main-Choice"><a href="#"><img src="../images/comparison_quotation/btn_main_choice.gif" alt="메인상품선택" /></a></td>
+								</tr>
+							</table>		
+						</div><!--e://Ins-Company-->
+						<div class="Ins-Price">
+							<h4><em class="Corner-A"><img src="../images/comparison_quotation/corner-a.png" alt="모서리" /></em><span>Step3</span> 보험료가격<em  class="Corner-B"><img src="../images/comparison_quotation/corner-b.png" alt="모서리" /></em></h4>
+							<table>
+								<tr>
+									<td class="Radio-Wid"><input type="radio" name="Price-Type-Check" /></td>
+									<td class="Price-Choice">중가</td>
+								</tr>
+								<tr>
+									<td class="Radio-Wid"><input  type="radio" name="Price-Type-Check" /></td>
+									<td class="Price-Choice">중고가</td>
+								</tr>
+								<tr>
+									<td class="Radio-Wid"><input  type="radio" name="Price-Type-Check"/></td>
+									<td class="Price-Choice">고가</td>
+								</tr>
+								<tr>
+									<td class="Radio-Wid"><input  type="radio" name="Price-Type-Check"/></td>
+									<td class="Price-Choice">초저가</td>
+								</tr>
+								<tr>
+									<td class="Radio-Wid"><input  type="radio" name="Price-Type-Check"/></td>
+									<td class="Price-Choice">초고가</td>
+								</tr>
+							</table>
+						</div><!--e://Ins-Price-->
+
+					</div><!--e://Ins-Choice-->
+
+					<!--**********************************고객정보 입력********************************** -->
+
+					<div class="Customer-Info" >
+						<h3><span>2</span>고객정보입력</h3>
+
+						<table>
+							<tr>
+								<th>이름</th>
+								<td><input type="text" class="Wid_180" /></td>
+								<th>생년월일</th>
+								<td class="Age"><input type="text" class="Wid_180" /> <input type="text" class="Wid_40"/> 세</td>
+								<th>성별</th>
+								<td class="Gender"><span>남성 <input type="radio" name="gender" /></span> <span>여성 <input type="radio" name="gender" /></span></td>
+							</tr>
+						</table>
+
+					</div>	<!--e://Customer-Info-->
+
+					<!--**********************************세부입력 사항********************************** -->
+
+					<div class="Customer-Info2" >
+						<h3><span>3</span>세부입력 사항</h3>
+
+						<table>
+							<tr>
+								<th>년납</th>
+								<th>만기</th>
+								<th class="Job">상해급수</th>
+								<th>운전여부</th>
+							</tr>
+							<tr>
+								<td>
+									<select>
+										<option>20년납</option>
+										<option>40년납</option>
+										<option>80년납</option>
+										<option>100년납</option>
+									</select>
+								</td>
+
+								<td>
+									<select>
+										<option>80세만기</option>
+										<option>100세만기</option>
+									
+									</select>
+								</td>
+								<td class="Job"> 
+									<select>
+										<option>1급</option>
+										<option>2급</option>
+										<option>3급</option>
+									</select>
+									<p><a href="#">직업찾기</a></p>
+								</td>
+								<td>
+									<select>
+										<option>자동차</option>
+										<option>운전하지 않음</option>
+									</select>
+								</td>
+							</tr>
+						</table>
+
+					</div>	<!--e://Customer-Info2-->	
+
+
+				<!--**********************************견적 내기 버튼 시작********************************** -->	
+					<div class="Btn-Quotation">
+						<ul>
+							<li><a href="#" ><img src="../images/comparison_quotation/btn_estimate_a.gif" alt="견적내기" /><span class="Btn-Quotation">비교견적</span></a></li>
+							<li><a href="#" ><img src="../images/comparison_quotation/btn_estimate_b.gif" alt="3사비교견적" /><span class="Btn-Quotation"> 상세설계</span></a></li>
+						</ul>
+					</div><!--e://Btn-Quotation-->
+	
+
+				<!--**********************************보험료 계산 테이블 시작********************************** -->	
+					
+					<div class="Comparison-Quotation-Table" >
+						<h3><span>4</span>보험료 계산</h3>
+
+						<div class="Comparison-Quotation-Table-Contents" >
+
+						<!--**********************************비교견적 메인 테이블 노출********************************** -->	
+						<table class="Main-Product" >
+							<thead>
+								<tr>
+									<th width="50"></th>
+									<th></th>
+									<th></th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th colspan="4" class="Brand-Name"><span><img src="../images/brand_logo/logo_meritz_80.png" alt="브랜드로고" /></span>메리츠화재</th>
+								</tr>
+								<tr >
+									<th colspan="4" class="Ins-Total-Price">합계보험료 <a href="#"><img src="../images/comparison_quotation/btn_ins_re_calculation.png" alt="보험료재계산" /></a> <span><em>50,000</em>원</span></th>
+								</tr>
+									
+								<tr>
+									<th class="Choice-Check" rowspan="2"  >선택</th>
+									<th class="Ins-Pro-Name" colspan="3" >알파Plus보장보험</th>
+								</tr>
+								<tr>
+									<th class="period">보험기간</th>
+									<th class="Join-Price">가입금액</th>
+									<th class="insurance">보험료</th>
+								</tr>
+								
+
+								<!--**********************************보험 내용 시작********************************** -->	
+								<tr>
+									<td rowspan="2" class="Ins-Check-Input"><input type="checkbox" /></td>
+									<td colspan="3" class="Ins-Procuct-h5">일반상해고도후유장해[기본계약]</td>
+								</tr>
+								<tr class="Ins-Contents">
+									<td>20년납 100세만기</td>
+									<td><input type="text"  value="100" /> 만원</td>
+									<td><span>500</span>원</td>
+								</tr>
+
+								<tr>
+									<td rowspan="2" class="Ins-Check-Input"><input type="checkbox" /></td>
+									<td colspan="3" class="Ins-Procuct-h5">암진단비(소액암 제외)</td>
+								</tr>
+								<tr class="Ins-Contents">
+									<td>20년납 100세만기</td>
+									<td><input type="text"  value="100" /> 만원</td>
+									<td><span>500</span>원</td>
+								</tr>
+
+
+								<tr >
+									<td rowspan="2" class="Ins-Check-Input"><input type="checkbox" /></td>
+									<td colspan="3" class="Ins-Procuct-h5">갱신형상해입원의료비</td>
+								</tr>
+								<tr class="Ins-Contents">
+									<td>20년납 100세만기</td>
+									<td><input type="text"  value="100" /> 만원</td>
+									<td><span>500</span>원</td>
+								</tr>
+
+								<tr >
+									<td rowspan="2" class="Ins-Check-Input"><input type="checkbox" /></td>
+									<td colspan="3" class="Ins-Procuct-h5">일반상해고도후유장해[기본계약]</td>
+								</tr>
+								<tr class="Ins-Contents">
+									<td>20년납 100세만기</td>
+									<td><input type="text"  value="100" /> 만원</td>
+									<td><span>500</span>원</td>
+								</tr>
+
+								<tr >
+									<td rowspan="2" class="Ins-Check-Input"><input type="checkbox" /></td>
+									<td colspan="3" class="Ins-Procuct-h5">일반상해고도후유장해[기본계약]</td>
+								</tr>
+								<tr class="Ins-Contents">
+									<td>2암진단비(소액암 제외)</td>
+									<td><input type="text"  value="100" /> 만원</td>
+									<td><span>500</span>원</td>
+								</tr>
+
+								<tr>
+									<td rowspan="2" class="Ins-Check-Input"><input type="checkbox" /></td>
+									<td colspan="3" class="Ins-Procuct-h5">일반상해고도후유장해[기본계약]</td>
+								</tr>
+								<tr class="Ins-Contents">
+									<td>20년납 100세만기</td>
+									<td><input type="text"  value="100" /> 만원</td>
+									<td><span>500</span>원</td>
+								</tr>
+
+								<tr>
+									<td rowspan="2" class="Ins-Check-Input"><input type="checkbox" /></td>
+									<td colspan="3" class="Ins-Procuct-h5">암진단비(소액암 제외)</td>
+								</tr>
+								<tr class="Ins-Contents">
+									<td>20년납 100세만기</td>
+									<td><input type="text"  value="100" /> 만원</td>
+									<td><span>500</span>원</td>
+								</tr>
+
+
+								<tr >
+									<td rowspan="2" class="Ins-Check-Input"><input type="checkbox" /></td>
+									<td colspan="3" class="Ins-Procuct-h5">갱신형상해입원의료비</td>
+								</tr>
+								<tr class="Ins-Contents">
+									<td>20년납 100세만기</td>
+									<td><input type="text"  value="100" /> 만원</td>
+									<td><span>500</span>원</td>
+								</tr>
+
+								<tr >
+									<td rowspan="2" class="Ins-Check-Input"><input type="checkbox" /></td>
+									<td colspan="3" class="Ins-Procuct-h5">일반상해고도후유장해[기본계약]</td>
+								</tr>
+								<tr class="Ins-Contents">
+									<td>20년납 100세만기</td>
+									<td><input type="text"  value="100" /> 만원</td>
+									<td><span>500</span>원</td>
+								</tr>
+
+								<tr >
+									<td rowspan="2" class="Ins-Check-Input"><input type="checkbox" /></td>
+									<td colspan="3" class="Ins-Procuct-h5">일반상해고도후유장해[기본계약]</td>
+								</tr>
+								<tr class="Ins-Contents">
+									<td>2암진단비(소액암 제외)</td>
+									<td><input type="text"  value="100" /> 만원</td>
+									<td><span>500</span>원</td>
+								</tr>
+								<!--**********************************보험 내용 완료********************************** -->	
+
+								<tr class="Ins-Total-Price">
+									<th colspan="4">합계보험료 <a href="#"><img src="../images/comparison_quotation/btn_ins_re_calculation.png" alt="보험료재계산" /></a> <span><em>50,000</em>원</span></th>
+								</tr>
+							</tbody>
+
+						</table><!--e://Main-Product-->	
+
+						
+						<!--**********************************비교 테이블 1시작 ********************************** -->	
+						<table class="Sub-Product" >
+							<tr>
+								<th colspan="3" class="Brand-Name"><span><img src="../images/brand_logo/logo_kb_80.png" alt="브랜드로고" /></span>kb손해</th>
+							</tr>
+							<tr>
+								<th colspan="3" class="Ins-Total-Price">합계보험료 <a href="#"><img src="../images/comparison_quotation/btn_ins_re_calculation.png" alt="보험료재계산" /></a> <span><em>50,000</em>원</span></th>
+							</tr>
+								
+							<tr>
+								
+								<th colspan="3" class="Ins-Pro-Name" >닥터플러스건강보험(1종)</th>
+							</tr>
+							<tr>
+								<th class="period">보험기간</th>
+								<th class="Join-Price">가입금액</th>
+								<th class="insurance">보험료</th>
+							</tr>
+						
+
+							<!--**********************************보험 내용 시작********************************** -->	
+							<tr>
+							
+								<td colspan="3" class="Ins-Procuct-h5">일반상해고도후유장해[기본계약]</td>
+							</tr>
+							<tr class="Ins-Contents">
+								<td>20년납 100세만기</td>
+								<td><input type="text"  value="100" /> 만원</td>
+								<td><span>500</span>원</td>
+							</tr>
+
+							<tr>
+								
+								<td colspan="3" class="Ins-Procuct-h5">암진단비(소액암 제외)</td>
+							</tr>
+							<tr class="Ins-Contents">
+								<td>20년납 100세만기</td>
+								<td><input type="text"  value="100" /> 만원</td>
+								<td><span>500</span>원</td>
+							</tr>
+
+
+							<tr>
+								
+								<td colspan="3" class="Ins-Procuct-h5">갱신형상해입원의료비</td>
+							</tr>
+							<tr class="Ins-Contents">
+								<td>20년납 100세만기</td>
+								<td><input type="text"  value="100" /> 만원</td>
+								<td><span>500</span>원</td>
+							</tr>
+
+							<tr>
+								
+								<td colspan="3" class="Ins-Procuct-h5">일반상해고도후유장해[기본계약]</td>
+							</tr>
+							<tr class="Ins-Contents">
+								<td>20년납 100세만기</td>
+								<td><input type="text"  value="100" /> 만원</td>
+								<td><span>500</span>원</td>
+							</tr>
+
+
+
+
+							
+							
+							<!--**********************************보험 내용 완료********************************** -->	
+
+							<tr class="Ins-Total-Price">
+								<th colspan="3">합계보험료 <a href="#"><img src="../images/comparison_quotation/btn_ins_re_calculation.png" alt="보험료재계산" /></a> <span><em>50,000</em>원</span></th>
+							</tr>
+
+						</table><!--e://Sub-Product-->	
+
+
+						<!--**********************************비교 테이블 2시작 ********************************** -->	
+						<table class="Sub-Product" >
+							<tr>
+								<th colspan="3" class="Brand-Name"><span><img src="../images/brand_logo/logo_heungkuk_80.png" alt="브랜드로고" /></span>흥국화재</th>
+							</tr>
+							<tr>
+								<th colspan="3" class="Ins-Total-Price">합계보험료 <a href="#"><img src="../images/comparison_quotation/btn_ins_re_calculation.png" alt="보험료재계산" /></a> <span><em>50,000</em>원</span></th>
+							</tr>
+								
+							<tr>
+								
+								<th colspan="3" class="Ins-Pro-Name">행복을 多주는 가족사랑 통합보험</th>
+							</tr>
+							<tr>
+								<th class="period">보험기간</th>
+								<th class="Join-Price">가입금액</th>
+								<th class="insurance">보험료</th>
+							</tr>
+						
+							
+
+							<!--**********************************보험 내용 시작********************************** -->	
+							<tr>
+							
+								<td colspan="3" class="Ins-Procuct-h5">일반상해고도후유장해[기본계약]</td>
+							</tr>
+							<tr class="Ins-Contents">
+								<td>20년납 100세만기</td>
+								<td><input type="text"  value="100" /> 만원</td>
+								<td><span>500</span>원</td>
+							</tr>
+
+							<tr>
+								
+								<td colspan="3" class="Ins-Procuct-h5">암진단비(소액암 제외)</td>
+							</tr>
+							<tr class="Ins-Contents">
+								<td>20년납 100세만기</td>
+								<td><input type="text"  value="100" /> 만원</td>
+								<td><span>500</span>원</td>
+							</tr>
+
+
+							<tr>
+								
+								<td colspan="3" class="Ins-Procuct-h5">갱신형상해입원의료비</td>
+							</tr>
+							<tr class="Ins-Contents">
+								<td>20년납 100세만기</td>
+								<td><input type="text"  value="100" /> 만원</td>
+								<td><span>500</span>원</td>
+							</tr>
+
+							<tr>
+								
+								<td colspan="3" class="Ins-Procuct-h5">일반상해고도후유장해[기본계약]</td>
+							</tr>
+							<tr class="Ins-Contents">
+								<td>20년납 100세만기</td>
+								<td><input type="text"  value="100" /> 만원</td>
+								<td><span>500</span>원</td>
+							</tr>
+
+							<tr>
+								
+								<td colspan="3" class="Ins-Procuct-h5">일반상해고도후유장해[기본계약]</td>
+							</tr>
+							<tr class="Ins-Contents">
+								<td>2암진단비(소액암 제외)</td>
+								<td><input type="text"  value="100" /> 만원</td>
+								<td><span>500</span>원</td>
+							</tr>
+							<!--**********************************보험 내용 완료********************************** -->	
+
+							<tr class="Ins-Total-Price">
+								<th colspan="3">합계보험료 <a href="#"><img src="../images/comparison_quotation/btn_ins_re_calculation.png" alt="보험료재계산" /></a> <span><em>50,000</em>원</span></th>
+							</tr>
+
+						</table><!--e://Sub-Product-->
+						</div><!--e://Comparison-Quotation-Table-Contents-->
+
+					</div><!--e://Comparison-Quotation-Table-->
+
+						
+					<!--*********************************설계 보관 및 프린터 출력 시작2016-12-08 ********************************** -->	
+					<div class="Btn-Util">
+						<ul>
+							<li><a href="#" ><img src="../images/comparison_quotation/btn_save.gif" alt="설계 보관하기" /><span class="Btn-Save">설계 보관하기</span></a></li>
+							<li><a href="#" ><img src="../images/comparison_quotation/btn_print.gif" alt="설계 출력하기" /><span class="Btn-Print">출력하기</span></a></li>
+						</ul>
+					</div><!--e://Btn-Util-->
+
+
+			
+				</div><!--e://Comparison-Quotation-->
+					
+			</div><!--e://contents-->
+
+
+
+<!-- ********************************  ******************************** 직업찾기 검색 팝업 시작  ********************************  ********************************-->
+			<div id="Job-Search-Wrapper">
+					<div class="Job-Search-Container">
+						<h2><img src="../images/job_search/h2.gif" alt="직업찾기" /></h2>
+						<div class="Job-Search-Contents">
+						
+							<div class="Job-Search">
+								<table>
+									<tr>
+										<th>직업명 입력</th>
+										<td style="width:286px;"><input type="text" /></td>
+										<td><a href="#"><img src="../images/job_search/btn_search.gif" alt="검색버튼" /></a></td>
+									</tr>
+								</table>
+								<div class="Advice">
+									<p>예) 사무, 학생, 기술직, 무직, 공무원 등..</p>
+									<ul>
+										<li>직업급수별로 각 담보별 금액제한이 있을 수 있습니다.</li>
+										<li>세부적인 인수지침은 담당상담원에게 문의해주십시오.</li>
+
+									</ul>
+								</div><!--e://Advice-->
+							</div><!--e://Job-Search-->
+
+								<div class="Often-Search-Job">
+									<h3>자주찾는 직업</h3>
+									<ul>
+										<li><a href="#">사무직</a></li>
+										<li><a href="#">학생/미취학 아동</a></li>
+										<li><a href="#">판매원</a></li>
+										<li><a href="#">주부</a></li>
+										<li><a href="#">전문직/기술/연구</a></li>
+										<li><a href="#">농림어업</a></li>
+										<li><a href="#">교육 전문</a></li>
+										<li><a href="#">배달/운송</a></li>
+										<li><a href="#">군인/경찰/소방</a></li>
+										<li><a href="#">공무원</a></li>
+										<li><a href="#">서비스</a></li>
+										<li><a href="#">기타무직</a></li>
+									</ul>
+								</div><!--e://Often-Search-Job-->	
+
+								<div class="Often-Search-result ">
+									<h3><span>'사무직' 검색결과</span><em> | </em>직업명을 선택하세요.</h3>
+									<ul>
+										<li><a href="#">사무직</a></li>
+										<li><a href="#">학생/미취학 아동</a></li>
+										<li><a href="#">판매원</a></li>
+										<li><a href="#">주부</a></li>
+										<li><a href="#">전문직/기술/연구</a></li>
+										<li><a href="#">농림어업</a></li>
+										<li><a href="#">교육 전문</a></li>
+										<li><a href="#">배달/운송</a></li>
+									</ul>
+								</div><!--e://Often-Search-Job-->
+						
+						</div><!--e://Job-Search-Contents-->
+					</div><!--e://Job-Search-Container-->
+				</div><!--e://Job-Search-Wrapper-->
+
+
+
+<!-- ******************************** ******************************** 직업찾기 검색 팝업 완료********************************  ********************************-->
+
+
+
+			<!-- ************************상담신청하기************************ -->
+
+
+					<div class="Advice-App">
+						<div class="Advice-App-Contents">
+							<p class="Customer-Number"><img src="../images/micro/customer_number2.gif" alt="구매상담하기 02.777.9277" /></p>
+								<div class="Adivce-App-Con">
+									<ul>
+										<li><span>회사명</span><input type="text" /></li>
+										<li><span>성명</span><input type="text" /></li>
+										<li><span>연락처</span><input type="text" /></li>
+										<li><span>이메일</span><input type="text" /></li>
+									</ul>
+									<div class="Advice">
+										<h5>상담내용</h5>
+										<textarea></textarea>
+										<p class="Agree-Check"><input type="checkbox" /> 개인정보 취급 방침 동의 <span><a href="#"><img src="../images/micro/btn_con_view.png" alt="내용보기" /></a></span></p>
+									</div>
+									<p class="Btn-Submit"><a href="#"><img src="../images/micro/btn_advice_submit.png" alt="상담신청하기"/></a></p>
+									
+								</div><!--e://Advice-App-Con-->
+							</div><!--e://Advice-App-Con-->
+						</div><!--e://Advice-App-Contents-->	
+					</div><!--e://Advice-App-->
+
+
+
+
+		</div><!--e://Container-->
+		
+		<!--**********************************푸터 시작********************************** -->
+		<div id="Footer">
+			<div class="Footer-Menu">
+				<ul>
+					<li><a href="#" >개인정보처리 방침</a> </li>
+					<li class="F-line"><img src="../images/footer/line.gif" alt="line" /></li>
+					<li><a href="#" >개인정보취급 방침</a></li>
+				</ul>
+			</div><!--e://Footer-Menu-->
+			<div id="Footer-Con">
+				<p><img src="../images/footer/footer_logo.gif" alt="로고" /></p>
+				<ul>
+					<li>[150-836] 서울시 영등포구 문래동 3가 77-13 대소빌딩 7층 </li>
+					<li>사이트명 : 비교견적 l 사업자등록번호 : 201-81-69329 l 사업자명 : 소나무마을㈜</li>
+					<li>대표이사 : 민성빈 l 전화번호 : 080-777-5577 l FAX : 02-6455-4222</li>
+					<li>통신판매업 신고번호 : 제 2008-서울영등포-1065호</li>
+					<li>결제계좌정보 : 기업은행 089-078019-01-029 소나무마을㈜</li>
+
+				</ul>
+			</div><!--e://Footer-Con-->	
+		</div><!--e://Footer-->
+	</div><!--e://Wrapper-->
+  
+ </body>
+</html>

@@ -1,0 +1,119 @@
+
+
+
+@charset "utf-8";
+
+#Partnership-Info{width:1200px; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Partnership-Info #Partnership-Info-Con{width:1151px; height:auto; margin:0 auto; position:relative;    }
+
+
+
+/*본문시작*/
+
+
+
+#Partnership-Info-Con h3{width:100%; height:100px; line-height:100px; border-bottom:1px solid #000; font-size:40px; font-weight:bold; color:#000;}
+#Partnership-Info-Con h3 em{color:#df323a;}
+
+
+
+/*파트너 신청 안내 */
+
+
+.Title-Skin{width:100%; height:auto; margin:0 auto;}
+.Title-Skin p img{width:99%; height:auto; margin:30px auto;}
+.Title-Skin .Title-Partnership{font-size:44px; color:#000;}
+.Title-Skin .Title-Partnership span.Col-Red{color:#df323a;}
+.Title-Skin .Title-Partnership span.Font-Bold{display:block;  margin-top:5px;}
+.Title-Skin .Title-Partnership span.Font-Bold em{font-weight:bold;}
+
+.Title-Skin ul{width:90%; font-size:22px; margin-top:40px;}
+
+
+/* 파트너 신청 관련 공지사항 */
+
+
+.Partnership-Info-Notice{border-top:1px solid #cccccc; margin:60px 0; }
+.Partnership-Info-Notice dl{width:95%; height:auto; margin-top:60px; color:#000; float:left;}
+.Partnership-Info-Notice dt{font-size:30px; margin-bottom:20px; background:url(../images/partnership/bullet_circle_red.gif ) 0 10px no-repeat; text-indent:20px;}
+.Partnership-Info-Notice dd{font-size:20px; height:100%;  margin-bottom:10px; }
+
+.Partnership-Info-Notice dd ul{width:100%; height:250px; margin-top:30px; }
+.Partnership-Info-Notice dd ul li{float:left;}
+.Partnership-Info-Notice dd ul li.Circle-Bnr{width:18%; margin-left:2%; height:auto; } 
+.Partnership-Info-Notice dd ul li.Arrow{width:27px; height:31px; margin-top:80px; margin-left:20px;} 
+
+
+.Btn-Submit{clear:both; width:100%; height:auto; margin:0 auto; border-top:1px solid #cccccc; }
+.Btn-Submit img{display:block; margin:0 auto;  padding:50px 0; }
+
+
+
+@media (max-width: 1280px) {
+
+#Partnership-Info{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Partnership-Info #Partnership-Info-Con{width:100%; height:auto; margin:0 auto; position:relative;    }
+
+
+
+}
+
+
+
+@media (max-width: 1008px) {
+
+
+#Partnership-Info{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Partnership-Info #Partnership-Info-Con{width:100%; height:auto; margin:0 auto; position:relative;    }
+
+.Partnership-Info-Notice dd ul{width:100%; height:200px; margin-top:30px; }
+.Partnership-Info-Notice dd ul li{float:left;}
+.Partnership-Info-Notice dd ul li.Circle-Bnr{width:18%; margin-left:2%; height:auto; } 
+.Partnership-Info-Notice dd ul li.Arrow{width:27px; height:31px; margin-top:50px; margin-left:20px;} 
+}
+
+
+@media (max-width: 752px) {
+
+
+#Partnership-Info{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Partnership-Info #Partnership-Info-Con{width:100%; height:auto; margin:0 auto; position:relative;    }
+
+.Partnership-Info-Notice dd ul{width:100%; height:150px; margin-top:30px; }
+.Partnership-Info-Notice dd ul li{float:left;}
+.Partnership-Info-Notice dd ul li.Circle-Bnr{width:23%; height:auto; } 
+.Partnership-Info-Notice dd ul li.Arrow{width:27px; height:31px; margin-top:50px; margin-left:20px; display:none;}
+
+}
+
+
+
+
+@media (max-width: 480px) {
+
+
+#Partnership-Info{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Partnership-Info #Partnership-Info-Con{width:100%; height:auto; margin:0 auto; position:relative;    }
+
+.Title-Skin .Title-Partnership{font-size:35px; color:#000;}
+
+
+.Partnership-Info-Notice dd ul{width:100%; height:200px; margin-top:30px; }
+.Partnership-Info-Notice dd ul li{float:left;}
+.Partnership-Info-Notice dd ul li.Circle-Bnr{width:45%; height:auto; } 
+.Partnership-Info-Notice dd ul li.Arrow{width:27px; height:31px; margin-top:50px; margin-left:20px; display:none;}
+
+}
+
+
+
+
+
+@media (max-width: 320px) {
+
+#Partnership-Info{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Partnership-Info #Partnership-Info-Con{width:320px; height:auto; margin:0 auto; position:relative;    }
+
+.Title-Skin .Title-Partnership{font-size:28px; color:#000;}
+
+}

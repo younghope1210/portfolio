@@ -1,0 +1,12 @@
+
+#header{width:100%; height:151px; background:url(../images/back_header.jpg) repeat-x;   }
+
+#Util-con{width:100%; height:83px; margin:0 auto; }
+#Util-con p{width:1200px; height: 83px; margin:0 auto; padding-top:6px;}
+
+#gnb-con{width:100%; height:60px; margin:0 auto; }
+#gnb-con ul{width:1200px; height: 68px; margin:0 auto; color:#333333;}
+#gnb-con ul li{width:240px; height:68px; float:left;}
+#gnb-con ul li a{display:block; width:240px; height:65px; line-height:68px; color:#fff; text-align:center; font-size:18px;}
+#gnb-con ul li a:hover{color:#f89207;}
+

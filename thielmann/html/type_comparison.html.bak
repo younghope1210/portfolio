@@ -1,0 +1,309 @@
+s<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <title>틸만 중앙 전시장</title>
+	 <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/header.css" />
+	  <link rel="stylesheet" type="text/css" href="../css/common.css" />
+	  <link rel="stylesheet" type="text/css" href="../css/type_comparison.css" />
+
+	 <!--<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />-->
+
+
+
+ </head>
+ <body>
+
+
+	<div id="Wrapper">
+		
+		<div id="Container">
+
+			<div id="Header">
+				<div id="Header-Con">
+				
+				<h1><a href="#"><img src="../../images/header/h1_logo.gif" alt="틸만 로고"  /></a></h1>
+				
+				<!--★★★★★★★★★★★ 유틸메뉴 시작 ★★★★★★★★★★★  -->
+
+				<div id="Util-Menu">
+					
+
+						<ul>
+							<li class="Info-A"><img src="../../images/header/icon_headset.png" alt="제품문의 아이콘" />제품문의</li>
+							<li class="Info-B"><img src="../../images/header/icon_telephone.png" alt="전화번호출력" />02-3476-0901</li>
+							<li class="Info-C"><img src="../../images/header/icon_phone.png" alt="핸드폰번호출력" />010-6730-0440</li>
+						</ul>
+					
+				</div><!--e://Util-Menu-->
+
+				<!-- ★★★★★★★★★★★ GNB 시작 ★★★★★★★★★★★ -->
+
+				<div id="Gnb">
+				
+					<ul id="Gnb_Bar">
+						<li><a href="#">회사소개</a></li>		
+						<li><a href="#">제품소개</a></li>	
+						<li><a href="#">제품타입</a></li>	
+						<li><a href="#">파트너모집</a></li>	
+						<li><a href="#">커뮤니티</a></li>	
+					</ul>
+
+					<p><a href="#">빠른 상담예약</a></p>
+					
+				</div><!--e://Gnb-->
+				<div id="Gnb-Sub-Con" style="display:none;">
+					
+					<div id="Gnb-Sub-Contents" >
+						<ul>
+							<li><a href="#">틸만이란?</a></li>
+							<li><a href="#">인증서리스트</a></li>
+							<li><a href="#">전시장갤러리</a></li>
+							<li><a href="#">오시는길</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">상품리스트</a></li>
+							<li><a href="#">전기레인지란?</a></li>
+							<li><a href="#">틸만소개영상</a></li>
+							<li><a href="#">서비스안내</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">인덕션특징</a></li>
+							<li><a href="#">하이라이트특징</a></li>
+							<li><a href="#">타이별차이점</a></li>
+							
+						</ul>
+						<ul>
+							<li><a href="#">파트너모집</a></li>
+							<li><a href="#">파트너신청</a></li>
+							
+						</ul>
+						<ul>
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">Q&A</a></li>
+							<li><a href="#">설치후기</a></li>
+							<li><a href="#">EVENT</a></li>
+						</ul>
+
+					</div><!--e://Gnb-Sub-Contents-->
+
+				</div>	<!--e://Gnb-Sub-Con-->
+
+				</div><!--e://Header-Con-->
+			</div><!--e://header-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+
+		
+		
+			<script src="../js/jquery-1.9.1.min.js"></script>
+		    <script src="../js/jquery.slides.min.js"></script>
+
+
+			<script>
+				var zoomx = 100;
+				  $(document).ready(function() {
+					$("#Gnb_Bar").hover(
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideDown(400);
+					  },
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideUp(600);
+					  }
+					);
+
+					$("#Gnb-Sub-Con").hover(
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideDown(400);
+					  },
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideUp(600);
+					  }
+					);
+
+				  
+
+				//class="tabBtn tabBtngroupA" tar="lastA_1" tarc="lastA_1" tarx="tabBtngroupA"
+				  });
+
+				</script>
+			
+
+			<div id="Contents">
+
+
+			<!-- ★★★★★★★★★★★ visual ★★★★★★★★★★★ -->
+				
+				<div id="Sub-Visual">
+					  <div id="Visual-Con">
+						
+						
+						<p class="Top-Skin"><span class="Tiny-Title">Intelligent Look </span>틸만의 디지털 원터치 패널방식 <span class="Squer">Thielmann Ceramic Range</span></p>
+							
+						</div>
+					</div><!--e://Sub-Visual-->
+
+				<div id="Type-Comparison">
+					<div id="Type-Comparison-Con">
+						<h3><span>타입별 <em>차이점</em></span></h3>
+
+						<div class="Type-Comparison-Con-Explain">
+							
+							<ul>
+								<li><img src="../images/electric_range_explain/comparison_explain_a.jpg" alt="제품이미지" width="100%"  /><span>인덕션 조리구 OFF</span></li>
+								<li><img src="../images/electric_range_explain/comparison_explain_b.jpg" alt="제품이미지" width="100%"   /><span>하이라이트 조리구 OFF</span></li>
+								<li><img src="../images/electric_range_explain/comparison_explain_c.jpg" alt="제품이미지" width="100%"  /><span>인덕션 조리구 ON</span></li>
+								<li><img src="../images/electric_range_explain/comparison_explain_d.jpg" alt="제품이미지" width="100%"  /><span>하이라이트 조리구 ON</span></li>
+							</ul>
+							
+						</div><!--e://Type-Comparison-Con-Explain-->
+
+
+								<div class="Product-Comparison">
+							<div class="Product-Comparison-Con">
+							
+								<ul class="Procut-Contents-A">
+									<li class="Images"><img src="../images/electric_range_explain/induction_icon_img.jpg" alt="이미지" width="100%"  /></li>
+									<li class="Product-Name">인덕션(INDICTION)</li>
+									<li class="Product-Con">자체 열을 내는 방식이 아닌 기기 내 발생하는 자기장을 이용해 전기유도물질로 만들어진 용기와 반응시켜 열을 만들어 내는 전기레인지 중 한 종류입니다.
+하이라이트와 다르게 인덕션은 전용용기가 있어야 하지만,전용용기를 올려놓은 곳만 반응하므로 열 손실이 거의 없는 제품입니다.
+
+</li>
+								</ul>
+
+
+								<ul class="Procut-Contents-B">
+									<li class="Images"><img src="../images/electric_range_explain/hilight_icon_img.jpg" alt="이미지"  width="100%"  /></li>
+									<li class="Product-Name">하이라이트(HILIGHT)</li>
+									<li class="Product-Con">원형으로 분포된 열선이 세라믹 상판을 가열하는 방식을 가진 전기레인지 중 한 종류입니다.
+인덕션보다는 조리시간이 다소 걸리고, 열 손실이 조금 더 많은 제품이지만 전원을 꺼도 남은 잔열 사용이 가능하고 용기의 제한이 없어 인덕션보다 조금 더 편리하게 사용할 수 있는 제품입니다</li>
+								</ul>
+
+
+									<table>
+										<tr>
+											<th colspan="2" class="Back_Red">인덕션</th>
+											<th  class="Back_gray">하이라이트</th>
+										</tr>
+										<tr>
+											<th>원리</th>
+											<td>전자기유도 가열방식</td>
+											<td>니크롬선 전기저항에 의한 가열방식</td>
+										</tr>
+										<tr>
+											<th>발열온도</th>
+											<td>300 이하</td>
+											<td>600 이상</td>
+										</tr>
+										<tr>
+											<th>용기</th>
+											<td>IH전용 용기<span>(조리용기 밑면에 자석이 붙는 용기)</span></td>
+											<td>제한없음<span>(밑면이 평평한 조리 용기)</span></td>
+										</tr>
+										<tr>
+											<th>장점</th>
+											<td>
+												<ul>
+													<li>- 조리시간이 짧고 열효율이 좋다.</li>
+
+													<li>- 유해가스가 발생되지 않는다.</li>
+
+													<li>- 조리 후 청소가 간편하다.</li>
+
+													<li>- 냄비 관리가 쉽다. (얼룩이 잘 안생김)</li>
+													
+												</ul>
+											</td>
+											<td>
+												<ul>
+													<li>- 저온으로 조리가 됨으로 영양소 파괴가 적음</li>
+
+													<li>- 유해가스가 발생되지 않는다.</li>
+
+													<li>- 냄비의 사용제한이 없다.</li>
+														
+													<li>- 냄비 관리가 쉽다. (얼룩이 잘 안생김)</li>
+														
+												</ul>
+											</td>
+										</tr>
+									</table>										
+								
+
+
+							</div><!--e://Product-Comparison-Con-->
+						
+						</div><!--e://Product-Comparison-->
+
+						<div class="Procut-tip-Cons">
+							<h4>인덕션 특이사항</h4>
+							
+							<div class="Procut-tip-Contents">
+								<dl>
+									<dt><img src="../images/electric_range_explain/comparison_tip_a.jpg" alt="이미지"  width="100%"  /><dt>
+									<dd><span>인덕션은 인덕션 전용용기에만 반응을 하기 때문에 냄비와 같이 올려있는 
+얼음에 반응하며 열이 올라오는 게 눈에 보이지 않습니다.</span></dd>
+								</dl>
+
+								<dl>
+									<dt><img src="../images/electric_range_explain/comparison_tip_b.jpg" alt="이미지"  width="100%"  /><dt>
+									<dd><span>인덕션 전용용기 확인방법은 사진과 같이 인덕션 사용가능 마크를 확인하는 방법과, 냄비나 후라이팬 바닥에 자석을 붙여봐서 확인하는 방법이 있습니다. </span></dd>
+								</dl>
+							</div><!--e://Procut-tip-Contents-->
+
+						</div><!--e://Procut-tip-Cons-->
+
+
+					</div><!--e://Type-Comparison_Con-->	
+					
+				</div><!--e://Type-Comparison-->	 
+
+					
+			</div><!--e://Contents-->
+		
+		</div><!--e://Container-->
+
+		<div id="Footer">
+			<div id="Footer-Con">
+				<h2><img src="../../images/footer/f_logo.gif" alt="F-logo" /></h2>
+		
+				<address>
+					
+					<ul>
+						<li>| 상호 : 틸만㈜ | 사이트명 : 틸만중앙전시장 | 대표 : 채수민 </li>
+						<li>| 사업자등록번호 : 107-87-67225 | 통신판매업신고 : 2012-서울서초-0543호 | 고객센터 : 02-3476-0901 </li>
+						<li>| 방문판매업신고번호 : 제 2012-서울서초-0055호  제 2012-서울서초-0055호 | 개인정보관리책임자 : 심정은 </li>
+						<li>| 이메일 : webmaster@tilman.co.kr  | 주소 : 서울 서초구 반포동 107-6번지 대국빌딩 1층 </li>
+						<li class="Copyright">Copyrightⓒ 2016 CSM㈜ All rights </li>
+					</ul>
+					
+				</address>
+				
+				
+				
+			</div><!--e://Footer-Con-->	
+			<div style="clear:both; width:1800px;"></div>
+				<div id="Certifi-Mark">
+					<ul>
+						<li><a href="#" target="_blank"><img src="../../images/footer/f_logo_kcl.gif" alt="한국건설 생활환경 시험연구원" /><span>한국건설생활환경<em>시험연구원</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../../images/footer/f_logo_ccm.gif" alt="소비자중심경영 인증" /><span>소비자중심경영<em>인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../../images/footer/f_logo_ktc.gif" alt="한국전기전자시험연구소 적자파 적합인증" /><span>한국전기전자시험연구소<em>적자파 적합인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../../images/footer/f_logo_iec.gif" alt="안전보건공단 위험성평가 인증" /><span>안전보건공단<em>위험성평가 인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../../images/footer/f_logo_kipo.gif" alt="특허청상표등록" /><span>특허청<em>상표등록</em></span></a></li>
+
+					</ul>
+				</div><!--e://Certifi-Mark-->	
+		
+		</div><!--e://Footer-->	
+	
+		
+	</div><!--e://Wrapper-->
+
+  
+
+ </body>
+</html>

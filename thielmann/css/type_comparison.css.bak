@@ -1,0 +1,232 @@
+
+
+
+@charset "utf-8";
+
+#Type-Comparison{width:1200px; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Type-Comparison #Type-Comparison-Con{width:1151px; height:auto; margin:0 auto;  position:relative;    }
+/*#Electric_Range_Explain #Electric_Range_Con img{width:100%; height:auto;}*/
+
+/*본문시작*/
+
+
+
+#Type-Comparison #Type-Comparison-Con h3{width:100%; height:100px; line-height:100px; border-bottom:1px solid #000; font-size:40px; font-weight:bold; color:#000;}
+#Type-Comparison #Type-Comparison-Con h3 em{color:#df323a;}
+.Service-Explain{width:100%; height:auto; margin:0 auto; margin-top:60px; color:#000; ;}
+.Service-Explain p.Title-Con{font-size:62px; text-align:center}
+.Service-Explain p.Title-Con span{color:#df323a;}
+.Service-Explain p.Title-Con em{display:block;}
+
+.Service-Explain p.Explain{width:70%; height:auto; margin:30px auto; font-size:22px; line-height:25px; text-align:center; }
+
+.Service-Explain ul{width:100%; height:auto; margin:0 auto; margin-top:70px;}
+.Service-Explain ul li{width:32%; height:auto; float:left; margin-left:1%;}
+
+
+
+
+/*제품 ON_OFF*/
+
+
+.Type-Comparison-Con-Explain{clear:both; width:100%; height:100%; margin:20px auto;}
+.Type-Comparison-Con-Explain h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+
+.Type-Comparison-Con-Explain ul{width:100%; height:auto;}
+.Type-Comparison-Con-Explain ul li{width:49.8%; height:auto; float:left; position:relative; }
+.Type-Comparison-Con-Explain ul li img{display:block;  position:relative;}
+.Type-Comparison-Con-Explain ul li span{display:block; position:absolute; bottom:20px; left:30%; color:#fff; z-index:10; font-size:24px;}
+
+
+
+
+/*하이라이트 인덕션 비교*/
+
+
+
+
+/* 인덕션 하이라이트 비교 */
+
+
+.Product-Comparison{clear:both; width:100%;   padding:30px 0; }
+.Product-Comparison .Product-Comparison-Con{width:100%; height:auto; margin:0 auto;}
+.Product-Comparison .Product-Comparison-Con ul{width:49.5%; float:left; margin:20px 0; color:#000;}
+
+.Product-Comparison .Product-Comparison-Con ul.Procut-Contents-A,
+.Product-Comparison .Product-Comparison-Con ul.Procut-Contents-B
+{border:1px solid #000;}
+
+.Product-Comparison .Product-Comparison-Con  li{text-align:center; }
+
+.Product-Comparison .Product-Comparison-Con  li.Images{width:80%;  margin:20px auto; }
+.Product-Comparison .Product-Comparison-Con  li.Product-Name{width:80%; margin:0 auto;  font-size:36px; padding-bottom:20px; border-bottom:1px solid #fff;}
+.Product-Comparison .Product-Comparison-Con  li.Product-Con{width:70%; font-size:14px; margin:20px auto;  line-height:20px;}
+
+
+
+.Product-Comparison .Product-Comparison-Con table{clear:both; width:100%; height:auto; margin:0 auto; border:1px solid #fff; font-size:14px; }
+.Product-Comparison .Product-Comparison-Con table th.Back_Red{height:50px; background:#c81a2a; color:#000; }
+.Product-Comparison .Product-Comparison-Con table th{background:#999999; height:40px; border:1px solid #fff; color:#000;} 
+.Product-Comparison .Product-Comparison-Con table td{background:#f2f0f0; height:40px; border:1px solid #fff; color:#000;} 
+.Product-Comparison .Product-Comparison-Con table td ul{width:100%; color:#000; }
+.Product-Comparison .Product-Comparison-Con table td ul li{text-align:left; margin-bottom:5px; margin-left:20px;}
+
+
+/*인덕션 특이사항 */
+
+.Procut-tip-Cons{clear:both; width:100%; height:600px; margin:30px 0; }
+.Procut-tip-Cons h4{width:100%; height:80px; padding-top:0; font-size:36px; color:#000; text-align:center;}
+
+.Procut-tip-Cons  .Procut-tip-Contents{width:100%; height:auto;}
+.Procut-tip-Cons  .Procut-tip-Contents dl{width:49.8%; height:auto; float:left; margin-right:1px;}
+.Procut-tip-Cons  .Procut-tip-Contents dt{width:100%; height:auto;}
+.Procut-tip-Cons  .Procut-tip-Contents dd{width:100%; height:100px; background:#000; text-align:center;}
+.Procut-tip-Cons  .Procut-tip-Contents dd span{display:block; width:80%; margin:0 auto; padding-top:30px; padding-bottom:30px line-height:20px; color:#fff;}
+
+
+@media (max-width: 1280px) {
+
+
+#Type-Comparison{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Type-Comparison #Type-Comparison-Con{width:100%; height:auto; margin:0 auto;  position:relative;    }
+
+/*제품 ON_OFF*/
+
+
+.Type-Comparison-Con-Explain{clear:both; width:100%; height:100%; margin:20px auto;}
+.Type-Comparison-Con-Explain h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+
+.Type-Comparison-Con-Explain ul{width:80%; height:auto; margin:0 auto; }
+.Type-Comparison-Con-Explain ul li{width:100%; height:auto; clear:both; position:relative; margin:10px 0;}
+.Type-Comparison-Con-Explain ul li img{display:block;  position:relative;}
+.Type-Comparison-Con-Explain ul li span{display:block; position:absolute; bottom:30px; left:40%; color:#fff; z-index:10; font-size:24px;}
+
+
+}
+
+
+
+@media (max-width: 1008px) {
+
+
+
+#Type-Comparison{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Type-Comparison #Type-Comparison-Con{width:100%; height:auto; margin:0 auto;  position:relative;    }
+
+
+/*제품 ON_OFF*/
+
+
+.Type-Comparison-Con-Explain{clear:both; width:100%; height:100%; margin:20px auto;}
+.Type-Comparison-Con-Explain h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+
+.Type-Comparison-Con-Explain ul{width:100%; height:auto; margin:0 auto; }
+.Type-Comparison-Con-Explain ul li{width:100%; height:auto; clear:both; position:relative; margin:10px 0;}
+.Type-Comparison-Con-Explain ul li img{display:block;  position:relative;}
+.Type-Comparison-Con-Explain ul li span{display:block; position:absolute; bottom:30px; left:40%; color:#fff; z-index:10; font-size:24px;}
+
+
+
+}
+
+
+@media (max-width: 752px) {
+
+
+
+
+#Type-Comparison{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Type-Comparison #Type-Comparison-Con{width:100%; height:auto; margin:0 auto;  position:relative;    }
+
+/* 인덕션 하이라이트 비교 */
+
+
+.Product-Comparison{clear:both; width:100%;   padding:30px 0; }
+.Product-Comparison .Product-Comparison-Con{width:100%; height:auto; margin:0 auto;}
+.Product-Comparison .Product-Comparison-Con ul{width:100%; clear:both; margin:20px 0; color:#000;}
+
+.Product-Comparison .Product-Comparison-Con ul.Procut-Contents-A,
+.Product-Comparison .Product-Comparison-Con ul.Procut-Contents-B
+{border:1px solid #000;}
+
+.Product-Comparison .Product-Comparison-Con  li{text-align:center; }
+
+.Product-Comparison .Product-Comparison-Con  li.Images{width:80%;  margin:20px auto; }
+.Product-Comparison .Product-Comparison-Con  li.Product-Name{width:80%; margin:0 auto;  font-size:36px; padding-bottom:20px; border-bottom:1px solid #fff;}
+.Product-Comparison .Product-Comparison-Con  li.Product-Con{width:70%; font-size:14px; margin:20px auto;  line-height:20px;}
+
+
+
+.Product-Comparison .Product-Comparison-Con table{clear:both; width:100%; height:auto; margin:0 auto; border:1px solid #fff; font-size:14px; }
+.Product-Comparison .Product-Comparison-Con table th.Back_Red{height:50px; background:#c81a2a; color:#000; }
+.Product-Comparison .Product-Comparison-Con table th{background:#999999; height:40px; border:1px solid #fff; color:#000;} 
+.Product-Comparison .Product-Comparison-Con table td{background:#f2f0f0; height:40px; border:1px solid #fff; color:#000;} 
+.Product-Comparison .Product-Comparison-Con table td ul{width:100%; color:#000; }
+.Product-Comparison .Product-Comparison-Con table td ul li{text-align:left; margin-bottom:5px; margin-left:20px;}
+
+
+
+/*인덕션 특이사항 */
+
+.Procut-tip-Cons{clear:both; width:100%; height:1000px; margin:30px 0; }
+.Procut-tip-Cons h4{width:100%; height:80px; padding-top:0; font-size:36px; color:#000; text-align:center;}
+
+.Procut-tip-Cons  .Procut-tip-Contents{width:100%; height:auto;}
+.Procut-tip-Cons  .Procut-tip-Contents dl{width:100%; height:auto; clear:both; margin-right:1px;}
+.Procut-tip-Cons  .Procut-tip-Contents dt{width:100%; height:auto;}
+.Procut-tip-Cons  .Procut-tip-Contents dd{width:100%; height:100px; background:#000; text-align:center;}
+.Procut-tip-Cons  .Procut-tip-Contents dd span{display:block; width:70%; margin:0 auto; padding-top:30px;  line-height:20px; color:#fff;}
+
+
+}
+
+
+
+
+@media (max-width: 480px) {
+
+
+
+
+
+#Type-Comparison{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Type-Comparison #Type-Comparison-Con{width:100%; height:auto; margin:0 auto;  position:relative;    }
+
+
+
+/*제품 ON_OFF*/
+
+
+
+.Type-Comparison-Con-Explain ul li span{display:block; position:absolute; bottom:12px; left:25%; color:#fff; z-index:10; font-size:18px;}
+
+
+
+
+/*인덕션 특이사항 */
+
+.Procut-tip-Cons{clear:both; width:100%; height:800px; margin:30px 0; }
+.Procut-tip-Cons h4{width:100%; height:80px; padding-top:0; font-size:36px; color:#000; text-align:center;}
+
+.Procut-tip-Cons  .Procut-tip-Contents{width:100%; height:auto;}
+.Procut-tip-Cons  .Procut-tip-Contents dl{width:100%; height:auto; clear:both; margin-right:1px;}
+.Procut-tip-Cons  .Procut-tip-Contents dt{width:100%; height:auto;}
+.Procut-tip-Cons  .Procut-tip-Contents dd{width:100%; height:130px; background:#000; text-align:center;}
+.Procut-tip-Cons  .Procut-tip-Contents dd span{display:block; width:70%; margin:0 auto; padding-top:30px;  line-height:20px; color:#fff;}
+.Product-Comparison .Product-Comparison-Con  li.Product-Name{width:80%; margin:0 auto;  font-size:34px; padding-bottom:30px; border-bottom:1px solid #fff;}
+
+}
+
+
+
+
+
+@media (max-width: 320px) {
+
+
+
+
+#Type-Comparison{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Type-Comparison #Type-Comparison-Con{width:320px; height:auto; margin:0 auto;  position:relative;    }
+
+}

@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>3사비교견적</title>
+       <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/common.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/header.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/solution.css" />
+				
+ </head>
+ <body>
+	
+	<div id="Wrapper">
+		
+		<!--**********************************헤더 시작********************************** -->
+		<div id="Header">
+			
+				<div id="Util-Menu">
+					<div class="Util-Menu-Con">	
+						<ul class="Util-Join">
+							<li><a href="#" class="Login-Menu"><img src="../images/header/icon_login.png" alt="로그인하기 아이콘" />로그인</a></li>
+							<li><a  href="#" class="Join-Menu"><img src="../images/header/icon_join.png" alt="회원가입 아이콘" />회원가입</a></li>
+						</ul><!--e://Util-Join-->
+
+						<ul class="Util-Info">
+							<li><a href="#">구입문의</a></li>
+							<li><a href="#">솔루션 소개</a></li>
+						</ul><!--e://Util-Info-->
+					</div><!--e://Util-Menu-Conn-->	
+				</div><!--e://Util-Menu-->	
+				<div id="gnb">
+					<div class="gnb-Con">
+						<h1><a href="#index.asp"><img src="../images/header/h1.gif" alt="CI" width="100%" /> </a></h1>	
+						<ul>
+							<li><a href="#">산출하기</a></li>
+							<li><a href="#">산출내역</a></li>
+							<li><a href="#">마이페이지</a></li>
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">보험뉴스</a></li>
+							<li><a href="#">Q&amp;A</a></li>
+							<li><a href="#">회사소개</a></li>
+						</ul>
+					</div><!--e://gnb-Con-->	
+				</div><!--e://gnb-->	
+
+
+
+
+				<div id="gnb2">
+					<div class="gnb-Con">
+						<h1><a href="#index.asp"><img src="../images/header/h1.gif" alt="CI" /> </a></h1>
+						<p class="Btn-Gnb"><a href="#">메뉴보기</a></p>
+						<ul class="Gnb-List">
+							<li><a href="#">산출하기</a></li>
+							<li><a href="#">산출내역</a></li>
+							<li><a href="#">마이페이지</a></li>
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">보험뉴스</a></li>
+							<li><a href="#">Q&amp;A</a></li>
+							<li><a href="#">회사소개</a></li>
+						</ul>
+					</div><!--e://gnb-Con-->	
+				</div><!--e://gnb2-->	
+
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+					<script>
+					$( ".Btn-Gnb" ).click(function() {
+						$( "ul.Gnb-List" ).slideToggle( "slow" );
+						});
+
+				   </script>
+	
+		</div><!--e://Header-->
+		<!--**********************************섹션시작********************************** -->
+		<div id="Container">
+			
+			<div class="Visual">
+				<p>회사 솔루션 소개</p>
+				
+			</div><!--e://Visual-->
+				<!--<h3><img src="../images/common/bullet_h3_line_orange.jpg" alt="라인" /><span class="H3-Text">회원정보 수정</span></h3>-->
+				<div id="contents">
+
+				<!--**********************************회사소개 시작********************************** -->
+
+				<div id="Solution">
+					<div class="Solution-Con">
+						<div id="Tab">
+							<ul id="Tab-Con">
+								<li><a href="#Company-Con" >회사소개</a></li>
+								<li><a href="#Solution-Con" >솔루션소개</a></li>
+								<li><a href="#Price-Con" >이용금액 및 구입문의</a></li>
+							</ul>
+
+
+						</div><!--e://tab-->
+						<!--****** 회사소개 시작******  -->	
+						<div id="Company-Con" >
+							<!--회사개요 -->
+							<div class="Com-Summary">
+								<h4>회사개요</h4>
+								<p class="Info-Img"><img src="../images/company/infogram_a.jpg" alt="회사개요" /></p>
+								<div class="Summary-Con">
+									<p>
+										<span>소나무마을㈜는 소프트웨어개발 및 온라인 보험시스템 개발 전문 기업으로 국내 유수의 손해보험 및 생명보험 등 다양한 시스템개발로</span> 
+											<span>보험상품의 보험료와 보장내용을 소비자가 직접 비교하고 가입 할 수 있는 시스템 및 서비스를 제공함으로써</span>  
+											<span>보험시장의 비즈니스 가치를 창출하고 연속성을 확보 할 수 있는 패러다임을  제공하는 기업입니다.</span> 
+
+									</p>
+									<p class="Slogan">“한발 앞서 고객을 생각하자” </p>
+									<p>
+										<span>“한발 앞서 고객을 생각하자” 는 이념아래 소나무마을㈜는 저비용과 차별화된 서비스로 새로운 보험채널 시대를 열어가는 보험시장의 개척자입니다.</span> 
+										<span>소나무마을㈜는 국내 최고의 보험전문가그룹이 모여 최상의 서비스를 지속적으로 제공하고 보험이 필요한 곳이면 언제 어디든 항상 고객의 곁에 함께 할 것 입니다. </span> 
+									</p>
+									<p class="Greeting">감사합니다.</P>
+
+								</div><!--e://Summary-Con-->
+
+								<div class="Com-Info">
+									<p><img src="../images/company/skin_a.jpg" alt="회사이미지" /></p>
+									<div class="Com-Info-Con">
+										<dl>
+											<dt>회사명</dt>
+											<dd>㈜소나무마을</dd>
+										</dl>
+										<dl>
+											<dt>대표이사</dt>
+											<dd>민성빈</dd>
+										</dl>
+										<dl>
+											<dt>설립일</dt>
+											<dd>2001년 11월 27일</dd>
+										</dl>
+
+										<dl>
+											<dt>임직원</dt>
+											<dd>15명(2016년기준)</dd>
+										</dl>
+
+										<dl>
+											<dt>대표전화</dt>
+											<dd>02-777-9277 / fax 02-6455-4222</dd>
+										</dl>
+
+										<dl>
+											<dt>본사주소</dt>
+											<dd>서울 특별시 영등포구 문래로 92 7층 701호(문래동3가, 대소빌딩).</dd>
+										</dl>
+
+										<dl>
+											<dt>주요사업</dt>
+											<dd>소프트웨어 개발 공급 및 유지보수</dd>
+											<dd>온라인 보험비교견적시스템 운영</dd>
+										</dl>
+									</div><!--e://Com-Info-->
+								</div><!--e://Com-Info-->
+							</div><!--e://Com-Summary-->
+							<!--회사연혁 시작 -->
+							<div class="Com-History" >
+								<h4>회사연혁</h4>
+								<p class="History-Img"><img src="../images/company/company_history.jpg" alt="회사연혁" /></p>
+							</div><!--e://Com-History-->
+
+						</div><!--e://Company-Con-->
+
+						<!--******솔루션소개 시작****** -->	
+						<div id="Solution-Con">
+								
+							<!--솔루션 강점 -->
+							<div class="Strong-Point">
+								<h4>솔루션 강점</h4>
+								<p class="Info-Img"><img src="../images/company/infogram_b.jpg" alt="회사개요" /></p>
+								
+							</div><!--e://Strong-Point-->
+							<!--솔루션 강점 -->
+							<div class="Main-Function">
+								<h4>솔루션 주요기능</h4>
+								<div class="Main-Function-Con">
+									<dl>
+										<dt><img src="../images/company/thumbnail_a.jpg" alt="업계유일! 3개 손해보험사 보험료 상세 비교견적 가능!" /></dt>
+										<dd>업계유일! 3개 손해보험사 보험료 <span>상세 비교견적 가능!</span></dd>
+									</dl>
+									<dl>
+										<dt><img src="../images/company/thumbnail_b.jpg" alt="FC님들의 원활한 영업활동을 위한 맞춤플랜 제시!" /></dt>
+										<dd>FC님들의 원활한 영업활동을 위한 <span>맞춤플랜 제시</span></dd>
+									</dl>
+									<dl>
+										<dt><img src="../images/company/thumbnail_c.jpg" alt="맞춤플랜 제시로 빠르고 신속한 영업환경 조성!" /></dt>
+										<dd>맞춤플랜 제시로 빠르고<span>신속한 영업환경 조성!</span></dd>
+									</dl>
+									<dl style="margin-left:200px;">
+										<dt><img src="../images/company/thumbnail_d.jpg" alt="3개사 비교견적으로 빠르고 투명한 FC영업활동 가능!" /></dt>
+										<dd>3개사 비교견적으로 빠르고<span>투명한 FC영업활동 가능!</span></dd>
+									</dl>
+									<dl>
+										<dt><img src="../images/company/thumbnail_e.jpg" alt="총무 및 설계매니저 포지션의 업무 부담 해소!" /></dt>
+										<dd>총무 및 설계매니저 포지션의<span>업무 부담 해소!</span></dd>
+									</dl>
+								</div><!--e://Main-Function-Con-->
+
+							</div><!--e://Main-Function-->
+
+							<!--1석 3조의 효과-->
+							<div class="Effect">
+								<h4>1석 3조의 효과</h4>
+								<p><img src="../images/company/infogram_c.png" alt="솔루션 1석 3조 효과" /></p>
+							</div><!--e://Effect-->
+
+						</div><!--e://Solution-Con-->
+
+						<!--*****이용금액 및 구입문의 시작 *****-->	
+						<div id="Price-Con" >
+						<!--이용금액-->
+								<div class="Price-Table">
+									<h4>이용금액</h4>
+									<table>
+										<tr>
+											<th class="Division">구매수량</th>
+											<th class="Division">개인단가</th>
+											<th class="Division">지점·지사단가</th>
+											<th class="Division">본부급 이상</th>
+										</tr>
+										<tr>
+											<th class="Col-017358">월요금<span>(원)</span></th>
+											<td class="Col-028c6b"><span>&#8361;</span> 50,000 </td>
+											<td class="Col-028c6b"><span>&#8361;</span>  200,000 </td>
+											<td class="Col-028c6b" style="border-right:0;"><span>&#8361;</span>  800,000 </td>
+										</tr>
+										<tr>
+											<th class="Col-f3f3f3">월간 총산출 건수</th>
+											<td class="Col-ffffff">100건</td>
+											<td class="Col-ffffff">1,000건</td>
+											<td class="Col-ffffff" style="border-right:0;">5,000건</td>
+										</tr>
+										<tr>
+											<th class="Col-e9e6e6">사용 인원수</th>
+											<td class="Col-f4f3f3">1명</td>
+											<td class="Col-f4f3f3">20명</td>
+											<td class="Col-f4f3f3" style="border-right:0;">100명</td>
+										</tr>
+									</table>
+									<ul>
+										<li><span> *</span> 1000 Copy 이상 or 솔루션분양 별도협의  </li>	
+										<li><span> *</span> 1년간 비용을 일시 결재시는 20% 할인가 적용.  </li>	
+										<li><span> *</span> 부가세 (VAT) 별도  </li>
+									</ul>
+									<dl>
+										<dt>결제방법:무통장 입금</dt>
+										<dd>- 결제계좌 : 신한은행 140-011-683295 (민성빈)</dd>
+										<dt>영수증 및 계산서 발행</dt>
+										<dd>- 담당자 홍길동 : 02-777-9277 로 연락주시면 우편, 이메일로 발송해드립니다.)</dd>
+									</dl>	
+
+								</div><!--e://Price-Table-->
+								
+								<!--상담신청-->
+									<div class="Advice-App">
+										<h4>상담신청</h4>
+										<div class="Advice-Con">
+											<p><img src="../images/company/customer_greeting.jpg" alt="상담신청 안내" /></p>
+											<table>
+												<tr>
+													<th>회사명</th>
+													<td><input type="text" /></td>
+													<th>성명</th>
+													<td><input type="text" /></td>
+												</tr>
+												<tr>
+													<th>연락처</th>
+													<td><input type="text" /></td>
+													<th>이메일</th>
+													<td><input type="text" /></td>
+												</tr>
+												<tr>
+													<th class="Advice-Text-Area">상담내용</th>
+													<td colspan="3"><textarea></textarea></td>
+													
+												</tr>
+											</table>
+											<div class="Agree">
+												<h5>개인정보 취급방침</h5>
+												<div class="Agree-Con">
+													1234567880	
+												</div><!--e://Agree-Con-->
+												<p class="Agree-Check"><input type="checkbox" /> 이용약관에 동의합니다.</p>
+											</div><!--e://Agree-->
+											
+										</div><!--e://Advice-Con-->
+										<p class="Btn-Submit" ><a href="#"><img src="../images/company/btn_submit.gif" alt="견적 신청하기 버튼" /></a></p>
+									</div><!--e://Advice-App-->
+
+						</div><!--e://Price-Con-->
+
+					</div><!--e://Solution-Con-->
+					
+
+			<script>
+				$(document).ready(function(){
+					$('ul#Tab-Con').each(function(){
+						var $active, $content, $links = $(this).find('a');
+						$active = $($links.filter('[href="'+location.hash+'"]')[0] || $links[0]);
+						$active.addClass('active');
+
+						$content = $($active[0].hash);
+						$links.not($active).each(function () {
+							$(this.hash).hide();
+						});
+
+						$(this).on('click', 'a', function(e){
+
+							$active.removeClass('active');
+							$content.hide();
+							$active = $(this);
+							$content = $(this.hash);
+							$active.addClass('active');
+							$content.show();
+
+							e.preventDefault();
+						});
+					});
+				});
+			</script>
+
+
+				</div><!--e://Solution-->
+					
+			</div><!--e://contents-->
+		</div><!--e://Container-->
+		
+		<!--**********************************푸터 시작********************************** -->
+		<div id="Footer">
+			<div class="Footer-Menu">
+				<ul>
+					<li><a href="#" >개인정보처리 방침</a> </li>
+					<li class="F-line"><img src="../images/footer/line.gif" alt="line" /></li>
+					<li><a href="#" >개인정보취급 방침</a></li>
+				</ul>
+			</div><!--e://Footer-Menu-->
+			<div id="Footer-Con">
+				<p><img src="../images/footer/footer_logo.gif" alt="로고" /></p>
+				<ul>
+					<li>[150-836] 서울시 영등포구 문래동 3가 77-13 대소빌딩 7층 </li>
+					<li>사이트명 : 비교견적 l 사업자등록번호 : 201-81-69329 l 사업자명 : 소나무마을㈜</li>
+					<li>대표이사 : 민성빈 l 전화번호 : 080-777-5577 l FAX : 02-6455-4222</li>
+					<li>통신판매업 신고번호 : 제 2008-서울영등포-1065호</li>
+					<li>결제계좌정보 : 기업은행 089-078019-01-029 소나무마을㈜</li>
+
+				</ul>
+			</div><!--e://Footer-Con-->	
+		</div><!--e://Footer-->
+	</div><!--e://Wrapper-->
+  
+ </body>
+</html>

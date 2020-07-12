@@ -1,0 +1,370 @@
+<!doctype html>
+
+ <head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="../css/import.css" />
+  <link rel="stylesheet" type="text/css" href="../css/notice_view.css" />
+
+ 
+  <title>1분견적</title>
+  
+  
+  
+ </head>
+ <body>
+  
+
+<div id="Wrapper">
+
+	 <!-- 공통 Header 시작-->
+	<div id="Header">
+    	<div class="Util-Menu">
+        	<div class="Util-Menu-Con">
+       
+                
+                <ul class="Right_Menu">
+                   <li><a href="#">로그인</a></li>
+                    <li><a href="#">시작 페이지 설정</a></li>
+                    <li><a href="#">즐겨찾기 추가</a></li>
+                </ul><!--Right_Menu-->
+           </div><!--Util-Menu-con-->      
+        </div><!--Util-Menu-->
+        
+        
+        
+        
+        <!--****************플로팅 메뉴 시작!************-->
+        
+    
+        
+        <script src="../js/jquery-1.12.0.min.js"></script>
+
+       <script type="text/javascript">  
+       $(function() {
+			// Stick the #nav to the top of the window
+			var nav = $('.Floting-Menu');
+			var navHomeY = 0;
+			var isFixed = false;
+			var $w = $(window);
+			$w.scroll(function() {
+				var scrollTop = $w.scrollTop();
+				
+				var shouldBeFixed = scrollTop > navHomeY;
+				
+				if (shouldBeFixed && !isFixed) {
+					nav.css({
+						display: 'block',
+						position: 'fixed',
+						top: 0,
+						left: nav.offset().left
+						
+					});
+					
+					isFixed = true;
+				}
+				else if (!shouldBeFixed && isFixed)
+				{
+					
+					nav.css({
+						
+						display: 'none'
+						
+					});
+					isFixed = false;
+				}
+			});
+		});
+     </script>
+        
+        
+        
+        
+        
+          <div class="Floting-Menu">
+              <div class="Floting-Con">
+                  <h1><a href="#"><img src="../images/h1/logo.gif" alt="logo" /></a></h1>
+                  
+                    <div id="Floting_Gnb">
+                        <ul>
+                        
+                            <li class="Floting-b"><a href="#">산출내역</a></li>
+                            <li class="Floting-c"><a href="#">사용방법</a></li>
+                            <li class="Floting-d"><a href="#">금융계산기</a></li>
+                            <li class="Floting-e"><a href="#">회사소개</a></li>
+                        </ul>
+                    </div><!--Floting_Gnb-->
+          	</div><!--Floting_con-->
+          </div><!--Floting-Menu-->  
+        
+          
+          
+          <!--****************GNB 시작!************-->
+        
+    	
+        
+        
+        
+          <div class="Navi">
+              <div class="Navi-Con">
+                  <h1><a href="#"><img src="../images/h1/logo.gif" alt="logo" /></a></h1>
+                  
+                    <div id="Gnb">
+                        <ul>
+                           
+                            <li class="Gnb-b"><a href="#">산출내역</a></li>
+                            <li class="Gnb-c"><a href="#">사용방법</a></li>
+                            <li class="Gnb-d"><a href="#">금융계산기</a></li>
+                            <li class="Gnb-e"><a href="#">회사소개</a></li>
+                        </ul>
+                    </div><!--Gnb-->
+          	</div><!--Navi_con-->
+          </div><!--Navi-->  
+    </div><!--Header-->
+    
+    <!--산출페이지 contents 시작-->
+    
+    <div id="Container">
+    
+    	<div id="Contents">
+        	
+            <!-- 로그인창 및 lnb 메뉴 관련 -->
+        	
+            
+  		<!--<script src="../js/jquery.min.js"></script> -->
+            
+            
+            
+            <div id="Left-Con"> 
+            	<!--<div class="Login">
+                	<div class="Login_Box">
+                    	
+                    
+                    </div>
+                </div>-->
+                <div id="Navi">
+                <div id="Lnb-Product-Type">
+                	<h3><img src="../images/lnb/lnb_title_bar_a.gif" alt="보험종류별 상품보기" /></h3>	
+                    <ul>
+                    	<li class="Lnb-a"><a href="#" class="Lnb-a-Menu" >실손보험</a>
+                      	
+                          <ul class="Sub_Menu" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)메리츠 3대질병보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)KB닥터플러스건강보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)퍼펙트스타종합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)행복을 多주는 가족사랑통합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)건강명의수술비보험1601</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="Lnb-b"><a href="#" class="Lnb-b-Menu">암보험</a>
+                        	 <ul class="Sub_Menu" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)메리츠 3대질병보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)KB닥터플러스건강보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)퍼펙트스타종합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)행복을 多주는 가족사랑통합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)건강명의수술비보험1601</a></li>
+
+                            </ul>
+                        
+                        </li>
+                        <li class="Lnb-c"><a href="#" class="Lnb-c-Menu">건강보험</a>
+                        	<ul class="Sub_Menu" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)메리츠 3대질병보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)KB닥터플러스건강보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)퍼펙트스타종합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)행복을 多주는 가족사랑통합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)건강명의수술비보험1601</a></li>
+
+                            </ul>
+                        
+                        </li>
+                        <li class="Lnb-d"><a href="#" class="Lnb-d-Menu">자녀보험</a>
+                        	<ul class="Sub_Menu" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)메리츠 3대질병보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)KB닥터플러스건강보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)퍼펙트스타종합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)행복을 多주는 가족사랑통합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)건강명의수술비보험1601</a></li>
+
+                            </ul>
+                        
+                        </li>
+                        <li class="Lnb-e"><a href="#" class="Lnb-e-Menu">태아보험</a>
+                        	<ul class="Sub_Menu" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)메리츠 3대질병보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)KB닥터플러스건강보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)퍼펙트스타종합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)행복을 多주는 가족사랑통합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)건강명의수술비보험1601</a></li>
+
+                            </ul>
+                        
+                        </li>
+                       
+                    </ul>
+                </div><!--Lnb-Product-Type-->
+                
+                <div id="Lnb-Brand-Type">
+                	<h3><img src="../images/lnb/lnb_title_bar_b.gif" alt="보험사별 상품보기" /></h3>
+                    <ul>
+                    	<li class="Lnb-dy"><a href="#" class="Lnb-dy-Menu">메리츠화재</a>
+                        	<ul class="Sub_Menu2" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_baby.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 3대질병 보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_cancer.gif" alt="상품별 아이콘 출력" /></span>(무)내Mom같은 어린이보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_car.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 걱정없는 암보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 운전자보험 M-Drive</a></li>
+                             
+                            </ul>
+                        
+                        </li>
+                        <li class="Lnb-lg"><a href="#" class="Lnb-lg-Menu">K B 손 보</a>
+                        	<ul class="Sub_Menu2" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_baby.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 3대질병 보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_cancer.gif" alt="상품별 아이콘 출력" /></span>(무)내Mom같은 어린이보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_car.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 걱정없는 암보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 운전자보험 M-Drive</a></li>
+                             
+                            </ul>
+                        
+                        </li>
+                        <li class="Lnb-hd"><a href="#" class="Lnb-hd-Menu">현 대 해 상</a>
+                        	<ul class="Sub_Menu2" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_baby.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 3대질병 보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_cancer.gif" alt="상품별 아이콘 출력" /></span>(무)내Mom같은 어린이보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_car.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 걱정없는 암보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 운전자보험 M-Drive</a></li>
+                             
+                            </ul>
+                        </li>
+                        <li class="Lnb-sy"><a href="#" class="Lnb-sy-Menu">흥 국 화 재</a>
+                        	<ul class="Sub_Menu2"  style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_baby.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 3대질병 보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_cancer.gif" alt="상품별 아이콘 출력" /></span>(무)내Mom같은 어린이보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_car.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 걱정없는 암보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 운전자보험 M-Drive</a></li>
+                             
+                            </ul>
+                        </li>
+                        <li class="Lnb-gr"><a href="#" class="Lnb-gr-Menu">M G 손 보</a>
+                        	<ul class="Sub_Menu2" style="display:none;" >
+                          			 
+                           			<li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_baby.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 3대질병 보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_cancer.gif" alt="상품별 아이콘 출력" /></span>(무)내Mom같은 어린이보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_car.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 걱정없는 암보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 운전자보험 M-Drive</a></li>
+                             
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    
+   
+                    
+                    
+                    
+                </div><!--Lnb-Brand-Type-->
+                
+                 </div><!--Navi-->
+            </div><!--Left-Con-->
+            
+            
+  
+            
+	 		<!--<script src="../js/portamento.js"></script>		
+		<script>
+			$('#Navi').portamento({disableWorkaround: true}); // disable the workaround for not-quite-capable browsers e.g. iOS, IE<7	
+		</script>-->
+    
+            
+            
+            
+            
+            
+        	
+                <!-- 페이지 본문 시작 -->
+            
+            <div id="Right-Con">
+           		<div class="Notice-View">
+                	<div class="Notice-View-Con">
+                    	<h3>공지사항</h3>
+                      
+                        <div class="Norice-View">
+                        	<table>
+                            	<tr>
+                                	<th colspan="4" class="Tit" style="border-right:0;">공지사항 타이틀 출력됩니다.</th>
+                                </tr>
+                                <tr>
+                                	<th>글쓴이</th>
+                                    <td>홍길동</td>
+                                    <th style="border-left:1px solid #dcdee1;">등록일</th>
+                                    <td>2016.04.12</td>
+                                </tr>
+                                <tr>
+                                	<th>파일첨부1</th>
+                                    <td colspan="3"></td>
+                                </tr>
+                                <tr>
+                                	<td colspan="4" class="Min-Size">
+                                    	공지사항 콘텐츠 출력됩니다.
+                                    </td>
+                                </tr>
+                                <tr>
+                                	<th>이전글</th>
+                                    <td colspan="3">비갱신 가족배상책임 멸종위기</td>
+                                </tr>
+                                  <tr>
+                                	<th>다음글</th>
+                                    <td colspan="3">비갱신 가족배상책임 멸종위기</td>
+                                </tr>
+                            </table>
+                            
+                           <p class="Btn-Con"><a href="#"><img src="../images/notice/btn_list_view.gif" alt="목록보기" /></a></p>
+                            
+                        
+                        </div><!--Norice-View-->	
+                      
+                	 </div><!--notice-List-Con-->	
+                
+                </div> 	<!--notice-List-->	
+               
+            	
+			</div> <!--Right-Con-->
+            
+            
+            
+                      
+        </div><!--Contents-->
+    
+    </div><!--Container-->
+    
+    
+    <!--footer 페이지 하단 시작-->
+    
+    <div id="Footer">
+    </div><!--Footer-->
+	
+</div><!--Wrapper-->
+ 
+ 
+ </body>
+</html>

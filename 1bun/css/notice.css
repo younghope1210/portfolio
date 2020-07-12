@@ -1,0 +1,39 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+.notice-List{width:780px; height:auto; }
+
+.notice-List .notice-List-Con {width:770px; height:auto; margin:0 auto; }
+.notice-List .notice-List-Con  h3{font-size:20px; color:#000; margin-top:1px; font-weight:bold; }
+.notice-List .notice-List-Con p{width:100px; height:30px; float:left; margin-top:50px;}
+.notice-List .notice-List-Con .Search-Input{width:280px; height:30px; float:right; margin-top:50px;}
+.notice-List .notice-List-Con .Search-Input img{width:46px; height:25px; vertical-align:middle;}
+.notice-List .notice-List-Con .Search-Input select{width:100px; height:25px; border:1px solid #d5d5d5;}
+.notice-List .notice-List-Con .Search-Input input{width:120px; height:20px; border:1px solid #d5d5d5;}
+.Norice-Board{clear:both; }
+
+
+/* 공지사항 리스트 출력 */
+
+.Norice-Board{clear:both; width:770px; height:100%; margin:0 auto; padding-top:20px;}
+.Norice-Board table{width:770px; height:100%; margin:0 auto; border-top:2px solid #5e77a5;}
+.Norice-Board table th{height:40px; border-bottom:1px solid #999999;}
+.Norice-Board table th.wid_50{width:50px;}
+.Norice-Board table th.wid_400{width:400px;}
+.Norice-Board table td {height:30px; border-bottom:1px solid #dcdee1}
+.Norice-Board table td a:hover{color:#374b86; text-decoration:underline;}
+
+
+/*페이징 시작 */
+
+.Norice-Board .paging{width:750px; height:auto; margin:30px;}
+.Norice-Board .paging ul{text-align:center; width:750px;}
+.Norice-Board .paging ul li{display:inline; font-size:13px; font-weight:bold;  height:20px; }
+.Norice-Board .paging ul li.prev{width:13px; height:13px;  margin-right:10px; font-size:10px;}
+.Norice-Board .paging ul li.next{width:13px;  height:13px;  margin-left:10px; font-size:10px; }
+.Norice-Board .paging ul li img{width:13px; height:13px; vertical-align:middle;}
+.Norice-Board .paging ul li a:hover{color:#d23132;}
+
+

@@ -1,0 +1,285 @@
+
+
+.Visual{width:100%; height:407px; margin:0 auto; overflow:hidden;  position:relative; background:url(../images/micro/visual_back.jpg) no-repeat center top; }
+.Visual-Con{width:1200px; height:auto; margin:50px auto;}
+
+
+/*비교견적 안내*/
+
+
+.Explain-Con{width:1100px; height:320px; margin:0 auto;}
+
+.Explain-Con .Explain-A{width:437px; height:311px; background:url(../images/micro/section_a.png) no-repeat; float:left; margin-left:34px;}
+.Explain-Con .Explain-A table{width:402px; height:160px; margin-top:80px; color:#fff; margin-left:20px;}
+.Explain-Con .Explain-A table th.Col-167e76{width:111px; height:38px; background:#167e76; font-size:15px; font-weight:normal;}
+.Explain-Con .Explain-A table th.Col-383f69{width:111px; height:38px; background:#383f69; font-size:15px; font-weight:normal; border-bottom:1px solid #fff; }
+.Explain-Con .Explain-A table th.Col-383f69 span{font-size:12px;}
+.Explain-Con .Explain-A table th.Col-23a49a{width:96px; height:38px; background:#23a49a; font-size:15px; font-weight:normal; }
+
+.Explain-Con .Explain-A table td.Col-6f77ae{width:96px; height:38px; background:#6f77ae; font-size:15px; font-weight:normal; border-bottom:1px solid #fff;  border-right:1px solid #fff;}
+.Explain-Con .Explain-A table td.price{font-size:18px;}
+.Explain-Con .Explain-A ul{font-family:dotum; font-size:12px; color:#000; font-weight:bold; margin-top:8px; margin-left:20px; }
+.Explain-Con .Explain-A ul li{height:17px; }
+
+
+.Explain-Con .Explain-B{width:304px; height:286px; background:url(../images/micro/section_b.png) no-repeat; float:left; margin-top:25px; margin-left:10px;}
+.Explain-Con .Explain-B ul{width:285px; margin:0 auto; margin-top:80px; font-size:16px; color:#000;}
+.Explain-Con .Explain-B ul li{height:30px; letter-spacing:-0.5px; }
+.Explain-Con .Explain-B ul li span{display:inline-block; width:19px; height:19px; text-align:center; color:#fff; background:url(../images/micro/number_back_green.png) no-repeat; margin-right:5px;}
+.Explain-Con .Explain-B ul li em{display:block; margin-top:3px; padding-left:24px;}
+
+
+
+.Explain-Con .Explain-C{width:304px; height:286px; background:url(../images/micro/section_c.png) no-repeat; float:left; margin-top:25px; margin-left:10px;}
+.Explain-Con .Explain-C ul{width:285px; margin:0 auto; margin-top:80px; font-size:15.5px; color:#000;}
+.Explain-Con .Explain-C ul li{height:auto; margin-bottom:20px; letter-spacing:-0.5px; }
+
+
+.Explain-Con .Explain-C ul li span{display:inline-block; width:19px; height:19px; text-align:center; color:#fff; background:url(../images/micro/number_back_orange.png) no-repeat; margin-right:5px;}
+.Explain-Con .Explain-C ul li em{display:block; color:#ef4c07; margin-left:25px;}
+
+.none {display:none;}
+
+
+
+/*보험 비교견적 내기 시작 */
+
+#Comparison-Quotation{width:1200px; height:auto; margin:0 auto; background:#fbf9f9; }
+
+/*H3, H4 공통 */
+
+#Comparison-Quotation h3{height:40px; font-size:22px; color:#000;}
+#Comparison-Quotation h3 span{display:inline-block; width:25px; height:25px; margin-right:10px; background:url(../images/comparison_quotation/h3_number_back.png) no-repeat; text-align:center; color:#fff; font-weight:bold; }
+
+.Ins-Choice h4{background:#f85915; text-align:center; font-size:14px; font-weight:bold; color:#000; line-height:41px; font-family:dotum; position:relative;}
+.Ins-Choice h4 span{font-style:italic; color:#fff; font-family: 'Noto Sans KR', sans-serif; font-size:12px; margin-right:10px;}
+
+.Ins-Choice h4 em.Corner-A{position:absolute; width:10px; height:41px; top:0; left:0;}
+.Ins-Choice h4 em.Corner-B{position:absolute;  width:35px; height:41px; top:0; right:0; }
+
+/*보험상품 종류 선택 */
+
+
+.Ins-Choice{width:1150px; height:auto; margin:0 auto;  padding-top:30px;}
+
+/*보험종류 */
+
+.Ins-Choice .Ins-Type{width:294px; height:auto; float:left; margin-right:15px;}
+.Ins-Choice .Ins-Type h4{width:294px; height:41px; }
+.Ins-Choice .Ins-Type table{width:294px;  border:1px solid #ebebeb; background:#fff;}
+.Ins-Choice .Ins-Type table td{font-size:14px; font-weight:bold; font-family:dotum; color:#000; border-bottom:1px solid #ebebeb; }
+
+.Ins-Choice .Ins-Type table td .Category{text-align:left;}
+.Ins-Choice .Ins-Type table td .Category span{display:inline-block; width:20px; height:20px; background:url(../images/comparison_quotation/ins_type_back.png) no-repeat; color:#fff; text-align:center; vertical-align:middle; margin-right:20px; line-height:20px; }
+.Ins-Choice .Ins-Type table td.Radio-Wid{width:50px; height:30px; }
+.Ins-Choice .Ins-Type table td .Category:hover{display:block; width:242px;  height:30px; background:#ebeeee;  line-height:30px; }
+
+/*보험회사 및 보험 선택*/
+
+.Ins-Company{width:600px; height:auto;  float:left; margin-right:15px;  }
+.Ins-Company h4 em.explain{font-size:12px; font-weight:normal;}
+
+
+
+.Ins-Company table{width:600px;  border:1px solid #ebebeb;  background:#fff;font-family:dotum;font-weight:bold}
+.Ins-Company table td{border-bottom:1px solid #ebebeb;}
+.Ins-Company table td.Checkbox-Wid{width:50px; height:30px;}
+.Ins-Company table td.Brand-Info{font-size:12px; font-weight:bold; color:#000; font-family:dotum; text-align:left;}
+.Ins-Company table td.Brand-Info img{width:48px; height:16px; vertical-align:middle;  margin-right:10px;}
+.Ins-Company table td.Product-Name{width:250px;}
+.Ins-Company table td.Product-Name input{width:240px; height:25px;  line-height:30px; border:1px solid #e4e7e7; margin-left:10px}
+.Ins-Company table td.Btn-Main-Choice img{width:83px; height:22px;}
+
+
+
+/*보험료가격*/
+
+.Ins-Price{width:226px; height:auto; float:left;}
+
+.Ins-Price table{width:226px;  border:1px solid #ebebeb; font-family:dotum; color:#000;  background:#fff; }
+.Ins-Price table td{border-bottom:1px solid #ebebeb; font-size:12px; }
+.Ins-Price table td.Radio-Wid{width:50px; height:30px;}
+
+
+
+
+
+/*고객정보 입력*/
+
+.Customer-Info{clear:both;  width:1150px; height:auto; margin:0 auto; padding-top:20px;}
+.Customer-Info table{width:1150px; height:35px; margin:0 auto; border-top:1px solid #fb560f; border-bottom:1px solid #ebebeb; font-family:dotum; font-size:14px; color:#000; font-weight:bold; }
+.Customer-Info table th{width:145px; background:#ebeeee;}
+.Customer-Info table td{background:#fff; border-bottom:1px solid #ebebeb;}
+/*KYB*/
+/* .Customer-Info table td.Age{width:280px; }*/
+
+.Customer-Info table td input.Wid_180{width:170px; height:20px;  line-height:24px; border:1px solid #e4e7e7;}
+/*KYB*/
+.Customer-Info table td input.Wid_160{width:150px; height:20px; line-height:24px; border:1px solid #e4e7e7;}
+.Customer-Info table td input.Wid_40{width:40px; height:20px; line-height:24px; border:1px solid #e4e7e7;}
+.Customer-Info table td.Gender input{vertical-align:middle;}
+/*KYB*/
+.Customer-Info table td img{vertical-align:middle;margin-right:3px;}
+
+
+
+/*세부입력 사항*/
+
+.Customer-Info2{clear:both;  width:1150px; height:auto; margin:0 auto; padding-top:20px;}
+
+.Customer-Info2 table{width:1150px; height:35px; margin:0 auto; border-top:1px solid #fb560f;  border-bottom:1px solid #ebebeb; font-family:dotum; font-size:14px;    color:#000; font-weight:bold; }
+.Customer-Info2 table th{background:#ebeeee; height:35px;}
+.Customer-Info2 table th.Job{width:340px;}
+.Customer-Info2 table td.Job select{float:left; width:45%; margin-left:10px;}
+.Customer-Info2 table td.Job a{display:block; float:left; margin-left:5px; width:45%; height:25px; line-height:25px; font-size:12px; background:#3d4a56; color:#fff;}
+/*KYB*/
+.Customer-Info2 table td.Job img{display:inline-block; float:left; width:97px; height:25px; margin-left:10px; vertical-align:middle; cursor:pointer;}
+.Customer-Info2 table td{background:#fff; height:35px; border-right:1px solid #ebebeb;  }
+.Customer-Info2 table td select{width:210px; height:24px; border:1px solid #e4e7e7; vertical-align:middle;}
+
+
+
+
+
+
+/*비교견적 버튼 시작*/
+
+
+.Btn-Quotation{width:1100px; height:70px; margin:30px auto;}
+.Btn-Quotation ul{width:620px; height:51px; margin:0 auto;}
+.Btn-Quotation ul li{width:290px; height:51px; float:left; margin-left:10px;}
+.Btn-Quotation ul li span{display:none; text-indent:-9999px;}
+
+
+
+/*설계테이블 시작 */
+
+
+.Comparison-Quotation-Table{width:1150px; height:auto; margin:0 auto; }  
+
+.Comparison-Quotation-Table table{width:373px; height:auto; float:left; border:1px solid #dfdede; margin-right:10px; font-family:dotum;}
+
+
+.Comparison-Quotation-Table table.Main-Product .Brand-Name{height:44px;  line-height:36px; background:url(../images/comparison_quotation/table_brand_orange_back.gif) repeat-x; font-size:20px; color:#000; font-family: 'Noto Sans KR', sans-serif; }
+.Comparison-Quotation-Table table.Main-Product .Brand-Name img{width:80px; height:27px; margin-right:5px; vertical-align:middle;}
+.Comparison-Quotation-Table table.Main-Product .Ins-Total-Price{background:#fcf2eb; }
+
+/*KYB*/
+.Comparison-Quotation-Table table.Main-Product .Choice-Check{ background:#f66020;  color:#fff;}
+.Comparison-Quotation-Table table.Main-Product .Ins-Pro-Name{background:#ff6e0d; height:34px;  color:#fff;}
+.Comparison-Quotation-Table table.Main-Product .period,
+.Comparison-Quotation-Table table.Main-Product .Join-Price,
+.Comparison-Quotation-Table table.Main-Product .insurance{background:#e05433; height:34px;  color:#fff; border-right:1px solid #f45f3c;}
+.Comparison-Quotation-Table table.Main-Product .insurance{border-right:0;}
+
+/*KYB*/   /*text-align:left; padding-left:3px;;color:#f50707; */
+.Comparison-Quotation-Table table.Main-Product .Ins-Procuct-h5{height:24px; background:#f3e1d9; color:#444444; text-align:left; padding-left:3px;}
+.Comparison-Quotation-Table table.Main-Product .Ins-Contents{height:24px;  border-bottom:1px solid #dfdede; }
+.Comparison-Quotation-Table table.Main-Product .Ins-Contents input{width:50px; height:15px;  border:1px solid #dfdede;}
+.Comparison-Quotation-Table table.Main-Product .Ins-Contents td{border-right:1px solid #dfdede;}
+.Comparison-Quotation-Table table.Main-Product .Ins-Check-Input{height:23px; background:#fff;  border-bottom:1px solid #dfdede; border-right:1px solid #dfdede;}
+
+
+
+.Comparison-Quotation-Table table.Sub-Product .Brand-Name{height:44px;  line-height:36px; background:url(../images/comparison_quotation/table_brand_silver_back.gif) repeat-x; font-size:20px; color:#000; font-family: 'Noto Sans KR', sans-serif;} 
+.Comparison-Quotation-Table table.Sub-Product .Brand-Name img{width:80px; height:27px; margin-right:5px; vertical-align:middle;}
+.Comparison-Quotation-Table table.Sub-Product .Ins-Total-Price{background:#f0eeed;}
+
+.Comparison-Quotation-Table table.Sub-Product .Choice-Check{ background:#95a0a5;  color:#fff;}
+.Comparison-Quotation-Table table.Sub-Product .Ins-Pro-Name{background:#9da3a7; height:34px;  color:#fff;}
+.Comparison-Quotation-Table table.Sub-Product .period,
+.Comparison-Quotation-Table table.Sub-Product .Join-Price,
+.Comparison-Quotation-Table table.Sub-Product .insurance{background:#849198; height:34px;  color:#fff; border-right:1px solid #fff;}
+.Comparison-Quotation-Table table.Sub-Product .insurance{border-right:0;}
+
+/*KYB*/   /*text-align:left; padding-left:3px;;color:#f50707; */
+.Comparison-Quotation-Table table.Sub-Product .Ins-Procuct-h5{height:24px; background:#eff1f6; color:#444444; text-align:left; padding-left:3px;}
+.Comparison-Quotation-Table table.Sub-Product .Ins-Contents{height:24px;  border-bottom:1px solid #dfdede; }
+.Comparison-Quotation-Table table.Sub-Product .Ins-Contents input{width:50px; height:15px;  border:1px solid #dfdede; }
+.Comparison-Quotation-Table table.Sub-Product .Ins-Contents td{border-right:1px solid #dfdede;}
+.Comparison-Quotation-Table table.Sub-Product .Ins-Check-Input{height:23px; background:#fff;  border-bottom:1px solid #dfdede; border-right:1px solid #dfdede;}
+
+
+
+
+.Comparison-Quotation-Table table .Ins-Total-Price{height:45px; font-size:14px; font-family:dotum; color:#000; }
+.Comparison-Quotation-Table table .Ins-Total-Price span{display:inline-block; text-align:right; }
+.Comparison-Quotation-Table table .Ins-Total-Price em{color:#f60808;}
+
+.Comparison-Quotation-Table table .Ins-Total-Price img{width:104px; height:26px; margin:0 30px;  vertical-align:middle;}
+
+
+
+
+/* 설계보관하기 및 출력하기 버튼 */
+
+
+
+.Btn-Util{clear:both; width:1100px; height:150px; margin:0 auto;}
+.Btn-Util ul{width:620px; height:51px; margin:0 auto; padding-top:50px;}
+.Btn-Util ul li{width:290px; height:51px; float:left; margin-left:10px;}
+.Btn-Util ul li span{display:block; text-indent:-9999px;}
+
+
+
+/* 직업검색 팝업 시작 */
+#Job-Search-Wrapper{width:563px; height:701px; margin:0 auto; background:url(../images/job_search/back_img.jpg) no-repeat; font-family:dotum; }
+#Job-Search-Wrapper .Job-Search-Container{width: 544px; height:600px; margin:0 auto; }
+#Job-Search-Wrapper .Job-Search-Container h2{width:242px; height:57px; margin:0 auto; padding-top:20px;}
+#Job-Search-Wrapper .Job-Search-Container .Job-Search-Contents{width:544px; height:595px; background:#fff; margin-top:15px;} 
+
+
+.Job-Search-Container .Job-Search-Contents .Job-Search{width:500px; height:auto; margin:10px auto; padding-top:20px;  }
+.Job-Search-Container .Job-Search-Contents .Job-Search table th{width:110px; background:url(../images/job_search/bullet_square_orange.gif) 5px 12px no-repeat; text-indent:20px; font-size:14px; color:#000; text-align:left; }
+.Job-Search-Container .Job-Search-Contents .Job-Search table td input{width:270px; height:30px; border:1px solid #cccccc; margin-left:10px; text-align:left; }
+.Job-Search-Container .Job-Search-Contents .Job-Search table td img{width:85px; height:30px; vertical-align:middle; margin-left:10px;}
+.Job-Search-Contents .Job-Search .Advice{width:490px; height:83px; margin:30px auto; background:#f7f7f7; border-radius:10px;}
+.Job-Search-Contents .Job-Search .Advice p{height:20px; color:#ff0000; text-align:center; padding-top:10px;}
+.Job-Search-Contents .Job-Search .Advice ul{height:30px; color:#000; text-align:center; padding-top:10px;}
+.Job-Search-Contents .Job-Search .Advice ul li{padding-bottom:5px;}
+
+
+
+.Often-Search-Job{width:500px; height:auto; margin:0 auto;}
+.Often-Search-Job h3{background:url(../images/job_search/bullet_square_orange.gif) 5px 3px no-repeat; text-indent:20px;  font-size:14px; font-weight:bold; color:#000; }
+.Often-Search-Job ul{margin-top:10px;}
+.Often-Search-Job ul li {width:164px; height:39px; border:1px solid #dddada; float:left; text-align:center; line-height:39px;}
+.Often-Search-Job ul li a{display:block; color:#666666; text-decoration:none; font-weight:bold; background:#fff;}
+.Often-Search-Job ul li a:hover{background:#fe6e0d; color:#fff;}
+
+
+.Often-Search-result{clear:both; width:500px; height:auto; margin:0 auto; padding-top:30px;}
+.Often-Search-result h3{background:url(../images/job_search/bullet_square_orange.gif) 5px 3px no-repeat; text-indent:20px; font-size:14px; font-weight:bold; color:#000;}
+.Often-Search-result h3 span{display:inline-block; color:#ff0000; text-indent:0;}
+.Often-Search-result h3 em{display:inline-block; font-style:normal; text-indent:0; color:#fe6e0d; padding:0 10px;}
+
+.Often-Search-result ul{500px; height:120px; margin-top:10px; overflow:auto; border:2px solid #dddddd;}
+.Often-Search-result ul li {height:15px; margin:8px;}
+.Often-Search-result ul li a{display:block; text-decoration:none; color:#000;}
+.Often-Search-result ul li a:hover{color:#f43a0e;}
+
+
+
+/*구매상담 신청란 시작 */
+
+
+.Advice-App{width:100%; height:224px; background:url(../images/micro/advice_back.jpg) no-repeat; border-top:1px solid #cccccc;}
+.Advice-App .Advice-App-Contents{width:1200px; height:auto; background:url(../images/micro/advice_app_back.png) no-repeat; margin:0 auto;  overflow:hidden;}
+
+.Advice-App-Contents .Customer-Number{width:301px; height:224px; float:left;}
+.Advice-App-Contents .Adivce-App-Con{width:890px; height:224px; float:left; font-family:dotum; }
+
+
+.Advice-App-Contents ul{width:285px; height:157px; border-right:1px solid #ced1e1; float:left; margin-left:20px; margin-top:36px;} 
+.Advice-App-Contents ul li{height:40px; font-weight:bold; font-size:14px;}
+.Advice-App-Contents ul li input{width:195px; height:30px;  border:1px solid #ced1e1;}
+.Advice-App-Contents ul li span{display:inline-block; width:70px; background:url(../images/micro/bullet_orange.gif) 0 3px no-repeat; text-indent:10px;}
+
+.Advice-App-Contents .Advice{width:408px; height:165px;  float:left; margin-top:35px; margin-left:15px;}
+.Advice-App-Contents .Advice h5{ background:url(../images/micro/bullet_orange.gif) 0 2px no-repeat; text-indent:10px; font-weight:bold;}
+
+.Advice-App-Contents .Advice textarea{width:405px; height:115px; border:1px solid #ced1e1; margin-top:5px;}
+.Advice-App-Contents .Advice .Agree-Check{margin-top:5px;} 
+.Advice-App-Contents .Advice .Agree-Check img{width:71px; height:21px; vertical-align:middle;}
+.Advice-App-Contents .Btn-Submit{width:149px; height:118px; float:left; margin-top:52px; padding-left:10px;}
+ 

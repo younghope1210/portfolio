@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>무제 문서</title>
+</head>
+
+<body>
+<style>
+#menu{width:900px;margin:0 auto;}
+#menu ul{margin:0;padding:0;}
+#menu li{float:left;margin:10px;}
+#menu .item-115, #menu .item-116, #menu .item-117{float:right;}
+</style>
+
+<div id="menu">
+    <ul class="menu">
+        <li class="item-101"><a href="/">Home</a></li>
+        <li class="item-113"><a href="/sobre">Sobre</a></li>
+        <li class="item-114"><a href="/portfolio">Portfolio</a></li>
+        <li class="item-115"><a href="/bastidores">Bastidores</a></li>
+        <li class="item-116"><a href="/blog">Blog</a></li>
+        <li class="item-117"><a href="/contato">Contato</a></li>
+    </ul>
+</div>
+    
+    <script src="../js/jquery-1.12.0.min.js"></script>  
+ <script>
+ $($('#menu li').slice(-3).get().reverse())
+    .addClass('right').remove().appendTo('#menu .menu');​
+ 
+ </script>                       
+
+
+</body>
+</html>

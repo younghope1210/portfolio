@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <!--<meta name="viewport" content="width=device-width, initial-scale=1, width=device-width, initial-scale=1.5s, maximum-scale=1.5s, user-scalable=no">-->
+   <title>테크놀로지</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/import.css" />
+	<link rel="stylesheet" type="text/css" href="../css/header.css" />
+	<link rel="stylesheet" type="text/css" href="../css/footer.css" />
+
+	<link rel="stylesheet" type="text/css" href="../css/company_introduce.css" />
+	<link rel="stylesheet" type="text/css" href="../css/animate.css" />
+	<link rel="stylesheet" type="text/css" href="../css/animate.min.css">
+ </head>
+ <body>
+  
+	
+	<div id="Wrapper">
+		
+		<div class="Sub-Top-Back" >
+			<img src="../images/company/top_skin.jpg" alt="탑스킨" />	
+			
+		</div><!--e://Sub-Top-Back-->
+	
+		<!--*************헤더시작************* -->
+		<div id="Wrap-Contents">
+			<div id="Header">
+				<div id="Header-Con">
+						
+						<h1><a href="index.html"><img src="../images/header/logo.png" alt="스마트포트테크놀로지"  /></a></h1>
+						<div id="Gnb">
+							<ul>
+								<li class="Category"><a href="#">회사소개</a>
+									<ul>
+										<li><a href="company_introduce.html">회사소개</a></li>
+										<li><a href="company_vision.html">비전</a></li>
+										<li><a href="company_ci.html">CI</a></li>
+									</ul>
+								</li>
+								<li class="Category"><a href="#">사업영역</a>
+									<ul>
+										<li><a href="si.html">SI</a></li>
+										<li><a href="si_consultion.html">컨설팅</a></li>
+										<li><a href="si_outsourcing.html">아웃소싱</a></li>
+									</ul>
+								</li>  
+								</li>  
+								<li class="Category"><a href="#">솔루션</a>
+									<ul>
+										<li><a href="#">FIS</a></li>
+										<li><a href="#">HMCS</a></li>
+										<li><a href="#">MES</a></li>
+										<li><a href="#">ADS-B</a></li>
+									</ul>
+								</li>
+								<li class="Category"><a href="#">진행프로젝트</a>
+									<ul>
+										<li><a href="#">진행프로젝트 리스트</a></li>
+									</ul>
+								</li>
+								<li class="Category"><a href="#">채용안내</a>
+									<ul>
+										<li><a href="#">스마트포트 인재상</a></li>
+										<li><a href="#">채용공고</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>	<!--e://Gnb-->
+				</div><!--e://Header-Con-->
+			</div><!--e://Header-->
+
+
+
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+				<script type="text/javascript">
+					$(document).ready(function() {	
+						$('#Gnb ul li').hover(function() {
+							$('ul', this).slideDown(70);
+							$(this).children('a:first').addClass("hov");
+						}, function() {
+							$('ul', this).slideUp(100);
+							$(this).children('a:first').removeClass("hov");		
+						});
+					});
+				</script>
+
+
+			
+			<!--*************콘텐츠시작************* -->
+			<div id="Container">
+				<div id="Sub-Contents">
+					<!--회사소개 페이지 시작-->
+					<div id="Company">
+					<!--*************페이징시작************* -->
+						<h2>회사소개<span>Company Introduce</span></h2>
+						<div id="Sub-Menu">
+							<ul>
+								<li style="border-left:1px solid #69718a;"><a href="company_introduce.html">회사소개</a></li>
+								<li><a href="company_vision.html">비전</a></li>
+								<li><a href="company_ci.html">CI</a></li>
+							</ul>
+						</div><!--e://Sub-Menu--> 
+						
+						<div id="Company-Contents">
+							<div class="Paging">
+									<ul>
+										<li><a href="#"><img src="../images/common/icon_home.gif" alt="홈으로 가기 버튼" /></a></li>
+										<li class="Paging-Bullet"><img src="../images/common/bullet_triangle.gif" alt="bullet" /></li>
+										<li><a href="#">회사소개</a></li>
+										<li class="Paging-Bullet"><img src="../images/common/bullet_triangle.gif" alt="bullet" /></li>
+										<li class="Here"><a href="#">CI</a></li>
+									</ul>
+
+								</div><!--e://Paging-->	
+						<!--회사소개 / 회사소개 시작 -->	
+							<div id="Company-Introduce">
+								
+								<div class="Company-Introduce-A">
+									<p class="block animate" data-animate="fadeInUp" data-duration="0.5s" data-delay="0.5s"><img src="../images/company/inrtoduce_b.jpg" alt="CI안내" /></p>
+								</div><!--e://Company-Introduce-A--> 
+							</div><!--e://Company-Introduce--> 
+				
+						</div><!--e://Company-Contents--> 
+					</div>	<!--e://Company--> 	
+				</div><!--e://Sub-Contents--> 
+			</div><!--e://container--> 
+
+
+			
+			<!--*************푸터시작************* -->
+			<div id="Footer">
+				<div class="Footer-Con">
+					<p class="F-Logo"><img src="../images/footer/f_logo.gif" alt="스마트포트로고" /></p>
+					<address>서울시 강서구 공항로 </address>
+					<p class="Copyright">Copyright Technology Corp. All right reserved</p>
+				</div><!--e://Footer-Con-->
+			</div><!--e://Footer-->
+
+		</div><!--e://Wrapper-Contents-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/scrolla.jquery.min.js"></script>
+	
+		<script>
+
+		$('.animate').scrolla({
+			mobile: false,
+			once: false
+		});
+
+		$('#button-show-window').click(function() {
+			var template = $('#modal-template').html();
+			$('body').append(template);
+			$('.animate').scrolla('bind');
+			$('section.modal .modal-close').click(function() {
+				$(this).closest('section.modal').remove();
+			});
+
+			return false;
+		});
+
+	</script>
+	</div><!--e://Wrapper-->
+
+
+ </body>
+</html>
+
+
+

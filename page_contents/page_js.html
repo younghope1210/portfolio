@@ -1,0 +1,175 @@
+<HTML>
+<HEAD>
+	<TITLE>BLUE-B</TITLE>
+<style type="text/css">
+	.img  {position:absolute; border:gray solid 1px; cursor:pointer; width:100%; height:100%; }
+	.span {position:absolute; color:#ccc; font-family:verdana; font-size: 12px; width:200px;}
+</style>
+<script type="text/javascript">
+<!--
+
+window.onerror         = new Function("return true");
+document.onselectstart = new Function("return false");
+screen.bufferDepth     = 16;
+O   = new Array();
+box = 0;
+img = 0;
+txt = 0;
+tit = 0;
+W   = 0;
+H   = 0;
+nI  = 0;
+sel = 0;
+si  = 0;
+//////////////////
+ZOOM  = 7;
+rImg  = 1.33;
+speed = .3;
+//////////////////
+
+function dText(){
+	txt.style.textAlign = tit.style.textAlign = (sel<nI/2)?"left":"right";
+	txt.innerHTML = O[sel].tx;
+	tit.innerHTML = O[sel].ti;
+}
+
+function CObj(n, s, x, tx, ti){
+	this.n    = n;
+	this.dim  = s;
+	this.tx   = tx;
+	this.ti   = ti;
+	this.is   = img[n].style;
+	this.vz   = 0;
+	this.sx   = 0;
+	this.x0   = x;
+	this.x1   = 0;
+	this.zo   = 0;
+	this.clic = function() {
+		with(this){
+			if(n!=sel){
+				O[sel].is.cursor = "pointer";
+				O[n].is.cursor = "default";
+				O[sel].dim = 100;
+				O[n].dim = ZOOM * 100;
+				sel = n;
+				l = 0;
+				for(k=0; k<nI; k++){
+					O[k].x0 = l;
+					l += O[k].dim;
+				}
+				txt.innerHTML = tit.innerHTML = "";
+				setTimeout("dText()", 32);
+			} else {
+				// not implemented
+			}
+		}
+	}
+	this.anim = function () {
+		with(this){
+			vz  = speed*(vz+(x1-sx)*.5);
+			x1 -= vz;
+			sx  = (n==0)?0:O[n-1].x0+O[n-1].dim;
+			zo -= (zo-dim)*speed;
+			l   = Math.round((x1*si)+6*(n+1));
+			w   = Math.round(zo*si);
+			is.left   = l;
+			is.top    = (H-w*rImg)*.5;
+			is.width  = w;
+			is.height = w*rImg;
+			if(sel == n){
+				if(sel<nI*.5)tit.style.left = txt.style.left = l+w+6;
+				else tit.style.left = txt.style.left = l-(nx*.25)-6;
+				txt.style.top = -(w*rImg)*.25;
+				tit.style.top =  (w*rImg)*.33;
+			}
+		}
+	}
+}
+
+function run(){
+	for(j in O)O[j].anim();
+	setTimeout("run()", 16);
+}
+
+function doResize(){
+	tit.style.width = nx*.25;
+	txt.style.width = nx*.25;
+	tit.style.fontSize = (nx / 30) + "px";
+	txt.style.fontSize = (nx / 70) + "px";
+	with(box.style){
+		width  = W;
+		height = H;
+		left   = nx / 2 - W / 2;
+		top    = ny / 2 - H / 2;
+	}
+}
+
+function resize(){
+	nx = document.body.offsetWidth;
+	ny = document.body.offsetHeight;
+	W  =  nx * 90 / 100;
+	si = (W-((nI+1)*6))/((ZOOM*100)+((nI-1)*100));
+	H  = (100 * si * rImg) + 14;
+	setTimeout("doResize()", 16);
+}
+onresize = resize;
+
+onload = function(){
+	box = document.getElementById("box");
+	tit = document.getElementById("tit");
+	txt = document.getElementById("txt");
+	img = box.getElementsByTagName("img");
+	nI  = img.length;
+	resize();
+	s = ZOOM * 100;
+	x = 0;
+	tit.innerHTML = img[0].title;
+	txt.innerHTML = img[0].alt;
+	for(i=0; i<nI; i++) {
+		O[i] = new CObj(i, s, x, img[i].alt, img[i].title);
+		img[i].alt = "";
+		img[i].title = "";
+		img[i].onmousedown = new Function("return false;");
+		x += s;
+		s = 100;
+	}
+	O[0].is.cursor = "default";
+	setTimeout("box.style.visibility='visible';",100);
+	run();
+}
+//-->
+</script>
+</head>
+<body>
+
+<div id=box style="position:absolute; border:gray solid 1px;visibility:hidden;">
+	<img class=img onclick="O[0].clic();" src="03_event copy.jpg" width="734px" height="4441px" title="explain" alt="They explained a little about what they were doing.">
+	<img class=img onclick="O[1].clic();" src="http://www.blueb.co.kr/SRC/javascript/image3/majesty.jpg" title="strain" alt="I hoped I wouldn&acute;t crack under the strain.">
+	<img class=img onclick="O[2].clic();" src="http://www.blueb.co.kr/SRC/javascript/image/img02.jpg" title="retain" alt="Clearly they were ready to do almost anything to retain their position.">
+	<img class=img onclick="O[3].clic();" src="http://www.blueb.co.kr/SRC/javascript/image3/gazebo2k3.jpg" title="mundane" alt="I observed the face of power at its most mundane.">
+	<img class=img onclick="O[4].clic();" src="http://www.blueb.co.kr/SRC/javascript/image3/pyre.jpg" title="inhumane" alt="But they couldn&acute;t hide the very worst of their inhumane undertakings from the people.">
+	<img class=img onclick="O[5].clic();" src="http://www.blueb.co.kr/SRC/javascript/image3/singularity.jpg" title="disdain" alt="They showed their utter, complete disdain for justice.">
+	<img class=img onclick="O[6].clic();" src="http://www.blueb.co.kr/SRC/javascript/image3/spellcraft.jpg" title="never again" alt="Never more. Never again.">
+	<span class=span id=txt></span>
+	<span class=span id=tit></span>
+</div>
+
+<span class=span id=LB0 style="position:absolute;left:50%;top:50%;"><span style="position:absolute;font-family:arial;font-size:10px;color:#000000;left:-50;top:-18">Loading...</span>
+<span class=span  style="position:absolute;left:-50;top:-5;font-size:1px;width:100;height:10px;background:#333">
+<span id=LB1 style="position:absolute;left:0;top:0;font-size:1px;width:0;height:10px;background:#ff0000"></span></span></span>
+<script>
+m00=document.getElementById("box").getElementsByTagName("img");
+m01=m00.length;
+function images_loading_bar(){
+	m02=0;
+	for(i=0;i<m01;i++)m02+=(m00[i].complete)?1:0;
+		document.getElementById("LB1").style.width=Math.round(m02/m01*100);
+	if(m02==m01)setTimeout("document.getElementById('LB0').style.display='none'",128);
+	else
+		setTimeout("images_loading_bar()", 20);
+	};
+images_loading_bar();
+</script>
+
+</body>
+</html>

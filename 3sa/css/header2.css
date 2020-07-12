@@ -1,0 +1,9 @@
+/*로고및 GNB 시작*/
+
+#Header{background:#fff;}
+.Header-Con{width:1200px; height:112px; margin:0 auto; background:#fff;}
+
+.Header-Con h1{width:158px; height:69px; float:left; margin-top:30px; margin-left:10px;}
+.Header-Con p.Slogan{width:513px; height:82px;  float:left; margin-left:130px; margin-top:18px;}
+.Header-Con p.Customer-Number{width:292px; height:52px; float:left;  margin-top:35px; margin-left:60px; }
+

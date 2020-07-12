@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>ゾイス</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+	<script src="js/3.2.1_jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {
+			if (this.hash !== "") {
+			  event.preventDefault();
+			  var hash = this.hash;
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+				window.location.hash = hash;
+			  });
+			} 
+		  });
+		});
+	</script>
+ </head>
+ <body>
+  
+	
+	<div id="Wrapper">
+	<!--*************헤더시작************-->
+		<div id="Header">
+			<div id="Header-Con">
+			<h1><a href="#Visual"><img src="images/logo.png" alt="logo"  /></a></h1>
+				<div id="Gnb">
+					<ul>
+						<li><a href="#Section-About">会社紹介</a></li>
+						<li><a href="#Section-Company-Info">会社情報</a></li>
+						<li><a href="#Section-Company-Info">組織図　</a></li>
+						<li><a href="#Section-Business-Info">事業内容　</a></li>
+						<li><a href="#Section-Core-value">経営理念</a></li>
+						<li><a href="#Section-Mission">主な戦略</a></li>
+						<li><a href="#Section-Contact-Us">地図</a></li>
+					</ul>
+				</div><!--e://Gnb-->
+			</div>	<!--e://Header-Con-->
+		
+		</div>	<!--e://Header-->
+		
+   <!--***********콘텐츠시작**************-->
+
+		<div id="Container">
+
+			<div id="Contents">
+
+				<div id="Visual">
+					<div class="Visual-Con">
+						<div class="Slogan-Con">
+							<div class="Slogan-Contents">
+								<h2>
+									<img src="images/slogan.png" alt="Zois IT 技術力!" width="100%" />
+								</h2>
+								<p class="Slogan-Text">ITビジネス価値の極大化のためのITマスタとしてソリュションもとに <span>最高のIT技術力で顧客と弊社の発展に寄与します。</span></p>
+							</div><!--e://Slogan-Contents-->
+
+							<p class="Visual-Obj"><img src="images/visual_ob.png" alt="jois info Object" width="100%" /></p>
+						</div><!--e://Slogan-Con-->
+						
+					</div><!--e://Visual-Con-->
+				</div><!--e://Visual-->
+				<div id="Section">
+					 <!-- ************** 회사소개 시작 **************  -->
+					 <div id="Section-About">	
+						<div class="Section-About-Con">
+							<h3 CLASS="Title-A"> 会社情報 <span>ABOUT</span></h3>
+							
+							<div class="About-Con">
+								<p class="Thumbnail-About"><img src="images/thumb_about.jpg" alt="Thumbnail" /></p>
+								<div class="About-Contents">
+									<p>ケヤキとオリーブの略字として、オリーブの平和と友愛の象徴、またケヤキの
+										<span>樹姿は堂々とし真っ直ぐで四方八方に伸びることから、ゾイスがグローバル</span>
+										<span>時代に絶えず発展していく願いを込めました。</span>
+									</p>
+
+									<p>ゾイスは高い技術力とお客様のニーズに貢献して参ります。</p>
+
+									<p>また弊社の強みである技術力に磨きをかけると共に、お客様との信頼関係を築き、
+										<span>更なる経営理念を基にIT業界で成長をしていきます。</span>
+									</p>
+
+									<p>ありがとうございます。</p>
+
+								</div>	<!--e://About-Contents-->
+							</div><!--e://About-Con-->
+						</div><!--e://Section-About-con-->
+							
+					 </div><!--e://Section-About-->
+
+					  <!-- ************** 회사소개 끝 **************  -->
+
+
+					<!-- ************** 회사정보 및 조직도 시작 **************  -->
+					 <div id="Section-Company-Info">	
+
+
+								<div class="Section-Company-Info-Contents">
+										<div class="Company-Info">
+											<h3 CLASS="Title-B"> 会社情報 <span>COMPANY INFO</span></h3>
+											<table>
+												<tr>
+													<th>会社名</th>
+													<td>日本ゾイス株式会社(ZOIS JAPAN Inc.)</td>
+												</tr>
+												<tr>
+													<th>設立日</th>
+													<td>平成２９年９月４日</td>
+												</tr>
+												<tr>
+													<th>資本金</th>
+													<td>１、０００万円</td>
+												</tr>
+												<tr>
+													<th>住所</th>
+													<td>
+														<em>〒103-0013　東京都中央区日本橋</em>
+														<em>人形町3丁目3番5号 天洲 日本橋人形町ビル804号</em>
+													</td>
+												</tr>
+												<tr>
+													<th>韓国 住所</th>
+													<td>
+														<em>ソウル永登浦区唐山路 159 フィセン　ビル2階</em>
+													
+													</td>
+												</tr>
+												<tr>
+													<th>代表取締役 </th>
+													<td>申　鉉錫</td>
+												</tr>
+												
+											</table>
+											
+											<P><img src="images/info_ob.png" alt="OBJ" /></P>
+										</div><!--e://Company-Info-->
+
+										<div class="Organization-Chart">
+											<h3 CLASS="Title-A"> 組織図 <span>ORGANIZATION CHART</span></h3>
+											
+											<P><img src="images/Organization_chart_obj.png" alt="OBJ" /></P>
+										</div><!--e://Organization-Chart-->
+
+
+							 </div><!--e://Section-Company-Info-Contents-->
+								
+			
+					   </div><!--e://Section-Company-Info-->
+								
+								
+								<div id="Section-Business-Info">	
+									<div class="Section-Business-Info-Con">
+										<h3 CLASS="Title-B"> 事業内容 <span>BUSINESS INFORMATION</span></h3>
+											<div class="Info-Bnr-Con">
+												<div class="Info-Bnr-Con-A Info-Bnr">
+													<dl>
+														<dt><img src="images/thumb_si.jpg" alt="Thumbnail" /></dt>
+														<dd class="Title">SI事業</dd>
+														<dd class="Business-Contents">
+															<span>システム設計</span>
+															<span>最適のハードウェア 選定と発注・調達</span>
+															<span>応用ソフトウェアの開発</span>
+															<span>システム維持・保守</span>
+														<dd>
+
+													</dl>
+
+
+													<div class="Mask">
+														<p>SIサービスはシステム設計、最適のハードウェア 選定と発注・調達、
+															<span>使用者の必要に合わせた 応用ソフトウェアの開発、</span>
+															<span>システム維持・保守などを統合的サービスする 事業とともに</span>
+															<span>貴社の経営革新と利益が極大化になるためにお客様の</span>
+															<span>ビジネス及び業務プロセスの理解を元に業務</span>
+
+															<span>システムの分析・設計から構築、 維持・保守まで　弊社の</span>
+															<span>専門支援能力とともに優秀な品質及び差別化になった</span>
+															<span>専門SIサービスを提供しています。</span>
+															
+														</p>
+													</div><!--e://Mask-->	
+												</div><!--e://Info-Bnr-Con-a-->	
+
+												<div class="Info-Bnr-Con-B Info-Bnr">
+													<dl>
+														<dt><img src="images/thumb_outsourcing.jpg" alt="Thumbnail" /></dt>
+														<dd class="Title">ITアウトソーシング</dd>
+														<dd class="Business-Contents">
+														
+															<span>企業内ITと関連</span>
+															<span> 組織の機能及び活動</span>
+															<span>専門化されたコンサルティング</span>
+															<span>最適化になったサービスを提供</span>
+														<dd>
+													</dl>
+													<div class="Mask">
+														<p>ウェブ・モバイルシステム開発
+															<span>スマートフォンの導入で急速に</span>
+															<span>普及したモバイルの市場はパソコンが</span>
+															<span>なくでもいつでもどこでも</span>
+															<span>必要なウェブサイト</span>
+
+															<span>普及になっていくモバイルサイトの</span>
+															<span>他社より最先端の技術を基にして</span>
+															<span>研究・開発とともにお客様に</span>
+															<span>もっとも進化したビジネス環境を</span>
+															<span>提供しています。</span>
+														</p>
+													</div><!--e://Mask-->	
+												</div><!--e://Info-Bnr-Con-b-->	
+
+												<div class="Info-Bnr-Con-C Info-Bnr">
+													<dl>
+														<dt><a href="#"><img src="images/thumb_web_mobile.jpg" alt="Thumbnail" /></a></dt>
+														<dd class="Title">ウェブ・モバイルシステム開発</dd>
+														<dd class="Business-Contents">
+															<span>スマートフォン</span>
+															<span> 必要なウェブサイトにアクセス</span>
+															<span>最先端の技術・ 研究・開発</span>
+															<span>進化したビジネス環境を提供</span>
+														
+														<dd>
+													</dl>
+
+
+
+
+													<div class="Mask">
+														<p>ITアウトソーシングは、
+															<span>企業内ITと関連された組織の機能及び活動の</span>
+															<span>全部又は一部を第3者に移転させることをいい、</span>
+															<span>これを通じてコストの低減及び管理の</span>
+															<span>効率を達成できることを意味します</span>
+
+															<span>弊社は専門化されたコンサルティング及び技術、</span>
+															<span>運営人材と安定的かつ効率的な</span>
+															<span>システム及びネットワークサービスを基にして</span>
+															<span>お客様の求める多様な形態の最適化になったサービスを提供します。</span>
+															
+														</p>
+													</div><!--e://Mask-->	
+												</div><!--e://Info-Bnr-Con-c-->	
+										
+
+
+											
+											</div><!--e://Info-Bnr-Con-->	
+																		
+									</div><!--e://Section-Business-Info-Con-->							
+
+								</div><!--e://Section-Business-Info-->	
+								
+
+
+								<div id="Section-Core-value">
+									<div id="Section-Core-value-Con">
+										<h3 class="Title-A"> 経営理念 <span>CORE VALUE</span></h3>
+											<p class="Core-value-Txt">日本ゾイス株式会社は ITビジネス価値の極大化のためにITマスタとして最高のIT技術力で顧客と弊社の発展に寄与します。
+											<span>Zest Originality Innovation Service のコア・バリューに基づき、有用な価値を提供します。</span>
+											</p>
+										<div class="Core-value-Con">
+											<p class="Core-value-Obj"><img src="images/zois_obj.png" alt="" width="100%" /></p>
+											<ul>
+												<li>挑戦を怖がらないで <span>愛情を持ち、熱する心</span></li>
+												<li>独創的な考え方と専門知識に基づい<span>て特化された技術力の発展を目指す</span></li>
+												<li>世間の変化に積極的に対応し<span>て新たな価値を求める</span></li>
+												<li>特化された技術力から顧客のニー <span>ズを満足させる</span></li>
+											</ul>
+										</div><!--e://Core-value-Con-->	
+										
+									</div><!--e://Section-Core-value-Con-->	
+								</div><!--e://Section-Core-value-->	
+
+
+							<div id="Section-Mission">
+								<div class="Section-Mission-wrap">
+									<div class="Section-Mission-Con">
+										<h3 class="Title-A"> 主な戦略 <span>MISSION</span></h3>
+											<p>特化された技術力で有用な価値を提供しましょう</p>
+										<div class="Mission-Contents" >
+											<h4><img src="images/mission_obj.png" alt="mission" /></h4>
+											<ul>
+												<li><img src="images/mission_bnr_a.png" alt="" /></li>
+												<li><img src="images/mission_bnr_b.png" alt="" /></li>
+												<li><img src="images/mission_bnr_c.png" alt="" /></li>
+												<li><img src="images/mission_bnr_d.png" alt="" /></li>
+											</ul>
+										</div><!--e://Mission-Contents-->	
+										
+									</div><!--e://Section-Mission-Con-->	
+								</div><!--e://Section-Mission-wrap-->	
+								
+							</div><!--e://Section-Mission-->	
+								
+								<div id="Section-Contact-Us">
+									<div class="Section-Contact-Us-Con">
+										<h3 class="Title-A"> 地図 <span>CONTACT US</span></h3>
+										<!--구글 API 출력 화면 시작-->
+										<div id="map" class="Map" style="width:100%; height:450px;"></div><!--e://Map-->
+                                        <script>
+                                          var map;
+                                          function initMap() {
+                                            map = new google.maps.Map(document.getElementById('map'), {
+                                              center: {lat: 35.686200, lng: 139.780312},
+                                              zoom: 18
+                                            });
+
+                                            var image = new google.maps.MarkerImage('', new google.maps.Size(40, 40), '', '', new google.maps.Size(40, 40));
+
+                                            var address = '東京都中央区日本橋人形町3丁目3-5'; // DB에서 주소 가져와서 검색하거나 왼쪽과 같이 주소를 바로 코딩.
+                                            var marker = null;
+                                            var geocoder = new google.maps.Geocoder();
+                                            geocoder.geocode( { 'address': address}, function(results, status) {
+                                                if (status == google.maps.GeocoderStatus.OK) {
+                                                    map.setCenter(results[0].geometry.location);
+                                                    marker = new google.maps.Marker({
+                                                                    map: map,
+                                                                    icon: image, // 마커로 사용할 이미지(변수)
+                                                                    title: 'zois', // 마커에 마우스 포인트를 갖다댔을 때 뜨는 타이틀
+                                                                    position: results[0].geometry.location
+                                                                });
+
+                                                    var content = "東京都中央区日本橋人形町3丁目3-5<br/>"; // 말풍선 안에 들어갈 내용
+                                                    // 마커를 클릭했을 때의 이벤트. 말풍선 뿅~
+                                                    var infowindow = new google.maps.InfoWindow({ content: content});
+                                                    google.maps.event.addListener(marker, "click", function() {infowindow.open(map,marker);});
+                                                }
+                                            });
+                                          }
+                                        </script>
+                                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGKQyvDRMm24EKgqaM_8de7qjXijzqt34&callback=initMap" async defer></script>
+										<!--구글 API 출력 화면 끝-->
+										<ul class="Metro-Guide">
+											<li><span><img src="images/icon_metro.jpg" alt="메트로아이콘" /></span> 都営浅草線　人形町駅  </li>
+											<li><span><img src="images/icon_metro.jpg" alt="메트로아이콘" /></span> 東京メトロ日比谷線　人形町駅 </li>
+											<li><span><img src="images/icon_metro.jpg" alt="메트로아이콘" /></span> A5番出口から徒歩3分</li>
+
+										</ul><!--e://Metro-Guide-->
+									</div><!--e://Section-Contact-Us-->
+								</div><!--e://Section-Contact-Us-->
+
+
+							
+							</div><!--e://Section-Company-Info-Con-->
+					</div><!--e://Section-Company-Info-->
+							
+				
+
+				</div><!--e://Section-->
+		
+			</div><!--e://Contents-->
+		</div><!--e://Container-->
+
+	
+	<!--*************푸터시작************-->
+
+		<div id="Footer">
+			<div id="Footer-Con">
+				<p class="F-Logo"><img src="images/f_logo.png" alt="f-zois logo" /></p>
+				<div class="Address-Con">
+					<address>
+						<p>TEL 050-3554-8749 <span>|</span> FAX  03-3669-0144 </p>
+						<p>〒103-0013　東京都中央区日本橋人形町3丁目3番5号 天洲日本橋人形町ビル804号</p>
+					</address>
+				<p class="Copylirhgt">COPYRIGHT (C) ZOIS INC. ALL RIGHTS RESERVED.</p>
+				</div><!--e://Address-Con-->
+			</div><!--e://Footer-Con-->
+		
+		</div><!--e://Footer-->
+	</div><!--e://Wrapper-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-8196211-5']);
+_gaq.push(['_trackPageview']);
+		
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+
+ </body>
+</html>

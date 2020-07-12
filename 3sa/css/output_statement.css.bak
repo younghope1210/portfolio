@@ -1,0 +1,72 @@
+
+
+.Visual{width:100%; height:120px; margin:0 auto; overflow:hidden; background:url(../images/comparison_quotation/skin.jpg) no-repeat center top;}
+.Visual p{width:1200px; margin:0 auto; font-size:40px; font-weight:bold; color:#fff; text-align:center; padding-top:70px; font-family: 'Noto Sans KR', sans-serif;}
+
+/*공통*/
+h3{width:100%; height:100px; border-bottom:1px solid #ccc; text-align:center; font-size:36px; font-weight:bold; color:#000;}
+h3 img{width:60px; height:3px; margin:0 auto; border:0; vertical-align:bottom; margin-bottom:8px;}
+h3 span.H3-Text{display:block; height:40px; text-align:center;}
+
+
+
+#Output-Statement{width:1200px; height:auto; margin:50px auto;}
+#Output-Statement .Output-Statement-Con{width:1185px; height:auto; margin:0 auto;}
+#Output-Statement .Output-Statement-Con .Search-Input{width:1185px; height:120px; border:1px solid #ebeaea; background:#f6f6f6;}
+
+.Output-Statement-Con .Search-Input table{width:100%; height:120px; margin:0 auto; font-family:dotum; font-size:14px; font-weight:bold; color:#000;}
+.Output-Statement-Con .Search-Input table th{ text-align:left; background:url(../images/common/bullet_squear_orange.gif) 10px 25px no-repeat; text-indent:25px;}
+.Output-Statement-Con .Search-Input table td{text-align:center;}
+.Output-Statement-Con .Search-Input table td input{ height:30px; border:1px solid #e2e2e2}
+.Output-Statement-Con .Search-Input table td input.Wid-153{width:150px; }
+.Output-Statement-Con .Search-Input table td input.Wid-173{width:170px;}
+.Output-Statement-Con .Search-Input table td select.Wid-319{width:319px; height:30px; border:1px solid #e2e2e2}
+.Output-Statement-Con .Search-Input table td select.Wid-173{width:173px; height:30px; border:1px solid #e2e2e2}
+.Output-Statement-Con .Search-Input table td.Btn-Search {padding-left:10px; }
+.Output-Statement-Con .Search-Input table td.Btn-Search a{display:block; width:137px; height:90px; line-height:90px; border-radius:10px; background:#f85915; color:#fff; }
+
+
+
+/* 서치 리스트 시작 */
+
+.Search-List{width:1185px; height:auto; margin:50px auto; }
+.Search-List table{width:100%; height:auto; border-top:3px solid #f85915;  border-bottom:2px solid #c2c2c2; font-family:dotum;}
+.Search-List table th{height:50px; background:#f9f8f8; border-bottom:1px solid #c2c2c2;}
+.Search-List table td{height:50px; border-bottom:1px solid #c2c2c2;}
+
+.Search-List table td.Col-316809{color:#316809;}
+.Search-List table td.Product-Name a{font-weight:bold; color:#f85915; text-align:left;}
+.Search-List table td.Product-Name a:hover{color:#f01717; text-decoration:underline;}
+
+.Search-List .Paging{width:100%; height:30px; margin:50px auto;  font-family:dotum; }
+.Search-List .Paging .Paging-Con{ text-align:center;}
+.Search-List .Paging .Paging-Con span{width:20px; height:20px; font-size:14px;}
+.Search-List .Paging .Paging-Con span a{display:inline-block; width:20px; height:20px; line-height:20px; font-weight:bold; color:#000; }
+.Search-List .Paging .Paging-Con span a:hover{color:#fb0c0c;}
+
+
+.Search-List .Paging .Paging-Con span.Prev,
+.Search-List .Paging .Paging-Con span.Next{width:25px; height:25px; }
+.Search-List .Paging .Paging-Con span.Prev a,
+.Search-List .Paging .Paging-Con span.Next a{width:25px; height:25px; line-height:25px; background:#d3d1d1; color:#fff;}
+
+.Search-List .Paging .Paging-Con span.Prev a:hover,
+.Search-List .Paging .Paging-Con span.Next a:hover{ background:#9e9d9d;}
+
+
+
+
+
+/* 즐겨찾기 팝업 시작 */
+
+#Bookmark-Wrapper{width:591px; height:259px; margin:0 auto; font-family:dotum;}
+#Bookmark-Wrapper .Bookmark-Container{width:591px; height:259px; background:url(../images/bookmark/background.jpg) no-repeat; position:relative;}
+#Bookmark-Wrapper .Bookmark-Container p.Btn-Closer{width:22px; height:22px; position:absolute; top:10px; right:15px;}
+#Bookmark-Wrapper .Bookmark-Container h2{width:320px; height:49px; margin:10px auto; padding-top:10px;}
+#Bookmark-Wrapper .Bookmark-Input{width:571px; height:168px; background:#fff; margin:0 auto; padding-top:10px;} 
+#Bookmark-Wrapper table{width:502px; height:100px; margin:0 auto;}
+#Bookmark-Wrapper table th{text-align:left; font-size:14px; color:#000; background:url(../images/bookmark/bullet_squer_orange.gif) 0 21px no-repeat; text-indent:15px;}
+#Bookmark-Wrapper table td{width:380px; height:50px;}
+
+#Bookmark-Wrapper table td input{width:375px; height:30px; border:1px solid #cccccc;}
+#Bookmark-Wrapper p.Btn-Submit{width:133px; height:29px; margin:15px auto;}

@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="../js/rolling_script.js"></script>
+<script type="text/javascript" src="../js/main_slide.js"></script>
+<script type="text/javascript" src="../js/tab.js"></script>
+
+<style type="text/css">
+
+*{padding:0; margin:0;}
+
+a { text-decoration:none; }
+a:link { color:#666; }
+a:visited { color:#666; }
+a:hover { text-decoration:underline; color:#2255cb; }
+a:focus { background:#d1cfcf; }
+
+body{font:75% /1.2 Dotum, "돋움", sans-serif; background:url(../images/body/img_back.jpg) repeat-x; border:none;}
+a { text-decoration:none; }
+img{border:none;}
+li{list-style:none;}
+#container{margin:auto; width:974px;}
+#header{width:974px; position:relative; }
+.top{width:431px; position:absolute; top:0; right:17px;}
+.top_img{width:311px;position:absolute; top:58px;left:260px; }
+#header h1{overflow:auto;width:270px;padding-top:50px;}
+#utillmenu{overflow:auto;width:445px; position:absolute; top:3px;right:5px;}
+#utillmenu ul{float:right; width:445px;}
+#utillmenu ul li{float:left; background:url(../images/utilmenu/bullet_a.jpg) no-repeat 4px 2px; text-indent:8px;}
+#search{width:260px; position:absolute; top:30px;right:5px; vertical-align:middle; }
+#search legend{overflow:hidden; text-indent:-99999px;  visibility:hidden;}
+#search #sc{width:120px; height:15px; margin-bottom:10px;} 
+
+fieldset{border:none;}
+
+#gnb_back ul{overflow:auto;width:974px; padding-top:51px;}
+#gnb_back ul li{float:left;}
+
+
+#visual {width:974px; height:298px; margin:20px auto; position:relative;}
+
+#pagination {position:absolute; bottom:5px; right:10px;float:left; width:100px; list-style:none; height:25px;}
+#pagination li {float:left; width:20px; height:20px; cursor:pointer; background:#aeacae; border:1px solid #999; margin-left:4px; text-align:center; color:#222}
+#pagination li:hover {background:#777; border:1px solid #bbb; color:#000}
+
+#slider {float:left; position:relative; overflow:auto; width:974px; height:298px; border:2px solid #fff;}
+#slider ul {position:absolute; list-style:none; top:0; left:0}
+#slider li {float:left; width:974px; height:298px; padding-right:10px}
+
+
+
+#banner_a{overflow:auto; width:974px; padding-top:1px;  background:url(../images/centens/bg_banner_a.jpg) repeat-x; margin-bottom:20px;}
+#banner_a li{float:left;}
+
+#product{width:974px; overflow:auto;}
+#product li{float:left; padding-bottom:20px;}
+
+#banner_b{float:left;width:974px; margin-bottom:20px; }
+#banner_b li{float:left;}
+
+#banner_c{float:left;width:974px; margin-bottom:20px;}
+#banner_c p{width:327px; float:right;}
+#sm { width:635px; height:278px; float:left;  }
+#sm li { list-style:none; float:left; overflow:hidden; }
+
+#best_product{float:left;width:974px; margin-bottom:20px;}
+#best_product li{float:left;}
+
+h3{padding-bottom:10px;}
+
+#product_c{float:left; width:974px; margin-bottom:20px;}
+#product_c #product_c_1{float:left; width:224px; position:relative;}
+#btn_1{position:absolute; top:5px; right:25px;}
+#btn_2{position:absolute; top:5px; right:8px;}
+
+#product_c #product_c_2{float:right; width:745px;}
+#product_c li{float:left; padding-left:4px;}
+
+#banner_d{float:left;width:974px; margin-bottom:20px;}
+#banner_d li{float:left;}
+
+#footer{overflow:auto;width:100%; background:url(../images/footer/bg_gray.jpg) repeat-x;padding-bottom:20px; border-top:1px dotted gray;}
+#footer_2{width:974px; margin:auto; padding-top:5px;}
+#footer_2 .f_logo{float:left; width:200px;}
+#footer_2 .f_contents{float:right; width:640px;}
+
+#footer_2 li{float:left; background:url(../images/footer/bullet.jpg) no-repeat 1px 2px; text-indent:10px; color:#666;}
+.f_logo {padding:30px 0 0 30px;}
+address{clear:both; font-style:normal; padding-top:15px;}
+.copay{padding-top:5px;}
+.pd{padding-right:10.5px;}
+.pd_2{padding-right:8.3px;}
+
+
+</style>
+</head>
+<body onload="slideMenu.build('sm',557,10,10,1)">
+<div id="wrapper">
+    <div id="container">
+    	<div id="header">
+            <h1><a href="../html/main.html"><img src="../images/logo/h1.gif" alt="" /></a></h1>
+            <p class="top_img"><img src="../images/body/img_a.jpg" alt="향수 이미지"/></p>
+            <p class="top"><img src="../images/body/to_bar.jpg" alt="top"/></p>
+            <div id="utillmenu">
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">주문/배송조회</a></li>
+                    <li><a href="#">장바구니</a></li>
+                    <li><a href="#">위시리스트</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div><!--utilmenu-->
+            <div id="search">
+                <form class="search" action="hsy.asp" method="post">
+                    <fieldset>
+                        <legend>검색창</legend>
+                            <label for="sc" class="skip"> <img src="../images/utilmenu/search_text.jpg" alt="텍스트"/> </label><input type="text" id="sc" class="display" /> <input type="image" id="btn" src="../images/utilmenu/search.jpg" alt="검색버튼" />
+                    </fieldset>
+                </form>
+            </div>
+            <div id="gnb_back">
+                <ul id="gnb">
+                    <li><a href="#"><img src="../images/gnb/gnb_a.gif" alt="향수"/></a></li>
+                    <li><a href="#"><img src="../images/gnb/gnb_b.gif" alt="향료/오일"/></a></li>
+                    <li><a href="#"><img src="../images/gnb/gnb_c.gif" alt="향초/아로마테라피"/></a></li>
+                    <li><a href="#"><img src="../images/gnb/gnb_d.gif" alt="미니어처"/></a></li>
+                    <li><a href="#"><img src="../images/gnb/gnb_e.gif" alt="기획세트"/></a></li>
+                </ul>
+            </div><!--gnb_back-->    
+        </div><!--header-->    
+        <div id="contents">
+            <div id="visual">
+                    <div id="slider">
+                        <ul>
+                            <li><a href="#"><img src="../images/visual/visual_c.jpg" alt="이미지1" /></a></li>
+                            <li><a href="#"><img src="../images/visual/visual_b.jpg" alt="이미지2" /></a></li>
+                            <li><a href="#"><img src="../images/visual/visual_a.jpg" alt="이미지3" /></a></li>  
+                        </ul>
+                    </div>
+                <ul id="pagination" class="pagination">
+                    <li onclick="slideshow.pos(0)"></li>
+                    <li onclick="slideshow.pos(1)"></li>
+                    <li onclick="slideshow.pos(2)"></li>
+            
+                </ul>
+            </div><!--visual-->
+            <script type="text/javascript">
+				var slideshow=new TINY.slider.slide('slideshow',{
+					id:'slider',
+					auto:3,
+					resume:true,
+					vertical:false,
+					navid:'pagination',
+					activeclass:'current',
+					position:0
+				});
+			</script>
+        	<div id="banner_a">
+            	<ul>
+                	<li><a href="#"><img src="../images/centents/banner_1.jpg" alt="테스터 증정" /></a></li>
+                    <li><a href="#"><img src="../images/centents/banner_2.jpg" alt="구매금액대별사은품" /></a></li>
+                </ul>
+            </div><!--banner_a--> 
+             <div id="product_c">
+            	<div id="product_c_1">
+                	<p id="btn_1"><a href="#best_item_a" class="tab"><img src="../images/centents/btn_a.gif" alt="버튼1" /></a></p>
+                
+                	<p id="best_item_a"><a href="#"><img src="../images/centents/best_item_a.jpg" alt="베스트 아이템1" /></a></p>
+                    <p id="btn_2"><a href="#best_item_b" class="tab"><img src="../images/centents/btn_b.gif" alt="버튼2" /></a></p>
+                    <p id="best_item_b"><a href="#"><img src="../images/centents/best_item_b.jpg" alt="베스트 아이템2" /></a></p>
+                </div>
+                <script type="text/javascript">initTabMenu("product_c");</script>
+                <div id="product_c_2">
+                	<h3><img src="../images/centents/Special product_h3.jpg"  alt="Special product"/></h3>
+                	<ul>
+                    	<li><a href="#"><img src="../images/centents/special_prodict_1.jpg" alt="스페셜 상품1" /></a></li>
+                        <li><a href="#"><img src="../images/centents/special_prodict_2.jpg" alt="스페셜 상품2" /></a></li>
+                       <li><a href="#"><img src="../images/centents/special_prodict_3.jpg" alt="스페셜 상품3" /></a></li>
+                    </ul>
+                </div>
+                
+            </div><!--product_d--> 
+            <div id="product">
+           		<h3><img src="../images/centents/new_product.jpg" alt="신상품"/></h3>
+                <ul id="product_a">
+                	<li><a href="#"><img src="../images/centents/product_1.jpg" alt="상품1"/></a></li>
+                    <li><a href="#"><img src="../images/centents/product_2.jpg" alt="상품2"/></a></li>
+                    <li><a href="#"><img src="../images/centents/product_3.jpg" alt="상품3"/></a></li>
+                    <li><a href="#"><img src="../images/centents/product_4.jpg" alt="상품4"/></a></li>
+                </ul>
+            </div><!--product--> 
+            <div id="banner_b">
+            	<ul>
+                	<li class="pd"><a href="#"><img src="../images/centents/banner_3.jpg" alt="단독세일 배너"/></a></li>
+                    <li class="pd"><a href="#"><img src="../images/centents/banner_4.jpg" alt="유기농 천연오일 배너"/></a></li>
+                    <li><a href="#"><img src="../images/centents/banner_5.jpg" alt="캔들 배너"/></a></li>
+                    
+                </ul>
+            </div><!--banner_b--> 
+        	<div id="banner_c">
+                <ul id="sm">
+                	<li><a href="#"><img src="../images/centents/banner_9_b.jpg" alt="체험단"/></a></li>
+                    <li><a href="#"><img src="../images/centents/banner_8_b.jpg" alt="프리기프트"/></a></li>
+                    <li><a href="#"><img src="../images/centents/banner_7_b.jpg" alt="런칭배너"/></a></li>
+                </ul>
+                <p><a href="#"><img src="../images/centents/banner_6.jpg" alt="향수 블랜딩 배너"/></a></p>
+            </div><!--banner_c-->
+            <div id="best_product">
+            	<h3><img src="../images/centents/h4.jpg" alt="베스트상품" /></h3>
+            	<ul id="product_b">
+                	<li><a href="#"><img src="../images/centents/product_5.jpg" alt="상품5"/></a></li>
+                    <li><a href="#"><img src="../images/centents/product_6.jpg" alt="상품6"/></a></li>
+                    <li><a href="#"><img src="../images/centents/product_7.jpg" alt="상품7"/></a></li>
+                    <li><a href="#"><img src="../images/centents/product_8.jpg" alt="상품8"/></a></li>
+                </ul>
+            </div>
+            <div id="banner_d">
+            	<ul>
+                	<li class="pd_2"><img src="../images/centents/Customer Center.jpg" alt="커스터머" /></li>
+                    <li class="pd_2"><a href="#"><img src="../images/centents/beauty_tester.jpg" alt="뷰티테스터" /></a></li>
+                    <li class="pd_2"><a href="#"><img src="../images/centents/photo review.jpg" alt="포토리뷰" /></a></li>
+                    <li><a href="#"><img src="../images/centents/membership.jpg" alt="멤버쉽" /></a></li>												
+                </ul>
+            </div>
+        </div><!--contents-->       	
+    </div><!--container-->
+    <div id="footer">
+    	<div id="footer_2">
+            <p class="f_logo"><img src="../images/footer/f_logo.gif" alt="f_logo" /></p>
+            	<div class="f_contents">
+                    <ul>
+                        <li><a href="#">브랜드소개</a></li>
+                        <li><a href="#">이용안내</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보취급방침</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">회사위치</a></li>
+                    </ul>
+                    <address>상호:Fragrance / 대표:허서영 /대표전화:010-6579-1817 / 주소:서울시 강서구 화곡동 352-1 동궁아트빌 501호 
+            사업자 등록번호:109-12-26163 / 통신판매신고번호:제 2010-서울강서-0781호 / 개인정보관리책임자:허서영</address>
+                    <p class="copay">Copyright ⓒ 2011 Fragrance All rights Reserved</p>
+        	</div> 	           
+    	</div>
+    </div>
+</div><!--wrapper-->
+
+</body>
+</html>

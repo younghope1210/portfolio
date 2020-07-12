@@ -1,0 +1,96 @@
+
+
+
+@charset "utf-8";
+
+#List-View{width:1200px; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#List-View #List-View-Con{width:1151px; height:auto; margin:0 auto;  position:relative;    }
+
+
+
+/*본문시작*/
+
+
+
+#List-View-Con h3{width:100%; height:100px; line-height:100px; border-bottom:1px solid #000; font-size:40px; font-weight:bold; color:#000;}
+#List-View-Con h3 em{color:#df323a;}
+
+
+
+
+/*리스트스타일*/
+
+
+.View-Tabel{clear:both; width:100%; height:100%; margin:0 auto; margin-top:50px; }
+
+.View-Tabel table{width:100%; height:auto; margin:0 auto; border-top:2px solid #df323a; font-size:14px; color:#000; }
+.View-Tabel table th{height:50px; background:#fafafa; border-bottom:1px solid #cccccc; text-align:left; padding-left:30px;}
+.View-Tabel table td{height:40px; border-bottom:1px solid #cccccc; text-align:right;}
+.View-Tabel table td span{margin-right:10px;}
+.View-Tabel table td span em{margin-right:20px;}
+.View-Tabel table td.Board_ConTents{text-align:left}
+
+
+/*목록보기 버튼 */
+
+p.Btn-List{width:160px; height:50px; float:right; border:1px solid #cccccc; line-height:50px; text-align:center; margin:30px 0;}
+p.Btn-List a{display:block; width:160px; height:50px;}
+p.Btn-List a:hover{background:#000; color:#fff;}
+
+
+@media (max-width: 1280px) {
+
+
+#List-View{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#List-View #List-View-Con{width:1008px; height:auto; margin:0 auto;  position:relative;    }
+
+
+}
+
+
+
+@media (max-width: 1008px) {
+
+
+#List-View{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#List-View #List-View-Con{width:752px; height:auto; margin:0 auto;  position:relative;    }
+
+
+}
+
+
+@media (max-width: 752px) {
+
+
+#List-View{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#List-View #List-View-Con{width:480px; height:auto; margin:0 auto;  position:relative;    }
+
+
+}
+
+
+
+
+@media (max-width: 480px) {
+
+
+#List-View{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#List-View #List-View-Con{width:320px; height:auto; margin:0 auto;  position:relative;    }
+
+
+
+}
+
+
+
+
+
+@media (max-width: 320px) {
+
+#List-View{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#List-View #List-View-Con{width:320px; height:auto; margin:0 auto;  position:relative;    }
+
+
+
+
+}

@@ -1,0 +1,78 @@
+
+
+.Visual{width:100%; height:120px; margin:0 auto; overflow:hidden; background:url(../images/join/skin.jpg) no-repeat center top;}
+.Visual p{width:1200px; margin:0 auto; font-size:40px; font-weight:bold; color:#fff; text-align:center; padding-top:40px; font-family: 'Noto Sans KR', sans-serif;}
+
+/*공통*/
+h3{width:100%; height:100px; border-bottom:1px solid #ccc; text-align:center; font-size:36px; font-weight:bold; color:#000;}
+h3 img{width:60px; height:3px; margin:0 auto; border:0; vertical-align:bottom; margin-bottom:8px;}
+h3 span.H3-Text{display:block; height:40px; text-align:center;}
+
+
+
+/*로그인 페이지 시작*/
+
+#Loign{width:1200px; height:auto; margin:0 auto; }
+#Loign .Loign-Con{width:1120px; height:auto; margin:0 auto; }
+
+
+#Loign .Loign-Con .Join-Greeting{width:100%; height:210px; border-bottom:2px solid #f85915; margin-top:20px;}
+#Loign .Loign-Con .Join-Greeting p.Skin-graphe{width:446px; height:203px; float:left;}
+
+
+/*상단 인삿말 시작*/
+
+#Loign .Loign-Con .Join-Greeting p.Greeting{width:660px;  height:132px; line-height:50px; float:right; font-size:40px; text-align:right; margin-top:50px; color:#666666; font-weight:bold;} 
+#Loign .Loign-Con .Join-Greeting p.Greeting span{display:inline-block;  }
+#Loign .Loign-Con .Join-Greeting p.Greeting span em{color:#ff6600;}
+
+
+
+/*회원로그인 시작*/
+
+
+.Login-Contents{width:100%; height:570px; margin:0 auto; }
+.Login-Contents p.Left-Skin{width:306px; height:373px; float:left; margin-top:100px; margin-left:50px;}
+
+.Login-Contents .Login-Section{width:670px; height:500px; float:right;  margin-top:60px;}
+.Login-Section h4{font-size:50px; color:#000;}
+.Login-Section h4 span{color:#0c705a;}
+.Login-Section h4 em{display:block; font-size:24px; margin-top:15px;}
+.Login-Section .Additional-Explanation{width:100%; height:auto; margin-top:20px; margin-bottom:20px; font-size:16px; color:#000; } 
+.Login-Section .Additional-Explanation li{height:25px; background:url(../images/join/bullet_circle-orange.gif) 5px 5px no-repeat; text-indent:20px;}
+
+.Login-Input{width:668px; padding:20px 0; background:#f6f6f6; }
+.Login-Section .Login-Input table{ width:650px; height:90px; font-family:dotum; font-size:14px;}
+.Login-Section .Login-Input table th{width:100px; height:40px; text-align:left; background:url(../images/join/bullet_squear_black.gif) 15px 20px no-repeat; text-indent:30px;}
+.Login-Section .Login-Input table td input.Wid-360{width:360px; height:35px; border:1px solid #cccccc;}
+.Login-Section .Login-Input table td.Btn-Login{width:162px; height:80px;}
+
+.Join-Info p.Info{color:#ff6600; font-size:14px; font-weight:bold; font-family:dotum; float:left;}
+.Join-Info p.Info span{display:block;  font-size:12px; font-weight:normal; color:#000; margin-top:8px;}
+
+.Join-Info p.Btn-Join{width:155px; height:32px;}
+.Join-Info p.Btn-Join a{display:block; width:155px; height:32px; background:#;}
+
+/*회원가입 안내*/
+
+.Join-Info{width:100%; height:50px; margin-top:30px; }
+
+.Join-Info p.Info{width:500px; height:auto; float:left;}
+
+.Join-Info p.Btn-Join{width:155px; height:32px; text-align:center; float:right;}
+.Join-Info p.Btn-Join a{display:block; width:155px; height:32px; line-height:32px; background:#999999; color:#fff; font-family:dotum; font-weight:bold;}
+.Join-Info p.Btn-Join a:hover{background:#ff6600;}
+
+/*아이디/패스워드 찾기*/
+
+
+.Id-Pw-Find{width:100%; height:50px; margin-top:30px; }
+
+.Id-Pw-Find p.Info{color:#ff6600; font-size:14px; font-weight:bold; font-family:dotum; float:left}
+
+.Id-Pw-Find p.Btn-Find{width:155px; height:32px; text-align:center; float:right;}
+.Id-Pw-Find p.Btn-Find a{display:block; width:155px; height:32px; line-height:32px; background:#999999; color:#fff; font-family:dotum; font-weight:bold;}
+
+
+
+

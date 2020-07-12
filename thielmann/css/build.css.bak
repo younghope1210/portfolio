@@ -1,0 +1,133 @@
+
+
+
+@charset "utf-8";
+
+#build{width:1200px; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#build #build-Con{width:1151px; height:auto; margin:0 auto; position:relative;    }
+/*#Electric_Range_Explain #Electric_Range_Con img{width:100%; height:auto;}*/
+
+
+/*본문시작*/
+
+
+
+#build-Con h3{width:100%; height:100px; line-height:100px; border-bottom:1px solid #000; font-size:40px; font-weight:bold; color:#000;}
+#build-Con h3 em{color:#df323a;}
+
+
+
+
+
+/* 프레임 설치 유형 탭 스타일 시작 */
+
+
+
+#build-Con #tab{width:1200px; height:74px; margin-top:10px;}
+#build-Con #tab li{width:115px; height:60px; float:left;}
+#build-Con #tab li a{display:block; width:115px; height:60px; background:#f7f6f7; color:#333333;  line-height:60px; text-align:center; font-size:14px; border:1px solid #cccccc;}
+#build-Con #tab li a:hover{border:0;  color:#333333; border:1px solid #cccccc;}
+#build-Con #tab li.active a{background:#df323a; border:0; color:#fff;  border:1px solid #df323a;} /*탭 모양을 잡아준다*/
+#build-Con #tab li.active a:hover{background:#df323a; border:0; color:#fff; border:1px solid #df323a;}
+
+
+/*설치유형 제품별 페이지 전환*/
+
+.Build-Contents{width:100%; height:auto; float:left; margin-top:20px;}
+.Build-Contents .mTs{width:100%; height:auto; float:left; }
+.Build-Contents .mTs h4{width:100%; height:auto; margin-left:30px; color:black;} 
+.Build-Contents .mTs h4 img{width:120px; height:120px; float:left;}
+.Build-Contents .mTs h4 span{float:left; font-size:36px; margin:15px 0 0 20px; }
+.Build-Contents .mTs h4 span em{display:block; font-size:14px; margin-top:10px;}
+.Build-Contents .mTs h4 span em.Col-Red{color:red;}
+
+.Build-Contents .mTs .Build-Floor-Plan{clear:both; width:100%; height:auto;  margin-top:20px;}
+.Build-Contents .mTs .Build-Floor-Plan img{width:50%; height:auto; float:left; } 
+.Build-Contents .mTs .Build-Floor-Plan .Build-Floor-Plan-Explane{float:left; font-size:24px; margin-top:50px; color:red;}
+.Build-Contents .mTs .Build-Floor-Plan .Build-Floor-Plan-Explane span{display:block; font-size:14px; margin-top:10px; color:#000;}
+
+.Build-Contents .Build-Photo_List{width:100%; height:auto; clear:both; }
+.Build-Contents .Build-Photo_List ul{width:100%; height:auto; padding-top:30px; }
+
+.Build-Contents .Build-Photo_List ul li{width:49%; height:auto; float:left;  margin-left:1%; margin-bottom:100px;}
+
+
+@media (max-width: 1280px) {
+
+
+#build{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden; }
+#build #build-Con{width:100%; height:auto; margin:0 auto; position:relative;  }
+
+
+#build-Con #tab{width:100%; height:74px; margin-top:10px;}
+#build-Con #tab li{width:10%; height:60px; float:left;}
+#build-Con #tab li a{display:block; width:100%; height:60px; background:#f7f6f7; color:#333333;  line-height:60px; text-align:center; font-size:14px; border:1px solid #cccccc;}
+
+
+
+
+}
+
+
+
+@media (max-width: 1008px){
+
+#build{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden; }
+#build #build-Con{width:100%; height:auto; margin:0 auto; position:relative;   }
+#build-Con #tab ul{width:90%; margin:0 auto;}
+#build-Con #tab li{width:15%; height:60px; float:left;}
+.Build-Contents .mTs h4{width:100%; height:auto; margin-left:0; color:black;} 
+.Build-Contents .mTs h4 img{width:120px; height:120px; float:left; margin-left:20px;}
+.Build-Contents .mTs h4 span{float:left; font-size:36px; margin:0 0 0 20px; }
+.Build-Contents .mTs h4 span em{display:block; font-size:14px; margin-top:10px;}
+.Build-Contents .mTs h4 span em.Col-Red{color:red;}
+
+
+.Build-Contents .mTs .Build-Floor-Plan img{width:50%; height:auto; float:left;}
+}
+
+
+
+@media (max-width: 752px) {
+
+
+#build{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden; }
+#build #build-Con{width:100%; height:auto; margin:0 auto; position:relative;  }
+#build-Con #tab li{width:25%; height:60px; float:left;}
+
+
+.Build-Contents .mTs .Build-Floor-Plan img{width:80%; height:auto; clear:both; margin-top:30px;} 
+.Build-Contents .mTs .Build-Floor-Plan .Build-Floor-Plan-Explane{float:left; font-size:24px; margin-top:50px; margin-left:20px; color:red;}
+.Build-Contents .Build-Photo_List ul{width:80%; height:auto; margin:0 auto;}
+.Build-Contents .Build-Photo_List ul li{width:100%; height:auto; float:left; margin-right:1%; margin-left:1%; margin-bottom:0;}
+.Build-Contents .Build-Photo_List ul li.After{padding-bottom:150px; }
+
+
+}
+
+
+@media (max-width: 480px){
+
+
+#build{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden; }
+#build #build-Con{width:100%; height:auto; margin:0 auto; position:relative;   }
+
+#build-Con h3{width:100%; height:100px; line-height:100px; border-bottom:1px solid #000; font-size:30px; font-weight:bold; color:#000;}
+#build-Con #tab li{width:33%; height:60px; float:left;}
+
+
+.Build-Contents .Build-Photo_List ul{width:100%; height:auto; margin:0 auto;}
+.Build-Contents .Build-Photo_List ul li{width:100%; height:auto; float:left; margin-right:1%; margin-left:1%; }
+.Build-Contents .Build-Photo_List ul li.After{padding-bottom:100px; }
+
+}
+
+
+@media (max-width: 320px){
+
+#build{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden; }
+#build #build-Con{width:100%; height:auto; margin:0 auto; position:relative;   }
+#build-Con #tab li{width:50%; height:60px; float:left;}
+
+
+}

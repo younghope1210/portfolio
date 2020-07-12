@@ -1,0 +1,99 @@
+
+
+
+@charset "utf-8";
+
+#VideoService{width:1200px; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Video #Video-Con{width:1151px; height:auto; margin:0 auto;  position:relative;    }
+/*#Electric_Range_Explain #Electric_Range_Con img{width:100%; height:auto;}*/
+
+
+/*본문시작*/
+
+
+
+#Video-Con h3{width:100%; height:100px; line-height:100px; border-bottom:1px solid #000; font-size:40px; font-weight:bold; color:#000;}
+#Video-Con h3 em{color:#df323a;}
+
+
+.Video-Contents{clear:both; width:100%; height:100%; margin:0 auto; margin-bottom:100px; color:#000;}
+.Video-Contents h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+
+.Video-Contents .Thielmann-Video{width:}
+
+.Video-Contents ul{width:100%; height:100%; margin:0 auto;}
+.Video-Contents ul li{width:24%; height:auto; float:left; margin-left:1%; margin-top:30px;}
+.Video-Contents ul span{display:block; font-size:22px; text-align:center; margin:10px 0 30px 0;}
+
+
+.Video-Contents .Thielmann-Video{width:1100px; height:auto; margin:0 auto;}
+.Video-Contents .Thielmann-Video iframe{width:1100px; height:550px;  }
+
+@media (max-width: 1280px) {
+
+
+#VideoService{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Video #Video-Con{width:100%; height:auto; margin:0 auto;  position:relative;    }
+
+
+
+}
+
+
+
+@media (max-width: 1008px) {
+
+
+#VideoService{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Video #Video-Con{width:100%; height:auto; margin:0 auto;  position:relative;    }
+.Video-Contents ul{width:100%; height:100%; margin:0 auto;}
+.Video-Contents ul li{width:24%; height:auto; float:left; margin-left:1%; margin-top:30px;}
+.Video-Contents ul span{display:block; font-size:18px; text-align:center; margin:10px 0 30px 0;}
+.Video-Contents .Thielmann-Video{width:100%; height:auto; margin:0 auto;}
+.Video-Contents .Thielmann-Video iframe{width:900px;  height:350px; margin-left:5px; }
+
+
+}
+
+
+@media (max-width: 752px) {
+
+
+#VideoService{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Video #Video-Con{width:100%; height:auto; margin:0 auto;  position:relative;    }
+
+.Video-Contents ul span{display:block; font-size:14px; text-align:center; margin:10px 0 30px 0;}
+.Video-Contents .Thielmann-Video iframe{width:100%; height:350px; margin:0 auto; }
+}
+
+
+
+
+@media (max-width: 480px) {
+
+
+#VideoService{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Video #Video-Con{width:100%; height:auto; margin:0 auto;  position:relative;    }
+.Video-Contents ul{width:100%; height:100%;}
+.Video-Contents ul li{width:48%; height:auto; float:left; margin-left:1%}
+.Video-Contents ul span{display:block; font-size:14px; text-align:center; margin:10px 0 30px 0;}
+.Video-Contents .Thielmann-Video iframe{width:100%; height:350px;margin:0 auto; }
+
+}
+
+
+
+
+
+@media (max-width: 320px) {
+
+#VideoService{width:320px; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Video #Video-Con{width:320px; height:auto; margin:0 auto;  position:relative;    }
+
+.Video-Contents ul{width:100%; height:100%;}
+.Video-Contents ul li{width:100%; height:auto; clear:both; margin-left:1%}
+.Video-Contents ul span{display:block; font-size:14px; text-align:center; margin:10px 0 30px 0;}
+
+.Video-Contents .Thielmann-Video iframe{width:100%; height:auto; margin:0 auto; }
+
+}

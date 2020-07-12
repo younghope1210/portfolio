@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>무제 문서</title>
+
+
+<style>
+.glossymenu, .glossymenu li ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 185px; /*WIDTH OF MAIN MENU ITEMS*/
+border: 1px solid black;
+}
+
+.glossymenu li{
+position: relative;
+}
+
+.glossymenu li ul{ /*SUB MENU STYLE*/
+position: absolute;
+width: 190px; /*WIDTH OF SUB MENU ITEMS*/
+left: 0;
+top: 0;
+display: none;
+filter:alpha(opacity=100);
+-moz-opacity:1;
+}
+
+.glossymenu li a{
+background: white url(http://www.blueb.co.kr/SRC/javascript/image5/glossyback.gif) repeat-x bottom left;
+font: bold 12px Verdana, Helvetica, sans-serif;
+color: white;
+display: block;
+width: auto;
+padding: 5px 0;
+padding-left: 10px;
+text-decoration: none;
+}
+
+.glossymenu .arrowdiv{
+position: absolute;
+right: 2px;
+background: transparent url(http://www.blueb.co.kr/SRC/javascript/image5/arrow.gif) no-repeat center right;
+}
+
+.glossymenu li a:visited, .glossymenu li a:active{
+color: white;
+}
+
+.glossymenu li a:hover{
+background-image: url(http://www.blueb.co.kr/SRC/javascript/image5/glossyback2.gif);
+}
+
+/* Holly Hack for IE \*/
+* html .glossymenu li { float: left; height: 1%; }
+* html .glossymenu li a { height: 1%; }
+/* End */
+</style>
+
+
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+var menuids=new Array("verticalmenu") //Enter id(s) of UL menus, separated by commas
+var submenuoffset=-2 //Offset of submenus from main menu. Default is -2 pixels.
+
+function createcssmenu(){
+for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+    var spanref=document.createElement("span")
+		spanref.className="arrowdiv"
+		spanref.innerHTML="  "
+		ultags[t].parentNode.getElementsByTagName("a")[0].appendChild(spanref)
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.left=this.parentNode.offsetWidth+submenuoffset+"px"
+    this.getElementsByTagName("ul")[0].style.display="block"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    this.getElementsByTagName("ul")[0].style.display="none"
+    }
+    }
+  }
+}
+
+
+if (window.addEventListener)
+window.addEventListener("load", createcssmenu, false)
+else if (window.attachEvent)
+window.attachEvent("onload", createcssmenu)
+</script>
+
+
+
+
+<ul id="verticalmenu" class="glossymenu">
+<li><a href="http://www.blueb.co.kr/">BLUE-B</a></li>
+<li><a href="http://www.blueb.co.kr/" >Free JavaScripts</a></li>
+<li><a href="http://www.blueb.co.kr/">JavaScript Tutorials</a></li>
+<li><a href="#">References</a>
+    <ul>
+    <li><a href="http://www.blueb.co.kr/">JavaScript Reference</a></li>
+    <li><a href="http://www.blueb.co.kr/">DOM Reference</a></li>
+    <li><a href="http://www.blueb.co.kr/">CSS Reference</a></li>
+    </ul>
+</li>
+<li><a href="http://www.blueb.co.kr/" >DHTML/ CSS Tutorials</a></li>
+<li><a href="http://www.blueb.co.kr/">web Design Tutorials</a></li>
+<li><a href="#" >Helpful Resources</a>
+    <ul>
+    <li><a href="http://www.blueb.co.kr/">Dynamic HTML</a></li>
+    <li><a href="http://www.blueb.co.kr/">Coding Forums</a></li>
+    <li><a href="http://www.blueb.co.kr/">CSS Drive</a></li>
+    <li><a href="http://www.blueb.co.kr/">CSS Library</a></li>
+    <li><a href="http://www.blueb.co.kr/">Image Optimizer</a></li>
+    <li><a href="http://www.blueb.co.kr/">Favicon Generator</a></li>
+    </ul>
+</li>
+</ul>
+
+
+</body>
+</html>

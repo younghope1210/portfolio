@@ -1,0 +1,54 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+.Calculation-List{width:830px; height:auto; }
+
+.Calculation-List .Calculation-List-Con {width:810px; height:auto; margin:0 auto; }
+.Calculation-List .Calculation-List-Con  h3{font-size:20px; color:#000; margin-top:1px; font-weight:bold; }
+
+
+/*검색 값 입력란 시작 */
+
+.Calculation-List .Calculation-List-Con .Search-Input{width:810px; height:30px; margin:0 auto; margin-top:15px; padding:20px 0; background:#f9f9fb; }
+.Calculation-List .Calculation-List-Con .Search-Input table{width:700px; height:30px; margin-left:20px;}
+.Calculation-List .Calculation-List-Con .Search-Input table input{width:100px; height:20px; border:1px solid #d5d5d5;} 
+.Calculation-List .Calculation-List-Con .Search-Input table select{width:100px; height:25px;  border:1px solid #d5d5d5;}
+.Calculation-List .Calculation-List-Con .Search-Input table td img{vertical-align:middle;}
+.Calculation-List .Calculation-List-Con .Search-Input table td .Btn-All-List{margin-left:10px;}
+.Calculation-List .Calculation-List-Con .Search-Input table th{width:100px; background:url(../images/estimation/bullet_blue.gif)10px 12px no-repeat;}
+
+.Calculation-List .Calculation-List-Con .explain{width:810px; height:auto; float:left;  margin:30px 0; padding:10px 0; background:#f9f9fb; display:table;}
+.Calculation-List .Calculation-List-Con .explain p img{width:143px; height:144px;  float:left; margin-top:10px;  margin-left:15px;}
+.Calculation-List .Calculation-List-Con .explain ol{float:right; width:550px; height:auto;  margin-right:20px; margin-top:15px;}
+.Calculation-List .Calculation-List-Con .explain ol li{margin-bottom:10px; line-height:15px;}
+
+
+
+/*검색 값 테이블 출력 */
+
+
+
+.Calculation-List .Calculation-List-Con .Calculation-List-Table table{width:810px; height:100%; margin:0 auto;  }
+.Calculation-List .Calculation-List-Con .Calculation-List-Table table th{background:url(../images/estimation/back_th.gif) no-repeat; height:40px; border-bottom:1px solid #6384c2;}
+.Calculation-List .Calculation-List-Con .Calculation-List-Table table th.wid_60{width:60px;}
+.Calculation-List .Calculation-List-Con .Calculation-List-Table table th.wid_200{width:300px;}
+.Calculation-List .Calculation-List-Con .Calculation-List-Table table td{border-left:1px solid #cccccc; border-bottom:1px solid #e1e2e5; height:30px; }
+
+.Calculation-List .Calculation-List-Con .Calculation-List-Table table td select{width:130px; height:30px; border:1px solid #cccccc;}
+.Calculation-List .Calculation-List-Con .Calculation-List-Table table td.Txt-Blue{color:#374b86;}
+.Calculation-List .Calculation-List-Con .Calculation-List-Table table td.Txt-Blue a:hover{text-decoration:underline;}
+/*리스트 삭제버튼 */
+
+.Calculation-List-Con .Btn-Con{width:750px; height:30px; float:right; margin:10px; text-align:right;}
+
+/*페이징 시작*/
+
+.Calculation-List-Con  .paging{width:750px; height:auto; margin:30px;}
+.Calculation-List-Con  .paging ul{text-align:center; width:750px;}
+.Calculation-List-Con  .paging ul li{display:inline; font-size:13px; font-weight:bold;  height:20px; }
+.Calculation-List-Con  .paging ul li.prev{width:13px; height:13px;  margin-right:10px; font-size:10px;}
+.Calculation-List-Con  .paging ul li.next{width:13px;  height:13px;  margin-left:10px; font-size:10px; }
+.Calculation-List-Con  .paging ul li img{width:13px; height:13px; vertical-align:middle;}
+.Calculation-List-Con  .paging ul li a:hover{color:#d23132;}

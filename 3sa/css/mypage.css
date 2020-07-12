@@ -1,0 +1,64 @@
+
+
+.Visual{width:100%; height:120px; margin:0 auto; overflow:hidden; background:url(../images/mypage/skin.jpg) no-repeat center top;}
+.Visual p{width:1200px; margin:0 auto; font-size:40px; font-weight:bold; color:#fff; text-align:center; padding-top:40px; font-family: 'Noto Sans KR', sans-serif;}
+
+/*공통*/
+h3{width:100%; height:100px; border-bottom:1px solid #ccc; text-align:center; font-size:36px; font-weight:bold; color:#000;}
+h3 img{width:60px; height:3px; margin:0 auto; border:0; vertical-align:bottom; margin-bottom:8px;}
+h3 span.H3-Text{display:block; height:40px; text-align:center;}
+
+
+
+
+
+
+
+.My-Page-Con h4{width:575px; height:82px; line-height:50px; background:#f5f3f3; color:#ff6600;  font-size:26px; text-indent:90px; border-bottom:1px solid #cccccc;}
+.My-Page-Con h4 span{display:block; height:30px; color:#333;  font-size:15px; line-height:15px; }
+
+#My-Page{width:1200px; height:auto; margin:50px auto;  }
+
+#My-Page .My-Page-Con{width:1185px; height:700px; margin:0 auto;}
+#My-Page ul{width:100%;  margin:0 auto; font-family:dotum;}
+#My-Page ul li{height:20px; margin-bottom:10px; background:url(../images/common/bullet_squear_orange.gif) 5px 3px no-repeat; text-indent:20px; font-size:14px; font-weight:bold; color:#000;}
+#My-Page ul li a{display:block; color:#000;}
+#My-Page ul li a:hover{color:#f24e08;}
+#My-Page p.Btn-More{clear:both; width:165px; height:40px; border-radius:20px; background:#f85915; color:#fff;  font-family:dotum; margin:0 auto; margin-top:35px; }
+#My-Page p.Btn-More a{display:block; width:165px; height:40px; line-height:43px; text-align:center; font-size:14px; font-weight:bold; color:#fff;}
+
+
+
+
+/* 회원정보 시작 */
+
+#My-Page .My-Page-Con .Member-Info{width:575px; height:325px;  border:1px solid #cccccc; float:left; margin-bottom:30px;}
+.My-Page-Con .Member-Info h4{ background:url(../images/mypage/ico_member_info.png) 10px 15px no-repeat;}
+.My-Page-Con .Member-Info .Member-Info-Con{width:520px; height:auto; margin:0 auto;  margin-top:20px;}
+.My-Page-Con .Member-Info .Member-Info-Con p.Greeting {height:40px; color:#333399; font-family:dotum; font-size:16px; font-weight:bold; text-align:center;}
+
+
+/* 결제정보 시작 */
+#My-Page .My-Page-Con .Payment-Info{width:575px; height:325px;  border:1px solid #cccccc; float:left; margin-left:30px; margin-bottom:30px;}
+
+.My-Page-Con .Payment-Info h4{ background:url(../images/mypage/ico_payment_info.png) 10px 15px no-repeat;}
+.My-Page-Con .Payment-Info ul{height:100px; }
+.My-Page-Con .Payment-Info .Payment-Info-Con{width:520px; height:auto; margin:0 auto;  margin-top:40px;}
+
+
+
+/* 산출내역 시작 */
+#My-Page .My-Page-Con .Calculation-Info{width:575px; height:325px;  border:1px solid #cccccc; float:left;}
+
+.My-Page-Con .Calculation-Info h4{ background:url(../images/mypage/ico_calculation_list.png) 10px 15px no-repeat;}
+.My-Page-Con .Calculation-Info ul{height:100px; }
+.My-Page-Con .Calculation-Info .Calculation-List-Con{width:520px; height:auto; margin:0 auto;  margin-top:40px;}
+
+
+
+/* 1:1 문의 시작 */
+#My-Page .My-Page-Con .Faq-Info{width:575px; height:325px;  border:1px solid #cccccc; float:left; margin-left:30px;}
+.My-Page-Con .Faq-Info .Faq-List-Con{width:520px; height:auto; margin:0 auto;  margin-top:40px;}
+
+.My-Page-Con .Faq-Info h4{ background:url(../images/mypage/ico_faq.png) 10px 15px no-repeat;}
+.My-Page-Con .Faq-Info ul{height:100px;  }

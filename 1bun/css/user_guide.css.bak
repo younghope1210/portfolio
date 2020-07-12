@@ -1,0 +1,147 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+#User-Guide-Page{width:840px; height:auto;  margin-bottom:50px;  }
+
+#User-Guide-Page .User-Guide-Con{width:840px; }
+#User-Guide-Page .User-Guide-Con img{ margin-top:10px;}
+
+#User-Guide-Page h3{font-size:20px; color:#000; margin-top:1px; font-weight:bold;}
+
+
+
+
+/*탭 시작 */
+
+#tab{width:100%; height:auto; height:45px; }
+#tab li{float:left; width:165px; height:45px; margin-left:1.8px}
+
+/*구현기술*/
+
+#Technology{width:100%; height:auto; margin-top:20px;}
+#Technology .Technology-Con{width:830px;  border:5px solid #e5e5e5;}
+
+/*사용요금*/
+
+#Price{width:100%; height:auto; margin-top:20px;}
+#Price .Price-Con{width:830px; padding-top:10px; border:5px solid #e5e5e5;}
+#Price .Price-Con .Btn-Con{width:430px; height:45px; margin:0 auto; margin-bottom:30px; }
+#Price .Price-Con .Btn-Con li{float:left; margin-left:20px;}
+
+
+
+
+/*사용방법*/
+
+#Use-Method{width:100%; height:auto; margin-top:20px;}
+#Use-Method .Use-Method-Con{width:830px; padding-top:10px; border:5px solid #e5e5e5;}
+
+
+
+
+/*견적발송체험*/
+
+#Ins-Submit{width:100%; height:auto; margin-top:20px;}
+#Ins-Submit .Ins-Submit-Con{width:830px;  border:5px solid #e5e5e5;}
+
+
+
+/*문자 보내기 팝업 관련*/
+
+.Message{width:655px; height:300px; border:5px solid #cccccc; background:#ffffff; margin:10px auto;}
+.Message .Message-Con{width:655px; height:284px; margin:0 auto; background:#FFF; position:relative;}
+.Message .Message-Con h5{width:642px; height:64px; margin:0 auto; margin-bottom:25px;}
+.Message .Message-Con table{width:642px; height:130px; }
+.Message .Message-Con table th{text-align:right; width:125px; height:30px;}
+.Message .Message-Con table th span{font-weight:normal; font-size:11px;}
+.Message .Message-Con table td{text-align:left; width:350px; padding-left:15px;}
+.Message .Message-Con table td input.wid_300{width:300px; height:25px; border:1px solid #9fa8c2}
+.Message .Message-Con table td input.wid_200{width:200px; height:25px; border:1px solid #9fa8c2}
+.Message .Message-Con table td select{width:95px; height:25px; border:1px solid #9fa8c2 }
+.Message .Message-Con p.explaine{margin-left:40px; font-size:12px; margin-top:10px;}
+.Message .Message-Con p.explaine span{color:#F00;}
+.Message .Message-Con p.Btn_Submit{width:187px; height:36px; margin:10px auto;}
+
+
+
+
+
+
+/*메일 보내기 팝업 관련*/
+
+.Mail{width:655px; height:300px; border:5px solid #cccccc; background:#ffffff; margin:20px auto;}
+.Mail .Mail-Con{width:655px; height:284px; margin:0 auto; background:#FFF; position:relative;}
+.Mail .Mail-Con h5{width:642px; height:64px; margin:0 auto; margin-bottom:15px;}
+.Mail .Mail-Con table{width:642px; height:130px;}
+.Mail .Mail-Con table th{text-align:right; width:230px; height:30px;}
+.Mail .Mail-Con table td{text-align:left; padding-left:15px;}
+.Mail .Mail-Con table td input{width:330px; height:25px; border:1px solid #9fa8c2}
+.Mail .Mail-Con p.explaine{margin-left:40px; font-size:12px; margin-top:15px;}
+.Mail .Mail-Con p.explaine span{color:#F00;}
+.Mail .Mail-Con p.Btn_Submit{width:187px; height:36px; margin:0 auto;}
+
+
+
+
+
+/*상담신청*/
+
+#counseling{width:100%; height:auto; margin-top:20px; }
+#counseling .counseling-Con{width:830px;  border:5px solid #e5e5e5;}
+
+ p.Tit{font-weight:bold; background:url(../images/user_guide/bullet_squer_blue.gif) 0 3px no-repeat; text-indent:10px; margin-top:15px;}
+
+.counseling-Con .Input-Table{width:670px; height:600px; margin:0 auto; margin-bottom:20px; background:#f0f0f0;  }
+
+
+
+.counseling-Con .Input-Table table{width:584px; height:120px; margin:0 auto; }
+.counseling-Con .Input-Table table th{width:50px; background:url(../images/user_guide/bullet_squer_blue.gif) 0 27px no-repeat; text-align:left; text-indent:10px}
+.counseling-Con .Input-Table table td{width:250px;}
+.counseling-Con .Input-Table table td input{width:220px; height:25px; border:1px solid #d2d2d2;}
+
+.counseling-Con .Textarea-Con{width:595px; height:120px; margin:20px auto; }
+.counseling-Con .Textarea-Con textarea {width:584px; height:150px; border:1px solid #d2d2d2; margin:10px 0;}
+
+
+
+
+
+/*개인정보취급방침 동의*/
+
+.Terms-Con{width:584px; margin-top:10px;}
+.Agree-Con-C{width:584px; height:100px; overflow:auto; margin-top:10px; background:#ffffff; border:1px solid #d6d5d5;}
+
+
+
+h3{margin-left:10px; margin-top:20px; font-size:15px;}
+h4{font-size:13px;}
+
+
+
+
+p.Check-Agree{color:#565555; margin-top:10px; font-weight:normal;}
+
+ul.Section_Title{width:100%; height:100px;  margin-left:20px;}
+ul.Section_Title li{width:230px; height:40px; float:left;  margin:5px;} 
+ul.Section_Title li a{display:block; text-align:center; width:220px; height:40px; border:1px solid #3e5bd4; font-weight:bold; color:#3e5bd4; margin-top:10px; line-height:40px;}
+
+ul.Section_Title li a:hover{background:#3e5bd4; color:#ffffff;}
+
+dl dt{font-weight:bold; margin-left:10px; margin-bottom:5px; color:#666666; line-height:25px;}
+dl dt span{display:block; font-weight:normal;}
+dl dd{margin-left:20px; margin-bottom:5px; line-height:20px;}
+em{font-style:normal;}
+
+ol li{margin:10px; line-height:20px;}
+
+
+.Terms-Contents{clear:both;  margin:0 auto; margin-top:20px; padding-top:10px;}
+.Terms-Con p{font-weight:bold; margin-left:10px; margin-bottom:5px; color:#666666; line-height:20px;}
+.Terms-Con .H4_Tit{clear:both;  margin:0 auto; padding-top:10px;}
+.Terms-Con .H4_Tit span{display:block; font-weight:normal;}
+.Terms-Con .H4_Tit em{display:block; font-weight:normal; color:#d64747;}
+.counseling-Con .Textarea-Con p.Btn{width:182px; height:38px; margin:10px auto;}
+

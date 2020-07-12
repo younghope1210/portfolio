@@ -1,0 +1,69 @@
+#wrap {float:left; width:390px;  background: #eae9e9;}
+
+#header {width:390px;}
+#header .title_b {float:left; height:27px; width:390px; background: url(../images/member/popup/pt_top.jpg) repeat-x left top;}
+#header .title_b img {margin:5px 0 0 15px;}
+#header .title_s {float:left; height:100px; width:390px; background: url(../images/member/popup/pt_line.jpg) no-repeat 0 100%;}
+#header .title_s img {margin:15px 0 0 15px;}
+#header .title_s2 {float:left; width:390px;}
+#header .title_s2 img {margin:15px 0 0 15px;}
+
+#contents {float:left; width:390px; height:auto; border-bottom:1px solid #a91b17; padding-bottom:15px;}
+
+/* login */
+#login {width:330px;  background:url(images/bg_login.jpg) no-repeat; padding:15px 0 0 15px; }
+#login dd{width:246px; float:left; vertical-align:top; }
+#login .input_text{border:1px solid #c9c9c9; width:200px; height:18px; color:#444;}
+#login .uid img, 
+#login .upw img {margin:5px 5px 0 0;}
+#login p.keeping{float:right; margin:-23px 0 0 0;} 
+#login p.log_join_find {width:200px; float:left; padding:5px 0 0 42px;}
+#login p.log_join_find img{margin-right:5px;}
+
+
+/* id */
+#id_login {width:330px;  background:url(images/bg_login.jpg) no-repeat; padding:15px 0 0 15px; }
+#id_login dd{width:246px; float:left; vertical-align:top; }
+#id_login .input_text{border:1px solid #c9c9c9; width:200px; height:18px; color:#444;}
+#id_login .uid img, 
+#id_login .upw img {margin:5px 5px 0 0;}
+#id_login p.keeping{float:right; margin:-23px 0 0 0;} 
+#id_login p.log_join_find {width:200px; float:left; padding:5px 0 0 42px;}
+#id_login p.log_join_find img{margin-right:5px;}
+
+
+/* password */
+#pass_login {width:330px; background:url(images/bg_login.jpg) no-repeat; padding:15px 0 0 15px; }
+#pass_login dd{width:246px; float:left; vertical-align:top; }
+#pass_login .input_text{border:1px solid #c9c9c9; width:200px; height:18px; color:#444;}
+#pass_login .uid img, 
+#pass_login .um img,
+#pass_login .upw img {margin:5px 5px 0 0;}
+#pass_login p.keeping{float:right; margin:-47px 0 0 0;} 
+#pass_login p.log_join_find {width:200px; float:left; padding:5px 0 0 42px;}
+#pass_login p.log_join_find img{margin-right:5px;}
+
+/* post */
+#post {width:360px; margin:10px 0 0 15px;}
+#post p{width:320px; float:left; font-size:8pt; margin-bottom:10px;}
+#post dd {width:320px; float:left; vertical-align:top; }
+#post dd .mg1 {margin:5px 5px 0 0;}
+#post dd .mg2 {margin-top:1px;}
+#post .input_text{border:1px solid #c9c9c9; width:180px; height:16px; color:#444;}
+#post .te1 {float:left; width:355px; background:url(../images/member/popup/pt.jpg) repeat-x left top; margin-top:10px;}
+#post .te1 .textarea {width:355px; border:1px solid #c9c9c9; height:70px; margin-top:10px;}
+
+/* check id */
+#check {width:355px; margin:15px 0 0 15px;}
+#check .sch {float:left; width:355px; background:#fafafa; border:1px solid #d1d1d1;}
+#check .sch .ch1 {float:left; width:245px; padding:15px; font-size:8pt; line-height:1.5em;}
+#check .sch .ch1 span {color:#a91b17; font-weight:bold;}
+#check .sch .ch2 {float:right; width:78px; padding-top:17px;}
+#check #search_line {float:left; margin-top:10px; width:355px; background:url(../images/member/popup/pt.jpg) repeat-x left top;}
+#check #search_line p {margin:10px 0;}
+#check .sch {float:left; width:355px; background:#fafafa; border:1px solid #d1d1d1;}
+#check .sch .id1 {float:left; padding:7px 0 7px 15px; }
+#check .sch .id1 img {margin:5px 10px 0 0;}
+#check .sch .input_text{border:1px solid #c9c9c9; width:180px; height:16px; color:#444;}
+#check .sch .id2 {float:right; width:78px; padding-top:8px;}
+

@@ -1,0 +1,173 @@
+﻿
+@charset "euc-kr";
+/* CSS Document */
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+a{color:#666666;}
+
+
+#Main-Container{width:100%; height:auto; margin:0 auto; margin-top:3px; }
+#Main-Container #Contents{width:1100px; margin:0 auto;}
+
+
+
+/*로그인 및 비주얼 배너 주력상품등등 */
+
+#Top-Contents {width:1100px; height:600px;  margin:0 auto;}
+
+#Top-Con-A{width:300px; height:auto; float:left; }
+
+
+/*로그인시작 */
+
+#Top-Con-A #Login-Section{width:300px; height:255px; background:#f0eeef;}
+#Login-Section ul{width:180px height:90px; float:left; margin:50px 10px 15px 20px;}
+#Login-Section ul li{width:180px; height:36px; margin-bottom:10px;}
+#Login-Section ul li input{width:180px;height:36px; background:#fff; border:0;}
+#Login-Section p.Btn-Login{float:left; width:76px; height:86px; margin-top:50px}
+#Login-Section p.Btn-Login a{display:block; width:76px; height:86px; line-height:86px; text-align:center; color:#fff; font-size:14px; font-weight:bold; background:#d74747;}
+#Login-Section p.Check-Box {clear:both; height:18px; text-align:center; color:#9a9a9a; font-size:14px; line-height:18px; margin-bottom:20px;}
+#Login-Section p.Check-Box input{width:17px; height:17px; vertical-align:middle; border:1px solid #cccccc;}
+
+#Login-Section p.Id-Find{clear:both; width:280px;  margin:0 auto; border-top:1px solid #fff; line-height:60px; font-size:14px; color:#9a9a9a; text-align:center;}
+
+
+#Top-Con-A .Guide-Bnr{width:301px; height:345px;}
+
+/*비주얼 시작 */
+
+#Top-Con-B{width:500px; height:600px; float:left; overflow:hidden;}
+#Top-Con-B img{width:500px; height:600px; float:left; -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;}
+
+#Top-Con-B img:hover{width:530px; height:630px;}
+
+
+
+
+
+
+
+/*네비게이션 버튼 시작 */
+
+#Top-Con-C{width:300px; float:right; }
+
+#Top-Con-C .Navi-Btn{width:300px; height:300px; background:url(../images/main/navi_back.jpg) no-repeat;}
+#Top-Con-C .Navi-Btn li{width:150px; height:150px; float:left; }
+#Top-Con-C .Navi-Btn li a{display:block; width:139px; height:139px; background:url(../images/main/navi_a.jpg) no-repeat; text-indent:-9999px; font-size:0; margin:0 auto;  }
+
+#Top-Con-C .Navi-Btn li.Navi-Btn-B a{ background:url(../images/main/navi_b.jpg) no-repeat;}
+#Top-Con-C .Navi-Btn li.Navi-Btn-C a{ background:url(../images/main/navi_c.jpg) 0 5px  no-repeat; }
+#Top-Con-C .Navi-Btn li.Navi-Btn-D a{ background:url(../images/main/navi_d.jpg) 0 5px  no-repeat;}
+
+#Top-Con-C .Navi-Btn li.Navi-Btn-A a:hover{ background:url(../images/main/navi_a_over.jpg) no-repeat;}
+#Top-Con-C .Navi-Btn li.Navi-Btn-B a:hover{ background:url(../images/main/navi_b_over.jpg) no-repeat;}
+#Top-Con-C .Navi-Btn li.Navi-Btn-C a:hover{ background:url(../images/main/navi_c_over.jpg) 0 5px  no-repeat; }
+#Top-Con-C .Navi-Btn li.Navi-Btn-D a:hover{ background:url(../images/main/navi_d_over.jpg) 0 5px  no-repeat;}
+
+#Top-Con-C .Product-Bnr{width:300px; height:300px;}
+
+	
+
+/*LNB 추천상품 시작 */
+
+
+#Section-A{width:1100px; height:360px; margin:30px auto; border-bottom:1px solid #e6e6e6; }
+#Section-A #Lnb{width:300px; height:auto; float:left; border-right:1px solid #e6e6e6;}
+#Section-A #Lnb h2{width:246px; height:47px; background:#999999; text-align:center; font-size:14px; line-height:47px; color:#fff; font-weight:bold; margin:0 auto;}
+#Section-A #Lnb ul{width:246px; height:auto; margin:0 auto;}
+#Section-A #Lnb ul li{width:100%; height:56px; line-height:56px; font-weight:bold; color:#333333; font-size:14px; border-bottom:1px solid #e6e6e6;}
+#Section-A #Lnb ul li img{width:80px; height:27px; margin-left:5px; margin-right:40px; vertical-align:middle;}
+#Section-A #Lnb ul li a{display:block; color:#333333;}
+#Section-A #Lnb ul li a:hover{color:#d74747;}
+
+
+.Recommend-Product{width:750px; float:left;  margin-left:25px;}
+.Recommend-Product h3{font-size:26px; color:#d64646; font-weight:bold; float:left; font-family: 'Noto Sans KR', sans-serif;}
+.Recommend-Product h3 span{font-size:14px; font-weight:normal; color:#999999; margin-left:10px;}
+ 
+.Recommend-Product .Btn-Product{float:right;}
+.Recommend-Product .Btn-Product li{float:left; margin-right:5px;}
+.Recommend-Product .Btn-Product li a{display:block; width:175px; height:30px; border-radius:5px; color:#fff; text-align:center; line-height:30px;}
+.Recommend-Product .Btn-Product li.Btn-Prod-A a{background:#d74747; }
+.Recommend-Product .Btn-Product li.Btn-Prod-B a{background:#42519c;}
+
+.Recommend-Product-Con{clear:both; width:755px; height:274px; padding-top:20px; }
+.Recommend-Product-Con .Product-Con{width:234px; height:274px; border:1px solid #eae8e9; float:left; margin-right:15px;} 
+
+.Recommend-Product-Con .Product-Con dl{width:196px; height:189px; margin:10px auto;}
+.Recommend-Product-Con .Product-Con dl dt{width:196px; height:158px; overflow:hidden;}
+.Recommend-Product-Con .Product-Con dl dt img{width:196px; height:158px;   -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;}
+
+.Recommend-Product-Con .Product-Con dl dt img:hover{width:210px; height:168px;}
+
+.Recommend-Product-Con .Product-Con dl dd{font-size:18px; font-weight:bold; margin-top:8px; text-align:center; font-family: 'Noto Sans KR', sans-serif; }
+.Recommend-Product-Con .Product-Con p{ width:80px; height:27px; float:left; margin-top:10px;}
+.Recommend-Product-Con .Product-Con ul{float:left; }
+.Recommend-Product-Con .Product-Con ul li{ margin-bottom:5px; font-weight:bold; background:url(../images/main/bullet_red.gif) 0 3px no-repeat; text-indent:8px}
+
+
+/*편리기능 시작 */
+
+#Section-B{width:1100px; height:280px; margin:30px auto; border-bottom:1px solid #e6e6e6; }
+
+#Section-B h3{font-size:26px; color:#d64646; font-weight:bold; text-align:center; font-family: 'Noto Sans KR', sans-serif;}
+#Section-B h3 span{display:block; font-size:14px; font-weight:normal; text-align:center; color:#999999; margin-top:10px;}						
+#Section-B ul{width:1100px; height:158px; margin:40px auto; }
+#Section-B ul li{width:221px; height:158px; float:left; margin-left:22px; margin-right:22px;}
+
+
+
+
+/*공지사항 및 산출방법 안내 시작 */
+
+#Section-C{width:1100px; height:300px; margin:30px auto; border-bottom:1px solid #e6e6e6; }
+
+.Notice{width:300px; height:auto; float:left; border-right:1px solid #e6e6e6;}
+.Notice h3{width:246px; height:50px; margin-left:20px; font-size:26px; color:#d64646; font-weight:bold; float:left; font-family: 'Noto Sans KR', sans-serif; position:relative; border-bottom:1px solid #eae8e9;}
+.Notice h3 span{font-size:14px; font-weight:normal; color:#999999; position:absolute; bottom:10px; right:10px; }
+.Notice ul{clear:both; width:246px; margin:0 auto; padding-top:30px;}
+.Notice ul li{width:100%; height:40px; font-size:14px;}
+.Notice ul li a{display:block; color:#333; background:url(../images/main/bullet_red.jpg) 0 5px no-repeat; text-indent:10px;}
+.Notice ul li a:hover{color:#d74747; text-decoration:underline;}
+
+
+.Calculation-Guide{width:750px; float:left;  margin-left:25px;}
+.Calculation-Guide h3{font-size:26px; color:#d64646; font-weight:bold; float:left; font-family: 'Noto Sans KR', sans-serif;}
+.Calculation-Guide h3 span{font-size:14px; font-weight:normal; color:#999999; margin-left:10px;}
+
+.Calculation-Guide ul{clear:both; padding-top:20px; }
+.Calculation-Guide ul li{width:232px; height:217px; float:left; margin-right:15px; overflow:hidden;}
+
+
+.Calculation-Guide ul li img{width:232px; height:217px; -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;}
+
+
+.Calculation-Guide ul li img:hover{width:238px; height:220px;}
+
+
+
+						
+
+/**/
+
+
+#Section-D{width:1100px; height:250px; margin:0 auto; margin-top:30px; }
+
+#Section-D h3{font-size:26px; color:#d64646; font-weight:bold; text-align:center; font-family: 'Noto Sans KR', sans-serif;}
+#Section-D h3 span{display:block; font-size:14px; font-weight:normal; text-align:center; color:#999999; margin-top:10px;}
+
+#Section-D ul{width:1050px; height:auto; margin:0 auto; margin-top:40px;} 
+#Section-D ul li{width:185px; height:108px; float:left; margin-right:20px;}

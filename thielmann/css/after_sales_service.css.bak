@@ -1,0 +1,211 @@
+
+
+
+@charset "utf-8";
+
+#After-Sales-Service{width:1200px; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#After-Sales-Service #After-Sales-Service-Con{width:1151px; height:auto; margin:0 auto; position:relative;    }
+/*#Electric_Range_Explain #Electric_Range_Con img{width:100%; height:auto;}*/
+
+
+/*본문시작*/
+
+
+
+#After-Sales-Service-Con h3{width:100%; height:100px; line-height:100px; border-bottom:1px solid #000; font-size:40px; font-weight:bold; color:#000;}
+#After-Sales-Service-Con h3 em{color:#df323a; margin-left:10px;}
+
+
+.ASS-Contents{width:100%; height:auto; margin-top:20px; overflow:hidden; }
+.ASS-Contents p.Title-skin{width:80%; height:auto; margin:20px auto;}
+.ASS-Contents h5{width:95%; height:auto; font-size:34px; color:red; margin:20px auto;}
+.ASS-Contents h5 span{display:block; font-size:20px; margin-top:15px;}
+.ASS-Contents h5 em{display:block; font-size:14px;  margin-top:15px; color:black; line-height:20px;}
+
+.ASS-Contents p.Service-Img{width:80%; height:auto; margin:30px auto;}
+
+/* 고객관리 시스템 */
+
+
+.Management-System{width:100%; height:auto; margin:20px auto;}
+.Management-System h4{width:100%; height:auto; padding-top:30px; font-size:36px; color:#000; text-align:center;}
+.Management-System h4 span{font-size:26px; color:gray;}
+
+.Management-System dl{height:auto; float:left; width:20%; height:auto; margin-right:2.3%; margin-left:2.3%; margin-top:50px;} 
+
+.Management-System dl dd{text-align:center; line-height:20px; font-size:15px;}
+.Management-System dl dd.Title-Red{font-size:24px; height:40px; color:red; margin-top:20px;}
+
+/*A/S 프로세스 */
+
+.Process{width:100%; height:auto; margin:0 auto;}
+.Process h4{clear:both; width:100%; height:auto; padding-top:60px; font-size:36px; color:#000; text-align:center;}
+.Process .Process-Con{margin-top:10px;}
+.Process .Process-Con ul{width:100%; margin:0 auto; margin-top:50px;}
+
+.Process .Process-Con ul li{width:20%; float:left; margin-left:2.5%; margin-right:2.5%;}
+.Process .Process-Con ul li img{display:block; width:80%; margin:0 auto;}
+
+
+/* 믿고 맡기는 틸만 */
+
+
+.Thielmann-Greeting{clear:both; width:100%; height:auto; margin:0 auto; padding-top:100px;}
+
+.Thielmann-Greeting .Photo-A{width:60%; height:auto; float:left;}
+.Thielmann-Greeting h5{width:38%; height:auto; font-size:34px; color:red; margin:20px auto; float:left; margin-left:2%;}
+.Thielmann-Greeting h5 span{display:block; font-size:20px; margin-top:15px;}
+.Thielmann-Greeting h5 em{display:block; width:70%; font-size:14px;  margin-top:15px; color:black; line-height:20px;}
+.Thielmann-Greeting ul{clear:both; width:100%; height:auto; margin:0 auto; padding-top:50px; }
+
+.Thielmann-Greeting ul li{width:32%; height:auto; float:left; margin-left:1%;}
+
+
+
+
+
+/* 고객 지원팀 정기 교육 및 회의  */
+
+.Customer-Info{ clear:both; width:100%; height:auto; margin-top:30px;}
+.Customer-Info h4{width:100%; height:auto; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+.Customer-Info dl{width:48%; height:auto; float:left; margin-left:1%; margin-right:1%;  padding-bottom:50px; margin-top:50px;}
+.Customer-Info dl dt{width:100%; height:auto;}
+.Customer-Info dl dd{font-size:14px; margin-top:20px; line-height:20px;}
+.Customer-Info dl dd.Title{font-size:24px; color:#000000;}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1280px) {
+
+#After-Sales-Service{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#After-Sales-Service #After-Sales-Service-Con{width:100%; height:auto; margin:0 auto; position:relative;   background:red;}
+
+}
+
+
+
+@media (max-width: 1008px){
+
+#After-Sales-Service{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#After-Sales-Service #After-Sales-Service-Con{width:100%; height:auto; margin:0 auto; position:relative;  background:yellow;  }
+
+}
+
+
+
+@media (max-width: 752px) {
+
+#After-Sales-Service{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#After-Sales-Service #After-Sales-Service-Con{width:100%; height:auto; margin:0 auto; position:relative;  background:green;   }
+
+
+.ASS-Contents p.Title-skin{width:90%; height:auto; margin:20px auto;}
+.ASS-Contents p.Service-Img{width:90%; height:auto; margin:30px auto;}
+
+/* 고객관리 시스템 */
+
+
+.Management-System{width:100%; height:auto; margin:20px auto;}
+.Management-System h4{width:100%; height:auto; padding-top:30px; font-size:36px; color:#000; text-align:center;}
+.Management-System h4 span{font-size:26px; color:gray;}
+
+.Management-System dl{height:auto; float:left; width:20%; height:auto; margin-right:2.3%; margin-left:2.3%; margin-top:50px;} 
+
+.Management-System dl dd{text-align:center; line-height:20px; font-size:15px; margin-top:20px;}
+.Management-System dl dd.Title-Red{font-size:20px; height:40px; color:red; margin-top:20px; line-height:25px;}
+
+
+/*A/S 프로세스 */
+
+.Process{width:100%; height:auto; margin:0 auto;}
+.Process h4{clear:both; width:100%; height:auto; padding-top:60px; font-size:36px; color:#000; text-align:center;}
+.Process .Process-Con{margin-top:10px;}
+.Process .Process-Con ul{width:80%; margin:0 auto; margin-top:50px;}
+
+.Process .Process-Con ul li{width:45%; float:left;  margin-bottom:20px;}
+.Process .Process-Con ul li img{display:block; width:100%; margin:10px auto;}
+
+
+
+
+/* 믿고 맡기는 틸만 */
+
+
+.Thielmann-Greeting{clear:both; width:100%; height:auto; margin:0 auto; padding-top:100px;}
+
+.Thielmann-Greeting .Photo-A{clear:both; width:90%; height:auto; margin-left:5%;  }
+.Thielmann-Greeting h5{width:100%; height:auto; font-size:34px; color:red; margin:20px auto; clear:both; margin-left:2%;}
+.Thielmann-Greeting h5 span{display:block; font-size:20px; margin-top:15px;}
+.Thielmann-Greeting h5 em{display:block; width:100%; font-size:14px;  margin-top:15px; color:black; line-height:20px;}
+.Thielmann-Greeting ul{clear:both; width:100%; height:auto; margin:0 auto; padding-top:50px; }
+
+.Thielmann-Greeting ul li{width:32%; height:auto; float:left; margin-left:1%;}
+
+
+}
+
+
+@media (max-width: 480px){
+
+
+#After-Sales-Service{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#After-Sales-Service #After-Sales-Service-Con{width:100%; height:auto; margin:0 auto; position:relative;   background:blue;   }
+
+
+
+/* 고객관리 시스템 */
+
+
+.Management-System{width:100%; height:auto; margin:20px auto;}
+.Management-System h4{width:100%; height:auto; padding-top:30px; font-size:36px; color:#000; text-align:center;}
+.Management-System h4 span{font-size:26px; color:gray;}
+
+.Management-System dl{height:auto; float:left; width:35%; height:400px; margin-right:2.3%; margin-left:2.3%; margin-top:50px; margin-left:10%;} 
+
+.Management-System dl dd{text-align:center; line-height:20px; font-size:15px; margin-top:20px;}
+.Management-System dl dd.Title-Red{font-size:20px; height:40px; color:red; margin-top:20px; line-height:25px;}
+
+
+
+
+.Thielmann-Greeting h5 em{display:block; width:100%; font-size:14px;  margin-top:15px; color:black; line-height:20px;}
+.Thielmann-Greeting ul{clear:both; width:100%; height:auto; margin:0 auto; padding-top:50px; }
+
+.Thielmann-Greeting ul li{width:90%; height:auto; clear:both; margin-left:5%; margin-bottom:10px;}
+
+
+
+
+
+
+
+/* 고객 지원팀 정기 교육 및 회의  */
+
+.Customer-Info{ clear:both; width:100%; height:auto; margin-top:30px;}
+.Customer-Info h4{width:100%; height:auto; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+.Customer-Info dl{width:90%; height:auto; clear:both; margin-left:1%; margin-left:5%;  padding-bottom:50px; margin-top:50px;}
+.Customer-Info dl dt{width:100%; height:auto;}
+.Customer-Info dl dd{font-size:14px; margin-top:20px; line-height:25px;}
+.Customer-Info dl dd.Title{font-size:24px; color:#000000;}
+
+
+}
+
+
+@media (max-width: 320px){
+
+#After-Sales-Service{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#After-Sales-Service #After-Sales-Service-Con{width:100%; height:auto; margin:0 auto; position:relative;  background:orange;  }
+
+#After-Sales-Service-Con h3{width:100%; height:100px; line-height:100px; border-bottom:1px solid #000; font-size:30px; font-weight:bold; color:#000;}
+
+
+.Management-System dl{height:auto; clear:both; width:70%; height:350px; margin-right:2.3%; margin-left:2.3%; margin-top:50px; margin-left:10%;} 
+
+}

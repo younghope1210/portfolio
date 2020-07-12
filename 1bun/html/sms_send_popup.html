@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+
+
+<style>
+
+*{margin:0; padding:0;}
+/* font */
+body { font:75% /1.2 Dotum, "돋움", sans-serif;}
+input, select, textarea{ font:100% Dotum, "돋움", sans-serif; color:#4a4a4a; }
+
+/* anchor 
+a { text-decoration:none; }
+a:link { color:white; }
+a:visited { color:white; }
+a:hover { text-decoration:underline; color:white; }
+a:focus { background:white; }*/
+
+/* skip */
+.skip, legend, caption {position:absolute; top:0; left:0; text-indent:-9999px; width:0; height:0; line-height:0; font-size:0; overflow:hidden; visibility:hidden; }
+
+fieldset{border:0;}
+li{list-style:none;}
+img{border:0;}
+
+/*common*/
+
+table {table-layout:fixed; border-collapse:collapse; border-spacing:0; color:#666666;}
+thead{color:#fff;}
+th{vertical-align:middle;}
+td{vertical-align:middle; text-align:center;}
+
+
+/*------------- 견적 3개 동시 발송 시스템 시작----------------------*/
+
+#Sms-Send{width:675px; height:auto; background:#7896e6; float:left;}
+#Sms-Send #Sms-Send-Con{width:655px; height:auto; margin:0 auto; background:#ffffff; position:relative;}
+
+/*닫기버튼*/
+#Sms-Send-Con p.Btn_Closer{width:25px; height:25px; position:absolute; top:10px; right:10px;}
+#Sms-Send-Con h2{width:654px; height:107px; margin:0 auto; margin-top:10px;}
+.Brand-Choice h3{width:140px; height:22px; margin:10px 0 10px 10px;}
+
+/*브랜드별 상품 초이스*/
+
+.Brand-Choice{width:630px; height:auto; margin:20px auto; }
+.Brand-Check{width:300px; height:130px; border:1px solid #cccccc; float:left; border-radius:3px; margin-left:10px; margin-bottom:10px;} 
+
+.Brand-Check p{width:296px; height:43px; background:#f5f7fc; margin:0 auto; border-bottom:1px solid #cccccc;}
+.Brand-Check p img{width:48px; height:16px; margin-top:10px; margin-left:5px;}
+.Brand-Check p span{ font-weight:bold; margin-left:5px;}
+.Brand-Check ul{margin-top:15px; margin-left:10px;}
+.Brand-Check ul li{margin-bottom:5px;}
+.Brand-Check ul li input{width:13px; height:13px; vertical-align:middle; margin-right:5px; border:1px solid }
+
+/* 회원 정보 입력 */
+
+
+.input-Con{clear:both; width:608px; height:120px; margin:0 auto; background:url(../images/sms_send/back_input_img.gif) no-repeat; padding-top:20px;} 
+.input-Con ul{width:580px; height:100px; margin:7px auto;}
+.input-Con ul li{float:left; background:url(../images/sms_send/bullet_blue.gif) 0 9px no-repeat; text-indent:10px; margin-left:20px; margin-bottom:15px;}
+.input-Con ul li.Btn-Submit{background:none;}
+.input-Con ul li input.Wid-150{width:150px; height:25px; border:1px solid #cccccc; }
+.input-Con ul li input.Wid-400{width:260px; height:25px; border:1px solid #cccccc; }
+.Radio-Box{display:inline-block; width:10px; height:10px; margin-top:5px;}
+
+
+</style>
+
+<title>이메일무단수집거부</title>
+
+
+
+
+</head>
+
+<body>
+
+<!--견적 3개 동시 발송 시스템 시작-->
+
+  <div id="Sms-Send">
+	 <div id="Sms-Send-Con">
+		<h2><img src="../images/sms_send/h2_title.gif" alt="견적 3개동시 발송 시스템 " /></h2>
+		<p class="Btn_Closer"><a href="#"><img src="../images/sms_send/btn_closer.gif" alt="닫기버튼" /></a></p>	
+	 
+		<div class="Brand-Choice">
+			<h3><img src="../images/sms_send/h3_choice.gif" alt="보험사별 상품 선택" /></h3>
+			<div class="Brand-Check">
+				<p><img src="../images/brand_logo/logo_meritz_48.png" alt="브랜드로고" /> <span>메리츠화재</span> </p>
+				<ul>
+					<li><input type="radio" name="Brnad_1" /> 알파 PLUS 보장보험</li>
+					<li><input type="radio" name="Brnad_1" /> 알파 PLUS 보장보험</li>
+					<li><input type="radio" name="Brnad_1" /> 알파 PLUS 보장보험</li>
+				</ul>
+			</div><!--E://Brand-Check-->
+
+			<div class="Brand-Check">
+				<p><img src="../images/brand_logo/logo_meritz_48.png" alt="브랜드로고" /> <span>메리츠화재</span>  </p>
+				<ul>
+					<li><input type="radio" name="Brnad_2" /> 알파 PLUS 보장보험</li>
+					<li><input type="radio" name="Brnad_2" /> 알파 PLUS 보장보험</li>
+					<li><input type="radio" name="Brnad_2" /> 알파 PLUS 보장보험</li>
+				</ul>
+			</div><!--E://Brand-Check-->
+
+			<div class="Brand-Check">
+				<p><img src="../images/brand_logo/logo_meritz_48.png" alt="브랜드로고" /> <span>메리츠화재</span>  </p>
+				<ul>
+					<li><input type="radio" name="Brnad_3" /> 알파 PLUS 보장보험</li>
+					<li><input type="radio" name="Brnad_3" /> 알파 PLUS 보장보험</li>
+					<li><input type="radio" name="Brnad_3" /> 알파 PLUS 보장보험</li>
+				</ul>
+			</div><!--E://Brand-Check-->
+
+			<div class="Brand-Check">
+				<p><img src="../images/brand_logo/logo_meritz_48.png" alt="브랜드로고" />  <span>메리츠화재</span>  </p>
+				<ul>
+					<li><input type="radio" name="Brnad_4" /> 알파 PLUS 보장보험</li>
+					<li><input type="radio" name="Brnad_4" /> 알파 PLUS 보장보험</li>
+					<li><input type="radio" name="Brnad_4" /> 알파 PLUS 보장보험</li>
+				</ul>
+			</div><!--E://Brand-Check-->
+			
+				<div class="Brand-Check">
+				<p><img src="../images/brand_logo/logo_meritz_48.png" alt="브랜드로고" /> <span>메리츠화재</span>  </p>
+				<ul>
+					<li><input type="radio" name="Brnad_3" /> 알파 PLUS 보장보험</li>
+					<li><input type="radio" name="Brnad_3" /> 알파 PLUS 보장보험</li>
+					<li><input type="radio" name="Brnad_3" /> 알파 PLUS 보장보험</li>
+				</ul>
+			</div><!--E://Brand-Check-->
+
+			<div class="Brand-Check">
+				<p><img src="../images/brand_logo/logo_meritz_48.png" alt="브랜드로고" />  <span>메리츠화재</span>  </p>
+				<ul>
+					<li><input type="radio" name="Brnad_4" /> 알파 PLUS 보장보험</li>
+					<li><input type="radio" name="Brnad_4" /> 알파 PLUS 보장보험</li>
+					<li><input type="radio" name="Brnad_4" /> 알파 PLUS 보장보험</li>
+				</ul>
+			</div><!--E://Brand-Check-->
+
+
+			<div class="input-Con">
+				<ul>
+					<li><span>이름</span> <input type="text" class="Wid-150" /></li>
+					<li><span>생년월일</span> <input type="text" class="Wid-150"  /></li>
+					<li><span>성별</span> 남 <input type="radio" name="gender" class="Radio-Box" /> 여 <input type="radio" name="gender" class="Radio-Box" /></li>
+					<li><span>핸드폰 번호</span> <input type="text" class="Wid-400"  /></li>
+					<li class="Btn-Submit"><a href="#"><img src="../images/sms_send/btn_submit.gif" alt="문자보내기버튼" /></a></li>
+				</ul>
+			</div><!--E://input-Con-->
+
+
+			
+		</div><!--E://Brand-Choice-->	
+	 </div><!--E://Sms-Send-Con-->	
+  
+  </div><!--E://Sms-Send-->	
+		
+		
+		
+
+<!--견적 3개 동시 발송 시스템 시작-->	
+
+</body>
+</html>

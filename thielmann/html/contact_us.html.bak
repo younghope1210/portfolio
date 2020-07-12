@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <title>틸만 중앙 전시장</title>
+	 <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/header.css" />
+	  <link rel="stylesheet" type="text/css" href="../css/common.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/contact_us.css" />
+	 <!--<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />-->
+
+
+
+ </head>
+ <body>
+
+
+	<div id="Wrapper">
+		
+		<div id="Container">
+
+			<div id="Header">
+				<div id="Header-Con">
+				
+				<h1><a href="#"><img src="../images/header/h1_logo.gif" alt="틸만 로고" /></a></h1>
+				
+				<!--★★★★★★★★★★★ 유틸메뉴 시작 ★★★★★★★★★★★  -->
+
+				<div id="Util-Menu">
+					
+
+						<ul>
+							<li class="Info-A"><img src="../images/header/icon_headset.png" alt="제품문의 아이콘" />제품문의</li>
+							<li class="Info-B"><img src="../images/header/icon_telephone.png" alt="전화번호출력" />02-3476-0901</li>
+							<li class="Info-C"><img src="../images/header/icon_phone.png" alt="핸드폰번호출력" />010-6730-0440</li>
+						</ul>
+					
+				</div><!--e://Util-Menu-->
+
+				<!-- ★★★★★★★★★★★ GNB 시작 ★★★★★★★★★★★ -->
+
+				<div id="Gnb">
+				
+					<ul id="Gnb_Bar">
+						<li><a href="#">회사소개</a></li>		
+						<li><a href="#">제품소개</a></li>	
+						<li><a href="#">제품타입</a></li>	
+						<li><a href="#">파트너모집</a></li>	
+						<li><a href="#">커뮤니티</a></li>	
+					</ul>
+
+					<p><a href="#">빠른 상담예약</a></p>
+					
+				</div><!--e://Gnb-->
+				<div id="Gnb-Sub-Con" style="display:none;">
+					
+					<div id="Gnb-Sub-Contents" >
+						<ul>
+							<li><a href="#">틸만이란?</a></li>
+							<li><a href="#">인증서리스트</a></li>
+							<li><a href="#">전시장갤러리</a></li>
+							<li><a href="#">오시는길</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">상품리스트</a></li>
+							<li><a href="#">전기레인지란?</a></li>
+							<li><a href="#">틸만소개영상</a></li>
+							<li><a href="#">서비스안내</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">인덕션특징</a></li>
+							<li><a href="#">하이라이트특징</a></li>
+							<li><a href="#">타이별차이점</a></li>
+							
+						</ul>
+						<ul>
+							<li><a href="#">파트너모집</a></li>
+							<li><a href="#">파트너신청</a></li>
+							
+						</ul>
+						<ul>
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">Q&A</a></li>
+							<li><a href="#">설치후기</a></li>
+							<li><a href="#">EVENT</a></li>
+						</ul>
+
+					</div><!--e://Gnb-Sub-Contents-->
+
+				</div>	<!--e://Gnb-Sub-Con-->
+
+				</div><!--e://Header-Con-->
+			</div><!--e://header-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+
+		
+		
+			<script src="../js/jquery-1.9.1.min.js"></script>
+		    <script src="../js/jquery.slides.min.js"></script>
+
+
+			<script>
+				var zoomx = 100;
+				  $(document).ready(function() {
+					$("#Gnb_Bar").hover(
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideDown(400);
+					  },
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideUp(600);
+					  }
+					);
+
+					$("#Gnb-Sub-Con").hover(
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideDown(400);
+					  },
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideUp(600);
+					  }
+					);
+
+				  
+
+				//class="tabBtn tabBtngroupA" tar="lastA_1" tarc="lastA_1" tarx="tabBtngroupA"
+				  });
+
+				</script>
+			
+
+			<div id="Contents">
+
+
+			<!-- ★★★★★★★★★★★ visual ★★★★★★★★★★★ -->
+				
+				<div id="Sub-Visual">
+					  <div id="Visual-Con">
+						
+						
+						<p class="Top-Skin"><span class="Tiny-Title">Intelligent Look </span>틸만의 디지털 원터치 패널방식 <span class="Squer">Thielmann Ceramic Range</span></p>
+							
+						</div>
+					</div><!--e://Sub-Visual-->
+					<div id="Contact-Us">
+					<div id="Contact-Us-Con">
+						<h3><span>오시는<em>길</em></span></h3>
+
+						<div class="Contact-Us-Contents">
+							<h4>Store Map</h4>
+							<p><img src="../images/about/contact_us_map.gif" alt="틸만 중앙 전시장 오시는 길" width="100%" height="auto;" /></p>
+							<div class="Map-Info">
+								<div class="Map-Info-Con">
+									<h5>◇ 지하철</h5>
+									<dl>
+										<dt>[ 9호선 신반포역 ]</dt>
+										<dd>4번 출구로 나와서 좌회전 450m 직진, 삼거리에서 우측 횡단보도를 건넌 후 앞쪽 횡단보도 한번 더 거넌 후 우측으로 150m 직진</dd>
+										<dt>[ 2호선 서초역 ]</dt>
+										<dd>6번출구 > 성모병원방향 마을버스 정류장 > 서초 21번 이용 > 서래마을 입구 하차</dd>
+										<dt>[ 자가용 ]</dt>
+										<dd>반포IC > 이수교차로방면 > 성모병원 사거리 > 사평지하차도 이용 > 육교 > 반포전화국 앞 유턴 </dd>
+									</dl>
+								</div><!--e://Map-Info-Con--->	
+								
+								<div class="Map-Info-Con">
+									<h5>◇ 시내버스 이용시 </h5>
+									<dl>
+										<dt>[ 142,342번 → 강남방향 ]</dt>
+										<dd>서래마을입구(서래본가)에서 하차 서래로 방배중학교 방향 200m 서래약국 건너편 세븐일레븐에서 자회전 후 전방 약 300m에 있습니다.</dd>
+										<dt>[ 142 → 방배동방향 ]</dt>
+										<dd>서래마을 입구 정류소에 하차 육교 건너 서래본가쪽에서 서래로 방배중학교 방향 200m 서래약국 건너편 세븐일레븐에서 좌회전 후 전방 약 300m에 있습니다.</dd>
+										
+									</dl>
+								</div><!--e://Map-Info-Con--->			
+
+									<div class="Map-Info-Con">
+									<h5>◇ 마을버스 이용시 </h5>
+									<dl>
+										<dt>[ 14,21번 → 방배동방향 ]</dt>
+										<dd>궁전아파트 앞 정류장에서 하차 하나은행(코웰빌딩)골목으로 400m(7분)정도 직진하시면 됩니다.</dd>
+										<dt>[ 10,14,21 → 방배동방향 ]</dt>
+										<dd>서래마을입구 정류소에 하차하고 길을 건너 현대자동차 골목으로 100m 동양부동산 옆의 아르떼에서 좌회전 후 서래로(서래약국)길을 건너 전방 약 300m에 있습니다.</dd>
+										<dt>[ 13번 → 양방향(강남,방배동) ]</dt>
+										<dd>서래마을(서래약국) 정류소에서 하차, 세븐일레븐에서 좌회전 후 전방 약 300m에 있습니다.</dd>
+									</dl>
+								</div><!--e://Map-Info-Con--->			
+
+									
+							</div><!--e://Map-Info-->	
+							
+						</div><!--e://Contact-Us-Contents-->	
+					
+					</div><!--e://Contact-Us-Con-->	
+					
+				</div><!--e://Contact-Us-->	 
+				
+					
+			</div><!--e://Contents-->
+		
+		</div><!--e://Container-->
+
+		<div id="Footer">
+			<div id="Footer-Con">
+				<h2><img src="../images/footer/f_logo.gif" alt="F-logo" /></h2>
+		
+				<address>
+					
+					<ul>
+						<li>| 상호 : 틸만㈜ | 사이트명 : 틸만중앙전시장 | 대표 : 채수민 </li>
+						<li>| 사업자등록번호 : 107-87-67225 | 통신판매업신고 : 2012-서울서초-0543호 | 고객센터 : 02-3476-0901 </li>
+						<li>| 방문판매업신고번호 : 제 2012-서울서초-0055호  제 2012-서울서초-0055호 | 개인정보관리책임자 : 심정은 </li>
+						<li>| 이메일 : webmaster@tilman.co.kr  | 주소 : 서울 서초구 반포동 107-6번지 대국빌딩 1층 </li>
+						<li class="Copyright">Copyrightⓒ 2016 CSM㈜ All rights </li>
+					</ul>
+					
+				</address>
+				
+				
+				
+			</div><!--e://Footer-Con-->	
+			<div style="clear:both; width:1800px;"></div>
+				<div id="Certifi-Mark">
+					<ul>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_kcl.gif" alt="한국건설 생활환경 시험연구원" /><span>한국건설생활환경<em>시험연구원</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_ccm.gif" alt="소비자중심경영 인증" /><span>소비자중심경영<em>인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_ktc.gif" alt="한국전기전자시험연구소 적자파 적합인증" /><span>한국전기전자시험연구소<em>적자파 적합인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_iec.gif" alt="안전보건공단 위험성평가 인증" /><span>안전보건공단<em>위험성평가 인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_kipo.gif" alt="특허청상표등록" /><span>특허청<em>상표등록</em></span></a></li>
+
+					</ul>
+				</div><!--e://Certifi-Mark-->	
+		
+		</div><!--e://Footer-->	
+	
+		
+	</div><!--e://Wrapper-->
+
+  
+
+ </body>
+</html>

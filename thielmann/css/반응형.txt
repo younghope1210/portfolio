@@ -1,0 +1,191 @@
+   @media (max-width: 1280px) {
+
+
+   #Visual{max-width: 1280px; height:auto; margin:0 auto; overflow:hidden; }
+   #Visual #Visual-Con{width:1280px; height:auto; margin:0 auto; border-top:1px solid #000; position:relative;   }
+
+
+     
+    
+      }
+
+
+
+	  
+   @media (max-width: 1008px) {
+     
+    #Visual{width: 1008px; height:auto; margin:0 auto; overflow:hidden; }
+    #Visual #Visual-Con{width:1008px; height:auto; margin:0 auto; border-top:1px solid #000; position:relative;   }
+	
+	#Navi_Bnr{width:100%; height:126px; background:#000; border-top:1px solid #fff;}
+	#Navi_Bnr #Navi_Bnr-Con{width:1008px; height:auto; margin:0 auto; background:#000;}
+	#Navi_Bnr #Navi_Bnr-Con a{width:24%; height:auto; float:left; border-right:1px solid #fff; font-size:22px; color:#fff;  line-height:126px; }
+	#Navi_Bnr #Navi_Bnr-Con a:hover{background:#a2232d; opacity:0.8;}
+	#Navi_Bnr #Navi_Bnr-Con a img{vertical-align:middle; margin-left:10px; margin-right:10px;}
+
+	/*h3*/
+
+
+	h3{width:1008px; height:80px; font-size:40px; margin:0 auto; text-align:center; color:#000; margin-top:100px;} 
+	h3 em{display:block; font-style:normal; font-size:22px; color:#bf1e2e; font-weight:bold; margin-bottom:10px;}
+
+	#Column{width:100%; height:auto; margin:0 auto; margin-top:50px; background:#e7e4e4;}
+	#Column-Con{width:1008px; height:630px; margin:0 auto;}
+
+	#Column ul{clear:both; width:100%; height:auto; }
+	#Column ul li{float:left;}
+	#Column ul li{overflow:hidden; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+	background-size: cover; background-position: center center; } 
+
+
+
+	#Column ul li h4{font-size:32px; color:#fff; margin-top:20px; margin-left:10px;}
+	#Column ul li h4 em{display:block; font-style:normal; }
+	#Column ul li span{display:block; margin-top:20px; margin-left:10px; font-size:15px; color:#fff;  }
+	#Column ul li span em{display:block; font-style:normal;  width:300px; margin-top:5px; margin-bottom:5px;}
+
+
+
+	#Column ul li.Explain-Bnr-D h4,
+	#Column ul li.Explain-Bnr-G h4,
+	#Column ul li.Explain-Bnr-F h4
+	{font-size:32px; color:#000; margin-top:20px; margin-left:10px; }
+	#Column ul li.Explain-Bnr-D h4 em,
+	#Column ul li.Explain-Bnr-G h4 em,
+	#Column ul li.Explain-Bnr-F h4 em
+	{display:block; font-style:normal;}
+
+	#Column ul li.Explain-Bnr-D span,
+	#Column ul li.Explain-Bnr-G span,
+	#Column ul li.Explain-Bnr-F span {display:block; margin-top:20px; margin-left:10px; font-size:15px; color:#000; width:300px; }
+	#Column ul li.Explain-Bnr-D span em,
+	#Column ul li.Explain-Bnr-G span em,
+	#Column ul li.Explain-Bnr-F span em
+	{display:block; font-style:normal; width:300px;  margin-top:5px; margin-bottom:5px;}
+
+
+
+
+	#Column ul li.Explain-Bnr-A a{display:block; width:252px; height:324px; overflow:hidden; background:url(../images/main/explain_a.jpg) no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+	background-size: cover; background-position: center center; } 
+	#Column ul li.Explain-Bnr-B a {display:block; width:504px; height:324px; overflow:hidden; background:url(../images/main/explain_b.jpg) no-repeat;} 
+	#Column ul li.Explain-Bnr-C a{display:block; width:252px; height:324px; overflow:hidden; background:url(../images/main/explain_c.jpg) no-repeat;} 
+	#Column ul li.Explain-Bnr-D a{display:block; width:252px; height:324px; overflow:hidden; background:url(../images/main/explain_d.jpg) no-repeat;} 
+	#Column ul li.Explain-Bnr-E a{display:block;  width:252px; height:324px; overflow:hidden; background:url(../images/main/explain_e.jpg) no-repeat;} 
+	#Column ul li.Explain-Bnr-F a{display:block; width:252px;; height:324px; overflow:hidden; background:url(../images/main/explain_f.jpg) no-repeat;}
+	#Column ul li.Explain-Bnr-G a{display:block;  width:252px; height:324px; overflow:hidden; background:url(../images/main/explain_g.jpg) no-repeat;}
+
+
+		
+
+	.Skin{width:1008px;  margin:0 auto; overflow:hidden; background:url(../images/main/skin.jpg) -160px 0; no-repeat; }
+	.Skin h4{font-size:30px; color:#fff; margin-top:100px; margin-left:50px; color:#fbf5b2;}
+	.Skin h4 em{display:block; margin-top:10px;}
+	.Skin p{font-size:18px; color:#fff; margin-top:20px; margin-left:50px;}
+
+
+      }
+
+
+   @media (max-width: 752px) {
+     
+	   #Visual{width: 752px; height:auto; margin:0 auto; overflow:hidden; }
+	   #Visual #Visual-Con{width:752px; height:auto; margin:0 auto; border-top:1px solid #000; position:relative;   }
+
+	   #Navi{background:#000; height:260px; }
+	   #Navi #Navi-Con{width:752px; margin:0 auto;}
+
+	   #Navi_Bnr{width:752px; height:260px;  background:#000; border:0; }
+	   #Navi_Bnr #Navi_Bnr-Con{width:752px; height:auto; margin:0 auto; background:#000;}
+	   #Navi_Bnr #Navi_Bnr-Con a{width:49%; height:auto; float:left;   font-weight:bold; color:#fff;  border-top:1px solid #fff; }
+	   
+	   #Navi_Bnr #Navi_Bnr-Con a:hover{background:#a2232d; opacity:0.8;}
+	   #Navi_Bnr #Navi_Bnr-Con a img{width:30%;}
+
+
+		/*h3*/
+
+
+		h3{width:752px; height:80px; font-size:40px; margin:0 auto; text-align:center; color:#000; margin-top:50px;} 
+		h3 em{display:block; font-style:normal; font-size:22px; color:#bf1e2e; font-weight:bold; margin-bottom:10px;}
+
+			
+
+		#Column{width:752px; height:auto; margin:0 auto; margin-top:50px; }
+		#Column-Con{width:752px; height:705px; margin:0 auto;}
+
+		#Column ul{clear:both; width:752px;  }
+		#Column ul li{float:left;}
+		#Column ul li{overflow:hidden; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+		background-size: cover; background-position: center center; } 
+
+
+
+		#Column ul li h4{font-size:32px; color:#fff; margin-top:20px; margin-left:20px;}
+		#Column ul li h4 em{display:block; font-style:normal; }
+		#Column ul li span{display:block; margin-top:20px; margin-left:20px; font-size:18px; color:#fff;  }
+		#Column ul li span em{display:block; font-style:normal;  width:300px; margin-top:5px; margin-bottom:5px;}
+
+
+
+		#Column ul li.Explain-Bnr-D h4,
+		#Column ul li.Explain-Bnr-G h4,
+		#Column ul li.Explain-Bnr-F h4
+		{font-size:32px; color:#000; margin-top:20px; margin-left:20px; }
+		#Column ul li.Explain-Bnr-D h4 em,
+		#Column ul li.Explain-Bnr-G h4 em,
+		#Column ul li.Explain-Bnr-F h4 em
+		{display:block; font-style:normal;}
+
+		#Column ul li.Explain-Bnr-D span,
+		#Column ul li.Explain-Bnr-G span,
+		#Column ul li.Explain-Bnr-F span {display:block; margin-top:20px; margin-left:20px; font-size:18px; color:#000; width:300px; }
+		#Column ul li.Explain-Bnr-D span em,
+		#Column ul li.Explain-Bnr-G span em,
+		#Column ul li.Explain-Bnr-F span em
+		{display:block; font-style:normal; width:300px;  margin-top:5px; margin-bottom:5px;}
+
+
+ 
+		
+
+		#Column ul li.Explain-Bnr-A a{display:block; width:376px; height:429px; overflow:hidden; background:url(../images/main/explain_a.jpg) no-repeat; background-size: cover; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;} 
+		#Column ul li.Explain-Bnr-B a {display:none;} 
+		#Column ul li.Explain-Bnr-C a{display:block; width:376px; height:429px; overflow:hidden; background:url(../images/main/explain_c.jpg) no-repeat; background-size: cover; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;} 
+		#Column ul li.Explain-Bnr-D a{display:block; width:376px; height:429px; overflow:hidden; background:url(../images/main/explain_d.jpg) no-repeat; background-size: cover; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;} 
+		#Column ul li.Explain-Bnr-E a{display:block; width:376px; height:429px; overflow:hidden; background:url(../images/main/explain_e.jpg) no-repeat; background-size: cover; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;} 
+		#Column ul li.Explain-Bnr-F a{display:block; width:376px; height:429px; overflow:hidden; background:url(../images/main/explain_f.jpg) no-repeat; background-size: cover; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;}
+		#Column ul li.Explain-Bnr-G a{display:block; width:376px; height:429px; overflow:hidden; background:url(../images/main/explain_g.jpg) no-repeat; background-size: cover; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;}
+		
+		.Skin{width:752px;  margin:0 auto; overflow:hidden; background:url(../images/main/skin.jpg) -160px 0; no-repeat; }
+		.Skin h4{font-size:30px; color:#fff; margin-top:100px; margin-left:30px; color:#fbf5b2;}
+		.Skin h4 em{display:block; margin-top:10px;}
+		.Skin p{font-size:18px; color:#fff; margin-top:20px; margin-left:50px;}	
+
+
+
+      }
+
+
+
+
+
+  @media (max-width: 320px) {
+	
+	   #Visual{width: 320px; height:auto; margin:0 auto; overflow:hidden; }
+	   #Visual #Visual-Con{width:320px; margin:0 auto; border-top:1px solid #000; position:relative; 
+    
+	   #Navi{background:#000; height:100px;}
+	   #Navi #Navi-Con{width:320px; margin:0 auto;}
+
+	   #Navi_Bnr{width:100%; height:100px; background:#000; border-top:1px solid #fff;}
+	   #Navi_Bnr #Navi_Bnr-Con{width:320px; height:100px; margin:0 auto; background:#000;}
+	   #Navi_Bnr #Navi_Bnr-Con a{width:320px; float:left; border-right:1px solid #fff; font-size:12px; font-weight:bold; color:#fff;   }
+	   
+	   #Navi_Bnr #Navi_Bnr-Con a:hover{background:#a2232d; opacity:0.8;}
+	   #Navi_Bnr #Navi_Bnr-Con a img{width:30%;}
+	
+				
+
+      }
+

@@ -1,0 +1,53 @@
+
+.Visual{width:100%; height:200px; margin:0 auto; overflow:hidden; background:url(../images/comparison_quotation/skin.jpg) no-repeat center top;}
+.Visual p{width:1200px; margin:0 auto; font-size:40px; font-weight:bold; color:#fff; text-align:center; padding-top:70px; font-family: 'Noto Sans KR', sans-serif;}
+
+
+
+/*보험 비교견적 내기 시작 */
+
+
+
+#Main{width:1200px; height:auto; margin:0 auto; background:#fbf9f9; }
+
+
+/*보험 비교견적 내기 시작 */
+
+
+.Main-Banner{width:1200px; height:auto; margin:50px auto; }
+
+<div class="Visual">
+			<a href="#"><img src="../images/main/visual.gif" alt="비교견적 시작" /><a/>
+				
+			</div><!--e://Visual-->
+				<div id="contents">
+
+				<!--**********************************비교 견적내기 시작********************************** -->
+
+				<div id="Main">
+					
+					<div class="Main-Banner">
+						<div class="Bnr-A Banner">
+							<p class="Brand-Logo"><img src="../images/brand_logo/logo_hyundai_80.png" alt="로고" /></p>
+							<h4>굿앤굿 어린이 CI 보험</h4>
+							<p class="Product-Contents">상품특징이 나열됩니다.</p>
+							<p class="Btn-More"><a href="#"> 상품 자세히 보기 </a></p>
+						</div><!--e://Bnr-A-->
+						
+						<div class="Bnr-B Banner">
+							<p class="Brand-Logo"><img src="../images/brand_logo/logo_hyundai_80.png" alt="로고" /></p>
+							<h4>굿앤굿 어린이 CI 보험</h4>
+							<p class="Product-Contents">상품특징이 나열됩니다.</p>
+							<p class="Btn-More"><a href="#"> 상품 자세히 보기 </a></p>
+						</div><!--e://Bnr-B-->
+						
+						<div class="Bnr-C Banner">
+							<p class="Brand-Logo"><img src="../images/brand_logo/logo_hyundai_80.png" alt="로고" /></p>
+							<h4>굿앤굿 어린이 CI 보험</h4>
+							<p class="Product-Contents">상품특징이 나열됩니다.</p>
+							<p class="Btn-More"><a href="#"> 상품 자세히 보기 </a></p>
+						</div><!--e://Bnr-C-->
+
+
+					</div><!--e://Main-Banner-->
+				</div><!--e://Main-->

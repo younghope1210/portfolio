@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* font */
+
+body { font:100% /1.2 Dotum, "돋움", sans-serif; color:#666; width:100%; background:url(../img/common/main_bg.jpg) repeat-x 0 0;}
+input, select, textarea{ font:100% Dotum, "돋움", sans-serif; color:#4a4a4a; }
+
+/* anchor */
+a { text-decoration:none; }
+a:link { color:#666; }
+a:visited { color:#666; }
+a:hover { text-decoration:underline; color:#2255cb; }
+a:focus { background:white; }
+
+/* skip */
+.skip, legend, caption { position:absolute; top:0; left:0; text-indent:-9999px; width:0; height:0; line-height:0; font-size:0; overflow:hidden; visibility:hidden; }
+hr { display:none; }
+
+
+/*common*/
+
+
+.clear{clear:both;}
+
+

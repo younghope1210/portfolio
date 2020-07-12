@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#Wrapper{ width:100%; height:auto; margin:0 auto; overflow:hidden; }
+
+/* Header 공통 */
+
+#Header{width:100%; height:130px; margin:0 auto;}
+
+
+ 
+
+/*본문 공통*/
+
+#Container{width:100%; height:auto; margin:0 auto; position:relative;}
+#Container #Contents{width:100%; height:auto; margin:0 auto;  }
+
+
+
+
+/*서브 비쥬얼 공통*/
+
+
+#Sub-Visual{clear:both; width:100%; height:177px; background:black; background:url(../images/sub_common/sub_skin.jpg) repeat-x; }
+
+#Sub-Visual #Visual-Con{width:1200px; height:177px; margin:0 auto; }
+
+#Sub-Visual #Visual-Con p.Top-Skin{width:500px; height:80px; font-size:30px; color:#fff; text-align:center; margin:0 auto;  padding-top:30px;} 
+#Sub-Visual #Visual-Con p.Top-Skin span{display:block; margin-top:10px; margin-bottom:10px;}
+#Sub-Visual #Visual-Con p.Top-Skin span.Tiny-Title{font-size:17px;}
+#Sub-Visual #Visual-Con p.Top-Skin span.Squer{border:1px solid #fff; font-size:20px; }
+
+
+
+
+
+
+
+@media (max-width: 1280px) {
+
+
+#Sub-Visual{clear:both; width:100%; height:177px; background:black; background:url(../images/sub_common/sub_skin.jpg) repeat-x; }
+
+#Sub-Visual #Visual-Con{width:100%; height:177px; margin:0 auto; }
+
+#Sub-Visual #Visual-Con p.Top-Skin{width:100%; height:80px; font-size:30px; color:#fff; text-align:center; margin:0 auto;  padding-top:30px;} 
+#Sub-Visual #Visual-Con p.Top-Skin span{display:block; margin-top:10px; margin-bottom:10px;}
+#Sub-Visual #Visual-Con p.Top-Skin span.Tiny-Title{font-size:17px;}
+#Sub-Visual #Visual-Con p.Top-Skin span.Squer{border:0; font-size:20px; }
+
+}
+
+@media (max-width: 1008px)  {
+
+
+#Sub-Visual{clear:both; width:100%; height:177px; background:black; background:url(../images/sub_common/sub_skin.jpg) repeat-x; }
+
+#Sub-Visual #Visual-Con{width:100%; height:177px; margin:0 auto; }
+
+#Sub-Visual #Visual-Con p.Top-Skin{width:100%; height:80px; font-size:24px; color:#fff; text-align:center; margin:0 auto;  padding-top:30px;} 
+#Sub-Visual #Visual-Con p.Top-Skin span{display:block; margin-top:10px; margin-bottom:10px;}
+#Sub-Visual #Visual-Con p.Top-Skin span.Tiny-Title{font-size:17px;}
+#Sub-Visual #Visual-Con p.Top-Skin span.Squer{border:0; font-size:20px; }
+
+}

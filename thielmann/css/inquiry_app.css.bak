@@ -1,0 +1,170 @@
+
+@charset "utf-8";
+
+
+*{margin:0; padding:0;}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var,b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, 
+hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+	
+	font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width:100%;
+	background-color:#fff;
+	
+	font-size:12px;
+	color:rgb(80,80,80);
+    line-height:1;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+caption,legend{
+	display:none;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+ul {
+    list-style:none;
+}
+
+
+
+em{font-style:normal;}
+
+
+
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+	color:inherit;
+    vertical-align:baseline;
+    background:transparent;
+	text-decoration:none;
+}
+table {
+	table-layout:fixed;
+    border-collapse:collapse;
+    border-spacing:0;
+	box-sizing:border-box;
+}
+thead{
+	color:#fff;
+}
+th{
+	vertical-align:middle;
+	
+}
+td{
+	vertical-align:middle;
+	text-align:center;
+	
+}
+input, select {
+    vertical-align:middle;
+}
+.clearfix:before, .clearfix:after{content:'';display:table;}
+.clearfix:after{clear:both;}
+
+		
+		
+		
+	.Inquiry-Popup{width:752px; height:auto; background:#e0323b; padding-bottom:20px; border:1px solid red; position:relative;}
+	.Inquiry-Popup .Closer-Btn{width:23px; height:22px; position:absolute; top:5px; right:5px;}
+	.Inquiry-Popup h2{height:50px; font-size:34px; color:#fff; text-align:center; margin-top:20px;}
+		
+	.Inquiry-Popup-Con{width:700px; height:auto; margin:0 auto; padding-bottom:20px; background:#fff; }
+	.Inquiry-Popup-Con p.Phone-Num{width:450px; height:135px; margin:0 auto; padding-top:20px; padding-bottom:20px;}
+	.Inquiry-Popup-Con table{width:100%; height:auto; margin-left:30px;}
+	.Inquiry-Popup-Con table th{width:80px; height:42px; text-align:left; background:url(../images/popup/bullet_squer_red.gif) 3px 18px no-repeat; text-indent:17px;}	
+	.Inquiry-Popup-Con table td{text-align:left;}
+	.Inquiry-Popup-Con table td .Wid_280{width:90%; }
+	.Inquiry-Popup-Con table td .Wid_80{width:28.5%; }
+	.Inquiry-Popup-Con table td select{height:32px;}
+	.Inquiry-Popup-Con table td input{height:28px;}
+	.Inquiry-Popup-Con p.Agree-Check{text-align:center; height:20px; margin-top:20px;}
+	.Inquiry-Popup-Con p.Btn-Submit{width:173px; height:39px; margin:0 auto; margin-top:20px;}
+
+
+	@media (max-width: 700px) {
+	
+	.Inquiry-Popup{width:100%; height:auto; background:#e0323b; padding-bottom:20px; border:1px solid red; position:relative;}
+	.Inquiry-Popup .Closer-Btn{width:23px; height:22px; position:absolute; top:5px; right:5px;}
+	.Inquiry-Popup h2{height:50px; font-size:34px; color:#fff; text-align:center; margin-top:20px;}
+		
+	.Inquiry-Popup-Con{width:95%; height:auto; margin:0 auto; padding-bottom:20px; background:#fff; }
+	.Inquiry-Popup-Con p.Phone-Num{width:90%; height:auto; margin:0 auto; padding-top:20px; padding-bottom:20px;}
+	.Inquiry-Popup-Con table{width:95%; height:auto; margin-left:30px;}
+	.Inquiry-Popup-Con table th{width:80px; height:42px; text-align:left; background:url(../images/popup/bullet_squer_red.gif) 3px 18px no-repeat; text-indent:17px;}	
+	.Inquiry-Popup-Con table td{text-align:left;}
+	.Inquiry-Popup-Con table td .Wid_280{width:90%; }
+	.Inquiry-Popup-Con table td .Wid_80{width:28.5%; }
+	.Inquiry-Popup-Con table td select{height:32px;}
+	.Inquiry-Popup-Con table td input{height:28px;}
+	.Inquiry-Popup-Con p.Agree-Check{text-align:center; height:20px; margin-top:20px;}
+	.Inquiry-Popup-Con p.Btn-Submit{width:173px; height:39px; margin:0 auto; margin-top:20px;}
+	
+	}
+
+
+
+	
+	@media (max-width: 480px) {
+	
+	.Inquiry-Popup{width:100%; height:auto; background:#e0323b; padding-bottom:20px; border:1px solid red; position:relative;}
+	.Inquiry-Popup .Closer-Btn{width:23px; height:22px; position:absolute; top:5px; right:5px;}
+	.Inquiry-Popup h2{height:50px; font-size:34px; color:#fff; text-align:center; margin-top:20px;}
+		
+	.Inquiry-Popup-Con{width:95%; height:auto; margin:0 auto; padding-bottom:20px; background:#fff; }
+	.Inquiry-Popup-Con p.Phone-Num{width:90%; height:auto; margin:0 auto; padding-top:20px; padding-bottom:20px;}
+	.Inquiry-Popup-Con table{width:90%; height:auto; margin-left:30px;}
+	.Inquiry-Popup-Con table th{width:80px; height:42px; text-align:left; background:url(../images/popup/bullet_squer_red.gif) 3px 18px no-repeat; text-indent:17px;}	
+	.Inquiry-Popup-Con table td{text-align:left;}
+	.Inquiry-Popup-Con table td .Wid_280{width:90%; }
+	.Inquiry-Popup-Con table td .Wid_80{width:27%; }
+	.Inquiry-Popup-Con table td select{height:32px;}
+	.Inquiry-Popup-Con table td input{height:28px;}
+	.Inquiry-Popup-Con p.Agree-Check{text-align:center; height:20px; margin-top:20px;}
+	.Inquiry-Popup-Con p.Btn-Submit{width:173px; height:39px; margin:0 auto; margin-top:20px;}
+	
+	}
+
+
+
+@media (min-width: 360px) {
+	
+	.Inquiry-Popup{width:100%; height:auto; background:#e0323b; padding-bottom:20px; border:1px solid red; position:relative;}
+	.Inquiry-Popup .Closer-Btn{width:23px; height:22px; position:absolute; top:5px; right:5px;}
+	.Inquiry-Popup h2{height:50px; font-size:34px; color:#fff; text-align:center; margin-top:20px;}
+		
+	.Inquiry-Popup-Con{width:95%; height:auto; margin:0 auto; padding-bottom:20px; background:#fff; }
+	.Inquiry-Popup-Con p.Phone-Num{width:90%; height:auto; margin:0 auto; padding-top:20px; padding-bottom:20px;}
+	.Inquiry-Popup-Con table{width:90%; height:auto; margin-left:30px;}
+	.Inquiry-Popup-Con table th{width:80px; height:42px; text-align:left; background:url(../images/popup/bullet_squer_red.gif) 3px 18px no-repeat; text-indent:17px;}	
+	.Inquiry-Popup-Con table td{text-align:left;}
+	.Inquiry-Popup-Con table td .Wid_280{width:90%; }
+	.Inquiry-Popup-Con table td .Wid_80{width:27%; }
+	.Inquiry-Popup-Con table td select{height:32px;}
+	.Inquiry-Popup-Con table td input{height:28px;}
+	.Inquiry-Popup-Con p.Agree-Check{text-align:center; height:20px; margin-top:20px;}
+	.Inquiry-Popup-Con p.Btn-Submit{width:173px; height:39px; margin:0 auto; margin-top:20px;}
+	
+	}

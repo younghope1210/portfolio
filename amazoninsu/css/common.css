@@ -1,0 +1,8 @@
+
+#Wrapper{width:100%; height:auto; margin:0 auto;  overflow:hidden }
+
+#Wrapper #Header{width:100%; height:70px; margin:0 auto;}
+#Wrapper #Header #Container{width:100%; height:auto; margin:0 auto;}
+#Wrapper #Header #Container #Contents{width:100%; height:auto; margin:0 auto;}
+#Contents #Article{width:100%; height:auto; margin:0 auto; overflow:hidden;}
+#Footer{clear:both; width:100%; height:129px; margin:0 auto; background:url(../images/footer/footer_back.gif) repeat-x;}

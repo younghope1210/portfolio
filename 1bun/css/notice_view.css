@@ -1,0 +1,28 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+.Notice-View{width:780px; height:auto; }
+
+.Notice-View .Notice-View-Con {width:770px; height:auto; margin:0 auto; }
+.Notice-View .Notice-View-Con  h3{font-size:20px; color:#000; margin-top:1px; font-weight:bold; }
+
+
+/* 공지사항 게시글 확인 게시판 출력 */
+
+.Norice-View{clear:both; width:770px; height:auto; margin:0 auto; padding-top:20px;}
+.Norice-View table{width:770px; height:auto; margin:0 auto; border-top:2px solid #5e77a5;}
+.Norice-View table th.Tit{height:40px; background:#faf9f9; border-bottom:1px solid #999999; text-align:left; padding-left:10px;}
+.Norice-View table th{ height:30px;  border-bottom:1px solid #dcdee1; border-right:1px solid #dcdee1;}
+.Norice-View table td {height:30px;  border-bottom:1px solid #dcdee1;}
+
+.Norice-View table td.Min-Size{height:500px;}
+
+
+
+/*목록보기 버튼*/
+
+
+
+.Norice-View .Btn-Con{width:83px; height:27px; float:right; margin-top:20px;}

@@ -1,0 +1,279 @@
+<!doctype html>
+
+ <head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="../css/import2.css" />
+  <link rel="stylesheet" type="text/css" href="../css/index.css" />
+
+ 
+  <title>1분견적</title>
+  
+  
+  
+ </head>
+ <body>
+  
+
+<div id="Wrapper">
+
+	 <!-- 공통 Header 시작-->
+	<div id="Header">
+    	<div class="Util-Menu">
+        	<div class="Util-Menu-Con">
+				
+                <p>무료상담 <span>010.777.5577</span></p>
+                <ul class="Right-Menu">
+                   <li><a href="login_page.html">로그인</a></li>
+                    <li><a href="notice.html">공지사항</a></li>
+                    <li><a href="#">견적발송체험</a></li>
+               
+                </ul><!--Left-Menu-->
+               
+           </div><!--Util-Menu-con-->      
+        </div><!--Util-Menu-->
+        
+        
+        
+        
+        
+        
+          
+          
+          <!--****************GNB 시작!************-->
+        
+    	
+        
+        
+        
+          <div class="Navi">
+              <div class="Navi-Con">
+                  <h1><a href="index.html"><img src="../images/h1/logo.gif" alt="logo" /></a></h1>
+                  
+                    <div id="Gnb" >
+                        <ul>
+                           	<li class="Gnb-a"><a href="goods.html">보험료계산</a></li>
+                            <li class="Gnb-b"><a href="calculation_list.html">산출내역</a></li>
+							<li class="Gnb-c"><a href="user_guide.html">사용요금</a></li>
+                            <li class="Gnb-d"><a href="user_guide.html">사용방법</a></li>
+                            <li class="Gnb-e"><a href="user_guide.html">상담신청</a></li>
+                            <li class="Gnb-f"><a href="about.html">회사소개</a></li>
+                        </ul>
+                    </div><!--Gnb-->
+          	</div><!--Navi_con-->
+          </div><!--Navi-->  
+    </div><!--Header-->
+    
+    <!--*******************************************메인 페이지 시작************************************************************* -->
+    
+    <div id="Main-Container">
+		<div id="Contents">
+			<!--******로그인 및 비주얼 배너 주력상품등등 ****-->
+			<div id="Top-Contents">
+				<div id="Top-Con-A">
+					<!--로그인창 시작-->
+					<div id="Login-Section">
+						<ul>
+							<li><input type="text" value=" 아이디 입력" /></li>
+							<li><input type="text" value=" 패스워드 입력" /></li>
+						</ul>
+						<p class="Btn-Login"><a href="#">로그인</a></p>
+						<p class="Check-Box"><input type="checkbox" />아이디 저장</p>
+						<p class="Id-Find">아이디 / 비밀번호 찾기</p>
+					</div><!--Login-Section-->
+					<!--로그인창완료-->
+					<div class="Guide-Bnr">
+						<p><a href="user_guide.html"><img src="../images/main/guide_banner.jpg" alt="상품특징 및 사용방법 안내" /></a></p>
+					</div>
+				</div><!--Top-Con-A-->
+				<div id="Top-Con-B">
+					<p class="Visual"><img src="../images/main/main_visual.jpg" alt="비주얼" /></p>
+				</div><!--Top-Con-B-->
+				<div id="Top-Con-C">
+					<!--카테고리네비 시작-->
+					<div class="Navi-Btn">
+						<ul>
+							<li class="Navi-Btn-A"><a href="goods.html">건강보험</a></li>
+							<li class="Navi-Btn-B"><a href="goods.html">자녀보험</a></li>
+							<li class="Navi-Btn-C"><a href="goods.html">암보험</a></li>
+							<li class="Navi-Btn-D"><a href="goods.html">운전자보험</a></li>
+						</ul>
+					</div><!--Navi-Btn-->
+					<div class="Product-Bnr">
+						<p><a href="goods.html"><img src="../images/main/product_banner.jpg" alt="주력상품 배너 노출" /></a></p>
+					</div><!--Product-Bnr-->
+				</div><!--Top-Con-C-->
+			</div><!--Top-Contents-->
+			
+			<div id="Section-A">
+				<!--*LNB 시작!*-->
+				<div id="Lnb">
+					<h2>회사별 보험상품</h2>
+					<ul>
+						<li><a href="goods.html"><img src="../images/brand_logo/logo_heungkuk_80.png" alt="logo" />흥국화재 </a></li>
+						<li><a href="goods.html"><img src="../images/brand_logo/logo_mg_80.png" alt="logo" />MG손보 </a></li>
+						<li><a href="goods.html"><img src="../images/brand_logo/logo_hyundai_80.png" alt="logo" />현대해상 </a></li>
+						<li><a href="goods.html"><img src="../images/brand_logo/logo_kb_80.png" alt="logo" />KB손보 </a></li>
+						<li><a href="goods.html"><img src="../images/brand_logo/logo_meritz_80.png" alt="logo" />메리츠화재 </a></li>
+					</ul>
+				</div><!--e:Lnb-->
+				<div class="Recommend-Product">
+					<h3>추천상품<span>보험료가 가장 많이 산출된 상품입니다.</span></h3>
+					<ul class="Btn-Product">
+						<li class="Btn-Prod-A"><a href="goods.html">종류별 상품보기</a></li>
+						<li class="Btn-Prod-B"><a href="goods.html">회사별 상품보기</a></li>
+					</ul>
+						<!--*추천상품 시작!*-->
+					<div class="Recommend-Product-Con">
+						<div class="Product-Con">
+							<dl>
+								<dt><a href="goods.html"><img src="../images/main/thumbnail_a.jpg" alt="썸네일" /></a></dt>
+								<dd>건강명의 암보험</dd>
+							</dl>
+							<p><img src="../images/brand_logo/logo_mg_80.png" alt="로고" /></p>
+							<ul>
+								<li>만15세~65세</li>
+								<li>일부환급형</li>
+								<li>80,90,100,110세만기</li>
+							</ul>
+						</div><!--Product-Con-->
+
+						<div class="Product-Con">
+							<dl>
+								<dt><a href="goods.html"><img src="../images/main/thumbnail_b.jpg" alt="썸네일" /></a></dt>
+								<dd>희망플러스자녀보험</dd>
+							</dl>
+							<p><img src="../images/brand_logo/logo_kb_80.png" alt="로고" /></p>
+							<ul>
+								<li>만15세~65세</li>
+								<li>일부환급형</li>
+								<li>80,90,100,110세만기</li>
+							</ul>
+						</div><!--Product-Con-->
+
+
+						<div class="Product-Con">
+							<dl>
+								<dt><a href="goods.html"><img src="../images/main/thumbnail_a.jpg" alt="썸네일" /></a></dt>
+								<dd>건강명의 암보험</dd>
+							</dl>
+							<p><img src="../images/brand_logo/logo_mg_80.png" alt="로고" /></p>
+							<ul>
+								<li>만15세~65세</li>
+								<li>일부환급형</li>
+								<li>80,90,100,110세만기</li>
+							</ul>
+						</div><!--Product-Con-->
+						
+
+					</div><!--Recommend-Product-Con-->
+				</div><!--Recommend-Product-->
+		
+					</div><!--Section-A-->
+						
+						<div id="Section-B">
+							<h3>편리기능 <span>아래 제공되는 기능을 편리하게 활용하세요.</span></h3>
+							<ul>
+								<li><a href="http://www.fss.or.kr/edu/main.jsp" target="_blank"><img src="../images/main/use_bnr_a.jpg" alt="" /></a></li>
+								<li><a href="http://finlife.fss.or.kr/main/main.do" target="_blank"><img src="../images/main/use_bnr_b.jpg" alt="" /></a></li>
+								<li><a href="https://www.hometax.go.kr/websquare/websquare.wq?w2xPath=/ui/pp/index.xml&tmIdx=0&tm2lIdx=&tm3lIdx=" target="_blank"><img src="../images/main/use_bnr_c.jpg" alt="" /></a></li>
+								<li><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%9E%84%EC%8B%A0%EC%A3%BC%EC%88%98%EA%B3%84%EC%82%B0&oquery=%EC%9E%84%EC%8B%A0%EC%88%98%EC%A3%BC%EA%B3%84%EC%82%B0&tqi=Tg1NtspVuElsssAoAEdssssssJw-390812&ie=utf8" target="_blank"><img src="../images/main/use_bnr_d.jpg" alt="" /></a></li>
+							</ul>
+						</div><!--Section-B-->
+
+						<div id="Section-C">
+							<!--*공지사항 및 금융계산기 편리기능*-->
+							<div class="Notice">
+								<h3>Notice <span><a href="#">More</a></span></h3>
+								<ul>
+									<li><a href="#">비갱신 가족배상책임 멸종위기</a></li>
+									<li><a href="#">보험료 인상원인 간략정리</a></li>
+									<li><a href="#">2016년 상품제도 변경 바로 알기</a></li>
+									<li><a href="#">2016년 역사상 최대 보험료 인..</a></li>
+									<li><a href="#">실손보험료 최대 30% 인상될 듯</a></li>
+								</ul>
+								
+							</div><!--Notice-->
+
+							<div class="Calculation-Guide">
+								<h3>산출방법<span>1분견적 사용방법을 확인하세요.</span></h3>
+								<ul>
+									<li><a href="#"><img src="../images/main/finance_bnr_a.jpg" alt="장기보험 산출방법" /></a></li>
+									<li><a href="#"><img src="../images/main/finance_bnr_b.jpg" alt="스마트폰 실시간 보험견적 시스템" /></a></li>
+									<li><a href="#"><img src="../images/main/finance_bnr_c.jpg" alt="자동차보험견적 시스템" /></a></li>
+
+								</ul>	
+							</div><!--Calculation-Guide-->
+						</div><!--Section-C-->
+
+						<div id="Section-D">
+							<h3>보험청구서다운<span>보험금 청구 절차와 관련 양식을 받을 수 있습니다.  </span></h3>
+							<ul>
+								<li><a href="../images/메리츠화재보험금청구서_2015.01.pdf"><img src="../images/main/center_a.jpg" alt="청구서다운" /></a></li>
+								<li><a href="#"><img src="../images/main/center_b.jpg" alt="청구서다운" /></a></li>
+								<li><a href="../images/kb손해보험보험금청구서양식2015.06.24.pdf"><img src="../images/main/center_c.jpg" alt="청구서다운" /></a></li>
+								<li><a href="#"><img src="../images/main/center_d.jpg" alt="청구서다운" /></a></li>
+								<li><a href="../images/흥국화재 보험금청구서_2015.01.pdf"><img src="../images/main/center_e.jpg" alt="청구서다운" /></a></li>
+							</ul>
+						</div><!--Section-D-->
+
+
+
+
+		</div><!--Contents-->
+    </div><!--Main-Container-->
+    
+    
+    <!--footer 페이지 하단 시작-->
+    
+    <div id="Footer">
+		<div class="F-Navi">
+          	<ul>
+            	<li><a href="#"><img src="../images/footer/f_menu_a.gif" alt="이용약관" /></a></li>	
+                <li><a href="#"><img src="../images/footer/f_menu_b.gif" alt="유료서비스이용약관" /></a></li>	
+                <li><a href="#"><img src="../images/footer/f_menu_c.gif" alt="개인정보취급방침" /></a></li>
+				<li><a href="#"><img src="../images/footer/f_menu_d.gif" alt="이메일무단수집거부" /></a></li>	
+            </ul>  	
+          </div><!--F-Navi-->
+    	  <div class="Footer-Con">
+          	<p class="F-Logo"><img src="../images/footer/f_logo.gif" alt="로고" /></p>
+    		<div class="F-Rignt-Con">
+                <address>
+                [150-836] 서울시 영등포구 문래동 3가 77-13 대소빌딩 7층 
+                </address>
+                <ul class="Customer-Centers">
+                    <li> 사이트명 : 1분견적 l 사업자등록번호 : 201-81-69329 l 사업자명 : 소나무마을㈜</li>
+
+                </ul><!--Customer-Centers-->
+                <p class="licensee-No">대표이사 : 민성빈 l 전화번호 : 080-777-5577 l FAX : 02-6455-4222</p>
+				<p class="licensee-No">통신판매업 신고번호  : 제 2008-서울영등포-1065호</p>
+           </div><!--F-Rignt-Con-->
+           <p class="copyright">COPYRIGHT ⓒ 2016 1분견적 ALL RIGHTS RESERVED</p>
+    	</div><!--Footer-Con-->
+	
+    
+    </div><!--Footer-->
+
+
+
+	<!--이메일 무단 수집 거부 팝업 -->	
+
+
+
+	<!--이용 동의 팝업 시작-->
+
+		<div>
+		
+		
+		</div>
+
+	<!--이용 동의 팝업 시작 -->	
+
+
+
+	
+</div><!--Wrapper-->
+ 
+ 
+ </body>
+</html>

@@ -1,0 +1,1878 @@
+<!doctype html>
+
+ <head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="../css/import2.css" />
+  <link rel="stylesheet" type="text/css" href="../css/index.css" />
+  <link rel="stylesheet" type="text/css" href="../css/calculation.css" />
+
+ 
+  <title>1분견적</title>
+  
+  
+  
+ </head>
+ <body>
+  
+
+<div id="Wrapper">
+
+	 <!-- 공통 Header 시작-->
+	<div id="Header">
+    	<div class="Util-Menu">
+        	<div class="Util-Menu-Con">
+				
+                <p>무료상담 <span>010.777.5577</span></p>
+                <ul class="Right-Menu">
+                   <li><a href="#">로그인</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">견적발송체험</a></li>
+               
+                </ul><!--Left-Menu-->
+               
+           </div><!--Util-Menu-con-->      
+        </div><!--Util-Menu-->
+        
+        
+        
+        
+        
+        
+          
+          
+          <!--****************GNB 시작!************-->
+        
+    	
+        
+        
+        
+          <div class="Navi">
+              <div class="Navi-Con">
+                  <h1><a href="index.html"><img src="../images/h1/logo.gif" alt="logo" /></a></h1>
+                  
+                    <div id="Gnb" >
+                        <ul>
+                           	<li class="Gnb-a"><a href="goods.html">보험료계산</a></li>
+                            <li class="Gnb-b"><a href="calculation_list.html">산출내역</a></li>
+							<li class="Gnb-c"><a href="user_guide.html">사용요금</a></li>
+                            <li class="Gnb-d"><a href="user_guide.html">사용방법</a></li>
+                            <li class="Gnb-e"><a href="user_guide.html">상담신청</a></li>
+                            <li class="Gnb-f"><a href="about.html">회사소개</a></li>
+                        </ul>
+                    </div><!--Gnb-->
+          	</div><!--Navi_con-->
+          </div><!--Navi-->  
+    </div><!--Header-->
+    
+    <!--산출페이지 contents 시작-->
+    
+    <div id="Container">
+    
+    	<div id="Contents">
+        	
+            <!-- 로그인창 및 lnb 메뉴 관련 -->
+        	
+            
+  		<!--<script src="../js/jquery.min.js"></script> -->
+            
+            
+            
+            <div id="Left-Con"> 
+            	<!--<div class="Login">
+                	<div class="Login_Box">
+                    	
+                    
+                    </div>
+                </div>-->
+                <div id="Navi">
+                <div id="Lnb-Product-Type">
+                	<h3><img src="../images/lnb/lnb_title_bar_a.gif" alt="보험종류별 상품보기" /></h3>	
+                    <ul>
+                    	<li class="Lnb-a"><a href="#" class="Lnb-a-Menu" >실손보험</a>
+                      	
+                          <ul class="Sub_Menu" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)메리츠 3대질병보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)KB닥터플러스건강보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)퍼펙트스타종합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)행복을 多주는 가족사랑통합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)건강명의수술비보험1601</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="Lnb-b"><a href="#" class="Lnb-b-Menu">암보험</a>
+                        	 <ul class="Sub_Menu" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)메리츠 3대질병보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)KB닥터플러스건강보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)퍼펙트스타종합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)행복을 多주는 가족사랑통합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)건강명의수술비보험1601</a></li>
+
+                            </ul>
+                        
+                        </li>
+                        <li class="Lnb-c"><a href="#" class="Lnb-c-Menu">건강보험</a>
+                        	<ul class="Sub_Menu" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)메리츠 3대질병보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)KB닥터플러스건강보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)퍼펙트스타종합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)행복을 多주는 가족사랑통합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)건강명의수술비보험1601</a></li>
+
+                            </ul>
+                        
+                        </li>
+                        <li class="Lnb-d"><a href="#" class="Lnb-d-Menu">자녀보험</a>
+                        	<ul class="Sub_Menu" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)메리츠 3대질병보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)KB닥터플러스건강보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)퍼펙트스타종합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)행복을 多주는 가족사랑통합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)건강명의수술비보험1601</a></li>
+
+                            </ul>
+                        
+                        </li>
+                        <li class="Lnb-e"><a href="#" class="Lnb-e-Menu">태아보험</a>
+                        	<ul class="Sub_Menu" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)메리츠 3대질병보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)KB닥터플러스건강보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)퍼펙트스타종합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)행복을 多주는 가족사랑통합보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/brand_logo/logo_heungkuk.gif" alt="보험사별 로고 출력" /></span>(무)건강명의수술비보험1601</a></li>
+
+                            </ul>
+                        
+                        </li>
+                       
+                    </ul>
+                </div><!--Lnb-Product-Type-->
+                
+                <div id="Lnb-Brand-Type">
+                	<h3><img src="../images/lnb/lnb_title_bar_b.gif" alt="보험사별 상품보기" /></h3>
+                    <ul>
+                    	<li class="Lnb-dy"><a href="#" class="Lnb-dy-Menu">메리츠화재</a>
+                        	<ul class="Sub_Menu2" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_baby.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 3대질병 보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_cancer.gif" alt="상품별 아이콘 출력" /></span>(무)내Mom같은 어린이보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_car.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 걱정없는 암보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 운전자보험 M-Drive</a></li>
+                             
+                            </ul>
+                        
+                        </li>
+                        <li class="Lnb-lg"><a href="#" class="Lnb-lg-Menu">K B 손 보</a>
+                        	<ul class="Sub_Menu2" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_baby.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 3대질병 보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_cancer.gif" alt="상품별 아이콘 출력" /></span>(무)내Mom같은 어린이보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_car.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 걱정없는 암보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 운전자보험 M-Drive</a></li>
+                             
+                            </ul>
+                        
+                        </li>
+                        <li class="Lnb-hd"><a href="#" class="Lnb-hd-Menu">현 대 해 상</a>
+                        	<ul class="Sub_Menu2" style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_baby.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 3대질병 보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_cancer.gif" alt="상품별 아이콘 출력" /></span>(무)내Mom같은 어린이보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_car.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 걱정없는 암보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 운전자보험 M-Drive</a></li>
+                             
+                            </ul>
+                        </li>
+                        <li class="Lnb-sy"><a href="#" class="Lnb-sy-Menu">흥 국 화 재</a>
+                        	<ul class="Sub_Menu2"  style="display:none;">
+                          			 
+                           			<li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_baby.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 3대질병 보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_cancer.gif" alt="상품별 아이콘 출력" /></span>(무)내Mom같은 어린이보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_car.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 걱정없는 암보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 운전자보험 M-Drive</a></li>
+                             
+                            </ul>
+                        </li>
+                        <li class="Lnb-gr"><a href="#" class="Lnb-gr-Menu">M G 손 보</a>
+                        	<ul class="Sub_Menu2" style="display:none;" >
+                          			 
+                           			<li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)알파Plus보장보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_baby.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 3대질병 보장보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_cancer.gif" alt="상품별 아이콘 출력" /></span>(무)내Mom같은 어린이보험1601</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_car.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 걱정없는 암보험1601(2종)</a></li>
+                                    <li><a href="#"><span><img src="../images/estimation/icon_silbi.gif" alt="상품별 아이콘 출력" /></span>(무)메리츠 운전자보험 M-Drive</a></li>
+                             
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    
+   
+                    
+                    
+                    
+                </div><!--Lnb-Brand-Type-->
+                
+                 </div><!--Navi-->
+            </div><!--Left-Con-->
+            
+            
+  
+            
+	 		<!--<script src="../js/portamento.js"></script>		
+		<script>
+			$('#Navi').portamento({disableWorkaround: true}); // disable the workaround for not-quite-capable browsers e.g. iOS, IE<7	
+		</script>-->
+    
+            
+            
+            
+            
+            
+        	
+                <!-- 페이지 본문 시작 -->
+            
+            <div id="Right-Con">
+            	
+                <div class="Brand-Info">
+                	<p class="Brand-Img"><img src="../images/estimation/logo_test.gif" alt="브랜드별 상품 이미지 노출" /></p>					
+                    <div class="Brand_Info_Con">
+                    	<h3>닥터플러스 건강보험 1601<span>(기본형)</span></h3>
+                        
+                        	<dl class="Characteristic">
+                            	<dt>상품 주요 특징</dt>
+                                <dd>[중도인출] 2년 후 연 12회 80%</dd>
+                                <dd>[납입면제] 질병/상해 80% 이상 후유장해 시</dd>
+                                <dd>[대체납입]적립 보험료 납입 면제 대체 납입</dd>
+                                <dd>[부가서비스]장례 제휴 서비스</dd>
+                                <dd>[상품특징]21대 질병 수술비</dd>
+                                
+                            </dl>
+                            <dl class="Terms">
+                            	<dt>상품 가입 조건</dt>
+                                <dd><span>가입연령</span> : 만 15세~60세</dd>
+                                <dd><span>기입유형</span> : 일부환급형</dd>
+                                <dd><span>보험기간</span> : 100세 만기</dd>
+                                <dd><span>납입기간</span> : 20/25/30년납</dd>
+                                <dd><span>납입주기</span> : 월납</dd>
+                            </dl>
+                            
+                       		<div class="Info-Form">
+                            	<ul>
+                                	<li><a href="#"><img src="../images/estimation/btn_tip.gif" alt="꼭 알아야할 사항 버튼" /></a></li>
+                                    <li><a href="#"><img src="../images/estimation/btn_terms.gif" alt="약관다운" /></a></li>
+                                    <li>
+                                    	<select>
+                                        	<option>상품요약서</option>
+                                            <option>3대진단비</option>
+                                            <option>닥플리플렛</option>
+                                        </select>
+                                    </li>	
+                                </ul>
+                            </div><!--Info-Form-->
+                    
+                    </div><!--Brand_Info_Con-->
+                    
+                    
+                    <!-- **********************플랜선택 시작*********************  -->
+                    
+                    
+                    <div id="Plan_Choice">
+                    	<h3><img src="../images/estimation/h3_plan_choice.gif" alt="플랜선택" />
+                        	
+                        </h3>
+                        
+                        <ul class="Plan-Choice-Con">
+                        	<li><a href="#"><span>플랜 관련 텍스트 입력</span></a></li>
+                            <li><a href="#"><span>플랜 관련 텍스트 입력</span></a></li>
+                            <li><a href="#"><span>플랜 관련 텍스트 입력</span></a></li>
+                            
+                        </ul><!--Plan-Choice-Con-->
+                    </div><!--Plan_Choice-->
+                    
+                   <!-- **********************직접산출 시작********************* -->
+                
+                	<div id="Self-Calculation-Con">
+                    	<h3><img src="../images/estimation/h3_calculation.gif" alt="직접산출" /></h3>
+                        	
+                    <div class="Insurer-Data-Input">
+                
+                    	<table>
+                        	<tr>
+                            	<th>플랜선택</th>
+                                <td colspan="5">
+                                	<select>
+                               			<option>플랜을 선택하세요.</option>
+                                        <option>플랜을 선택하세요.</option>
+                                        <option>플랜을 선택하세요.</option>
+                                    </select>
+                                    <span>*담보를 빼거나 추가하여 보험료를 계산할 수 있습니다.</span>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<th>이름</th>
+                                <td><input type="text" class="wid_100" /></td>
+                                <th>생년월일</th>
+                                <td><input type="text" class="wid_100"  /><a href="#"> <img src="../images/estimation/ico_calendar.gif" alt="생년월일 체크 캘린더" /></a> <input type="text" class="wid_20" /> 세</td>
+                                <th>성별</th>
+                                <td>남 <input type="radio" name="" /> 여 <input type="radio" name="" /></td>
+                            </tr>
+                            <tr>
+                            	<th>운전여부</th>
+                                <td>
+                                    <select>
+                                    	<option>운전여부</option>
+                                        <option>운전여부</option>
+                                    </select>
+                                </td>
+                           
+                            	<th>상해급수</th>
+                                <td colspan="3">
+                                	<select>
+                                    	<option>상해급수</option>
+                                        <option>상해급수</option>
+                                    </select>
+                                    <a href="#"><img src="../images/estimation/btn_job_search.gif" alt="직업으로 찾기" /></a>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<th>보험기간</th>
+                                <td><input type="text" class="wid_100" /></td>
+                           
+                            	<th>납입기간</th>
+                                <td>
+                                	<select>
+                                    	<option>납입기간</option>
+                                        <option>납입기간</option>
+                                    </select>
+                                </td>
+                           
+                            	<th>납입방법</th>
+                                <td><input type="text" class="wid_100" /></td>
+                            </tr>
+                            
+                        </table>
+                    
+                    </div><!--Insurer-Data-Input-->
+                    
+                    
+                    <div class="Result-Con">
+                    	<!--보험료 계산하기 -->
+                        <ul class="Insurance-Estimation">
+                        	<li class="Btn-Estimation"><a href="#"><img src="../images/estimation/btn_calculation.gif" alt="보험료계산하기 버튼" /></a></li>
+                            <li class="Estimation"><span>월납보험료<em>50,000원</em></span></li>
+                            
+                        </ul><!--e://Insurance-Estimation-->
+                        	
+                           <ul class="Btn-Info">
+                          
+                           		<li>* 가입 담보는 아래와 같습니다.</li>
+                                <li>* 담보를 수정하여 다시 계산할 수 있습니다.</li>
+                                <li>* 결과를 저장하면 메일, 문자로 보내거나 인쇄할 수 있습니다.</li>
+                          
+                           </ul> <!--e://Btn-Info-->
+                        
+                           <div class="Btn-Con " >
+                        	<p class="Save-Btn"><a href="#"><img src="../images/estimation/btn_save.gif" alt="저장하기 버튼" /></a></p>
+                            <ul>
+                            	
+                                <li class="Message-Submit-Btn"><a href="#"><img src="../images/estimation/btn_message.gif" alt="저장하기 버튼" /></a></li>
+                                <li class="Mail-Submit-Btn"><a href="#"><img src="../images/estimation/btn_mail.gif" alt="저장하기 버튼" /></a></li>
+                                <li class="Print-Submit-Btn"><a href="#"><img src="../images/estimation/btn_print.gif" alt="저장하기 버튼" /></a></li>
+                            </ul>
+                        </div><!--e://Btn-Con-->
+                       	
+                        
+                        <!--산출 내역 리스트-->
+                       
+                        <table class="Result-Con_Table">
+                        	<tr>
+                            	<th>선택</th>
+                                <th class="wid_200">담보명</th>
+                                <th>보장내용</th>
+                                <th>보험기간</th>
+                                <th>가입금액</th>
+                                <th>보험료</th>
+                            </tr>
+                            <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td class="Guarantee"><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a>
+                                	
+                                     
+                        <!--*******************************보장내용 관련 팝업***********************************************-->
+                        <div class="Guarantee_Popup" >
+                            <h5>보장내용</h5>
+                            <dl>
+                            	<dt>두번째 CI 보장 특약(갱신형,무배당)</dt>
+                                <dd>- 보장내용이 출력되는 부분입니다.</dd>
+                            </dl>
+                             	
+                        </div><!--Guarantee_Popup-->
+                            <!--*******************************보장내용 관련 팝업***********************************************--> 
+                                    
+                                    
+                                    
+                                </td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                             <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+							 <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+							 <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+							 <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+							 <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr> <tr>
+                            	<td><input type="checkbox" /></td>
+                                <td>일반상해50%이상후유장해</td>
+                                <td><a href="#"><img src="../images/estimation/btn_explain.gif" alt="보장내용" /></a></td>
+                                <td>80세</td>
+                                <td>
+                                	<select>
+                                 		<option>가입금액관련</option>
+                                        <option>가입금액관련</option>
+                                    </select>
+                                 </td>
+                                 <td>0원</td>
+                            </tr>
+                        </table>
+                      
+                      
+                           <ul class="Insurance-Estimation Insurance-Estimation2">
+                        	<li class="Btn-Estimation"><a href="#"><img src="../images/estimation/btn_calculation.gif" alt="보험료계산하기 버튼" /></a></li>
+                            <li class="Estimation"><span>월납보험료<em>50,000원</em></span></li>
+                        </ul><!--e://Insurance-Estimation-->
+                        <ul class="Btn-Info">
+                          
+                           		<li>* 가입 담보는 아래와 같습니다.</li>
+                                <li>* 담보를 수정하여 다시 계산할 수 있습니다.</li>
+                                <li>* 결과를 저장하면 메일, 문자로 보내거나 인쇄할 수 있습니다.</li>
+                          
+                           </ul> <!--e://Btn-Info-->
+                        
+                          <div class="Btn-Con btn_con_2">
+                        	<p class="Save-Btn"><a href="#"><img src="../images/estimation/btn_save.gif" alt="저장하기 버튼" /></a></p>
+                            <ul>
+                            	
+                                <li class="Message-Submit-Btn"><a href="#"><img src="../images/estimation/btn_message.gif" alt="저장하기 버튼" /></a></li>
+                                <li class="Mail-Submit-Btn"><a href="#"><img src="../images/estimation/btn_mail.gif" alt="저장하기 버튼" /></a></li>
+                                <li class="Print-Submit-Btn"><a href="#"><img src="../images/estimation/btn_print.gif" alt="저장하기 버튼" /></a></li>
+                            </ul>
+                        </div><!--e://Btn-Con-->
+                        
+                        
+                        
+                      <!--***2016_04_12 직업 찾기 팝업 추가 ***-->
+                        
+                     	<div class="Job-Search-Popup">
+                        	<div class="Job-Search-Popup-Con">
+                            	<p class="btn_closer"><a href="#"><img src="../images/estimation/btn_closer.gif" alt="닫기 버튼" /></a></p>
+                            	<h5><img src="../images/estimation/h3_jobsearch.gif" alt="직업찾기" /></h5>
+                                <table>
+                                	<tr>
+                                    	<th><p class="Tit">직업명을 입력하세요</p></th>
+                                        <td><input type="text" > <a href="#"><img src="../images/estimation/btn_jobsearch.gif" alt="직업 찾기 버튼" /></a></td>
+                                    </tr>
+                                </table>
+                                <p class="Case">예) 사무, 학생, 기술직, 무직, 공무원 등..</p>
+                                <p class="Explain">직업급수별로 각 담보별 금액제한이 있을 수 있습니다.<span>세부적인 인수지침은 담당 상담원에게 문의해 주십시오.</span></p>
+                        		<div class="Often-Search-Job">
+                                	<p class="Tit">자주 찾는 직업</p>
+                                	<ul >
+                                    	<li><a href="#">사무직</a></li>
+                                        <li><a href="#">학생/미취학 아동</a></li>
+                                        <li><a href="#">판매원</a></li>
+                                        <li><a href="#">주부</a></li>
+                                        <li><a href="#">전문직/기술/연구원</a></li>
+                                        <li><a href="#">농립어업</a></li>
+                                        <li><a href="#">교육전문</a></li>
+                                        <li><a href="#">배달/운송</a></li>
+                                        <li><a href="#">군인/경찰/소방</a></li>
+                                        <li><a href="#">공무원</a></li>
+                                        <li><a href="#">서비스</a></li>
+                                        <li><a href="#">기타무직</a></li>
+                                    </ul>
+                                
+                                </div><!--e://Often-Search-Job-->
+                                <div class="Search-Result">
+                                	<p class="Tit">'학생/미취학 아동' 검색결과</p>
+                                    <p class="Explain">*하단에 출력된 직업명을 선택하세요.</p>
+                                    <div class="Search-Result-Con">	
+                                    	<ul>
+                                        	<li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                            <li><a href="#">대학원생</a></li>
+                                        </ul>
+                                    
+                                    </div><!--e://Search-Result-Con-->
+                                </div><!--e://Search-Result-->
+                            </div><!--e://Job_Search_Popup_Con-->
+                        
+                        </div><!--e://Job_Search_Popup-->
+                     
+                     
+                       <!--***2016_04_12 프린트 출력 팝업 시작 ***-->
+                            
+						<table border="1" cellspacing="0" cellpadding="0"  width="750" height="auto" bgcolor="#abafc0" style="margin:0; padding:0; background:#abafc0; width:750px; height:auto;  border-collapse:collapse; border-spacing:0; display:none">
+        
+        <tr>
+            <th  align="center"  width="735" height="10" bgcolor="#ffffff" style="background:#ffffff; width:735px;  height:10px; margin:0 auto;">
+                 <table align="center"  border="0" cellspacing="0" cellpadding="0" width="735" height="auto" bgcolor="#ffffff"  style="background:#ffffff; width:735px; height:auto; margin:0 au;">
+                    <tr>
+                        <th>
+                            <table align="center"  border="0" cellspacing="0" cellpadding="0" width="730" height="75" bgcolor="#e8e6e6"  style=" background:#e8e6e6;  width:730px; height:75px; margin:0 auto; text-align:left; text-indent:10px;">
+                                <tr>
+                                    <th height="75" style="width:426px; height:75px; margin:0 auto; text-align:left; text-indent:10px; font-size:16px; font-weight:bold;">홍길동님 <span style="color:#4c67d7;">보험 설계결과 리포트</span><span style=" font-weight:normal; font-size:12px; margin-left:10px;">(산출일:2016년 04월 12일)</span>
+                                    </th>
+                                    <th height="77" style="width:304px; height:75px; margin:0 auto; text-align:left; text-indent:10px; font-size:16px; font-weight:bold;">
+                                    	<img src="../images/estimation/popup_print_h5_back_img.gif" alt="images"  />
+                                    </th>
+                                
+                                </tr>
+                                
+                            
+                            </table>
+                            
+                         </th>   
+                    </tr>
+                    <tr>
+                        <td height="70" style="height:70px;"> 
+                            <p style="text-align:left; font-weight:normal; width:700px; margin:0 auto; line-height:15px; padding-left:5px; border-left:2px solid #e2525d;">본 내용은 약관에 기초하여 인터넷 자료로 요약된 것으로 보상조항 등 기타 자세한 사항은 약관 및 상품요약서를 
+    반드시 참조하시기 바랍니다.(이 화면은 실제 보험가입시 발행되는 가입설계서, 상품설명서 등과 내용이 다를 수 있으며 
+    보험금지급을 위한 기초서류가 될 수 없습니다.)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="50" style="height:50px;" > 
+                            <ul style="text-align:left; width:700px; margin:0 auto; line-height:15px; border-top:1px solid #cccccc; border-bottom:1px solid #cccccc; padding:10px">
+                                <li style="padding-bottom:8px; font-weight:normal;"><span style="color:#e2525d; font-size:5px; vertical-align:middle;">■</span><span style="font-weight:bold; font-size:14px"> 상품명</span> : KB희망플러스자녀보험[30세]</li>
+                                <li style="font-weight:normal"><span style="color:#e2525d; font-size:5px; vertical-align:middle;">■</span><span style="font-weight:bold; font-size:14px"> 자료제공</span> : 회사명출력(02-777-6242), (계약처리담당자:전영구)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    
+                    <!--계약사항 및 보험료 섹션 시작 -->
+                    
+                    
+                    <tr>
+                        <th height="10" style="height:10px;"></th>
+                    </tr>
+                     <tr>
+                        <th height="30" style="height:30px; text-align:left; font-size:14px; color:#000;">1.계약사항 및 보험료</th>
+                    </tr>
+                    
+                    <tr>
+                        <td height="30" width="735" style="width:735px; height:90px;">
+                            <table  align="center"  border="1" cellspacing="0" cellpadding="0" width="730" height="75" style="border:1px solid #c8c7c7; width:730px; height:75px; margin:0 auto;">
+                                <tr>
+                                    <th height="30" bgcolor="#f5f3f3" heigh="30" style="background:#f5f3f3; height:30px; border-bottom:1px solid #c8c7c7;" >보험대상자(급수)</th>
+                                    <td style="font-weight:normal; border-bottom:1px solid #c8c7c7; border-left:1px solid #c8c7c7; border-right:1px solid #c8c7c7;">홍길동(1급)</td>
+                                    <th height="30" bgcolor="#f5f3f3" heigh="30" style="background:#f5f3f3; height:30px; border-bottom:1px solid #c8c7c7;" >생년월일/성별/보험나이</th>
+                                    <td style="font-weight:normal; border-bottom:1px solid #c8c7c7; border-left:1px solid #c8c7c7;">2016년 01월 01일 / 남자 / 50세</td>
+                                </tr>
+                                <tr>
+                                    <th height="30" bgcolor="#f5f3f3" heigh="30" style="background:#f5f3f3; height:30px; border-bottom:1px solid #c8c7c7; ">보험기간 / 납입기간</th>
+                                    <td style="font-weight:normal; border-bottom:1px solid #c8c7c7; border-left:1px solid #c8c7c7; border-right:1px solid #c8c7c7;">30세만기 / 20년납(월납)</td>
+                                    <th height="30" bgcolor="#f5f3f3" heigh="30" style="background:#f5f3f3; height:30px;border-bottom:1px solid #c8c7c7;">운전여부</th>
+                                    <td style="font-weight:normal; border-bottom:1px solid #c8c7c7; border-left:1px solid #c8c7c7;">운전안함</td>
+                                </tr>
+                                <tr>
+                                    <th  height="30" bgcolor="#f5f3f3" heigh="30" style="background:#f5f3f3; height:30px; border-bottom:1px solid #c8c7c7;">합계보험료</th>
+                                    <td colspan="3" style=" border-bottom:1px solid #c8c7c7; text-align:right; padding-right:10px; border-left:1px solid #c8c7c7;" >( 적립보험료 : 39 원 / 보장보험료 : 35,361 원 )  <span style="color:#ea3333;"> 35,400원</span> </td>
+                                    
+                                </tr>
+                             </table>
+                        </td>
+                    </tr> 
+                     <tr>
+                        <th height="10" style="height:10px;"></th>
+                    </tr>
+                    
+               
+                    
+                    <tr>
+                        <td height="30" width="735" style="width:735px; height:90px;">
+                             <table align="center"  border="1" cellspacing="0" cellpadding="0" width="730" height="75" style="border:1px solid #c8c7c7; width:730px; height:75px; margin:0 auto;">
+                                <tr>
+                                    <th bgcolor="#f5f3f3"  width="50" height="40" style="width:50px; height:40px; border-top:1px solid #e2525d; border-bottom:1px solid #999999; background:#f5f3f3;">번호</th>
+                                    <th bgcolor="#f5f3f3" width="400" height="40"  style="width:400px; height:40px;  border-top:1px solid #e2525d; border-bottom:1px solid #999999; background:#f5f3f3">특약명</th>
+                                    <th bgcolor="#f5f3f3" height="40" style="height:40px; border-top:1px solid #e2525d; border-bottom:1px solid #999999; background:#f5f3f3">납기</th>
+                                    <th bgcolor="#f5f3f3" height="40" style="height:40px; border-top:1px solid #e2525d; border-bottom:1px solid #999999; background:#f5f3f3">만기</th>
+                                    <th bgcolor="#f5f3f3" height="40" style="height:40px; border-top:1px solid #e2525d; border-bottom:1px solid #999999 ; background:#f5f3f3">가입금액</th>
+                                    <th bgcolor="#f5f3f3" height="40" style="height:40px; border-top:1px solid #e2525d; border-bottom:1px solid #999999; background:#f5f3f3">보험료</th>
+                                 
+                                </tr>
+                                <tr>
+                                
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7; ">1</td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;" >일반상해80%이상후유장해(기본계약)16630</td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;">20년납</td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;">30세만기 </td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;">2억원  </td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;" >1,200원  </td>
+                                    
+                                </tr>
+                                 <tr>
+                                
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7; ">1</td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;" >일반상해80%이상후유장해(기본계약)16630</td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;">20년납</td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;">30세만기 </td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;">2억원  </td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;" >1,200원  </td>
+                                    
+                                </tr>
+                                 <tr>
+                                
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7; ">1</td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;" >일반상해80%이상후유장해(기본계약)16630</td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;">20년납</td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;">30세만기 </td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;">2억원  </td>
+                                    <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7;" >1,200원  </td>
+                                    
+                                </tr>
+                                
+                                 <tr>
+                                     <td colspan="6" height="30"  style="height:30px;  text-align:right; padding-right:10px; border-left:1px solid #c8c7c7;" >( 적립보험료 : 39 원 / 보장보험료 : 35,361 원 )  <span style="color:#ea3333;"> 35,400원</span> </td>
+                                 </tr>
+                                
+                                
+                                
+                            </table>
+                        </td>
+                    </tr> 
+                    
+                         <!-- 지급 사유 섹션 시작 -->
+                     <tr>
+                        <th height="10" style="height:10px;"></th>
+                    </tr>
+                     <tr>
+                        <th height="30" style="height:30px; text-align:left; font-size:14px; color:#000;">2.지급사유</th>
+                    </tr>
+                     <tr>
+                        <td height="30" width="735" style="width:735px; height:90px;">
+                         <table align="center"  border="1" cellspacing="0" cellpadding="0" width="730" height="75" style="border:1px solid #c8c7c7; width:730px; height:75px; margin:0 auto;">
+                            <tr>
+                                <th bgcolor="#f5f3f3"  width="50" height="40" style="width:50px; height:40px; border-top:1px solid #e2525d; border-bottom:1px solid #999999; background:#f5f3f3;" >번호</th>
+                                <th bgcolor="#f5f3f3"  height="40" style="height:40px; border-top:1px solid #e2525d; border-bottom:1px solid #999999; background:#f5f3f3;">특약명 및 지급사유</th>
+                            </tr>
+                            <tr>
+                                <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7; ">1</td>
+                                <td height="30" style="height:30px;  border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7; text-align:left;  text-indent:10px;">일반상해80%이상후유장해(기본계약) :  <span style="font-weight:normal;">보험기간중 일반상해로 80% 이상 후유장해 시</span></td>
+                                
+                            </tr>
+                            <tr>
+                                <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7; ">1</td>
+                                <td height="30" style="height:30px;  border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7; text-align:left;  text-indent:10px;">일반상해80%이상후유장해(기본계약) :  <span style="font-weight:normal;">보험기간중 일반상해로 80% 이상 후유장해 시</span></td>
+                                
+                            </tr>
+                            <tr>
+                                <td height="30" style="height:30px; font-weight:normal; border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7; ">1</td>
+                                <td height="30" style="height:30px;  border-left:1px solid #c8c7c7; border-bottom:1px solid #c8c7c7; text-align:left;  text-indent:10px;">일반상해80%이상후유장해(기본계약) :  <span style="font-weight:normal;">보험기간중 일반상해로 80% 이상 후유장해 시</span></td>
+                                
+                            </tr>
+                             <tr>
+                                     <td colspan="2" height="30"  style="height:30px;  text-align:right; padding-right:10px; border-left:1px solid #c8c7c7;" >( 적립보험료 : 39 원 / 보장보험료 : 35,361 원 )  <span style="color:#ea3333;"> 35,400원</span> </td>
+                                 </tr>
+                                
+                           
+                        </table>
+                    
+                    
+                         <tr>
+                            <th height="10" style="height:10px; "></th>
+                        </tr>
+                    
+                    <!-- 보험가입 시 알아두실 사항 섹션 시작 -->
+                        
+                        <tr>
+                            <th height="30" colspan="2" style="height:30px; text-align:left; font-size:14px; color:#000; ">3.보험가입 시 알아두실 사항</th>
+                        </tr>
+                        <tr>
+                        <td height="30" width="735" style="width:735px; height:90px;">
+                          <table align="center"  border="1" cellspacing="0" cellpadding="0" width="730" height="75" style="border:1px solid #c8c7c7; width:730px; height:75px; margin:0 auto; font-weight:normal;">										
+                            <tr>
+                                <th height="20" style="height:20px;"></th>
+                            </tr>
+                            <tr>
+                                <td width="700" style="text-align:left; padding-left:20px; line-height:15px;" > 
+                                    <p style="width:680px; padding-bottom:10px;"><span style="display:block; font-weight:bold; ">1.</span>실손담보 담보의 경우 이전에 실손담보 보험에 가입하고 계실 경우 그 계약과 보험금을 비례보상하여 지급하여 드립니다. 따라서, 계약 체결시 반드시 본인의 실손담보 보험계약정보를 확인하시기 바랍니다.</p>
+                                    <span style="display:block;   width:680px; margin-top:5px;">※ 실손담보 보험계약여부 확인방법 </span>
+                                    <span style="display:block;   width:680px; margin-top:5px;">①공인인증서 보유시 손/생보협회 </span>
+                                    <span style="display:block;   width:680px; margin-top:5px;"> (www.knia.or.kr/www.klia.or.kr)에 서 의료비 계약정보 확인  </span>
+                                    <span style="display:block;   width:680px; margin-top:5px;">  ②보험계약을 체결하고자 하는 모집인에게 실손담보 보험계약정보 조회요청  </span>
+                                    <span style="display:block;   width:680px; margin-top:5px; margin-bottom:5px;">  ※ 실손담보 보험계약 사전조회시 공인인증서를 이용하는 경우 회사명,상품명,보험기간,담보명,가입금액,계약상태 등 6가지 항목에대해 조회가 가능합니다. 단, 보험모집인이나 보험사지점을 통해 조회하는 경우에는 조회항목이 보험기간,담보명,가입금액,계약상태 등 4가지로 제한됩니다.  </span>
+                                
+                                </td>
+                           </tr>
+                           <tr>
+                                <td width="700" style="text-align:left; padding-left:20px; line-height:15px;" > 
+                                    <p style="width:680px; padding-bottom:10px;"><span style="display:block; font-weight:bold; ">2.</span> 청약시에는 보험계약의 기본사항(보험상품명, 보험기간, 보험료, 보험료 납입기간 등)을 반드시 확인하시고 그 구체적인 내용을 설명 받으시기 바랍니다. </p>
+                                </td>
+                             </tr>
+                             
+                             <tr>
+                                <td width="700" style="text-align:left; padding-left:20px; line-height:15px;" > 
+                                    <p style="width:680px; padding-bottom:10px;"><span style="display:block; font-weight:bold; ">3.</span> 보험계약의 청약서에 인쇄된 내용(계약사항, 보상하는 손해와 보상하지 않는 손해, 보험료, 보험기간, 해지(만기)환급금 등)은 보험계약자 본인이 반드시 직접 확인 후 자필서명 또는 날인(도장을 찍음)을 하셔야 합니다. 자필서명 또는 날인(도장을 찍음)이 아닌 경우에는 보험금의 지급이 거절되거나 계약이 무효로 처리될 수 있습니다. 다만 전화를 이용한 가입 이 가능한 상품의 경우에는 일정한 요건이 충족되면 자필서명을 생략할 수 있고 인터넷을 이용한 가입이 가능한 상품의 경우에는 전자서명으로 대체할 수 있습니다. </p>
+                                </td>
+                             </tr>
+                            
+                             <tr>
+                                <td width="700" style="text-align:left; padding-left:20px; line-height:15px;" > 
+                                    <p style="width:680px; padding-bottom:10px;"><span style="display:block; font-weight:bold; ">4.</span>보험에 가입하신 후 보험증권과 약관 등을 받으시면 청약서의 내용과 다름이 없는지 또는 누락사항이 없는지를 확인하셔서 이상이 있는 경우 즉시 보험회사로 연락하셔서 조치를 받으셔야 합니다.</p>
+                                </td>
+                              </tr>
+                              
+                              <tr>
+                              
+                                 <td width="700" style="text-align:left; padding-left:20px; line-height:15px;" > 
+                                    <p style="width:680px; padding-bottom:10px;"><span style="display:block; font-weight:bold; ">5.</span>보험료 납입시에는 반드시 보험회사가 발행한 보험료 영수증을 받아서 보관하시기 바랍니다. 보험료가 납입되지 않은 경우 사고발생시 보상을 받을 수 없고 분할납입 보험료의 납입을 연체하시는 경우 회사는 보험료 납입 해당월의 다음달 말일까지 보험료의 납입을 최고하고, 그때까지 해당보험료가 납입되지 않으면 계약이 해지됩니다.</p>
+                                </td>
+                             </tr>
+                             
+                            <tr>
+                                <td width="700" style="text-align:left; padding-left:20px; line-height:15px;" > 
+                                    <p style="width:680px; padding-bottom:10px;"><span style="display:block; font-weight:bold; ">6.</span>보험계약자 또는 피보험자는 보험계약가입시 청약서상의 질문사항(계약전 알릴사항)에 대하여 사실대로 알려야 하며, 가입한 후에도 청약서 기재사항(직업 또는 직무의 변경, 건물의 구조 용도 변경 등)에 변동이 생긴 경우에는 보험회사로 그 사실을 알려 주셔야 합니다. 만약 그렇지 않은 경우 계약상의 불이익을 당하실 수 있습니다. 
+    
+    </p>
+                                </td>
+                              </tr>
+                              <tr>  
+                                <td width="700"  style="text-align:left; padding-left:20px; line-height:15px; border-left:1px solid #c8c7c7;"  > 
+                                    <p style="width:680px; padding-bottom:10px;"><span style="display:block; font-weight:bold; ">7.</span> 이 보험상품의 보험료 산출기초가 되는 적용이율,예정위험률,예정사업비 지수는 상품요약서에서 실손담보 담보의 경우 이전에 실손담보 보험에 가입하고 계실 경우 보다 자세히 확인하실 수 있습니다. </p>
+                                </td>
+                              
+                            </tr>
+                            <tr>
+                            <tr>     
+                                <td width="700"  style="text-align:left; padding-left:20px; line-height:15px; border-left:1px solid #c8c7c7;"  > 
+                                    <p style="width:680px; padding-bottom:10px;"><span style="display:block; font-weight:bold; ">8. 예금자보호안내</span>이 보험계약은 예금자보호법에 따라 예금보험공사가 보호하되, 보호한도는 본 보험회사에 있는 귀하의 모든 예금보호대상 금융상품의 해약환급금(또 는 만기시 보험금이나 사고보험금)에 기타지급금을 합하여 1인당'최고 5천만원'이며, 5천만원을 초과하는 나머지 금액은 보호하지 않습니다. 다만, 보험계약자 및 납부자가 법인이면 보호되지 않습니다.위 내용은 관련법령의 개정 등에 따라 달라질 수 있음을 알려드리며,자세한 내용은 영업점에 비치된 예금자보호안내책자 등을 참고하거나 예금보험공사(☎1588-0037, www.kdic.or.kr)로 문의 하시기 바랍니다.</p>
+                                </td>
+                              
+                            </tr>
+                            <tr>    
+                                <td width="700"  style="text-align:left; padding-left:20px; line-height:15px; border-left:1px solid #c8c7c7;"  > 
+                                    <p style="width:680px; padding-bottom:10px;"><span style="display:block; font-weight:bold; ">9. 세제혜택</span>근로자가 자신, 배우자, 부양가족을 피보험자로 하여 이 보험계약에 가입한 경우에는 연간 납입한 보험료중 100만원을 한도로 종합소득금액에서 소득공제 혜택을 받으실 수 있습니다.(단,예상만기환급률 100%이하의 계약에 한합니다.) 연금저축은 연간 납입보험료의 400만원 한도내에서 소득공제를 받을 수 있습니다. 그러나 향후 연금으로 지급받는 금액 중 소득공제받은 원금부분과 투자수익 부분은 연금소득으로 과세됩니다.</p>
+                                </td>
+                              
+                            </tr>
+                              
+                              
+                              
+                            <tr>    
+                                <td width="700"  style="text-align:left; padding-left:20px; line-height:15px; border-left:1px solid #c8c7c7;"  > 
+                                    <p style="width:680px; padding-bottom:10px;"><span style="display:block; font-weight:bold; ">10.</span> 계약자가 납입한 보험료는 불의의 사고를 당한 다른 가입자에게 보험금으로 지급되고 보험회사 운영에 필요한 경비로 사용되므로 중도해지시 지급되는 해지환급금은 납입한 보험료보다 적거나 없을 수 있습니다. </p>
+                                </td>
+                              
+                            </tr>
+                            <tr>
+                             
+                            <tr>     
+                                <td width="700"  style="text-align:left; padding-left:20px; line-height:15px; border-left:1px solid #c8c7c7;"  > 
+                                    <p style="width:680px; padding-bottom:10px;"><span style="display:block; font-weight:bold; ">11.</span> 모집종사자가 계약에 관한 중요내용의 설명 등을 잘 이행하는지 확인하십시오. 청약서상에 자필서명, 청약서 부본 및 약관전달과 약관의 주요내용 설명등을 이행하지 아니한 계약에 대하여는 계약자가 3개월이내(단, 단체계약은 1개월이내)에 계약을 취소할 수 있습니다. </p>
+                                </td>
+                              
+                            </tr>
+                            <tr>    
+                                <td width="700"  style="text-align:left; padding-left:20px; line-height:15px; border-left:1px solid #c8c7c7;"  > 
+                                    <p style="width:680px; padding-bottom:10px;"><span style="display:block; font-weight:bold; ">12.</span>계약자는 계약을 한 날 또는 제1회 보험료를 납입한 날로부터 15일이내 (단, 통신판매 계약은 30일 이내)에 그 청약을 철회할 수 있습니다.</p>
+                                </td>
+                              
+                            </tr>
+                            
+                            
+                           
+                          </table>
+                       </td>	
+                      </tr>  
+                      <tr>
+                            <th height="10" style="height:10px;"></th>
+                        </tr>
+                    
+                    <!-- 보험범죄 신고 안내-->
+                        
+                        <tr>
+                            <th height="30" colspan="2" style="height:30px; text-align:left;">
+                                 <table align="center"  border="0" cellspacing="0" cellpadding="0" width="730" height="75" style="border:1px solid #c8c7c7; width:730px; height:75px; margin:0 auto;">									<tr>
+                                        <th style="text-align:left;s">
+                                            <p class="Tit" style="padding:0 10px;" >보험범죄 신고</p>
+                                            <p style="font-weight:normal; padding:5px 10px;">[금융감독원 보험범죄신고센터 안내]</p>
+                                            <p  style="font-weight:normal; padding:0 10px; font-size:12px"> - 전화 "1332" (또는 3145-7518) -팩스: 3145-7547 </p>
+                                            <p  style="font-weight:normal; padding:2px 10px;  font-size:12px"> - 인터넷 금융감독원홈페이지(www.fss.or.kr)내 [인터넷보험범죄신고]</p>
+                                           
+                                        </th>
+                                    </tr>	
+                                 
+                                 </table>
+                            
+                            </th>
+                        </tr>  
+                        <!-- 보험범죄 신고 안내-->
+                        
+                        <tr>
+                            <th height="30" colspan="2" style="height:30px; text-align:left;">
+                                 <table align="center"  border="0" cellspacing="0" cellpadding="0" width="730" height="75" style=" width:730px; height:75px; margin:0 auto;">									<tr>
+                                        <th align="center">
+                                            <a href="#" ><img src="../images/estimation/btn_print_submit.gif" alt="프린트 출력하기 버튼" /></a>
+                                        </th>
+                                    </tr>	
+                                 
+                                 </table>
+                            
+                            </th>
+                        </tr>                                                
+                </table>
+            </th>
+        </tr>	
+        
+     
+       
+    </table>
+
+                    
+                        
+                    <!--***2016_04_12 프린트 출력 팝업 완료 ***-->
+                        
+                     
+                     
+                     
+                     
+                        <!--***메일 보내기 팝업 ***-->
+                        
+                       	<div class="Mail_Popup">
+                        	<div class="Mail_Popup_Con">
+                            	<p class="btn_closer"><a href="#"><img src="../images/estimation/btn_closer.gif" alt="닫기 버튼" /></a></p>
+                                <h5><img src="../images/estimation/h3_mail.gif" alt="메일보내기" /></h5>
+                                <table>
+                                    <tr>
+                                        <th>보내는사람 이름 / E-Mail 주소</th>
+                                        <td><input type="text" class="wid_300" /></td>
+                                    </tr>
+                                    <tr>
+                                        <th>받는사람 이름 / E-Mail 주소</th>
+                                        <td><input type="text" class="wid_300" /></td>
+                                    </tr>
+                                    <tr>
+                                        <th>제목</th>
+                                        <td><input type="text" class="wid_300" /></td>
+                                    </tr>
+                                </table>
+                                <p class="explaine">*보내는 사람과 받는 사람의 <span> 메일의 도메인 이름이 같을 경우</span>에는 메일이 전송되지 않을 수 있습니다.</p>
+                                <p class="Btn_Submit"><a href="#"><img src="../images/estimation/btn_mail_submit.gif" alt="보내기" /></a></p>
+                        	</div> <!--Mail_Popup_Con-->
+                        </div> <!--Mail_Popup-->
+                        
+                        
+                        <!--***문자 보내기 팝업 ***-->
+                        
+                        <div class="Message_Popup">
+                        	<div class="Message_Popup_Con">
+                            	<p class="btn_closer"><a href="#"><img src="../images/estimation/btn_closer.gif" alt="닫기 버튼" /></a></p>
+                                <h5><img src="../images/estimation/h3_message.gif" alt="메일보내기" /></h5>
+                                <table >
+                                    <tr>
+                                        <th>상품명</th>
+                                        <td><input type="text" class="wid_300" /></td>
+                                    </tr>
+                                    <tr>
+                                        <th>핸드폰</th>
+                                        <td>
+                                        <select>
+                                        	<option>010</option>
+                                        </select> <input type="text" class="wid_200"/></td>
+                                    </tr>
+                                    <tr>
+                                        <th>보조제목<span>(20자내)</span></th>
+                                        <td><input type="text" class="wid_300" /></td>
+                                    </tr>
+                                </table>
+                                
+                                <p class="Btn_Submit"><a href="#"><img src="../images/estimation/btn_message_submit.gif" alt="보내기" /></a></p>
+                        	</div> <!--Message_Popup_Con-->
+                        </div> <!--Message_Popup-->
+                        
+                         <!--*******꼭 알아야할 사항 팝업 시작*********-->
+                        
+                        <div class="Precautions-Popup" style="display:none;">
+                        	<div class="Precautions-Popup-Con">
+                            	<p class="btn_closer"><a href="#"><img src="../images/estimation/btn_closer.gif" alt="닫기 버튼" /></a></p>
+                            
+                            	<h5> 가입 시 꼭 알아야 할 사항 </h5>
+
+                                  <ul>  
+                                  	<li>※ 보험계약 체결 전에 반드시 약관 및 상품설명서를 읽어보시기 바랍니다. </li>
+                                    <li>※ 보험계약자가 기존에 체결했던 보험계약을 해지하고 다른 보험계약을 체결하면 보험인수가 거절되거나 보험료가 인상되는 등 보장내용이 달라질 수 있습니다. </li>
+                                    <li>※ 실손의료비 보험가입시 유의사항</li>
+                                  </ul>   
+                                    <dl>
+                                       <dt>1.비례보상</dt> 
+                                       <dd>실손의료보험은 실제 의료비를 보상하는 상품으로서 2개 이상의 보험에 가입하더라도 각 계약의 보상대상의료비 및 보상책임액에 따라 비례보상되므로 유사한 보험가입 여부 및 보상한도를 반드시 확인하시기 바랍니다. (여러 개의 보험에 중복가입하는 경우 불필요하게 보험료를 추가로 납입하는 결과를 초래합니다.) </dd>
+                                    
+                                    </dl>
+                                    <dl>
+                                    	<dt>2.자기부담금 공제</dt> 
+                                    	<dd>실손의료보험은 건강보험의 본인부담금 및 비급여 의료비를 보상하는 상품으로, 보상대상 의료비에 대해 일정율(10%, 20%) 또는 일정금액의 자기부담금을 제외하고 보험금을 지급합니다. </dd>
+                                    </dl>
+                                   	<dl> 
+                                    	<dt>3.갱신 및 보험료 변동</dt> 
+                                    	<dd>실손의료보험은 위험율에 따라 매년 보험료가 변동되는 상품입니다. 회사는 갱신일 15일 전까지 변경된 보험료를 안내합니다. 보험계약자가 갱신일의 전일까지 보험료 변경에 대한 별도의 의사표시(갱신거절 및 계약해지 등)를 하지 않으면 계약은 자동으로 유지됩니다.</dd>
+                                    </dl> 
+                                    
+                                   <dl> 
+                                   	<dt>4.재가입</dt> 
+                                    <dd>실손의료보험의 보장내용 변경주기는 최대 15년이며, 회사는 계약체결시 재가입 조건을 안내하여 드리며, 재가입 당시 표준약관에 따라 계약을 인수합니다. 다만, 이 경우에도 회사의 심사절차에 따라 인수거절시에는 재가입 직전의 가입조건(보장내용, 자기부담금 등)으로 재가입이 가능합니다.</dd> 
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 청약시에는 보험계약의 기본사항을 반드시 확인하시기 바랍니다.</dt> 
+                                        <dd>- 보험계약 청약시 보험상품명, 보험기간, 보험료납입기간, 피보험자 등을 반드시 확인하시고, 보험약관을 반드시 수령ㆍ설명 받으시기 바랍니다. </dd>
+                                        <dd>- 보험계약 체결 전 상품설명서 및 약관을 반드시 읽어보시기 바랍니다.</dd> 
+                                       	<dd> - 기존 보험계약을 해지하고 새로운 보험계약을 체결하는 경우 보험인수가 거절되거나, 보험료가 인상될 수 있으며, 보장내용이 달라질 수 있으니 유의하시기 바랍니다.</dd>
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 계약의 무효(상해·질병보험)</dt> 
+                                        <dd>다음 중 한가지에 해당하는 경우에는 계약을 무효로 하며 이미 납입한 보험료를 돌려드립니다.</dd> 
+                                        <dd>- 타인의 사망을 보험금 지급사유로 하는 계약에서 계약을 체결할 때까지 피보험자(보험대상자)의 서면에 의한 동의를 얻지 아니한 경우 </dd> 
+                                        <dd>- 만15세 미만자, 심신상실자 또는 심신박약자의 사망을 보험금 지급사유로 한 경우 </dd> 
+                                        <dd>- 계약체결시 계약에서 정한 피보험자(보험대상자)의 나이에 미달되었거나 초과되었을 경우 </dd> 
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 계약의 소멸(상해·질병보험)</dt> 
+                                   		 <dd>장해지급률이 80%이상인 장해상태가 되어 보험금을 지급하였다 하더라도 약관에서 규정하는 보험금 지급사유가 추가로 발생할 수 있는 경우 보험계약은 소멸하지 않습니다.</dd> 
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 보험금을 지급하지 아니하는 사유(상해·질병보험)</dt> 
+                                    	<dd>보험자(보험대상자), 보험수익자(보험금을 받는 자), 보험계약자의 고의/피보험자(보험대상자)의 임신, 출산(제왕절개 포함), 산후기/전쟁, 외국의 무력행사, 혁명, 내란, 사변, 폭동 </dd>
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 기타 세부담보별 보상하지 아니하는 손해는 반드시 약관을 참조하시기 바랍니다.</dt> 
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 보장개시일 관련</dt> 
+                                    	<dd>회사는 계약의 청약을 승낙하고 제1회 보험료를 받은 때부터 이 약관이 정한 바에 따라 보장을 합니다. 그러나 회사가 청약시에 제1회 보험료를 받고 청약을 승낙한 경우에는 제1회 보험료를 받은 때부터 이 약관이 정한 바에 따라 보장을 합니다.</dd> 
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 보험계약자의 자필서명</dt> 
+                                    	<dd>청약서는 보험계약자 본인이 작성하고 서명란에도 보험계약자 본인 및 피보험자가 자필서명을 하셔야 합니다. 자필서명을 하지 않으신 경우 보험계약의 효력 등과 관련하여 불이익이 있을 수 있습니다.</dd>
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 계약전 알릴의무</dt> 
+                                    	<dd>계약자 또는 피보험자 등은 보험계약 청약시 과거의 건강상태, 직업 등 청약서의 기재사항 및 질문사항에 대하여 알고 있는 내용을 반드시 사실대로 알려야 하며, 그렇지 않은 경우 보험금의 지급이 거절되거나 계약이 해지될 수 있습니다. </dd>
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 계약후 알릴 의무(상해보험)</dt> 
+                                   		<dd> 계약자 또는 피보험자는 보험계약을 맺은 후 피보험자의 직업 또는 직무변경으로 인한 위험증가 및 주소변경 등 보험약관에 정한 계약후 알릴 의무 사항이 발생하였을 경우 지체없이 회사에 알리고 보험증권에 확인을 받아야 합니다. 그렇지 않을 경우 보험금의 지급이 거절될 수 있습니다.</dd> 
+                                    </dl>
+                                   	<dl>
+                                    	<dt> ※ 보험료의 납입연체시 납입최고(독촉)와 계약의 해지</dt> 
+                                    	<dd>보험료 납입이 연체 중인 경우에는 회사는 14일(보험기간이 1년 미만인 경우에는 7일) 이상의 기간을 납입최고(독촉)기간으로 정하여 보험계약자(타인을 위한 보험계약의 경우 특정된 보험수익자(보험금을 받는 자)를 포함합니다)에게 납입최고(독촉)기간 내에 연체보험료를 납입하여야 한다는 내용과 납입최고(독촉)기간이 끝나는 날까지 보험료를 납입하지 아니할 경우 납입최고(독촉)기간이 끝나는 날의 다음날에 계약이 해지된다는 내용을 서면(등기우편 등), 전화(음성녹음) 또는 전자문서 등으로 알려 드립니다. </dd>
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 청약의 철회</dt> 
+                                    	<dd>보험계약자는 계약을 청약을 한 날부터 15일이내에 그 청약을 철회할 수 있습니다. 다만 진단계약, 단체(취금)계약 또는 보험기간이 1년미만인 계약의 경우에는 그러하지 아니하며, 통신판매 계약의 경우에는 청약을 한 날부터 30일 이내에 청약을 철회할 수 있습니다. 이 경우에는 이미 납입한 보험료를 보험계약자에게 돌려드립니다.</dd>
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 품질보증제도</dt> 
+                                    	<dd>보험계약자가 청약한 경우 약관과 청약서(청약서 부본)을 청약 시 전달받지 못하거나 약관의 중요한 내용을 설명받지 못한 때 또는 청약서에 자필서명을 하지 아니한 때에는 보험계약자는 청약일로부터 3개월 이내에 계약을 취소할 수 있습니다. (다만, 단체(취급)계약의 경우에는 계약 체결일로부터 1개월 이내에 계약을 취소할 수 있습니다.) 이 경우 이미 납입한 보험료에 보험료를 받은 기간에 대해 이 계약의 보험계약대출 이율로 계산한 이자를 더하여 지급하여 드립니다.</dd> 	
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 무배당 보험</dt> 
+                                    	<dd>이 보험은 무배당 보험으로 배당이 발생하지 않는 대신 배당 상품과 비교하여 일반적으로 보험료가 저렴합니다.</dd> 
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 배상책임관련 담보 등 다수계약의 비례보상에 관한 사항</dt> 
+                                    	<dd>이 계약에서 담보하는 위험과 같은 위험을 담보하는 다른 계약(공제계약 포함)이 있을 경우에는 각 계약에 대하여 다른 계약이 없는 것으로 하여 각각 산출한 보상책임액의 합계액이 손해액을 초과할 때에는 이 계약에 의한 보상책임의 상기 합계액에 대한 비율에 따라 보상하여 드립니다.</dd> 
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 최저보증이율 및 중도해지이율관련(보장성보험) </dt>
+                                    	<dd>이 보험의 공시이율의 최저보증이율은 연복리 2.0%를 적용합니다. 또한 이 보험의 계약이 해지된 경우에 지급하는 해지환급금은 보험료 납입이 지난 기간에 따라 1년 미만은 이 보험의 공시이율의 80%, 1년 이상~2년 미만인 경우는 이 보험의 공시이율의 90%, 2년 이상은 이 보험의 공시이율을 적용합니다. </dd>
+                                    </dl>
+                                    <dl>
+                                   		<dt>※ 해지환급금이 납입보험료보다 적은 이유</dt> 
+                                    	<dd>해지환급금이란 보험계약이 중도에 해지될 경우에 지급되는 금액을 말하며, 보험은 은행의 저축과 달리 위험보장과 저축을 겸비한 제도로서 보험계약자가 납입한 보험료 중 일부는 불의의 사고를 당한 다른 가입자에게 지급되는 보험금으로, 또 다른 일부는 보험회사 운영에 필요한 경비로 사용되므로 중도해지시 지급되는 해지환급금은 납입한 보험료보다 적거나 없을 수도 있습니다.</dd> 
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 예금자보호 안내</dt> 
+                                    	<dd>이 보험계약은 예금자보호법에 따라 예금보험공사가 보호하되, 보호 한도는 본 보험회사에 있는귀하의 모든 예금보호대상금융상품의 해지환급금 (또는 만기시보험금이나 사고보험금)에 기타지급금을 합하여1인당"최고5천만원"이며, 5천만원을 초과하는 나머지 금액은 보호하지 않습니다.</dd> 
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 세제혜택 (보장성보험)</dt> 
+                                    	<dd>소득세법 제 52조 1항 2호에 의거 근로자가 이 보험에 가입하면 보험가입형태에 따라 보장성 보험에 한하여 연간 100만원 한도로 소득공제를 받을 수 있습니다.</dd> 
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 개인정보 보호안내</dt> 
+                                    	<dd>보험계약자는 법에서 정한 경우를 제외하고 본인의 동의 없이 본인의 개인정보가 제3자에게 제공 이용되지 않을 권리가 있습니다. </dd>
+                                    </dl>
+                                    <dl>
+                                    	<dt>※ 모집질서 확립 및 신고센터 안내</dt> 
+                                    	<dd>보험계약 체결과 관련된 특별이익 제공 행위는 보험업법에 의하여 처벌받을 수 있습니다.</dd> 
+                                    </dl>
+                                    <dl>	
+                                    	<dt>※ 보험모집질서 위반행위 신고센터</dt> 
+                                    	<dd>- 전화 : 1332 <em> - 인터넷 : <a href="http://www.fss.or.kr" target="_blank"> http://www.fss.or.kr</a></em></dd> 
+                                    </dl>
+                                    <dl>
+                                    	<dt>(상담 및 보험분쟁조정 안내) </dt>
+                                    	<dd>가입하신 보험에 관하여 상담이 필요하거나 불만사항이 있을 때에는 먼저 저희회사 LIG손해보험 고객콜센터 (TEL : 1544-0114)로 문의하시기 바랍니다. 또한 처리결과에 이의가 있을 경우 금융감독원의 금융소비자보호센터(국번없이1332, <a href="http://www.fss.or.kr" target="_blank">http://www.fss.or.kr</a>)에 민원 또는 분쟁조정 등을 신청하실 수 있습니다.</dd> 
+                                    </dl>
+                                    <dl>
+                                    	<dt>(금융감독원 보험범죄 신고센터 안내)</dt> 
+                                    	<dd>보험범죄는 형법 제347조(사기)에 의거 10년 이하여 징역이나 2천만원 이하의 벌금에 처해지며, 보험범죄를 교사한 경우에도 동일한 처벌을 받을 수 있습니다. </dd>
+                                    	<dd>- 전화: 1588-3311 <em>- 인터넷:금융감독원 홈페이지(<a href="http://www.fss.or.kr" target="_blank">http://www.fss.or.kr</a>) 내 인터넷보험범죄신고</em></dd> 
+                                    <dd>*위 사항은 약관내용을 요약 발췌한 것이므로 보험금을 지급하지 아니하는 사유 등 기타 세부 내용은 반드시 약관을 참조하시기 바랍니다.</dd>
+                                    </dl>                            
+                             	
+                      
+                            </div><!--Precautions-Popup-Con-->
+                        
+                        </div><!--Precautions-Popup-->
+                        
+                        
+                        
+                        
+                       
+                        
+                        
+                    
+                    </div><!--Result-Con-->
+                   	
+                   
+                    
+                    </div><!--Self-Calculation-Con-->
+                
+                	
+                </div><!--Brand-Info-->
+            	
+			</div> <!--Right-Con-->
+            
+            
+            
+                      
+        </div><!--Contents-->
+    
+    </div><!--Container-->
+    
+    
+    <!--footer 페이지 하단 시작-->
+    
+    <!--footer 페이지 하단 시작-->
+    
+    <div id="Footer">
+    	  <div class="F-Navi">
+          	<ul>
+            	<li><a href="#"><img src="../images/footer/f_menu_a.gif" alt="서비스이용약관" /></a></li>	
+                <li><a href="#"><img src="../images/footer/f_menu_b.gif" alt="개인정보취급방침" /></a></li>	
+                <li><a href="#"><img src="../images/footer/f_menu_c.gif" alt="이메일무단수집거부" /></a></li>		
+            </ul>  	
+          </div><!--F-Navi-->
+          <div class="Footer-Con">
+          
+          	<p class="F-Logo"><img src="../images/footer/f_logo.gif" alt="로고" /></p>
+    		<div class="F-Rignt-Con">
+                <address>
+                [150-836] 서울시 영등포구 문래동 3가 77-13 대소빌딩 7층 아마존인슈㈜ 
+                </address>
+                <ul class="Customer-Centers">
+                    <li>장기보험 TEL : 02-777-6242 FAX : 02-6455-6242 보상 FAX : 02-6455-6761</li>
+                    <li>자동차보험 TEL : 02-771-6333 FAX : 02-6455-6244 </li>
+                </ul><!--Customer-Centers-->
+                <p class="licensee-No">법인사업자등록번호 : 201-81-57177 통신판매업신고 제 2007-05271호</p>
+           </div><!--F-Rignt-Con-->
+           <p class="copyright">COPYRIGHT © 2016 1분견적 ALL RIGHTS RESERVED</p>
+    	</div><!--Footer-Con-->
+	
+    
+    </div><!--Footer-->
+</div><!--Wrapper-->
+ 
+ 
+ </body>
+</html>

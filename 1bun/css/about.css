@@ -1,0 +1,17 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+.About-Page{width:780px; height:auto;   }
+
+.About-Page .About-Page-Con{width:730px;}
+.About-Page .About-Page-Con img{ margin-top:10px;}
+
+.About-Page h3{font-size:20px; color:#000; margin-top:1px; font-weight:bold;}
+
+/*버튼 처리 시작 */
+
+
+.About-Page ul.Btn-Contents{width:480px; height:100px; margin:10px auto;}
+.About-Page ul.Btn-Contents li{width:199px; height:42px; float:left; margin-left:30px;}

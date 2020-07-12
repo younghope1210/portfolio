@@ -1,0 +1,121 @@
+
+
+.Visual{width:100%; height:120px; margin:0 auto; overflow:hidden; background:url(../images/qna/skin.jpg) no-repeat center top;}
+.Visual p{width:1200px; margin:0 auto; font-size:40px; font-weight:bold; color:#fff; text-align:center; padding-top:40px; font-family: 'Noto Sans KR', sans-serif;}
+
+/*공통*/
+h3{width:100%; height:100px; border-bottom:1px solid #ccc; text-align:center; font-size:36px; font-weight:bold; color:#000;}
+h3 img{width:60px; height:3px; margin:0 auto; border:0; vertical-align:bottom; margin-bottom:8px;}
+h3 span.H3-Text{display:block; height:40px; text-align:center;}
+
+p.FAQ-Link{width:600px; float:right; font-family:dotum; font-size:12px; font-weight:bold;}
+p.FAQ-Link span{font-size:26px; font-weight:bold; color:#f85915;}
+p.FAQ-Link a{display:inline-block; width:200px; height:32px; font-size:14px; background:#f85915; color:#fff; border-radius:20px; line-height:35px; font-weight:bold; text-align:center; margin-bottom:10px;} 
+
+
+#QnA-Editor{width:1200px; height:auto; margin:50px auto;}
+#QnA-Editor .QnA-Editor-Con{width:1185px; height:auto; margin:0 auto;}
+
+
+#QnA-List{width:1200px; height:auto; margin:50px auto;}
+#QnA-List .QnA-List-Con{width:1185px; height:auto; margin:0 auto;}
+
+
+
+/* 1:1 문의하기 시작  */
+
+.Editor-Con{width:1185px; height:auto; margin:50px auto; }
+
+
+.Editor-Con table{width:100%; height:auto; border-top:3px solid #f85915;  border-bottom:2px solid #c2c2c2; font-family:dotum; color:#000; }
+.Editor-Con table th{height:50px; background:#f9f8f8; border-bottom:1px solid #c2c2c2;  border-right:1px solid #c2c2c2;}
+.Editor-Con table td{border-bottom:1px solid #c2c2c2;}
+.Editor-Con table td input.Wid-890{width:840px; height:30px; border:1px solid #e4e3e2;}
+
+.Editor-Con table td input.Wid-305{width:250px; height:30px; border:1px solid #e4e3e2;}
+.Editor-Con table td textarea{width:840px; height:300px; margin:20px 0; overflow:auto; border:1px solid #e4e3e2;}
+
+
+/*버튼 처리*/
+
+
+.Btn-Con{width:100%; height:50px;  margin:60px auto;}
+.Btn-Con ul{width:660px; margin:0 auto;}
+.Btn-Con li{float:left; width:292px; height:53px; margin-left:30px;}
+
+
+
+/* 나의 1:1 문의 글쓰기 시작  */
+
+
+
+
+
+
+.Editor-Con table{width:100%; height:auto; border-top:3px solid #f85915;  border-bottom:2px solid #c2c2c2; font-family:dotum; color:#000; }
+.Editor-Con table th{height:50px; background:#f9f8f8; border-bottom:1px solid #c2c2c2;  border-right:1px solid #c2c2c2;}
+.Editor-Con table td{border-bottom:1px solid #c2c2c2;}
+.Editor-Con table td input.Wid-890{width:840px; height:30px; border:1px solid #e4e3e2;}
+
+.Editor-Con table td input.Wid-305{width:250px; height:30px; border:1px solid #e4e3e2;}
+.Editor-Con table td textarea{width:840px; height:300px; margin:20px 0; overflow:auto; border:1px solid #e4e3e2;}
+
+
+
+
+
+/* 나의 1:1 문의 리스트 시작  */
+
+
+
+
+.QnA-List-Contents{width:1185px; height:auto; margin:50px auto; }
+
+.QnA-List-Contents table.Lsit-Table{width:100%; height:auto; border-top:3px solid #f85915;  border-bottom:2px solid #c2c2c2; font-family:dotum; color:#000; font-size:14px; }
+
+.QnA-List-Contents table.Lsit-Table th{height:50px; background:#f9f8f8; border-bottom:1px solid #e4e3e2;}
+.QnA-List-Contents table.Lsit-Table td{ height:50px; border-right:1px solid #e4e3e2; border-bottom:1px solid #e4e3e2;}
+.QnA-List-Contents table.Lsit-Table td.QNA-Title{font-size:14px; font-weight:bold; text-align:left; padding-left:10px;}
+.QnA-List-Contents table.Lsit-Table td.QNA-Title a{display:block; color:#000;}
+.QnA-List-Contents table.Lsit-Table td.QNA-Title a:hover{color:#ff0000; text-decoration:underline;} 
+
+/*나의 1:1 문의 뷰 시작*/
+
+
+.QnA-List-Contents table.Lsit-Table td.View{/*display:none;*/ }
+.QnA-List-Contents table.Lsit-Table td.View .View-Contents{width:1150px; margin:10px auto; text-align:left; border:1px solid #e4e3e2;} 
+
+
+table.Lsit-Table td.View .View-Contents .State{font-weight:bold; color:#3d48ae;}
+table.Lsit-Table td.View .View-Contents .Question,
+table.Lsit-Table td.View .View-Contents .Answer{ width:1080px; height:auto; padding:20px; margin:20px auto; }
+
+table.Lsit-Table td.View .View-Contents .Question span,
+table.Lsit-Table td.View .View-Contents .Answer span{ display:block; width: 1080px; margin-top:10px; line-height:20px;}
+
+table.Lsit-Table td.View .View-Contents .Arrow img{width:42px; height:31px; margin:0 10px 0 60px;}
+
+
+table.Lsit-Table td.View .View-Contents p.Btn-Closer{width:100%; height:30px; text-align:right; background:#f5f3f3; }
+table.Lsit-Table td.View .View-Contents p.Btn-Closer a{display:block; width:30px; height:30px; line-height:30px; float:right; margin-right:20px; font-size:14px; font-weight:bold; color:#7e7f7f;} 
+table.Lsit-Table td.View .View-Contents p.Btn-Closer a:hover{color:#ff0033;}
+
+
+
+.State{font-weight:bold; color:#173ca7;}
+
+
+.Paging{width:100%; height:30px; margin:50px auto;  font-family:dotum; }
+.Paging .Paging-Con{ text-align:center;}
+.Paging .Paging-Con span{width:20px; height:20px; font-size:14px;}
+.Paging .Paging-Con span a{display:inline-block; width:20px; height:20px; line-height:20px; font-weight:bold; color:#000; }
+.Paging .Paging-Con span a:hover{color:#fb0c0c;}
+
+
+.Paging .Paging-Con span.Prev,
+.Paging .Paging-Con span.Next{width:25px; height:25px; }
+.Paging .Paging-Con span.Prev a,
+.Paging .Paging-Con span.Next a{width:25px; height:25px; line-height:25px; background:#d3d1d1; color:#fff;}
+
+.Paging .Paging-Con span.Prev a:hover,
+.Paging .Paging-Con span.Next a:hover{ background:#9e9d9d;}

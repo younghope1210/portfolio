@@ -1,0 +1,396 @@
+
+
+@charset "utf-8";
+#Electric_Range_Explain{width:1200px; height:100%; margin:0 auto; overflow:hidden; }
+#Electric_Range_Explain #Electric_Range_Con{width:1151px;  height:auto; margin:0 auto;  position:relative;   }
+/*#Electric_Range_Explain #Electric_Range_Con img{width:100%; height:auto;}*/
+
+
+/*본문시작*/
+
+
+
+#Electric_Range_Con #Electric_Range_Explain-Box{width:100%; height:100%; margin-top:20px;}
+
+#Electric_Range_Explain-Box .H4-Content{width:100%; height:914px; background:url(../images/electric_range_explain/visual_back_a.jpg) no-repeat;}
+#Electric_Range_Explain-Box .H4-Content h4{margin:0 auto; text-align:center; font-size:60px; color:#df323a; padding-top:50px;}
+#Electric_Range_Explain-Box .H4-Content h4 span{display:block; margin:20px 0}
+#Electric_Range_Explain-Box .H4-Content h4 span em.Squer-Red-Box{background:#df323a; color:#fff;}
+#Electric_Range_Explain-Box .H4-Content h4 span.Black-Text{font-size:34px; color:#000;}
+#Electric_Range_Explain-Box .H4-Content h4 em.Dis_Block{display:block; margin:10px 0}
+
+#Electric_Range_Explain-Box .Circle-Banner{width:810px; height:auto; margin:0 auto;}
+#Electric_Range_Explain-Box .Circle-Banner li{width:195px; height:338px; margin-right:70px; float:left; font-size:36px; color:#fff; text-align:center;  margin-top:50px; padding-top:60px;}  
+#Electric_Range_Explain-Box .Circle-Banner li span{display:block; width: 150px; margin:0 auto; font-size:14px; padding-top:20px; line-height:20px;}
+#Electric_Range_Explain-Box .Circle-Banner li.Gray-Bnr{background:url(../images/electric_range_explain/circle_gray.png) no-repeat;}
+#Electric_Range_Explain-Box .Circle-Banner li.Red-Bnr{background:url(../images/electric_range_explain/circle_red.png) no-repeat;}
+
+.Technology-img{width:100%; height:100%; margin:10px auto;}
+.Technology-img li{float:left; width:24.9% ;  }
+
+
+
+/*전자레인지와 가스레인지 비교*/
+
+.Electric-Gas{clear:both; width:100%; height:100%; margin:0 auto;}
+.Electric-Gas h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center; }
+.Electric-Gas-Con{width:100%; height:auto; margin:0 auto; }
+.Electric-Gas-Con p.Img-A{width:49.9%;  float:left; }
+.Electric-Gas-Con .Electric-characteristic{width:49.9%; height:339px; float:left; background:#f7f3f3; color:#000;}
+.Electric-Gas-Con .Gas-characteristic{width:49.9%; height:339px; float:left; background:#f7f3f3; color:#000;}
+.Electric-Gas-Con p.Img-B{width:49%; float:left; }
+
+
+
+.Electric-Gas-Con .Electric-characteristic,
+.Electric-Gas-Con .Gas-characteristic{background:#f7f3f3; color:#000;}
+
+
+.Electric-Gas-Con h5{font-size:30px; margin:35px 20px;}
+.Electric-Gas-Con ul{font-size:14px; margin:20px;}
+.Electric-Gas-Con ul li{margin-bottom:15px;}
+
+
+
+.Thielmann-Advantage{clear:both; width:100% height:auto;}
+
+
+
+
+/* 틸만 전기레인지의 특장점 */
+
+.Thielmann-Advantage{clear:both; width:100%; height:100%; overflow:hidden; margin-bottom:100px;}
+.Thielmann-Advantage h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center; }
+.Thielmann-Advantage .Thielmann-Advantage-Con{width:49%; float:left; color:#000;}
+.Thielmann-Advantage .Thielmann-Advantage-Con p.Images{width:95%; height:auto; }
+.Thielmann-Advantage .Thielmann-Advantage-Con dl{width:80%; margin:10px 0;}
+.Thielmann-Advantage .Thielmann-Advantage-Con dl dt{font-size:29px; }
+.Thielmann-Advantage .Thielmann-Advantage-Con dl dd{font-size:14px; margin-top:10px;}
+
+
+
+
+/* 인덕션 하이라이트 비교 */
+
+
+.Product-Comparison{clear:both; width:100%;   background:#0b0b0b; padding-bottom:30px;}
+.Product-Comparison .Product-Comparison-Con{width:95%; height:auto; margin:0 auto;}
+.Product-Comparison .Product-Comparison-Con ul{width:49.5%; float:left; margin:20px 0; color:#fff; }
+.Product-Comparison .Product-Comparison-Con  li{text-align:center; }
+
+.Product-Comparison .Product-Comparison-Con  li.Images{width:80%;  margin:0 auto; }
+.Product-Comparison .Product-Comparison-Con  li.Product-Name{font-size:36px;}
+.Product-Comparison .Product-Comparison-Con  li.Product-Con{width:70%; font-size:14px; margin:0 auto; margin-top:20px; line-height:20px;}
+
+
+
+.Product-Comparison .Product-Comparison-Con table{clear:both; width:95%; height:auto; margin:0 auto; border:1px solid #000; font-size:14px; }
+.Product-Comparison .Product-Comparison-Con table th.Back_Red{height:50px; background:#c81a2a; color:#000; }
+.Product-Comparison .Product-Comparison-Con table th{background:#999999; height:40px; border:1px solid #000; color:#000;} 
+.Product-Comparison .Product-Comparison-Con table td{background:#fff; height:40px; border:1px solid #000; color:#000;} 
+.Product-Comparison .Product-Comparison-Con table td ul{width:100%; color:#000; }
+.Product-Comparison .Product-Comparison-Con table td ul li{text-align:left; margin-bottom:5px; margin-left:20px;}
+
+
+
+
+
+/* 틸만 특징 */
+
+
+.Thielmann-Tips{width:100%; height:400px; margin:0 auto; margin-top:50px;}
+
+.Thielmann-Tips ul{width:90%; margin:0 auto;}
+.Thielmann-Tips ul li{width:28%; height:auto; float:left; margin-left:30px; text-align:center; color:#000;}
+
+.Thielmann-Tips ul li span{display:block; font-size:20px; margin:20px 0;}
+
+
+
+
+
+   @media (max-width: 1280px) {
+
+
+#Electric_Range_Explain{width:1008px; height:100%; margin:0 auto; overflow:hidden; }
+#Electric_Range_Explain #Electric_Range_Con{width:1008px;  height:auto; margin:0 auto;  position:relative; }
+
+
+
+
+/*전자레인지와 가스레인지 비교*/
+
+.Electric-Gas{clear:both; width:100%; height:100%; margin:0 auto;}
+.Electric-Gas h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center; }
+.Electric-Gas-Con{width:100%; height:auto; margin:0 auto; }
+.Electric-Gas-Con p.Img-A{width:49.9%;  float:left;  margin-top:2.5%;}
+.Electric-Gas-Con .Electric-characteristic{width:49.9%; height:339px; float:left; background:#f7f3f3; color:#000;}
+.Electric-Gas-Con .Gas-characteristic{width:49.9%; height:339px; float:left; background:#f7f3f3; color:#000;}
+.Electric-Gas-Con p.Img-B{width:49.9%; float:left;   margin-top:2.5%;}
+
+
+
+
+
+/* 틸만 전기레인지의 특장점 */
+
+.Thielmann-Advantage{clear:both; width:100%; height:100%; overflow:hidden; margin-bottom:100px;}
+.Thielmann-Advantage h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center; }
+.Thielmann-Advantage .Thielmann-Advantage-Con{width:48%; color:#000; float:left; margin-right:1%; margin-left:1%;}
+.Thielmann-Advantage .Thielmann-Advantage-Con p.Images{width:100%; margin:0 auto; height:auto;}
+.Thielmann-Advantage .Thielmann-Advantage-Con dl{width:100%; margin:0 auto;}
+.Thielmann-Advantage .Thielmann-Advantage-Con dl dt{font-size:30px; }
+.Thielmann-Advantage .Thielmann-Advantage-Con dl dd{font-size:16px; margin-top:10px; margin-bottom:50px;}
+
+/* 틸만 특징 */
+
+
+.Thielmann-Tips{width:100%; height:400px; margin:0 auto; margin-top:50px;}
+
+.Thielmann-Tips ul{width:90%; margin:0 auto;}
+.Thielmann-Tips ul li{width:30%; height:auto; float:left; margin-left:30px; text-align:center; color:#000;}
+
+.Thielmann-Tips ul li span{display:block; font-size:20px; margin:20px 0;}
+
+
+	
+   @media (max-width: 1008px) {
+
+/*스킨*/
+#Electric_Range_Explain-Box .H4-Content{width:100%; height:914px; background:url(../images/electric_range_explain/visual_back_a.jpg) no-repeat;}
+#Electric_Range_Explain-Box .H4-Content h4{margin:0 auto; text-align:center; font-size:45px; color:#df323a; padding-top:50px;}
+#Electric_Range_Explain-Box .H4-Content h4 span{display:block; margin:20px 0}
+#Electric_Range_Explain-Box .H4-Content h4 span em.Squer-Red-Box{background:#df323a; color:#fff;}
+#Electric_Range_Explain-Box .H4-Content h4 span.Black-Text{font-size:34px; color:#000;}
+#Electric_Range_Explain-Box .H4-Content h4 em.Dis_Block{display:block; margin:10px 0}
+
+#Electric_Range_Explain-Box .Circle-Banner{width:700px; height:auto; margin:0 auto;}
+#Electric_Range_Explain-Box .Circle-Banner li{width:195px; height:338px; margin-right:38px; float:left; font-size:36px; color:#fff; text-align:center;  margin-top:50px; padding-top:60px;}  
+#Electric_Range_Explain-Box .Circle-Banner li span{display:block; width: 150px; margin:0 auto; font-size:14px; padding-top:20px; line-height:20px;}
+#Electric_Range_Explain-Box .Circle-Banner li.Gray-Bnr{background:url(../images/electric_range_explain/circle_gray.png) no-repeat;}
+#Electric_Range_Explain-Box .Circle-Banner li.Red-Bnr{background:url(../images/electric_range_explain/circle_red.png) no-repeat;}
+
+
+
+
+   
+   
+#Electric_Range_Explain{width:100%;   height:100%; margin:0 auto; overflow:hidden; }
+#Electric_Range_Explain #Electric_Range_Con{width:100%;  height:auto; margin:0 auto;  position:relative;}
+
+
+
+
+
+
+
+/*전자레인지와 가스레인지 비교*/
+
+.Electric-Gas{clear:both; width:100%; height:100%; margin:0 auto;}
+.Electric-Gas h4{width:100%; height:70px; padding-top:40px; font-size:36px; color:#000; text-align:center; }
+.Electric-Gas-Con{width:100%; height:auto; margin:0 auto; }
+.Electric-Gas-Con p.Img-A{width:49.9%;  float:left;  margin-top:8%; display:none;}
+.Electric-Gas-Con p.Img-B{width:49.9%; float:left;   margin-top:8%; display:none;}
+
+.Electric-Gas-Con .Gas-characteristic{width:100%; height:auto; clear:both; background:#000; color:#fff; border:1px solid #fff;}
+.Electric-Gas-Con .Electric-characteristic{width:100%; height:auto; clear:both; background:#000; color:#fff;border:1px solid #fff; }
+
+
+
+
+
+
+
+
+
+/* 틸만 전기레인지의 특장점 */
+
+.Thielmann-Advantage{clear:both; width:100%; height:100%; overflow:hidden; margin-bottom:100px;}
+.Thielmann-Advantage h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center; }
+.Thielmann-Advantage .Thielmann-Advantage-Con{width:100%; color:#000; }
+.Thielmann-Advantage .Thielmann-Advantage-Con p.Images{width:80%; margin:0 auto; height:auto;}
+.Thielmann-Advantage .Thielmann-Advantage-Con dl{width:80%; margin:0 auto;}
+.Thielmann-Advantage .Thielmann-Advantage-Con dl dt{font-size:30px; }
+.Thielmann-Advantage .Thielmann-Advantage-Con dl dd{font-size:16px; margin-top:10px; margin-bottom:50px;}
+
+
+
+
+
+
+
+/* 틸만 특징 */
+
+
+.Thielmann-Tips{width:100%; height:400px; margin:0 auto; margin-top:50px;}
+
+.Thielmann-Tips ul{width:100%; margin:0 auto;}
+.Thielmann-Tips ul li{width:28%; height:auto; float:left; margin-left:35px; text-align:center; color:#000;}
+
+.Thielmann-Tips ul li span{display:block; font-size:15px; margin:20px 0;}
+
+
+
+
+   
+   }
+
+
+   
+   @media (max-width: 752px) {
+   
+   
+   /*스킨*/
+#Electric_Range_Explain-Box .H4-Content{width:100%; height:914px; background:url(../images/electric_range_explain/visual_back_a.jpg) -50px -50px; no-repeat;}
+#Electric_Range_Explain-Box .H4-Content h4{margin:0 auto; text-align:center; font-size:45px; color:#df323a; padding-top:50px;}
+#Electric_Range_Explain-Box .H4-Content h4 span{display:block; margin:20px 0}
+#Electric_Range_Explain-Box .H4-Content h4 span em.Squer-Red-Box{ color:#df323a; display:block; background:none; margin-top:10px;}
+#Electric_Range_Explain-Box .H4-Content h4 span.Black-Text{font-size:30px; color:#000;}
+#Electric_Range_Explain-Box .H4-Content h4 em.Dis_Block{display:block; margin:10px 0}
+
+#Electric_Range_Explain-Box .Circle-Banner{width:480px; height:auto; }
+#Electric_Range_Explain-Box .Circle-Banner li{width:150px; height:150px; float:left;  font-size:32px; color:#fff; text-align:center; margin:0; padding-top:30px;}  
+#Electric_Range_Explain-Box .Circle-Banner li span{ width: 100px; margin:0 auto; font-size:14px; line-height:20px;}
+#Electric_Range_Explain-Box .Circle-Banner li.Gray-Bnr{background:none; background:gray; opacity:0.8; }
+#Electric_Range_Explain-Box .Circle-Banner li.Red-Bnr{background:none; background:red; opacity:0.8;}
+
+.Technology-img{width:100%; height:100%; margin:10px auto;}
+.Technology-img li{float:left; width:49.5% ;  }
+
+
+
+
+
+/*전자레인지와 가스레인지 비교*/
+
+.Electric-Gas{clear:both; width:100%; height:100%; margin:0 auto;}
+.Electric-Gas h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center; }
+.Electric-Gas-Con{width:100%; height:auto; margin:0 auto; }
+.Electric-Gas-Con p.Img-A{width:49.9%;  float:left;  margin-top:10%; display:none;}
+.Electric-Gas-Con p.Img-B{width:49.9%; float:left;   margin-top:10%; display:none;}
+
+.Electric-Gas-Con .Gas-characteristic{width:100%; height:auto; clear:both; background:#000; color:#fff; border:1px solid #fff;}
+.Electric-Gas-Con .Electric-characteristic{width:100%; height:auto; clear:both; background:#000; color:#fff;border:1px solid #fff; }
+
+
+
+
+/* 틸만 특징 */
+
+
+.Thielmann-Tips{width:100%; height:400px; margin:0 auto; margin-top:50px;}
+
+.Thielmann-Tips ul{width:100%; margin:0 auto;}
+.Thielmann-Tips ul li{width:50%; height:auto; margin-left:30%; text-align:center; color:#000;}
+
+.Thielmann-Tips ul li span{display:block; font-size:15px; margin:20px 0;}
+
+   
+   }
+
+
+   
+   @media (max-width: 480px) {
+
+
+   /*스킨*/
+#Electric_Range_Explain-Box .H4-Content{width:100%; height:914px; background:url(../images/electric_range_explain/visual_back_a.jpg) -50px -50px; no-repeat;}
+#Electric_Range_Explain-Box .H4-Content h4{margin:0 auto; text-align:center; font-size:30px; color:#df323a; padding-top:50px;}
+#Electric_Range_Explain-Box .H4-Content h4 span{display:block; margin:20px 0}
+#Electric_Range_Explain-Box .H4-Content h4 span em.Squer-Red-Box{ color:#df323a; display:block; background:none; margin-top:10px;}
+#Electric_Range_Explain-Box .H4-Content h4 span.Black-Text{font-size:25px; color:#000;}
+#Electric_Range_Explain-Box .H4-Content h4 em.Dis_Block{display:block; margin:10px 0}
+
+#Electric_Range_Explain-Box .Circle-Banner{width:480px; height:auto; margin-left:30%; }
+#Electric_Range_Explain-Box .Circle-Banner li{width:150px; height:150px; clear:both;  font-size:32px; color:#fff; text-align:center; margin-bottom:10px; padding-top:30px;}  
+#Electric_Range_Explain-Box .Circle-Banner li span{ width: 100px; margin:0 auto; font-size:14px; line-height:20px;}
+#Electric_Range_Explain-Box .Circle-Banner li.Gray-Bnr{background:none; background:gray; opacity:0.8; }
+#Electric_Range_Explain-Box .Circle-Banner li.Red-Bnr{background:none; background:red; opacity:0.8;}
+
+
+
+
+   /* 인덕션 하이라이트 비교 */
+
+
+.Product-Comparison{clear:both; width:100%;   background:#0b0b0b; padding-bottom:30px;}
+.Product-Comparison .Product-Comparison-Con{width:95%; height:auto; margin:0 auto;}
+.Product-Comparison .Product-Comparison-Con ul{width:100%; clear:both; margin:20px 0; color:#fff; }
+.Product-Comparison .Product-Comparison-Con  li{text-align:center; }
+
+.Product-Comparison .Product-Comparison-Con  li.Images{width:80%;  margin:0 auto; }
+.Product-Comparison .Product-Comparison-Con  li.Product-Name{font-size:36px;}
+.Product-Comparison .Product-Comparison-Con  li.Product-Con{width:70%; font-size:14px; margin:0 auto; margin-top:20px; line-height:20px;}
+
+
+
+.Product-Comparison .Product-Comparison-Con table{clear:both; width:95%; height:auto; margin:0 auto; border:1px solid #000; font-size:14px; }
+.Product-Comparison .Product-Comparison-Con table th.Back_Red{height:50px; background:#c81a2a; color:#000; }
+.Product-Comparison .Product-Comparison-Con table th{background:#999999; height:40px; border:1px solid #000; color:#000;} 
+.Product-Comparison .Product-Comparison-Con table td{background:#fff; height:40px; border:1px solid #000; color:#000;} 
+.Product-Comparison .Product-Comparison-Con table td ul{width:100%; color:#000; }
+.Product-Comparison .Product-Comparison-Con table td ul li{text-align:left; margin-bottom:5px; margin-left:20px;}
+
+
+
+
+   
+
+
+
+.Electric-Gas{clear:both; width:100%; height:100%; margin:0 auto;}
+.Electric-Gas h4{width:100%; height:100px; padding-top:40px; font-size:36px; color:#000; text-align:center; }
+.Electric-Gas-Con{width:100%; height:auto; margin:0 auto; }
+.Electric-Gas-Con p.Img-A{width:49.9%;  float:left;  margin-top:8%; display:none;}
+.Electric-Gas-Con p.Img-B{width:49.9%; float:left;   margin-top:8%; display:none;}
+
+.Electric-Gas-Con .Gas-characteristic{width:100%; height:auto; clear:both; background:#000; color:#fff; border:1px solid #fff;}
+.Electric-Gas-Con .Electric-characteristic{width:100%; height:auto; clear:both; background:#000; color:#fff;border:1px solid #fff; }
+
+
+
+
+.Thielmann-Tips{width:100%; height:400px; margin:0 auto; margin-top:50px;}
+
+.Thielmann-Tips ul{width:100%; margin:0 auto;}
+.Thielmann-Tips ul li{width:80%; height:auto; margin-left:10%; text-align:center; color:#000;}
+
+.Thielmann-Tips ul li span{display:block; font-size:15px; margin:20px 0;}
+
+   
+   
+   
+   }
+
+      @media (max-width: 320px) {
+	  
+	    /*스킨*/
+#Electric_Range_Explain-Box .H4-Content{width:100%; height:914px; background:url(../images/electric_range_explain/visual_back_a.jpg) -50px -50px; no-repeat;}
+#Electric_Range_Explain-Box .H4-Content h4{margin:0 auto; text-align:center; font-size:30px; color:#df323a; padding-top:50px;}
+#Electric_Range_Explain-Box .H4-Content h4 span{display:block; margin:20px 0}
+#Electric_Range_Explain-Box .H4-Content h4 span em.Squer-Red-Box{ color:#df323a; display:block; background:none; margin-top:10px;}
+#Electric_Range_Explain-Box .H4-Content h4 span.Black-Text{font-size:25px; color:#000;}
+#Electric_Range_Explain-Box .H4-Content h4 em.Dis_Block{display:block; margin:10px 0}
+
+#Electric_Range_Explain-Box .Circle-Banner{width:480px; height:auto; margin-left:20%; }
+#Electric_Range_Explain-Box .Circle-Banner li{width:150px; height:150px; clear:both;  font-size:32px; color:#fff; text-align:center; margin-bottom:10px; padding-top:30px;}  
+#Electric_Range_Explain-Box .Circle-Banner li span{ width: 100px; margin:0 auto; font-size:14px; line-height:20px;}
+#Electric_Range_Explain-Box .Circle-Banner li.Gray-Bnr{background:none; background:gray; opacity:0.8; }
+#Electric_Range_Explain-Box .Circle-Banner li.Red-Bnr{background:none; background:red; opacity:0.8;}
+
+	  
+/*전자레인지와 가스레인지 비교*/
+
+.Electric-Gas{clear:both; width:100%; height:100%; margin:0 auto;}
+.Electric-Gas h4{width:100%; height:150px; padding-top:40px; font-size:36px; color:#000; text-align:center; }
+.Electric-Gas-Con{width:100%; height:auto; margin:0 auto; }
+.Electric-Gas-Con p.Img-A{width:49.9%;  float:left;  margin-top:8%; display:none;}
+.Electric-Gas-Con p.Img-B{width:49.9%; float:left;   margin-top:8%; display:none;}
+
+.Electric-Gas-Con .Gas-characteristic{width:100%; height:auto; clear:both; background:#000; color:#fff; border:1px solid #fff;}
+.Electric-Gas-Con .Electric-characteristic{width:100%; height:auto; clear:both; background:#000; color:#fff;border:1px solid #fff; }
+
+
+
+	  
+	  }

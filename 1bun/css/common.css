@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#Wrapper{ width:100%; height:auto; overflow:hidden;}
+
+/* Header 공통 */
+
+#Header{width:100%; height:112px; margin:0 auto;}
+
+
+
+
+/*본문 공통*/
+
+#Container{width:1000px; height:auto; margin:0 auto; position:relative;}
+#Container #Contents{width:1000px; height:auto; float:left; margin-top:20px;  }
+
+/*left menu(lnb) page contents 공통 */
+
+#Left-Con{width:200px; height:auto; float:left; position:fixed;}
+#Right-Con{width:780px; height:auto; float:right; margin-left:20px;}
+#Right-Con select{font-size:12px; border:1px solid #e1e0e0; }

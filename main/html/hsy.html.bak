@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>허서영 포트폴리오</title>
+
+     <link rel="stylesheet" type="text/css" href="css/reset.css" />
+	 <link rel="stylesheet" type="text/css" href="css/main.css" />
+	 <link rel="stylesheet" type="text/css" href="css/animate.css" />
+	 <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+
+ </head>
+
+ <body nContextmenu="return false">
+ 	<script>
+		var ns = (document.layers)?true:false;
+		var ie = (document.all)?true:false;
+		if (ns) document.captureEvents(Event.MOUSEDOWN || Event.CLICK);
+		document.onclick = sourcecodeprotect;
+		document.onmousedown = sourcecodeprotect;
+
+		//********************************************
+		function sourcecodeprotect(e){
+		if (ns&&(e.which==3)) return false;
+		else if (ie&&(window.event.button==2)) alert("Source code protected");
+		else return true;
+		}
+
+		document.onkeydown = function(){
+		if (event.keyCode == 123) {
+
+		}
+		}
+
+
+	</script>
+		
+	<div id="Wrapper">
+		<div id="Header">
+			<div id="Header-Con">
+				<h1 class="button animate" data-animate="fadeInLeftBig" data-duration="1.0s" data-delay="0.1s"><img src="images/logo.png" alt="허서영포트폴리오" width="100%" /></h1>
+				<div id="Header-Right-Con">
+					<div id="Gnb">	
+						<ul>
+							<li><a href="#Contents" >Web Design & HTML<span> > </span></a></li>
+							<li><a href="http://hsydesign.mireene.com/page_contents/procuct_page.html" target="_blank">Product Page <span> > </span></a></li>
+							<li><a href="http://hsydesign.mireene.com/page_contents/product_banner.html" target="_blank">Product Banner <span> > </span></a></li>
+							<li><a href="http://hsydesign.mireene.com/page_contents/event_page.html" target="_blank">Event Page <span> > </span></a></li>
+							<li><a href="http://hsydesign.mireene.com/page_contents/event_banner.html" target="_blank">Event Banner <span> > </span></a></li>
+							<li><a href="http://hsydesign.mireene.com/page_contents/editorial_design.html" target="_blank">Editorial Design <span> > </span></a></li>
+							<li><a href="#" target="_blank">Webzine <span> > </span></a></li>
+
+						</ul>
+						<h2 >
+						<img src="images/slogan.png" alt="The Designer is An Alchemist of Future " width="100%"  class="button animate" data-animate="slideInLeft" data-duration="1.0s" data-delay="0.1s" />
+						<span class="animate" data-animate="rubberBand" data-duration="1.0s" data-delay="0.1s" data-iteration="2">Seo Young's Mostly Portfolio was Compliant to Web Standards and Cross Browsing</span>
+					</h2>
+					</div><!--e://Gnb-->
+					
+				</div><!--e://Header-Right-Con-->
+			</div><!--e://Header-Con-->	
+		</div><!--e://Header-->	
+		<div id="Container">
+			<div id="Contents">
+				<div class="Web-Banner">
+					<h3>
+						<img src="images/h3_icon.gif" alt="logo" />
+						<span>UI / UX Design , 
+							<em>Web standard publishing</em>
+						</span>
+					</h3>
+					<h4>Most Website Works to Compliant to Web Standards and Cross Browsing</h4>
+					<ul>
+						<li class="block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" ><a href="http://hsydesign.mireene.com/3sa/html/index.html" target="_blank"><img src="images/banner_web_1.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" ><a href="http://hsydesign.mireene.com/thielmann/html/index.html" target="_blank"><img src="images/banner_web_2.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" ><a href="http://amazoninsu.co.kr/" target="_blank"><img src="images/banner_web_3.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" ><a href="http://hsydesign.mireene.com/1bun/html/index.html" target="_blank"><img src="images/banner_web_7.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" ><a href="http://hsydesign.mireene.com/main.jpg" target="_blank"><img src="images/banner_web_8.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" ><a href="http://hilife-mall.co.kr/" target="_blank"><img src="images/banner_web_9.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" ><a href="http://www.geniezip.com/shippingMain.do" target="_blank"><img src="images/banner_web_10.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" ><a href="http://www.loveculture.com/" target="_blank"><img src="images/banner_web_11.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" ><a href="http://www.carolpriest.co.kr/shop/main/index.php" target="_blank"><img src="images/banner_web_12.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" ><a href="http://hsydesign.mireene.com/entebbe/html/index.html" target="_blank"><img src="images/banner_web_13.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" ><a href="http://hsydesign.mireene.com/jewellery/index.html" target="_blank"><img src="images/banner_web_14.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.1s" ><a href="http://hsydesign.mireene.com/nature/index.html" target="_blank"><img src="images/banner_web_15.jpg" alt="배너를 클릭하세요." /></a></li>
+					</ul>
+					<!--class="block offset animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.9s" data-offset="300" /  https://daneden.github.io/animate.css/-->
+				</div><!--e://Web-Banner-->
+
+
+				<div class="Variety-Banner">
+					<h3>
+						<img src="images/h3_icon.gif" alt="logo" />
+						<span>Web Design,  
+							<em>Editorial Design</em>
+						</span>
+					</h3>
+					<h4>Click on the banner below to see the various design portfolios</h4>
+					<ul>
+						<li class="block animate" data-animate="fadeInDown" data-duration="1.0s" data-delay="0.1s"><a href="http://hsydesign.mireene.com/page_contents/procuct_page.html" target="_blank"><img src="images/banner_variety_1.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInDown" data-duration="1.0s" data-delay="0.1s"><a href="http://hsydesign.mireene.com/page_contents/event_page.html" target="_blank"><img src="images/banner_variety_2.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInDown" data-duration="1.0s" data-delay="0.4s"><a href="#" target="_blank"><img src="images/banner_variety_3.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInDown" data-duration="1.0s" data-delay="0.4s"><a href="http://hsydesign.mireene.com/page_contents/editorial_design.html" target="_blank"><img src="images/banner_variety_4.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInDown" data-duration="1.0s" data-delay="0.6s"><a href="http://hsydesign.mireene.com/page_contents/product_banner.html" target="_blank"><img src="images/banner_variety_5.jpg" alt="배너를 클릭하세요." /></a></li>
+						<li class="block animate" data-animate="fadeInDown" data-duration="1.0s" data-delay="0.7s"><a href="http://hsydesign.mireene.com/page_contents/event_banner.html" target="_blank"><img src="images/banner_variety_6.jpg" alt="배너를 클릭하세요." /></a></li>
+						
+					</ul>
+				</div><!--e://Variety-Banner-->
+
+				<div class="Process-Info">
+					<h3>
+						<img src="images/h3_icon.gif" alt="logo" />
+						<span>Things that  
+							<em>Make Me a Designer</em>
+						</span>
+					</h3>
+					<p class="block animate" data-animate="fadeInLeft" data-duration="2.0s" data-delay="1.0s"><img src="images/process.jpg" alt="디자인 프로세스 안내" /></p>
+				</div><!--e://Process-Info-->
+				
+
+			</div><!--e://Contents-->
+			<div class="Customer">
+				
+				<div class="Customer-Con">
+					<p class="block animate" data-animate="fadeInUp" data-duration="1.5s" data-delay="0.5s"><img src="images/design.png" alt="디자인이미지" /></p>
+					<ul>
+						<li class="block animate" data-animate="fadeInDown" data-duration="1.0s" data-delay="0.4s"> 
+							<img src="images/bullet_yellow.gif" alt="buller" />
+							<span>My Address </span>
+							<em>서울시 강서구화곡동 </em>
+						</li>
+						<li class="block animate" data-animate="fadeInDown" data-duration="1.0s" data-delay="0.8s">
+							<img src="images/bullet_yellow.gif" alt="buller" />
+							<span>Phone No </span>
+							<em>010.6579.1817</em>
+						</li>
+						<li class="block animate" data-animate="fadeInDown" data-duration="1.0s" data-delay="1.2s">
+							<img src="images/bullet_yellow.gif" alt="buller" />
+							<span>E-Mail  </span>
+							<em>chzhvkfmvp@naver.com</em>
+						</li>
+					</ul>
+				</div><!--e://Customer-Con-->	
+			</div><!--e://Customer-->
+		</div><!--e://Container-->
+		<div id="Footer">
+			<p class="Copyright">Copyright © 2017.heo seo young. All rights reserved. </p>
+		</div><!--e://Footer-->
+	</div><!--e://Wrapper-->	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/scrolla.jquery.min.js"></script>
+	
+		<script>
+
+		$('.animate').scrolla({
+			mobile: false,
+			once: false
+		});
+
+		$('#button-show-window').click(function() {
+			var template = $('#modal-template').html();
+			$('body').append(template);
+			$('.animate').scrolla('bind');
+			$('section.modal .modal-close').click(function() {
+				$(this).closest('section.modal').remove();
+			});
+
+			return false;
+		});
+
+	</script>
+ </body>
+</html>

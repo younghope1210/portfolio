@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+/*Floating 시작*/
+
+.Floting-Menu{width:100%; height:68px;  margin:0 auto; background:url(../images/header/back_gnb_line.gif) repeat-x; display:none; z-index:100}
+.Floting-Con{width:1000px; height:68px;  margin:0 auto; }
+.Floting-Con h1{float:left; width:123px; height:51px; margin-top:5px; margin-left:30px;  }
+
+.Floting-Con #Floting_Gnb{float:right; width:700px; height:51px;}
+
+.Floting-Con #Floting_Gnb ul{float:right;}
+.Floting-Con #Floting_Gnb li{float:left; width:120px; height:64px; }
+.Floting-Con #Floting_Gnb li a{display:block; width:120px; height:64px; font-size:0; text-indent:-99999px; background:url(../images/header/gnb_a.gif) no-repeat;}
+.Floting-Con #Floting_Gnb li a:hover{background:url(../images/header/gnb_a_over.gif) no-repeat;}
+
+.Floting-Con #Floting_Gnb li.Floting-b a{display:block; width:120px; height:64px; background:url(../images/header/gnb_b.gif) no-repeat;}
+.Floting-Con #Floting_Gnb li.Floting-b a:hover{background:url(../images/header/gnb_b_over.gif) no-repeat;}
+
+
+.Floting-Con #Floting_Gnb li.Floting-c a{display:block; width:120px; height:64px; background:url(../images/header/gnb_c.gif) no-repeat;}
+.Floting-Con #Floting_Gnb li.Floting-c a:hover{background:url(../images/header/gnb_c_over.gif) no-repeat;}
+
+
+.Floting-Con #Floting_Gnb li.Floting-d a{display:block; width:120px; height:64px; background:url(../images/header/gnb_d.gif) no-repeat;}
+.Floting-Con #Floting_Gnb li.Floting-d a:hover{background:url(../images/header/gnb_d_over.gif) no-repeat;}
+
+.Floting-Con #Floting_Gnb li.Floting-e a{display:block; width:120px; height:64px; background:url(../images/header/gnb_e.gif) no-repeat;}
+.Floting-Con #Floting_Gnb li.Floting-e a:hover{background:url(../images/header/gnb_e_over.gif) no-repeat;}
+

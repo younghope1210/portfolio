@@ -1,0 +1,1167 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ 
+  <title>3사비교견적 출력하기</title>
+	
+	
+ 
+ </head>
+ <body  topmargin="0" rightmargin="0" leftmargin="0" bottommargin="0">
+
+
+	<table cellpadding="0" cellspacing="0" border="0" width="750px" align="center" style="border:3px solid #cccccc; padding:0; margin:0; font-size:12px; ">
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0" border="0" width="740px" align="center" style="border:10px solid #fff; ">
+					<!-- *****************프린트 출력 스타일 탭 시작 *****************-->
+					<tr>
+						<td>
+							
+							<table  cellpadding="0" cellspacing="0" width="740" style="width:740px; vertical-align:middle;" id="Tab-Print-Style" >
+								<tr>
+									<td width="370" height="54"  style="width:370px; height:54px; text-align:center;"><a href="#Each-Print" >설계 개별 출력</a></td>
+									<td width="370" height="54"  style="width:370px; height:54px; text-align:center;"><a href="#Compare-Print">설계 비교 출력</a></td>
+									
+								</tr>
+								<style>
+									#Tab-Print-Style td a{display:block; width:370px; height:54px; background:#f0eeef; line-height:54px; color:#000; font-weight:bold; text-decoration:none; font-size:15px;}
+									#Tab-Print-Style td a:hover{width:370px; height:54px; background:#f85915; color:#fff;}
+									#Tab-Print-Style td a.active{d width:370px; height:54px; background:#f85915; color:#fff;}
+								</style>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="20"></td>
+					</tr>	
+					<!-- *****************프린트 출력 버튼 시작 *****************-->
+					<tr>
+						<td > 
+							
+							<table  cellpadding="0" cellspacing="0" width="740"  >
+								<tr>
+									<td width="172" style="text-align:center;"><a href="#"><img src="../images/print_popup/btn_print_a.jpg" alt="인쇄하기 지급사유 제외" style="border:0" /></a></td>
+									<td width="172" style="text-align:center;"><a href="#"><img src="../images/print_popup/btn_print_b.jpg" alt="인쇄하기 유의사항 제외" style="border:0"  /></a></td>
+									<td width="172" style="text-align:center;"><a href="#"><img src="../images/print_popup/btn_print_c.jpg" alt="인쇄하기 전체" style="border:0" /></a></td>
+									<td width="80"></td>
+									<td width="172" style="text-align:center;"><a href="#"><img src="../images/print_popup/btn_madil.jpg" alt="메일보내기 " style="border:0" /></a></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+					<!--***********************************************설계개별출력 레이아웃 시작*********************************************************-->
+					<tr>
+						<td id="Each-Print" >
+							<table>
+								<!--*****************************시작!********************************-->
+								
+								<tr>
+									<td height="20"></td>
+								</tr>	
+								<tr>
+									<td>
+										<!-- *****************메일 보내기 서식 시작 *****************-->
+										<table   cellpadding="0" cellspacing="0" width="740"   style="border:1px solid #cccccc;">
+											<tr>
+												<th bgcolor="f5f3f3" width="175"  height="45" style="width:175px; height:45px; font-size:12px; font-weight:normal; background:#f5f3f3; border-bottom:1px solid #cccccc;">보내는 사람 이름/Mail 주소</th>
+												<td style="font-size:12px;  font-weight:normal; padding-left:10px; border-bottom:1px solid #cccccc;"><input type="text" class="Wid_115" value="이름" style="width:115px; height:27px; border:1px solid #cccccc;" /> <input type="text" class="Wid_115" value="이메일주소" style="width:115px; height:27px; border:1px solid #cccccc;" /> @ <input type="text"  style="width:115px; height:27px; border:1px solid #cccccc;"  /> 
+												<select style="width:155px; height:31px; border:1px solid #cccccc;"> 
+													<option>메일주소선택</option>
+													<option>naver.com	</option>
+													<option>daun.net</option>
+												</select>
+												
+												</td>
+											</tr>
+											
+											<tr>
+												<th bgcolor="f5f3f3" width="175"  height="45" style="width:175px; height:45px; font-size:12px; font-weight:normal; background:#f5f3f3; border-bottom:1px solid #cccccc;">보내는 사람 이름/Mail 주소</th>
+												<td style="font-size:12px;  font-weight:normal; padding-left:10px; border-bottom:1px solid #cccccc;"><input type="text"  value="홍길동" style="width:115px; height:27px; border:1px solid #cccccc;"  /> <input type="text"  value="이메일주소" style="width:115px; height:27px; border:1px solid #cccccc;"  /> @ <input type="text"   style="width:115px; height:27px; border:1px solid #cccccc;" /> 
+												<select style="width:155px; height:31px; border:1px solid #cccccc;">
+													<option>메일주소선택</option>
+													<option>naver.com	</option>
+													<option>daun.net</option>
+												</select>
+												
+												</td>
+											</tr>
+											
+											<tr>
+												<th bgcolor="f5f3f3" width="175"  height="45" style="width:175px; height:45px; font-size:12px; font-weight:normal; background:#f5f3f3">제목</th>
+												<td style="font-size:12px;  font-weight:normal; padding-left:10px;"> [대면] 알파Plus보장보험 설계 내역입니다.</td>
+											</tr>
+												</table>
+											</td>
+										</tr>
+
+										<tr>
+											<td height="10"></td>
+										</tr>	
+
+										<!-- *****************주의 문구 *****************-->
+										<tr>
+											<td>
+												
+												<table>
+													<tr>
+														<td>* 보내는사람과 받는사람의 <span style="color:#dd292a;">메일의 도메인 이름이 같을 경우에는 메일이 전송되지 안 될 수 있습니다.</span> </td>
+														
+													</tr>
+													<tr>
+														<td>* 인쇄 설정 : 마우스 오른쪽 클릭 > 인쇄 미리보기 > <span style="color:#dd292a;">페이지설정(alt+U) > "크기에 맞게 축소 사용"에 체크 </span> > 확인 후 이용해주세요. </td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="20" style="border-bottom:1px dashed #ccc;"></td>
+										</tr>	
+										<tr>
+											<td height="20"></td>
+										</tr>	
+
+											<!-- *****************자료제공 및 계약처리 담당자 안내 *****************-->
+										<tr>
+											<td>
+												
+												<table width="740"   cellpadding="0" cellspacing="0">
+													<tr>
+														<td style="font-size:14px;"><img src="../images/print_popup/bullet_squer_orange.gif" alt="자료제공 : ABC보험(02-777-7777)" style="vertical-align:middle;" />  자료제공 : ABC보험(02-777-7777) </td>
+														<td style="font-size:14px;"><img src="../images/print_popup/bullet_squer_orange.gif" alt="자료제공 : ABC보험(02-777-7777)" style="vertical-align:middle;" /> 계약처리 담당자 : 가나다 </td>
+														<td width="250"></td>
+													</tr>
+													<tr>
+														<td colspan="3" height="20"></td>
+													</tr>	
+													<tr>
+														<td colspan="3" bgcolor="f8f9f9" style="padding:20px;">본 내용은 약관에 기초하여 인터넷 자료로 요약된 것으로 보상조항 등 기타 자세한 사항은 약관 및 상품요약서를 
+														반드시 참조하시기 바랍니다.(이 화면은 실제 보험가입시 발행되는 가입설계서, 상품설명서 등과 내용이 다를 수 있으며 
+														보험금지급을 위한 기초서류가 될 수 없습니다.)</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="20" style="border-bottom:1px dashed #ccc;"></td>
+										</tr>	
+
+										<tr>
+											<td height="20" ></td>
+										</tr>	
+											<!-- *****************보험 설계서 고객정보 안내*****************-->
+										<tr>
+											<td>
+												
+												<table width="740"   cellpadding="0" cellspacing="0"> 
+													<tr>
+														<td colspan="4" style="font-size:18px;  font-weight:bold; "> 홍길동님 <span style="font-size:14px; font-weight:bold; color:#dd292a;">보험 설계서</span> <span style="font-size:11px; font-weight:normal;"> (산출일: 2016년 04월 12일)</span> </td>
+														
+													</tr>
+												</table>
+												
+											</td>
+										</tr>
+										<tr>
+											<td height="20"></td>
+										</tr>	
+										<tr>
+											<td>
+												<table width="740"   cellpadding="0" cellspacing="0" style="border:1px solid #ccc;"> 
+													
+													<tr>
+														<th width="180" height="30" style="width:180px; height:30px; background:#f5f3f3; border-bottom:1px solid #ccc;" >보험대상자(급수)</th>
+														<td style="width:180px; height:30px; background:#fff; border-bottom:1px solid #ccc; padding-left:10px;">홍길동(1급)</td>
+														<th width="180" height="30" style="width:180px; height:30px; background:#f5f3f3; border-bottom:1px solid #ccc;">생년월일/성별/보험나이</th>
+														<td  style="width:180px; height:30px; background:#fff; border-bottom:1px solid #ccc; padding-left:10px;">1980년 01월 01일/남자/ 37세</td>
+													</tr>
+													<tr>
+														<th width="180" height="30" style="width:180px; height:30px; background:#f5f3f3; ">보험기간/납입기간</th>
+														<td style="width:180px; height:30px; background:#fff; padding-left:10px;">30세만기/20년납(월납)</td>
+														<th width="180" height="30" style="width:180px; height:30px; background:#f5f3f3;"> 운전여부</th>
+														<td style="width:180px; height:30px; background:#fff; padding-left:10px;">운전안함</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+
+										<tr>
+											<td height="10"></td>
+										</tr>
+
+										
+											<!-- *****************비교견적 설계 상품 테이블 시작 *****************-->
+										<tr>
+											<td>
+												<!-- *****************비교견적 설계 제목*****************-->
+												<table width="740"   >
+													<tr>
+														<th colspan="2" style="text-align:left;"><img src="../images/print_popup/back_flower.jpg" alt="플라워패턴" /></th>
+														<th style="text-align:right;"><img src="../images/brand_logo/logo_meritz_160.gif" alt="브랜드로고" /></th>
+													</tr>
+													<tr>
+														<td colspan="3"  width="400" style=" font-size:30px; color:#000; font-weight:bold; text-align:center;"><img src="../images/print_popup/h3_01.jpg" alt="설계01" width="93" height="34" style="vertical-align:bottom;" /> 알파Plus보장보험</td>
+													</tr>
+													<tr>
+														<th colspan="2"></th>
+														<th style="text-align:right;"><img src="../images/print_popup/back_flower2.jpg" alt="플라워패턴" /></th>
+													</tr>
+
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="3"></td>
+										</tr>
+										<tr>
+											<td>
+												<!-- *****************비교견적 테이블*****************-->
+												<table width="740"  >
+													<tr>
+														<td style="font-size:14px; font-weight:bold;"><img src="../images/print_popup/h4_01.jpg" alt="넘버" style="vertical-align:middle" /> 계약사항 및 보험료 </td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="7"></td>
+										</tr>
+										<tr>
+											<td>
+												<table width="740"  cellpadding="0" cellspacing="0"   style="border-top:2px solid #f85915; text-align:center;">
+													<tr>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">번호</th>
+														<th  height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">특약명</th>
+														<th  height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">보험기간</th>
+														<th  height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">가입금액</th>
+														<th  height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">보험료</th>
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30"style=" border-bottom:1px solid #ccc; border-left:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)16630  </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc;">20년납 100세만기 </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc;">100만원 </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc;">500원</td>
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">2</td>
+														<td height="30"style=" border-bottom:1px solid #ccc; border-left:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)16630  </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc;">20년납 100세만기 </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc;">100만원 </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc;">500원</td>
+													</tr>
+
+
+													<tr>
+														<td height="40" colspan="5" style="text-align:right; font-weight:bold; border:1px solid #ccc; border-top:0; padding-right:10px;">(적립보험료 : 39 원 / 보장보험료 : 35,361원)  <span style="font-size:16px; color:#dd292a;"> 35,400원</span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="20"></td>
+										</tr>
+
+										
+											<!-- *****************지급사유 시작 *****************-->
+										<tr>
+											<td>
+												<!-- *****************비교견적 설계 제목*****************-->
+												<table >
+													<tr>
+														<td style="font-size:14px; font-weight:bold;"><img src="../images/print_popup/h4_02.jpg" alt="넘버" style="vertical-align:middle" /> 지급사유 </td>
+													</tr>
+												</table>
+											
+											</td>
+										</tr>
+										<tr>
+											<td height="3"></td>
+										</tr>
+											<!-- *****************지급사유 테이블*****************-->
+										<tr>
+											<td>
+												<table width="740"  cellpadding="0" cellspacing="0"   style="border-top:2px solid #f85915; text-align:center;">
+													<tr>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">번호</th>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">특약명 및 지급사유</th>
+														
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="40" colspan="5" style="text-align:right; font-weight:bold; border:1px solid #ccc; border-top:0; padding-right:10px;">(적립보험료 : 39 원 / 보장보험료 : 35,361원)  <span style="font-size:16px; color:#dd292a;"> 35,400원</span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+
+
+										<tr>
+											<td height="10"></td>
+										</tr>
+
+										
+											<!-- *****************비교견적2 설계 상품 테이블 시작 *****************-->
+										<tr>
+											<td>
+												<!-- *****************비교견적 설계 제목*****************-->
+												<table width="740"   >
+													<tr>
+														<th colspan="2" style="text-align:left;"><img src="../images/print_popup/back_flower.jpg" alt="플라워패턴" /></th>
+														<th style="text-align:right;"><img src="../images/brand_logo/logo_kb_160.gif" alt="브랜드로고" /></th>
+													</tr>
+													<tr>
+														<td colspan="3"  width="400" style=" font-size:30px; color:#000; font-weight:bold; text-align:center; "><img src="../images/print_popup/h3_02.jpg" alt="설계01" width="93" height="34" style="vertical-align:bottom;" /> 닥터플러스건강보험</td>
+													</tr>
+													<tr>
+														<th colspan="2"></th>
+														<th style="text-align:right;"><img src="../images/print_popup/back_flower2.jpg" alt="플라워패턴" /></th>
+													</tr>
+
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="3"></td>
+										</tr>
+										<tr>
+											<td>
+												<!-- *****************비교견적 테이블*****************-->
+												<table width="740"  >
+													<tr>
+														<td style="font-size:14px; font-weight:bold;"><img src="../images/print_popup/h4_01.jpg" alt="넘버" style="vertical-align:middle" /> 계약사항 및 보험료 </td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="7"></td>
+										</tr>
+										<tr>
+											<td>
+												<table width="740"  cellpadding="0" cellspacing="0"   style="border-top:2px solid #f85915; text-align:center;">
+													<tr>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">번호</th>
+														<th  height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">특약명</th>
+														<th  height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">보험기간</th>
+														<th  height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">가입금액</th>
+														<th  height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">보험료</th>
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30"style=" border-bottom:1px solid #ccc; border-left:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)16630  </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc;">20년납 100세만기 </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc;">100만원 </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc;">500원</td>
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">2</td>
+														<td height="30"style=" border-bottom:1px solid #ccc; border-left:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)16630  </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc;">20년납 100세만기 </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc;">100만원 </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc;">500원</td>
+													</tr>
+
+
+													<tr>
+														<td height="40" colspan="5" style="text-align:right; font-weight:bold; border:1px solid #ccc; border-top:0; padding-right:10px;">(적립보험료 : 39 원 / 보장보험료 : 35,361원)  <span style="font-size:16px; color:#dd292a;"> 35,400원</span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="20"></td>
+										</tr>
+
+										
+											<!-- *****************지급사유 시작 *****************-->
+										<tr>
+											<td>
+												<!-- *****************비교견적 설계 제목*****************-->
+												<table >
+													<tr>
+														<td style="font-size:14px; font-weight:bold;"><img src="../images/print_popup/h4_02.jpg" alt="넘버" style="vertical-align:middle" /> 지급사유 </td>
+													</tr>
+												</table>
+											
+											</td>
+										</tr>
+										<tr>
+											<td height="3"></td>
+										</tr>
+											<!-- *****************지급사유 테이블*****************-->
+										<tr>
+											<td>
+												<table width="740"  cellpadding="0" cellspacing="0"   style="border-top:2px solid #f85915; text-align:center;">
+													<tr>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">번호</th>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">특약명 및 지급사유</th>
+														
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="40" colspan="5" style="text-align:right; font-weight:bold; border:1px solid #ccc; border-top:0; padding-right:10px;">(적립보험료 : 39 원 / 보장보험료 : 35,361원)  <span style="font-size:16px; color:#dd292a;"> 35,400원</span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+
+
+
+										<tr>
+											<td height="10"></td>
+										</tr>
+
+										
+											<!-- *****************비교견적3 설계 상품 테이블 시작 *****************-->
+										<tr>
+											<td>
+												<!-- *****************비교견적 설계 제목*****************-->
+												<table width="740"   >
+													<tr>
+														<th colspan="2" style="text-align:left;"><img src="../images/print_popup/back_flower.jpg" alt="플라워패턴" /></th>
+														<th style="text-align:right;"><img src="../images/brand_logo/logo_heungkuk_160.gif" alt="브랜드로고" /></th>
+													</tr>
+													<tr>
+														<td colspan="3"  width="400" style=" font-size:30px; color:#000; font-weight:bold; text-align:center;"><img src="../images/print_popup/h3_03.jpg" alt="설계01" width="93" height="34" style="vertical-align:bottom;" /> 행복을 多주는 가족사랑 통합보험</td>
+													</tr>
+													<tr>
+														<th colspan="2"></th>
+														<th style="text-align:right;"><img src="../images/print_popup/back_flower2.jpg" alt="플라워패턴" /></th>
+													</tr>
+
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="3"></td>
+										</tr>
+										<tr>
+											<td>
+												<!-- *****************비교견적 테이블*****************-->
+												<table width="740"  >
+													<tr>
+														<td style="font-size:14px; font-weight:bold;"><img src="../images/print_popup/h4_01.jpg" alt="넘버" style="vertical-align:middle" /> 계약사항 및 보험료 </td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="7"></td>
+										</tr>
+										<tr>
+											<td>
+												<table width="740"  cellpadding="0" cellspacing="0"   style="border-top:2px solid #f85915; text-align:center;">
+													<tr>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">번호</th>
+														<th  height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">특약명</th>
+														<th  height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">보험기간</th>
+														<th  height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">가입금액</th>
+														<th  height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">보험료</th>
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30"style=" border-bottom:1px solid #ccc; border-left:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)16630  </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc;">20년납 100세만기 </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc;">100만원 </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc;">500원</td>
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">2</td>
+														<td height="30"style=" border-bottom:1px solid #ccc; border-left:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)16630  </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc;">20년납 100세만기 </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc;">100만원 </td>
+														<td height="30" style="border-bottom:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc;">500원</td>
+													</tr>
+
+
+													<tr>
+														<td height="40" colspan="5" style="text-align:right; font-weight:bold; border:1px solid #ccc; border-top:0; padding-right:10px;">(적립보험료 : 39 원 / 보장보험료 : 35,361원)  <span style="font-size:16px; color:#dd292a;"> 35,400원</span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="20"></td>
+										</tr>
+
+										
+											<!-- *****************지급사유 시작 *****************-->
+										<tr>
+											<td>
+												<!-- *****************비교견적 설계 제목*****************-->
+												<table >
+													<tr>
+														<td style="font-size:14px; font-weight:bold;"><img src="../images/print_popup/h4_02.jpg" alt="넘버" style="vertical-align:middle" /> 지급사유 </td>
+													</tr>
+												</table>
+											
+											</td>
+										</tr>
+										<tr>
+											<td height="3"></td>
+										</tr>
+											<!-- *****************지급사유 테이블*****************-->
+										<tr>
+											<td>
+												<table width="740"  cellpadding="0" cellspacing="0"   style="border-top:2px solid #f85915; text-align:center;">
+													<tr>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">번호</th>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">특약명 및 지급사유</th>
+														
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="40" colspan="5" style="text-align:right; font-weight:bold; border:1px solid #ccc; border-top:0; padding-right:10px;">(적립보험료 : 39 원 / 보장보험료 : 35,361원)  <span style="font-size:16px; color:#dd292a;"> 35,400원</span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+							</table>
+						</td><!--e://Each-Print-->
+					</tr>
+					
+					<!--***********************************************설계비교출력 레이아웃 시작*********************************************************-->
+					<tr>
+						<td id="Compare-Print"  style="display:none;">
+							<table>
+								<!--************************시작!!!********************************-->
+								<!--*****************************시작!********************************-->
+								<tr>
+									<td height="20"></td>
+								</tr>			
+									
+								<tr>
+									<td>
+										<!-- *****************메일 보내기 서식 시작 *****************-->
+										<table   cellpadding="0" cellspacing="0" width="740"   style="border:1px solid #cccccc;">
+											<tr>
+												<th bgcolor="f5f3f3" width="175"  height="45" style="width:175px; height:45px; font-size:12px; font-weight:normal; background:#f5f3f3; border-bottom:1px solid #cccccc;">보내는 사람 이름/Mail 주소</th>
+												<td style="font-size:12px;  font-weight:normal; padding-left:10px; border-bottom:1px solid #cccccc;"><input type="text" class="Wid_115" value="이름" style="width:115px; height:27px; border:1px solid #cccccc;" /> <input type="text" class="Wid_115" value="이메일주소" style="width:115px; height:27px; border:1px solid #cccccc;" /> @ <input type="text"  style="width:115px; height:27px; border:1px solid #cccccc;"  /> 
+												<select style="width:155px; height:31px; border:1px solid #cccccc;"> 
+													<option>메일주소선택</option>
+													<option>naver.com	</option>
+													<option>daun.net</option>
+												</select>
+												
+												</td>
+											</tr>
+											
+											<tr>
+												<th bgcolor="f5f3f3" width="175"  height="45" style="width:175px; height:45px; font-size:12px; font-weight:normal; background:#f5f3f3; border-bottom:1px solid #cccccc;">보내는 사람 이름/Mail 주소</th>
+												<td style="font-size:12px;  font-weight:normal; padding-left:10px; border-bottom:1px solid #cccccc;"><input type="text"  value="홍길동" style="width:115px; height:27px; border:1px solid #cccccc;"  /> <input type="text"  value="이메일주소" style="width:115px; height:27px; border:1px solid #cccccc;"  /> @ <input type="text"   style="width:115px; height:27px; border:1px solid #cccccc;" /> 
+												<select style="width:155px; height:31px; border:1px solid #cccccc;">
+													<option>메일주소선택</option>
+													<option>naver.com	</option>
+													<option>daun.net</option>
+												</select>
+												
+												</td>
+											</tr>
+											
+											<tr>
+												<th bgcolor="f5f3f3" width="175"  height="45" style="width:175px; height:45px; font-size:12px; font-weight:normal; background:#f5f3f3">제목</th>
+												<td style="font-size:12px;  font-weight:normal; padding-left:10px;"> [대면] 알파Plus보장보험 설계 내역입니다.</td>
+											</tr>
+												</table>
+											</td>
+										</tr>
+
+										<tr>
+											<td height="10"></td>
+										</tr>	
+
+										<!-- *****************주의 문구 *****************-->
+										<tr>
+											<td>
+												
+												<table>
+													<tr>
+														<td>* 보내는사람과 받는사람의 <span style="color:#dd292a;">메일의 도메인 이름이 같을 경우에는 메일이 전송되지 안 될 수 있습니다.</span> </td>
+														
+													</tr>
+													<tr>
+														<td>* 인쇄 설정 : 마우스 오른쪽 클릭 > 인쇄 미리보기 > <span style="color:#dd292a;">페이지설정(alt+U) > "크기에 맞게 축소 사용"에 체크 </span> > 확인 후 이용해주세요. </td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="20" style="border-bottom:1px dashed #ccc;"></td>
+										</tr>	
+										<tr>
+											<td height="20"></td>
+										</tr>	
+
+											<!-- *****************자료제공 및 계약처리 담당자 안내 *****************-->
+										<tr>
+											<td>
+												
+												<table width="740"   cellpadding="0" cellspacing="0">
+													<tr>
+														<td style="font-size:14px;"><img src="../images/print_popup/bullet_squer_orange.gif" alt="자료제공 : ABC보험(02-777-7777)" style="vertical-align:middle;" />  자료제공 : ABC보험(02-777-7777) </td>
+														<td style="font-size:14px;"><img src="../images/print_popup/bullet_squer_orange.gif" alt="자료제공 : ABC보험(02-777-7777)" style="vertical-align:middle;" /> 계약처리 담당자 : 가나다 </td>
+														<td width="250"></td>
+													</tr>
+													<tr>
+														<td colspan="3" height="20"></td>
+													</tr>	
+													<tr>
+														<td colspan="3" bgcolor="f8f9f9" style="padding:20px;">본 내용은 약관에 기초하여 인터넷 자료로 요약된 것으로 보상조항 등 기타 자세한 사항은 약관 및 상품요약서를 
+														반드시 참조하시기 바랍니다.(이 화면은 실제 보험가입시 발행되는 가입설계서, 상품설명서 등과 내용이 다를 수 있으며 
+														보험금지급을 위한 기초서류가 될 수 없습니다.)</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="20" style="border-bottom:1px dashed #ccc;"></td>
+										</tr>	
+
+										<tr>
+											<td height="20" ></td>
+										</tr>	
+											<!-- *****************보험 설계서 고객정보 안내*****************-->
+										<tr>
+											<td>
+												
+												<table width="740"   cellpadding="0" cellspacing="0"> 
+													<tr>
+														<td colspan="4" style="font-size:18px;  font-weight:bold; "> 홍길동님 <span style="font-size:14px; font-weight:bold; color:#dd292a;">보험 설계서</span> <span style="font-size:11px; font-weight:normal;"> (산출일: 2016년 04월 12일)</span> </td>
+														
+													</tr>
+												</table>
+												
+											</td>
+										</tr>
+										<tr>
+											<td height="20"></td>
+										</tr>	
+										<tr>
+											<td>
+												<table width="740"   cellpadding="0" cellspacing="0" style="border:1px solid #ccc;"> 
+													
+													<tr>
+														<th width="180" height="30" style="width:180px; height:30px; background:#f5f3f3; border-bottom:1px solid #ccc;" >보험대상자(급수)</th>
+														<td style="width:180px; height:30px; background:#fff; border-bottom:1px solid #ccc; padding-left:10px;">홍길동(1급)</td>
+														<th width="180" height="30" style="width:180px; height:30px; background:#f5f3f3; border-bottom:1px solid #ccc;">생년월일/성별/보험나이</th>
+														<td  style="width:180px; height:30px; background:#fff; border-bottom:1px solid #ccc; padding-left:10px;">1980년 01월 01일/남자/ 37세</td>
+													</tr>
+													<tr>
+														<th width="180" height="30" style="width:180px; height:30px; background:#f5f3f3; ">보험기간/납입기간</th>
+														<td style="width:180px; height:30px; background:#fff; padding-left:10px;">30세만기/20년납(월납)</td>
+														<th width="180" height="30" style="width:180px; height:30px; background:#f5f3f3;"> 운전여부</th>
+														<td style="width:180px; height:30px; background:#fff; padding-left:10px;">운전안함</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+
+										<tr>
+											<td height="10"></td>
+										</tr>
+
+										
+										
+										<tr>
+											<td height="3"></td>
+										</tr>
+										<tr>
+											<td>
+													<!-- *****************비교견적 설계 상품 테이블 시작 *****************-->
+										
+												<table width="740"  >
+													<tr>
+														<td style="font-size:14px; font-weight:bold;"><img src="../images/print_popup/h4_01.jpg" alt="넘버" style="vertical-align:middle" /> 계약사항 및 보험료 </td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="7"></td>
+										</tr>
+										<tr>
+											<td>
+												<table width="740" cellpadding="0" cellspacing="0"  style=" text-align:center;">
+													<tr>
+														<!--*******메인 테이블시작 ******* -->
+														<td width="240"  style="vertical-align:top;">
+															<table width="240"  cellpadding="0" cellspacing="0"  style="border:1px solid #cccccc;"   >
+																<tr>
+																	<th colspan="3" height="40" bgcolor="ff6600" style="background:#ff6600; border-bottom:1px solid #cccccc; font-size:16px;"><img src="../images/brand_logo/logo_meritz_48.png" alt="브랜드로고" style="vertical-align:bottom; padding-right:10px; " />메리츠화재</th>
+																</tr>
+																<tr>
+																	<th colspan="3" height="30" bgcolor="fcf2eb" style="background:#fcf2eb; border-bottom:1px solid #cccccc; text-align:center;">알파Plus보장보험</th>
+																</tr>
+																<tr>
+																	<th height="30" bgcolor="e05433" style="background:#e05433; border-bottom:1px solid #cccccc; border-right:1px solid #f45f3c; color:#fff;"> 보험기간 </th>
+																	<th height="30" bgcolor="e05433" style="background:#e05433; border-bottom:1px solid #cccccc; border-right:1px solid #f45f3c; color:#fff;"> 가입금액 </th>
+																	<th height="30" bgcolor="e05433" style="background:#e05433; border-bottom:1px solid #cccccc; color:#fff;"> 보험료 </th>
+																</tr>
+																
+																<tr>
+																	<td colspan="3" height="30" bgcolor="f3e1d9" style="background:#f3e1d9; color:#f50707; border-bottom:1px solid #cccccc;">일반상해고도후유장해[기본계약]</td>
+																</tr>
+																<tr>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">20년납 100세만기</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">100만원</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; ">500원</td>
+																</tr>
+																<tr>
+																	<td colspan="3" height="30" bgcolor="f3e1d9" style="background:#f3e1d9; color:#f50707; border-bottom:1px solid #cccccc;">일반상해고도후유장해[기본계약]</td>
+																</tr>
+																<tr>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">20년납 100세만기</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">100만원</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; ">500원</td>
+																</tr>
+																<tr>
+																	<td colspan="3" height="30" bgcolor="f3e1d9" style="background:#f3e1d9; color:#f50707; border-bottom:1px solid #cccccc;">일반상해고도후유장해[기본계약]</td>
+																</tr>
+																<tr>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">20년납 100세만기</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">100만원</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; ">500원</td>
+																</tr>
+																<tr>
+																	<td colspan="3" height="30" bgcolor="f3e1d9" style="background:#f3e1d9; color:#f50707; border-bottom:1px solid #cccccc;">일반상해고도후유장해[기본계약]</td>
+																</tr>
+																<tr>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">20년납 100세만기</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">100만원</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; ">500원</td>
+																</tr>
+																<tr>
+																	<td colspan="3" height="30" bgcolor="f3e1d9" style="background:#f3e1d9; color:#f50707; border-bottom:1px solid #cccccc;">일반상해고도후유장해[기본계약]</td>
+																</tr>
+																<tr>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">20년납 100세만기</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">100만원</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; ">500원</td>
+																</tr>
+																<tr>
+																	<td height="40"  colspan="3" bgcolor="fff" style="background:#fff; font-weight:bold; border-top:1px solid #cccccc;"><span style="display:inline-block; margin-right:80px;">합계보험료</span><span style="display:inline-block; color:#f60808; font-weight:bold; font-size:16px; ">50,000<em style="display:inline-block; color:#000; font-style:normal; ">원</em></span> </td>
+																	
+																</tr>
+															</table>
+														</td><!--e://메인테이블 완료-->
+														<td width="15">
+														
+														</td>
+
+														<!--*******서브1 테이블시작 ******* -->
+														<td width="240" style="vertical-align:top;">
+															<table width="240"  cellpadding="0" cellspacing="0"   style="border:1px solid #cccccc;" align="top" >
+																<tr>
+																	<th colspan="3" height="40" bgcolor="f0eeee" style="background:#f0eeee; border-bottom:1px solid #cccccc; font-size:16px;"><img src="../images/brand_logo/logo_kb_48.png" alt="브랜드로고" style="vertical-align:bottom; padding-right:10px; " />KB손해</th>
+																</tr>
+																<tr>
+																	<th colspan="3" height="30" bgcolor="fcf2eb" style="background:#ffffff; border-bottom:1px solid #cccccc; text-align:center;">닥터 플러스 건강보험(1종)</th>
+																</tr>
+																<tr>
+																	<th height="30" bgcolor="e05433" style="background:#849198; border-bottom:1px solid #cccccc; border-right:1px solid #fff; color:#fff;"> 보험기간 </th>
+																	<th height="30" bgcolor="e05433" style="background:#849198; border-bottom:1px solid #cccccc; border-right:1px solid #fff; color:#fff;"> 가입금액 </th>
+																	<th height="30" bgcolor="e05433" style="background:#849198; border-bottom:1px solid #cccccc; color:#fff;"> 보험료 </th>
+																</tr>
+																
+																<tr>
+																	<td colspan="3" height="30" bgcolor="f3e1d9" style="background:#eff1f6; color:#f50707; border-bottom:1px solid #cccccc;">일반상해고도후유장해[기본계약]</td>
+																</tr>
+																<tr>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">20년납 100세만기</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">100만원</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; ">500원</td>
+																</tr>
+																<tr>
+																	<td colspan="3" height="30" bgcolor="f3e1d9" style="background:#eff1f6; color:#f50707; border-bottom:1px solid #cccccc;">일반상해고도후유장해[기본계약]</td>
+																</tr>
+																<tr>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">20년납 100세만기</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">100만원</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; ">500원</td>
+																</tr>
+																<tr>
+																	<td colspan="3" height="30" bgcolor="f3e1d9" style="background:#eff1f6; color:#f50707; border-bottom:1px solid #cccccc;">일반상해고도후유장해[기본계약]</td>
+																</tr>
+																<tr>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">20년납 100세만기</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">100만원</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; ">500원</td>
+																</tr>
+																<tr>
+																	<td height="40"  colspan="3" bgcolor="fff" style="background:#fff; font-weight:bold; border-top:1px solid #cccccc;"><span style="display:inline-block; margin-right:80px;">합계보험료</span><span style="display:inline-block; color:#f60808; font-weight:bold; font-size:16px; ">50,000<em style="display:inline-block; color:#000; font-style:normal; ">원</em></span> </td>
+																	
+																</tr>
+															</table>
+														</td><!--e://서브1 테이블시작-->
+														<td width="15">
+														
+														</td>
+														<!--*******서브2 테이블시작 ******* -->
+														<td width="240"  style="display:block; vertical-align:top;">
+															<table width="240"  cellpadding="0" cellspacing="0"   style="border:1px solid #cccccc;"  >
+																<tr>
+																	<th colspan="3" height="40" bgcolor="f0eeee" style="background:#f0eeee; border-bottom:1px solid #cccccc; font-size:16px;"><img src="../images/brand_logo/logo_heungkuk_48.png" alt="브랜드로고" style="vertical-align:bottom; padding-right:10px; " />흥국화재</th>
+																</tr>
+																<tr>
+																	<th colspan="3" height="30" bgcolor="fcf2eb" style="background:#ffffff; border-bottom:1px solid #cccccc; text-align:center;">행복을 多주는 가족사랑 통합보험</th>
+																</tr>
+																<tr>
+																	<th height="30" bgcolor="e05433" style="background:#849198; border-bottom:1px solid #cccccc; border-right:1px solid #fff; color:#fff;"> 보험기간 </th>
+																	<th height="30" bgcolor="e05433" style="background:#849198; border-bottom:1px solid #cccccc; border-right:1px solid #fff; color:#fff;"> 가입금액 </th>
+																	<th height="30" bgcolor="e05433" style="background:#849198; border-bottom:1px solid #cccccc; color:#fff;"> 보험료 </th>
+																</tr>
+																
+																<tr>
+																	<td colspan="3" height="30" bgcolor="f3e1d9" style="background:#eff1f6; color:#f50707; border-bottom:1px solid #cccccc;">일반상해고도후유장해[기본계약]</td>
+																</tr>
+																<tr>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">20년납 100세만기</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">100만원</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; ">500원</td>
+																</tr>
+																<tr>
+																	<td colspan="3" height="30" bgcolor="f3e1d9" style="background:#eff1f6; color:#f50707; border-bottom:1px solid #cccccc;">일반상해고도후유장해[기본계약]</td>
+																</tr>
+																<tr>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">20년납 100세만기</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">100만원</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; ">500원</td>
+																</tr>
+																<tr>
+																	<td colspan="3" height="30" bgcolor="f3e1d9" style="background:#eff1f6; color:#f50707; border-bottom:1px solid #cccccc;">일반상해고도후유장해[기본계약]</td>
+																</tr>
+																<tr>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">20년납 100세만기</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">100만원</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; ">500원</td>
+																</tr>
+																<tr>
+																	<td colspan="3" height="30" bgcolor="f3e1d9" style="background:#eff1f6; color:#f50707; border-bottom:1px solid #cccccc;">일반상해고도후유장해[기본계약]</td>
+																</tr>
+																<tr>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">20년납 100세만기</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; border-right:1px solid #cccccc;">100만원</td>
+																	<td height="30" bgcolor="fff" style="background:#fff; ">500원</td>
+																</tr>
+																<tr>
+																	<td height="40"  colspan="3" bgcolor="fff" style="background:#fff; font-weight:bold; border-top:1px solid #cccccc;"><span style="display:inline-block; margin-right:80px;">합계보험료</span><span style="display:inline-block; color:#f60808; font-weight:bold; font-size:16px; ">50,000<em style="display:inline-block; color:#000; font-style:normal; ">원</em></span> </td>
+																	
+																</tr>
+															</table>
+														</td><!--e://서브2 테이블시작-->
+				
+
+		
+
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="20"></td>
+										</tr>
+
+										
+											<!-- *****************지급사유 시작 *****************-->
+										<tr>
+											<td>
+												<!-- *****************비교견적 설계 제목*****************-->
+												<table >
+													<tr>
+														<td style="font-size:14px; font-weight:bold;"><img src="../images/print_popup/h4_02.jpg" alt="넘버" style="vertical-align:middle" /> 지급사유 </td>
+													</tr>
+												</table>
+											
+											</td>
+										</tr>
+
+										<tr>
+											<td>
+												<!-- *****************지급 사유 해당 상품 이름*****************-->
+												<table >
+													<tr>
+														<td style="font-size:14px; font-weight:bold;"><img src="../images/brand_logo/logo_meritz_48.png" alt="넘버" style="vertical-align:bottom;" /> <span style="color:#ff0033;">‘ 알파 Plus 보장 보험  ’</span> 지급사유 </td>
+													</tr>
+												</table>
+											
+											</td>
+										</tr>
+										<tr>
+											<td height="3"></td>
+										</tr>
+											<!-- *****************지급사유 테이블*****************-->
+										<tr>
+											<td>
+												<table width="740"  cellpadding="0" cellspacing="0"   style="border-top:2px solid #f85915; text-align:center;">
+													<tr>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">번호</th>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">특약명 및 지급사유</th>
+														
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="40" colspan="5" style="text-align:right; font-weight:bold; border:1px solid #ccc; border-top:0; padding-right:10px;">(적립보험료 : 39 원 / 보장보험료 : 35,361원)  <span style="font-size:16px; color:#dd292a;"> 35,400원</span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+
+
+										<tr>
+											<td height="10"></td>
+										</tr>
+										<tr>
+											<td>
+												<!-- *****************지급 사유 해당 상품 이름*****************-->
+												<table >
+													<tr>
+														<td style="font-size:14px; font-weight:bold;"><img src="../images/brand_logo/logo_kb_48.png" alt="넘버" style="vertical-align:bottom;" /> <span style="color:#ff0033;">‘ 알파 Plus 보장 보험  ’</span> 지급사유 </td>
+													</tr>
+												</table>
+											
+											</td>
+										</tr>
+										<tr>
+											<td height="3"></td>
+										</tr>
+											<!-- *****************지급사유 테이블*****************-->
+										<tr>
+											<td>
+												<table width="740"  cellpadding="0" cellspacing="0"   style="border-top:2px solid #f85915; text-align:center;">
+													<tr>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">번호</th>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">특약명 및 지급사유</th>
+														
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="40" colspan="5" style="text-align:right; font-weight:bold; border:1px solid #ccc; border-top:0; padding-right:10px;">(적립보험료 : 39 원 / 보장보험료 : 35,361원)  <span style="font-size:16px; color:#dd292a;"> 35,400원</span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+
+
+										<tr>
+											<td height="10"></td>
+										</tr>
+										<tr>
+											<td>
+												<!-- *****************지급 사유 해당 상품 이름*****************-->
+												<table >
+													<tr>
+														<td style="font-size:14px; font-weight:bold;"><img src="../images/brand_logo/logo_heungkuk_48.png" alt="넘버" style="vertical-align:bottom;" /> <span style="color:#ff0033;">‘ 알파 Plus 보장 보험  ’</span> 지급사유 </td>
+													</tr>
+												</table>
+											
+											</td>
+										</tr>
+										<tr>
+											<td height="3"></td>
+										</tr>
+											<!-- *****************지급사유 테이블*****************-->
+										<tr>
+											<td>
+												<table width="740"  cellpadding="0" cellspacing="0"   style="border-top:2px solid #f85915; text-align:center;">
+													<tr>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">번호</th>
+														<th height="40" bgcolor="f5f3f3" style="height:40px; border-bottom:1px solid #ccc;">특약명 및 지급사유</th>
+														
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc; border-left:1px solid #ccc;">1</td>
+														<td height="30" style="text-align:center; border-bottom:1px solid #ccc;  border-left:1px solid #ccc; border-right:1px solid #ccc; text-align:left; padding-left:10px;">일반상해80%이상후유장해(기본계약)  :  보험기간중 일반상해로 80% 이상 후유장해시  </td>
+													
+													</tr>
+													<tr>
+														<td height="40" colspan="5" style="text-align:right; font-weight:bold; border:1px solid #ccc; border-top:0; padding-right:10px;">(적립보험료 : 39 원 / 보장보험료 : 35,361원)  <span style="font-size:16px; color:#dd292a;"> 35,400원</span></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+
+
+										<tr>
+											<td height="10"></td>
+										</tr>
+
+							</table>
+						</td><!--e://Compare-Print-->
+					</tr>
+					<script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
+					<script>
+						$(document).ready(function(){
+							$('#Tab-Print-Style').each(function(){
+								var $active, $content, $links = $(this).find('a');
+								$active = $($links.filter('[href="'+location.hash+'"]')[0] || $links[0]);
+								$active.addClass('active');
+
+								$content = $($active[0].hash);
+								$links.not($active).each(function () {
+									$(this.hash).hide();
+								});
+
+								$(this).on('click', 'a', function(e){
+
+									$active.removeClass('active');
+									$content.hide();
+									$active = $(this);
+									$content = $(this.hash);
+									$active.addClass('active');
+									$content.show();
+
+									e.preventDefault();
+								});
+							});
+						});
+					</script>	
+
+
+
+
+
+							<tr>
+								<td height="10"></td>
+							</tr>			
+							<!-- *****************프린트 출력 버튼 시작 *****************-->
+							<tr>
+								<td > 
+									
+									<table  cellpadding="0" cellspacing="0" width="740"  >
+										<tr>
+											<td width="172" style="text-align:center;"><a href="#"><img src="../images/print_popup/btn_print_a.jpg" alt="인쇄하기 지급사유 제외" style="border:0" /></a></td>
+											<td width="172" style="text-align:center;"><a href="#"><img src="../images/print_popup/btn_print_b.jpg" alt="인쇄하기 유의사항 제외" style="border:0"  /></a></td>
+											<td width="172" style="text-align:center;"><a href="#"><img src="../images/print_popup/btn_print_c.jpg" alt="인쇄하기 전체" style="border:0" /></a></td>
+											<td width="80"></td>
+											<td width="172" style="text-align:center;"><a href="#"><img src="../images/print_popup/btn_madil.jpg" alt="메일보내기 " style="border:0" /></a></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+								
+
+					<!--************************ 닫힘************************-->
+
+				</table>
+			</td>
+		</tr>
+
+	</table>	
+
+ </body>
+</html>
+
+

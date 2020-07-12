@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ 
+  <title>고객행복주식회사 아마존인슈(주)</title>
+       <link rel="stylesheet" type="text/css" href="../css/import.css" />
+	 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+	  
+ </head>
+ <body>
+  
+<div id="Wrapper">
+	<div id="Header">
+		<div id="Header-Fixed">
+				<div class="Util-Menu">
+					<div class="Util-Con">
+						<ul>
+							<li><a href="http://amazoninsu.co.krcontact_us.html">찾아오시는 길</a></li>
+							<li><a href="site_map.html">사이트맵</a></li>
+						</ul>
+					</div><!--e://Util-Con-->
+				</div><!--e://Util-Menu-->
+			<div id="Header-Con">
+
+				<h1><a href="index.html"><img src="../images/logo/logo_gnb.png" alt="아마존인슈 고객행복 주식회사" /></a></h1>
+
+				<!-- *********************** GNB 상단 메뉴 반응형 전 ***********************  -->
+
+				<ul id="Gnb">
+					<li class="Gnb-Menu"><a href="#" class="Top-Link">회사소개</a>
+						<ul class="Gnb-Sub Gnb-Sub-A on">
+							<li><a href="company_introduce.html">아마존인슈 소개</a></li>
+							<li><a href="company_history.html">회사연혁</a></li>
+							<li><a href="company_ceo_int.html">대표이사 소개</a></li>
+							<li><a href="company_core_business.html">핵심사업 추진내용</a></li>
+							<li><a href="organization-chart.html">조직도</a></li>
+							<li><a href="contact_us.html">약도안내</a></li>
+						</ul>
+					</li>
+
+					<li class="Gnb-Menu"><a href="#" class="Top-Link">아마존 채용관</a>
+						<ul class="Gnb-Sub Gnb-Sub-E">
+							<!--<li><a href="#;"> 보험비교센터 상담원</a></li>-->
+							<li><a href="http://www.fcsite.co.kr/" target="_blank"> 전국지사 / FC 모집</a></li>
+							<li><a href="recruit_car.html">자동차보험 상담원</a></li>
+
+							 <li><a href="recruit_tm.html">TM (텔레마케터)</a></li>
+
+							<li><a href="recruit_generalaffairs.html">보험총무</a></li>
+							<li><a href="recruit_manager.html">보험관리자</a></li>
+							<li><a href="recruit_programmer_marketer.html">전산 (프로그래머)</a></li>
+						</ul>
+					</li>
+					<li class="Gnb-Menu"><a href="#" class="Top-Link">홍보미디어관</a>
+						<ul class="Gnb-Sub Gnb-Sub-B">
+							<li><a href="media_history.html">아마존인슈 발자취</a></li>
+							<li><a href="media_vision.html">아마존인슈 비전 영상</a></li>
+							<li><a href="media_report.html">아마존인슈 언론보도</a></li>
+						</ul>
+					</li>
+					 <li class="Gnb-Menu"><a href="#" class="Top-Link">사진 / 영상관</a>
+						<ul class="Gnb-Sub Gnb-Sub-C">
+							<li><a href="story_news.html">아마존 뉴스 </a></li>
+							<li><a href="story_video.html">동영상 자료</a></li>
+							<li><a href="story_travel.html">아마존 특별한 해외여행 </a></li>
+							<li><a href="story_event.html">아마존 행사 </a></li>
+						</ul>
+					</li>
+					<li class="Gnb-Menu"><a href="#" class="Top-Link">아마존 가족관</a>
+						<ul class="Gnb-Sub Gnb-Sub-D">
+							<li><a href="http://blog.naver.com/PostList.nhn?blogId=amazonins&categoryNo=1" target="_blank">아마존인슈 가족이야기</a></li>
+							<li><a href="/family/family_congratulation.html">축하합니다</a></li>
+						</ul>
+					</li> 
+
+					
+				</ul><!--e://Gnb-->
+
+
+				 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						$('#Gnb li').hover(function() {
+							$('ul', this).slideDown(70);
+							$(this).children('a:first').addClass("hov");
+						}, function() {
+							$('ul', this).slideUp(100);
+							$(this).children('a:first').removeClass("hov");
+						});
+					});
+				</script>
+
+
+
+
+				<!-- *********************** GNB 상단 메뉴 반응형일 때 불러옴 ***********************  -->
+
+
+
+				<div id="Gnb2-Con">
+					<!--p class="Btn-Menu-Open"><a href="#"><img src="../images/gnb/btn_all_menu.gif" alt="상단메뉴 펼치기" width="100%" /></a></p//-->
+					<!-- = > X 로 전환 .open class 생성 -->
+				<script>
+				$(document).ready(function(){
+					$('#menu-icon2').click(function(){
+						$(this).toggleClass('open');
+					});
+				});
+				</script>
+
+					<div class="Btn-Menu-Open"><div id="menu-icon2">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div></div>
+					<!--e://Btn-Menu-Open-->
+					<ul id="Gnb2" style="display:none;">
+						<li class="Gnb-Menu"><a href="#" class="Top-Link"><!--&#9656;-->회사소개</a>
+							<ul class="Gnb-Sub Gnb-Sub-A on">
+								<li><a href="company_introduce.html">1.아마존인슈 소개</a></li>
+								<li><a href="company_history.html">2.회사연혁</a></li>
+								<li><a href="company_ceo_int.html">3.대표이사 소개</a></li>
+								<li><a href="company_core_business.html">4.핵심사업 추진내용</a></li>
+								<li><a href="organization-chart.html">5.조직도</a></li>
+								<li><a href="contact_us.html">6.약도안내</a></li>
+							</ul>
+						</li>
+						<li class="Gnb-Menu"><a href="#" class="Top-Link">아마존 채용관</a>
+							<ul class="Gnb-Sub Gnb-Sub-E">
+								<!--<li><a href="#;"> 보험비교센터 상담원</a></li>-->
+								<li><a href="http://www.fcsite.co.kr/" target="_blank"> 1.전국지사 / FC 모집</a></li>
+								<li><a href="recruit_car.html">2.자동차보험 상담원</a></li>
+								<!-- <li><a href="recruit_tm.html">3.TM (텔레마케터)</a></li> -->
+								<li><a href="recruit_generalaffairs.html">4.보험총무</a></li>
+								<li><a href="recruit_manager.html">5.보험관리자</a></li>
+								<li><a href="recruit_programmer_marketer.html">6.전산 (프로그래머)</a></li>
+							</ul>
+						</li>
+						<li class="Gnb-Menu"><a href="#" class="Top-Link">홍보미디어관</a>
+							<ul class="Gnb-Sub Gnb-Sub-B">
+								<li><a href="media_history.html">1.아마존인슈 발자취</a></li>
+								<li><a href="media_vision.html">2.아마존인슈 비전 영상</a></li>
+								<li><a href="media_report.html">3.아마존인슈 언론보도</a></li>
+							</ul>
+						</li>
+
+						<!-- <li class="Gnb-Menu"><a href="#" class="Top-Link">사진 / 영상관</a>
+							<ul class="Gnb-Sub Gnb-Sub-C">
+								<li><a href="story_news.html">1.아마존 뉴스 </a></li>
+								<li><a href="story_video.html">2.동영상 자료</a></li>
+								<li><a href="story_travel.html">3.아마존 특별한 해외여행 </a></li>
+								<li><a href="story_event.html">4.아마존 행사 </a></li>
+							</ul>
+						</li>
+						<li class="Gnb-Menu"><a href="#" class="Top-Link">아마존 가족관</a>
+							<ul class="Gnb-Sub Gnb-Sub-D">
+								<li><a href="/family/family_visit.html">1.가족 탐방기</a></li>
+								<li><a href="/family/family_congratulation.html">2.축하합니다</a></li>
+							</ul>
+						</li> -->
+
+						
+					</ul><!--e://Gnb2-->
+
+					<script>
+						$( ".Btn-Menu-Open" ).click(function() {
+						  $( "#Gnb2" ).slideToggle( "slow", function() {
+							// Animation complete.
+						  });
+						});
+					</script>
+
+					<script>
+					$(document).ready(function () {
+						$("li.Gnb-Menu").click(function () {
+							$("ul.Gnb-Sub", this).slideToggle();
+						});
+					});
+					</script>
+
+				</div><!--e://Gnb2-Con-->
+
+
+			</div><!--e://Header-Con-->
+
+
+		</div><!--e://Header-Fixed-->
+	</div><!--e://Header-->
+	<div id="Container">
+		<link rel="stylesheet" type="text/css" href="../css/recruit.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/recruit.css" />
+		<div id="Contents">
+		<!--**************************채용관 공통시작 *****************************-->	
+			 <div id="Recruit-Page">
+				<div class="Skin-Title">
+					<h2>아마존 채용관</h2>
+					<!--서브 카테고리 시작-->
+						<div id="Recruit-Navi">
+							<ul class="Navi-Con">
+								<li><a href="#">보험비교 센터 상담원</a></li>
+								<li><a href="#">전국지사 / FC모집</a></li>
+								<li><a href="#">자동차보험 상담원</a></li>
+								<li><a href="#">TM(텔레마케터)</a></li>
+								<li><a href="#">보험총무</a></li>
+								<li><a href="#">전산(프로그래머)</a></li>
+								<li><a href="#">보험관리자</a></li>
+							</ul><!--e://Navi-Con-->	
+						</div>	<!--e://Rompnay-Navi-->	
+					<!--서브 카테고리 시작-->
+				</div><!--e://Skin-Title-->
+				<div class="Recruit-Page-Contents">
+					
+			<!--**************************회사소개 - 아마존 인슈 소개 시작 *****************************-->	
+					<ul class="Paging">
+						<li><a href="#">홈</a></li>
+						<li> > </li>
+						<li><a href="#">아마존 채용관</a></li>
+						<li> > </li>
+						<li class="Current"><a href="#">TM(Telemarketer)</a></li>
+					</ul><!--e://Paging-->
+					<div class="Recruit-Page-Ins-Car">
+						<h3><span><img src="../images/common/h3_line_top.png" alt="타이틀" /></span>TM(Telemarketer)<span><img src="../images/common/h3_line_bottom.png" alt="타이틀" /></span></h3>
+						<p class="Skin-Company"><img src="../images/recruit/skin_recruit_ins_cs.gif" alt="TM공고" /></p>
+							
+						<!-- 모집부분 및 자격 요건 -->
+						<div class="Recruit-Page-Notice" >
+							<h4><img src="../images/common/h4_line_top.png" alt="헤드라인"/><span>모집부문 및 자격 요건</span> </h4>
+							<table class="Eligibility-Condition">
+								<tr>
+									<th class="Title-Top">모집부문</th>
+									<th class="Title-Top">업무내용</th>
+									<th class="Title-Top">자격조건</th>
+								</tr>
+								<tr>
+									<th class="Left-Title"> 손/생보, 자동차 상담</th>
+									<td> 당사 비교견적 사이트를 이용한 상담 및 계약체결</td>
+									<td> 37세 미만의 고졸여성, 손보/ 생보 / 자동차 보험 상담경력 1년 이상  총명/친절/침착/성실함을 갖추신 분</td>
+								</tr>
+								<tr>
+									<th class="Left-Title"> 슈퍼바이저</th>
+									<td>기존 혹은 신설 상담팀의 엽업, 인적관리</td>
+									<td> 해당경력 3년 이상. 원수사 경력자 우대</td>
+								</tr>
+								<tr>
+									<th class="Left-Title"> QA</th>
+									<td> 콜 모니터링, 언더라이팅</td>
+									<td> 해당경력 3년 이상. 원수사 경력자 우대 </td>
+								</tr>
+								<tr>
+									<th class="Left-Title"> 상품교육팀장</th>
+									<td>신입 및 기존 상담원의 상품 교육, OJT 교육, 산출 사이트 컨트롤</td>
+									<td>오너쉽, 리더쉽, 긍정적 마인드 소유자</td>
+								</tr>
+							</table><!--e://Eligibility-Condition-->
+							
+							<div class="Way-to-Support">
+								<dl>
+									<dt>복리후생</dt>
+									<dd>- 근무시간 : 09:00 ~ 16:00 (주 5일) </dd>
+									<dd>- 급여 : 익월 26일 지급 ( 직급, 경력에 따라 협의 가능) </dd>
+									<dd>- 퇴직금 별도, 하계휴가 및 특별휴가, 의료비 지원, 각종시상</dd>
+									<dd>- 경조금, 특별 해외시책 등</dd>
+								</dl>
+
+								<dl>
+									<dt>근무지 / 상담문의 </dt>
+									<dd>- 근무지 : 서울 특별시 영등포구 문래로 92(문래동 3가) 대소빌딩 7아마존인슈㈜ </dd>
+									<dd>- 상담처 : 02-777-6762</dd>
+									<dd>- 이메일 : amazoninsu@hanmail.net</dd>
+									<dd>- 담당자 : 인사팀</dd>
+								</dl>
+
+								<dl>
+									<dt>장점</dt>
+									<dd>- 비교견적부터 산출까지 One Stop 처리 가능 </dd>
+									<dd>- 보험상품부터 업무, 보상, 배서 등의 매뉴얼이 작성되어 있어 즉시 업무 처리 가능</dd>
+									<dd>- 업계 최고의 보험 전문가로 구성되어 믿을만한 회사</dd>
+								</dl>
+
+							</div><!--e://Way-to-Support-->
+
+							<div class="Working-Conditions">
+								<p class="Amazon-Info"><img src="../images/recruit/amazon_info_banner.jpg" alt="아마존인슈의 근무환경과 장점" /></p>
+								<p class="Btn-App"><a href="#;" ><img src="../images/recruit/btn_company_application.gif" alt="입사지원하기" /></a></p>	
+							</div><!--e://Working-Conditions-->
+
+
+						</div><!--e://Recruit-Page-Notice-->
+
+					</div><!--e://Recruit-Page-Ins-Car-->
+
+					
+			
+		<!--**************************회사소개 공통 완료 *****************************-->	
+				</div><!--e://Company-Page-Contents-->
+			</div><!--e://Recruit-Page-->
+		</div><!--e://Contents-->
+	</div><!--e://Container-->
+	
+     <div id="Footer">
+		<div class="Footer-Conents">
+			<ul class="F-Menu">
+				<li><a href="#">개인보호 정책</a></li>
+				<li><a href="#">사이트맵</a></li>
+			</ul>
+			<address>[07295] 서울특별시 영등포구 문래로 92 (문래동3가) 대소빌딩 7층 아마존인슈㈜ 대표이사:조용문
+			<span>법인사업자등록번호 : 201-81-57177 통신판매업신고 제 2007-05271호</span></address>
+			<p class="copyright">copyright (c) 2009 AMAZONINSU ALL RIGHTS RESERVED</p>
+		</div><!--e://Footer-Conents-->
+	</div><!--e://Footer-->
+</div><!--e://Wrapper-->
+
+
+
+ </body>
+</html>

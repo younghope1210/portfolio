@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ 
+  <title>고객행복주식회사 아마존인슈(주)</title>
+       <link rel="stylesheet" type="text/css" href="../css/common.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/main.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/header.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/visual_slider.css" /><!-- 메일 비주얼 부분-->
+	   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	
+ </head>
+ <body>
+  
+<div id="Wrapper">
+	<div id="Header">
+		<div id="Header-Fixed">
+				<div class="Util-Menu">
+					<div class="Util-Con">
+						<ul>
+							<li><a href="http://amazoninsu.co.kr/company/contact_us.asp">찾아오시는 길</a></li>
+							<li><a href="/company/site_map.asp">사이트맵</a></li>
+						</ul>
+					</div><!--e://Util-Con-->
+				</div><!--e://Util-Menu-->
+			<div id="Header-Con">
+
+				<h1><a href="http://amazoninsu.co.kr/index.asp"><img src="../images/main/logo_gnb.png" alt="아마존인슈 고객행복 주식회사" /></a></h1>
+
+				<!-- *********************** GNB 상단 메뉴 반응형 전 ***********************  -->
+
+				<ul id="Gnb">
+					<li class="Gnb-Menu"><a href="#" class="Top-Link">회사소개</a>
+						<ul class="Gnb-Sub Gnb-Sub-A on">
+							<li><a href="/company/company_introduce.asp">아마존인슈 소개</a></li>
+							<li><a href="/company/company_history.asp">회사연혁</a></li>
+							<li><a href="/company/company_ceo_int.asp">대표이사 소개</a></li>
+							<li><a href="/company/company_core_business.asp">핵심사업 추진내용</a></li>
+							<li><a href="/company/organization-chart.asp">조직도</a></li>
+							<li><a href="/company/contact_us.asp">약도안내</a></li>
+						</ul>
+					</li>
+					<li class="Gnb-Menu"><a href="#" class="Top-Link">홍보미디어관</a>
+						<ul class="Gnb-Sub Gnb-Sub-B">
+							<li><a href="/media/media_history.asp">아마존인슈 발자취</a></li>
+							<li><a href="/media/media_vision.asp">아마존인슈 비전 영상</a></li>
+							<li><a href="/media/media_report.asp">아마존인슈 언론보도</a></li>
+						</ul>
+					</li>
+					 <li class="Gnb-Menu"><a href="#" class="Top-Link">사진 / 영상관</a>
+						<ul class="Gnb-Sub Gnb-Sub-C">
+							<li><a href="/media/story_news.asp">아마존 뉴스 </a></li>
+							<li><a href="/media/story_video.asp">동영상 자료</a></li>
+							<li><a href="/media/story_travel.asp">아마존 특별한 해외여행 </a></li>
+							<li><a href="/media/story_event.asp">아마존 행사 </a></li>
+						</ul>
+					</li>
+					<li class="Gnb-Menu"><a href="#" class="Top-Link">아마존 가족관</a>
+						<ul class="Gnb-Sub Gnb-Sub-D">
+							<li><a href="http://blog.naver.com/PostList.nhn?blogId=amazonins&categoryNo=1" target="_blank">아마존인슈 가족이야기</a></li>
+							<li><a href="/family/family_congratulation.asp">축하합니다</a></li>
+						</ul>
+					</li> 
+
+					<li class="Gnb-Menu"><a href="#" class="Top-Link">아마존 채용관</a>
+						<ul class="Gnb-Sub Gnb-Sub-E">
+							<!--<li><a href="#;"> 보험비교센터 상담원</a></li>-->
+							<li><a href="http://www.fcsite.co.kr/" target="_blank"> 전국지사 / FC 모집</a></li>
+							<li><a href="/amazon_recruit/recruit_car.asp">자동차보험 상담원</a></li>
+
+							 <li><a href="/amazon_recruit/recruit_tm.asp">TM (텔레마케터)</a></li>
+
+							<li><a href="/amazon_recruit/recruit_generalaffairs.asp">보험총무</a></li>
+							<li><a href="/amazon_recruit/recruit_manager.asp">보험관리자</a></li>
+							<li><a href="/amazon_recruit/recruit_programmer_marketer.asp">전산 (프로그래머)</a></li>
+						</ul>
+					</li>
+				</ul><!--e://Gnb-->
+
+
+				 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						$('#Gnb li').hover(function() {
+							$('ul', this).slideDown(70);
+							$(this).children('a:first').addClass("hov");
+						}, function() {
+							$('ul', this).slideUp(100);
+							$(this).children('a:first').removeClass("hov");
+						});
+					});
+				</script>
+
+
+
+
+				<!-- *********************** GNB 상단 메뉴 반응형일 때 불러옴 ***********************  -->
+
+
+
+				<div id="Gnb2-Con">
+					<!--p class="Btn-Menu-Open"><a href="#"><img src="../images/gnb/btn_all_menu.gif" alt="상단메뉴 펼치기" width="100%" /></a></p//-->
+					<!-- = > X 로 전환 .open class 생성 -->
+				<script>
+				$(document).ready(function(){
+					$('#menu-icon2').click(function(){
+						$(this).toggleClass('open');
+					});
+				});
+				</script>
+
+					<div class="Btn-Menu-Open"><div id="menu-icon2">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div></div>
+					<!--e://Btn-Menu-Open-->
+					<ul id="Gnb2" style="display:none;">
+						<li class="Gnb-Menu"><a href="#" class="Top-Link"><!--&#9656;-->회사소개</a>
+							<ul class="Gnb-Sub Gnb-Sub-A on">
+								<li><a href="/company/company_introduce.asp">1.아마존인슈 소개</a></li>
+								<li><a href="/company/company_history.asp">2.회사연혁</a></li>
+								<li><a href="/company/company_ceo_int.asp">3.대표이사 소개</a></li>
+								<li><a href="/company/company_core_business.asp">4.핵심사업 추진내용</a></li>
+								<li><a href="/company/organization-chart.asp">5.조직도</a></li>
+								<li><a href="/company/contact_us.asp">6.약도안내</a></li>
+							</ul>
+						</li>
+						<li class="Gnb-Menu"><a href="#" class="Top-Link">홍보미디어관</a>
+							<ul class="Gnb-Sub Gnb-Sub-B">
+								<li><a href="/media/media_history.asp">1.아마존인슈 발자취</a></li>
+								<li><a href="/media/media_vision.asp">2.아마존인슈 비전 영상</a></li>
+								<li><a href="/media/media_report.asp">3.아마존인슈 언론보도</a></li>
+							</ul>
+						</li>
+
+						<!-- <li class="Gnb-Menu"><a href="#" class="Top-Link">사진 / 영상관</a>
+							<ul class="Gnb-Sub Gnb-Sub-C">
+								<li><a href="/media/story_news.asp">1.아마존 뉴스 </a></li>
+								<li><a href="/media/story_video.asp">2.동영상 자료</a></li>
+								<li><a href="/media/story_travel.asp">3.아마존 특별한 해외여행 </a></li>
+								<li><a href="/media/story_event.asp">4.아마존 행사 </a></li>
+							</ul>
+						</li>
+						<li class="Gnb-Menu"><a href="#" class="Top-Link">아마존 가족관</a>
+							<ul class="Gnb-Sub Gnb-Sub-D">
+								<li><a href="/family/family_visit.asp">1.가족 탐방기</a></li>
+								<li><a href="/family/family_congratulation.asp">2.축하합니다</a></li>
+							</ul>
+						</li> -->
+
+						<li class="Gnb-Menu"><a href="#" class="Top-Link">아마존 채용관</a>
+							<ul class="Gnb-Sub Gnb-Sub-E">
+								<!--<li><a href="#;"> 보험비교센터 상담원</a></li>-->
+								<li><a href="http://www.fcsite.co.kr/" target="_blank"> 1.전국지사 / FC 모집</a></li>
+								<li><a href="/amazon_recruit/recruit_car.asp">2.자동차보험 상담원</a></li>
+								<!-- <li><a href="/amazon_recruit/recruit_tm.asp">3.TM (텔레마케터)</a></li> -->
+								<li><a href="/amazon_recruit/recruit_generalaffairs.asp">4.보험총무</a></li>
+								<li><a href="/amazon_recruit/recruit_manager.asp">5.보험관리자</a></li>
+								<li><a href="/amazon_recruit/recruit_programmer_marketer.asp">6.전산 (프로그래머)</a></li>
+							</ul>
+						</li>
+					</ul><!--e://Gnb2-->
+
+					<script>
+						$( ".Btn-Menu-Open" ).click(function() {
+						  $( "#Gnb2" ).slideToggle( "slow", function() {
+							// Animation complete.
+						  });
+						});
+					</script>
+
+					<script>
+					$(document).ready(function () {
+						$("li.Gnb-Menu").click(function () {
+							$("ul.Gnb-Sub", this).slideToggle();
+						});
+					});
+					</script>
+
+				</div><!--e://Gnb2-Con-->
+
+
+			</div><!--e://Header-Con-->
+
+
+		</div><!--e://Header-Fixed-->
+	</div><!--e://Header-->
+
+	<div id="Container">
+		<div id="Contents">
+		</div><!--e://Contents-->
+
+			
+		<!--*******************************메인 비주얼 시작 *******************************-->
+			<script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
+			<script type="text/javascript" src="../js/raphael-min.js"></script>
+			<script type="text/javascript" src="../js/jquery.easing.js"></script>
+			<script type="text/javascript" src="../js/iview.js"></script>
+			<script type="text/javascript" src="../js/jquery.fullscreen.js"></script>
+
+			<script>
+				$(document).ready(function(){
+					
+					$('#iview2').iView({
+						pauseTime: 3500,
+						pauseOnHover: true,
+						directionNav: true,
+						directionNavHide: false,
+						controlNav: true,
+						controlNavNextPrev: false,
+						controlNavTooltip: false,
+						nextLabel: "Próximo",
+						previousLabel: "Anterior",
+						playLabel: "Jugada",
+						pauseLabel: "Pausa",
+						timer: "360Bar",
+						timerBg: "#EEE",
+						timerColor: "#000",
+						timerDiameter: 40,
+						timerPadding: 4,
+						timerStroke: 8,
+						timerPosition: "bottom-right"
+					});
+				});
+			</script>
+			<div id="Visual">
+				<div id="iview2">
+					<div data-iview:image="../images/main/visual_a.gif">
+						<div class="iview-caption caption1" data-x="100" data-y="300" data-transition="wipeLeft">함께있어 더 행복한 <span>아마존 가족 이야기</span></div>
+					</div>
+
+					<div data-iview:image="../images/main/visual_b.gif">
+						<div class="iview-caption caption2" data-x="50" data-y="320" data-transition="wipeRight">신뢰를 바탕으로 고객의 꿈을 <span>이루어드리겠습니다.</span></div>
+					</div>
+
+					<div data-iview:image="../images/main/visual_c.gif">
+						<div class="iview-caption caption3" data-x="350" data-y="300" data-transition="wipeLeft">신뢰 하나에 세상은 <span>많이 달라집니다.</span></div>
+					</div>
+
+					<div data-iview:image="../images/main/visual_d.gif">
+						<div class="iview-caption caption4" data-x="50" data-y="320" data-transition="wipeRight">오직 FC만을 위하여 최선을<span> 다하고 있습니다.</span></div>
+				</div>
+				
+
+			
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$("#background-image").fullscreenBackground();
+				});
+			</script>
+			<script type="text/javascript">
+
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-30854466-1']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+
+			</script>
+								
+				</div><!--iview2-->	
+
+			</div><!--Visual-->
+
+
+			<!--*******************************메인 아티클 시작 *******************************-->
+			<div id="Article">
+				<!--*******************************30초 아마존 소개 및 바로가기 배너*******************************-->
+				<div class="Section-A">
+					<div class="Section-A-Con">						
+
+						<div class="Amazon-30cho">
+							<h3>
+								아마존인슈만이 가지고있는 특별한 보험 산출 솔루션<span>보험산출 <em>시스템 30초 아마존</em></span>  
+							</h3>
+							<p class="Explain">30초 아마존 사이트는 PC 또는 휴대폰으로 각 보험사별 , 상품별로 보험료를 산출해 볼수 있도록 구성되어 현장에서 고객과 함께 보험료산출을 하실 수 있도록 기능을 간소화하여 탑재되었습니다. </p>
+							<p class="Btn-Go"><a href="http://30cho.co.kr/" target="_blank">산출 무료 체험 하러가기</a></p>
+						</div><!--e://30cho-Amazon-->
+						<div class="Bnr-Skin">
+							<p><a href="http://30cho.co.kr/" target="_blank">30초 바로가기 클릭</a></p>
+						</div>
+						</div><!--e://Section-A-Con-->
+				
+				</div><!--e://Section-A-->
+
+				<!-- **************************************************************홍보미디어관 / 아마존 가족관 / 아마존 채용정보************************************************************** -->
+
+				
+				<div class="Section-B">
+					
+					<!--*******************************!!!!!!!!!!!!!!!!홍보미디어관!!!!!!!!!!!!!!!!  *******************************-->
+					<div class="Media">
+					<h3>홍보미디어관</h3>
+						<div class="Media-Con">
+							
+							<ul id="Tab-Media">
+								<li class="Tab-Media-A"><a href="#Amazon-History" >아마존발자취</a></li>
+								<li class="Tab-Media-B"><a href="#Visoin-Video" >비전동영상</a></li>
+								<li class="Tab-Media-C"><a href="#Amazon-Report" >언론보도자료</a></li>
+							</ul>
+							<!--*******************************아마존발자취 *******************************-->
+							<div id="Amazon-History">
+								<p class="Btn-More"><a href="#" ><img src="../images/main/btn_more_white.png" alt="아마존발자취게시판 바로가기" /></a></p>
+								<div class="Amazon-History-Con">
+									<dl>
+										<dt><a href="#"><img src="../images/main/thumbnail_test.jpg " alt="아마존발자취게시판 바로가기" /></a>
+										<span><a href="#"><img src="../images/main/thumbnail_purple_overlap.png" alt="써클" /></a></span></dt>
+										<dd>2016년도 화이팅!</dd>
+									</dl>
+									<dl>
+										<dt><a href="#"><img src="../images/main/thumbnail_test.jpg " alt="아마존발자취게시판 바로가기" /></a>
+										<span><img src="../images/main/thumbnail_purple_overlap.png" alt="써클" /></span></dt>
+										<dd>비전동영상</dd>
+									</dl>
+									<dl>
+										<dt><a href="#"><img src="../images/main/thumbnail_test.jpg " alt="아마존발자취게시판 바로가기" /></a>
+										<span><img src="../images/main/thumbnail_purple_overlap.png" alt="써클" /></span></dt>
+										<dd>언론보도자료</dd>
+									</dl>
+								</div><!--e:/Amazon-History-Con-->
+							</div><!--e:/Amazon-History-->
+								
+							<!--*******************************비전동영상 *******************************-->
+							<div id="Visoin-Video" style="display:none;" >
+								<p class="Btn-More"><a href="#" ><img src="../images/main/btn_more_white.png" alt="비전동영상 바로가기" /></a></p>
+								<div class="Visoin-Video-Con">
+									<dl>
+										<dt><a href="#"><img src="../images/main/thumbnail_test2.jpg " alt="아마존 영상 보기" /></a>
+										<span><img src="../images/main/thumbnail_purple_overlap.png" alt="써클" /></span></dt>
+										<dd>창립 11주년 기념</dd>
+									</dl>
+									<dl>
+										<dt><a href="#"><img src="../images/main/thumbnail_test2.jpg " alt="아마존 영상 보기" /></a>
+										<span><img src="../images/main/thumbnail_purple_overlap.png" alt="써클" /></span></dt>
+										<dd>창립 10주년 기념</dd>
+									</dl>
+									<dl>
+										<dt><a href="#"><img src="../images/main/thumbnail_test2.jpg " alt="아마존 영상 보기" /></a>
+										<span><img src="../images/main/thumbnail_purple_overlap.png" alt="써클" /></span></dt>
+										<dd>꿈은이루어진다</dd>
+									</dl>
+								</div><!--e:/Visoin-Video-Con-->
+							</div><!--e:/Visoin-Video-->
+
+
+							<!--*******************************언론보도자료 *******************************-->
+							<div id="Amazon-Report"  style="display:none;">
+								<p class="Btn-More"><a href="#" ><img src="../images/main/btn_more_white.png" alt="언론보도자료 바로가기" /></a></p>
+								<div class="Amazon-Report-Con">
+									<dl>
+										<dt><a href="#"><img src="../images/main/thumbnail_test3.jpg " alt="아마존 영상 보기" /></a>
+										<span><img src="../images/main/thumbnail_purple_overlap.png" alt="써클" /></span></dt>
+										<dd>자체개발보험프로그램</dd>
+									</dl>
+									<dl>
+										<dt><a href="#"><img src="../images/main/thumbnail_test3.jpg " alt="아마존 영상 보기" /></a>
+										<span><img src="../images/main/thumbnail_purple_overlap.png" alt="써클" /></span></dt>
+										<dd>자체개발보험프로그램</dd>
+									</dl>
+									<dl>
+										<dt><a href="#"><img src="../images/main/thumbnail_test3.jpg " alt="아마존 영상 보기" /></a>
+										<span><img src="../images/main/thumbnail_purple_overlap.png" alt="써클" /></span></dt>
+										<dd>자체개발보험프로그램</dd>
+									</dl>
+								</div><!--e:/Amazon-Report-Con-->
+							</div><!--e:/Amazon-Report-->
+
+						</div><!--e:/Media-Con-->
+						
+					</div><!--e:/Media-->
+				
+				
+				<!-- ***************탭 스크립트***************-->
+				<script>
+				$(document).ready(function(){
+					$('ul#Tab-Media').each(function(){
+						var $active, $content, $links = $(this).find('a');
+						$active = $($links.filter('[href="'+location.hash+'"]')[0] || $links[0]);
+						$active.addClass('active');
+
+						$content = $($active[0].hash);
+						$links.not($active).each(function () {
+							$(this.hash).hide();
+						});
+
+						$(this).on('click', 'a', function(e){
+
+							$active.removeClass('active');
+							$content.hide();
+							$active = $(this);
+							$content = $(this.hash);
+							$active.addClass('active');
+							$content.show();
+
+							e.preventDefault();
+						});
+					});
+				});
+			</script>
+			<!--*******************************아마존 가족관 *******************************-->
+					<div class="Family-Story">
+						<!--*******************************가족탐방기 *******************************-->
+						<h3>아마존가족관</h3>
+						<div class="Family-Story-Con">
+			
+							<ul id="Tab-Family">
+								<li class="Tab-Family-A"><a href="#Family-History">가족탐방기</a></li>
+								<li class="Tab-Family-B"><a href="#Congratulation">축하합니다</a></li>
+							</ul>
+							<!--*******************************아마존발자취 *******************************-->
+							<div id="Family-History" >
+								<p class="Btn-More"><a href="#" ><img src="../images/main/btn_more_white.png" alt="아마존발자취 바로가기" /></a></p>
+								<ul class="board-list">
+									<li><a href="#">제일팀 서란희 총무 입니다.</a></li>
+									<li><a href="#">제일팀 서란희 총무 입니다.</a></li>
+									<li><a href="#">제일팀 서란희 총무 입니다.</a></li>
+									<li><a href="#">제일팀 서란희 총무 입니다.</a></li>
+									<li><a href="#">제일팀 서란희 총무 입니다.</a></li>
+								</ul>
+							</div><!--e:/Family-History-->
+							
+
+							<!--*******************************축하합니다 *******************************-->
+							<div id="Congratulation" style="display:none;">
+								<p class="Btn-More"><a href="#" ><img src="../images/main/btn_more_white.png" alt="비전동영상 바로가기" /></a></p>
+								<ul class="board-list">
+									<li><a href="#">박유진님 입사 [777일] 축하드립니다.</a></li>
+									<li><a href="#">박유진님 입사 [777일] 축하드립니다</a></li>
+									<li><a href="#">박유진님 입사 [777일] 축하드립니다</a></li>
+									<li><a href="#">박유진님 입사 [777일] 축하드립니다.</a></li>
+									<li><a href="#">박유진님 입사 [777일] 축하드립니다.</a></li>
+								</ul>
+							</div><!--e:/Family-History-->		
+						</div><!--e:/Family-Story-Con-->
+					</div><!--e:/Family-Story-->
+				<!-- ***************탭 스크립트***************-->
+				<script>
+				$(document).ready(function(){
+					$('ul#Tab-Family').each(function(){
+						var $active, $content, $links = $(this).find('a');
+						$active = $($links.filter('[href="'+location.hash+'"]')[0] || $links[0]);
+						$active.addClass('active');
+
+						$content = $($active[0].hash);
+						$links.not($active).each(function () {
+							$(this.hash).hide();
+						});
+
+						$(this).on('click', 'a', function(e){
+
+							$active.removeClass('active');
+							$content.hide();
+							$active = $(this);
+							$content = $(this.hash);
+							$active.addClass('active');
+							$content.show();
+
+							e.preventDefault();
+						});
+					});
+				});
+			</script>
+			<!--*******************************아마존채용정보 *******************************-->
+					<div class="Recruiting-Info">
+						<h3>아마존채용정보<img src="../images/main/ico_recruiting.gif" alt="수시채용알림" /></h3>
+						<p class="Btn-More"><a href="#" ><img src="../images/main/btn_more_white.png" alt="아마존채용정보 바로가기" /></a></p>
+						<ul>
+							<li class="Recruiting-Icon-A"><a href="#"></a><span>아마존인슈 <em>전국지사 / FC모집</em></span></li>
+							<li class="Recruiting-Icon-B"><a href="#"></a><span>자동차비교견적 <em>상담원</em></span></li>
+							<li class="Recruiting-Icon-C"><a href="#"></a><span>손보장기 / 자동차<em>보험총무</em></span></li>
+							<li class="Recruiting-Icon-D"><a href="#"></a><span>전산개발자<em>(프로그래머)</em></span></li>
+							<li class="Recruiting-Icon-E"><a href="#"></a><span>FC<em>보험관리자</em></span></li>
+							<li class="Recruiting-Icon-F"><a href="#"></a><span>TM<em>텔레마케터</em></span></li>
+							
+						</ul>
+					</div><!--e:/Recruiting-Info-->
+
+     
+				</div><!--e://Section-B-->
+
+				<!-- **************************************************************사진 / 영상관 및 전국지사 FC 모집************************************************************* -->
+				<div class="Section-C" >
+					<div class="Photo-Video">
+						<div class="Photo-Video-Con">
+							<h3 style="color:#000;">사진 / 영상관</h3>
+								<ul id="Tab-Photo-Video">
+									<li class="Tab-Photo-Video-A"><a href="#Amazon-News">아마존뉴스</a></li>
+									<li class="Tab-Photo-Video-B"><a href="#Amazon-Travel">아마존해외여행</a></li>
+									<li class="Tab-Photo-Video-C"><a href="#Amazon-Event">아마존행사</a></li>
+								</ul>
+																
+								<!--*****************************아마존 뉴스 *******************************-->
+								<div id="Amazon-News">
+									<p class="Btn-More"><a href="#" ><img src="../images/main/btn_more_black.png" alt="아마존채용정보 바로가기" /></a></p>
+									<div class="Amazon-News-Con">
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test5.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>아마존뉴스</dd>
+										</dl>
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test5.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>아마존뉴스</dd>
+										</dl>
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test5.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>아마존뉴스</dd>
+										</dl>
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test5.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>아마존뉴스</dd>
+										</dl>
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test5.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>아마존뉴스</dd>
+										</dl>
+
+									</div><!--e:/Amazon-News-Con-->
+								</div><!--e://Amazon-News-->
+
+
+
+								<!--*****************************아마존해외여행*******************************-->
+								<div id="Amazon-Travel" > 
+									<p class="Btn-More"><a href="#" ><img src="../images/main/btn_more_black.png" alt="아마존채용정보 바로가기" /></a></p>
+									<div class="Amazon-Travel-Con">
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test4.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>해외여행</dd>
+										</dl>
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test4.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>해외여행</dd>
+										</dl>
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test4.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>해외여행</dd>
+										</dl>
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test4.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>해외여행</dd>
+										</dl>
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test4.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>해외여행</dd>
+										</dl>
+
+									</div><!--e:/Amazon-Travel-Con-->
+								</div><!--e://Amazon-Travel-->
+
+
+								<!--*****************************아마존행사*******************************-->
+								<div id="Amazon-Event" >
+									<p class="Btn-More"><a href="#" ><img src="../images/main/btn_more_black.png" alt="아마존채용정보 바로가기" /></a></p>
+									<div class="Amazon-Event-Con">
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test6.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>아마존행사</dd>
+										</dl>
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test6.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>아마존행사</dd>
+										</dl>
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test6.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>아마존행사</dd>
+										</dl>
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test6.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>아마존행사</dd>
+										</dl>
+										<dl>
+											<dt><a href="#"><img src="../images/main/thumbnail_test6.jpg " alt="아마존 영상 보기" /></a>
+											<span><img src="../images/main/thumbnail_gray_overlap.png" alt="써클" /></span></dt>
+											<dd>아마존행사</dd>
+										</dl>
+
+					<script>
+						$(document).ready(function(){
+							$('ul#Tab-Photo-Video').each(function(){
+								var $active, $content, $links = $(this).find('a');
+								$active = $($links.filter('[href="'+location.hash+'"]')[0] || $links[0]);
+								$active.addClass('active');
+
+								$content = $($active[0].hash);
+								$links.not($active).each(function () {
+									$(this.hash).hide();
+								});
+
+								$(this).on('click', 'a', function(e){
+
+									$active.removeClass('active');
+									$content.hide();
+									$active = $(this);
+									$content = $(this.hash);
+									$active.addClass('active');
+									$content.show();
+
+									e.preventDefault();
+								});
+							});
+						});
+						</script>
+									</div><!--e:/Amazon-Event-Con-->
+								</div><!--e://Amazon-Event-->
+
+							</div><!--e://Photo-Video-Con-->
+						</div><!--e://Photo-Video-->
+						
+
+						
+
+
+						<!--*****************************아마존 전국지사 / FC 모집 *******************************-->
+						<div class="Fc_Branch_Recruitment">
+							<p><a href="http://www.fcsite.co.kr/" target="_blank" ><img src="../images/main/bnr_fc_branch_recruitment.gif " alt="아마존 전국지사 / FC 모집 배너" /></a></p>
+						
+						</div><!--Fc_Branch_Recruitment-->
+					</div><!--e://Section-c-->
+
+					<!-- **************************************************************아마존 패밀리 사이트 ************************************************************* -->
+
+					<div class="Amazon-Family-Site">
+						<div class="Amazon-Family-Site-Con">
+							<h3>아마존 패밀리 사이트</h3>
+							<div class="Site-Conents">
+								<div class="Site-Con-A Site-Con">
+									<dl>
+										<dt><img src="../images/main/bnr_family_a.png " alt="산출 사이트" /></dt>
+										<dd class="h4">산출 사이트</dd>
+										<dd class="Site-List">1. 30초 아마존 <a href="http://30cho.co.kr/" target="_blank">바로가기</a></dd>
+									</dl>
+								</div><!--e://Site-con-A-->
+								<div class="Site-Con-B Site-Con">
+									<dl>
+										<dt><img src="../images/main/bnr_family_b.png " alt="인사채용 사이트" /></dt>
+										<dd class="h4">인사채용</dd>
+										<dd class="Site-List">1. 보험잡 <a href="http://www.bohumjob.co.kr/" target="_blank">바로가기</a></dd>
+										<dd class="Site-List">2. 보험인 <a href="http://www.bohumin.co.kr/" target="_blank">바로가기</a></dd>
+										<dd class="Site-List">3. 아마존제휴센터 <a href="http://www.fcsite.co.kr/" target="_blank">바로가기</a></dd>
+
+									</dl>
+								</div><!--e://Site-con-B-->
+								<div class="Site-Con-C Site-Con">
+									<dl>
+										<dt><img src="../images/main/bnr_family_c.png " alt="아마존블러그" /></dt>
+										<dd class="h4">아마존 블러그</dd>
+										<dd class="Site-List">1. 아마존가족이야기 <a href="http://blog.naver.com/amazonins" target="_blank">바로가기</a></dd>
+										
+
+									</dl>
+								</div><!--e://Site-con-C-->
+
+
+								<div class="Site-Con-D Site-Con">
+									<dl>
+										<dt><img src="../images/main/bnr_family_d.png " alt="아마존 카페" /></dt>
+										<dd class="h4">아마존카페</dd>
+										<dd class="Site-List">1. GA연합제휴센터 <a href="http://cafe.naver.com/gamaking" target="_blank">바로가기</a></dd>
+										<dd class="Site-List">2. 보험성공센터 <a href="http://cafe.naver.com/salesins" target="_blank">바로가기</a></dd>
+										<dd class="Site-List">3. 보험세일즈연구소 <a href="http://cafe.naver.com/crossnara" target="_blank">바로가기</a></dd>
+										<dd class="Site-List">4. 보험아카데미 <a href="http://cafe.naver.com/bohumins" target="_blank">바로가기</a></dd>
+									</dl>
+								</div><!--e://Site-con-D-->
+							</div><!--e://Site-Conents-->
+						</div><!--e://Amazon-Family-Site-Con-->
+					</div><!--e://Amazon-Family-Site-->
+
+
+
+
+			</div><!--e://Article-->
+
+	</div><!--e://Container-->
+	
+     <div id="Footer">
+		<div class="Footer-Conents">
+			<ul class="F-Menu">s
+				<li><a href="#">개인보호 정책</a></li>
+				<li><a href="#">개인보호 정책</a></li>
+			</ul>
+			<address>[07295] 서울특별시 영등포구 문래로 92 (문래동3가) 대소빌딩 7층 아마존인슈㈜ 대표이사:조용문
+			<span>법인사업자등록번호 : 201-81-57177 통신판매업신고 제 2007-05271호</span></address>
+			<p class="copyright">copyright (c) 2009 AMAZONINSU ALL RIGHTS RESERVED</p>
+		</div><!--e://Footer-Conents-->
+	</div><!--e://Footer-->
+</div><!--e://Wrapper-->
+
+
+
+ </body>
+</html>

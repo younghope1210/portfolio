@@ -1,0 +1,55 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+a{color:#666666;}
+
+
+#Container{width:100%; height:auto; margin:0 auto; color:#7d7c7c;}
+#Container #Terms-Contents{width:1000px; height:auto; margin:0 auto;  border-left:1px solid #e1e1e1; border-right:1px solid #e1e1e1; padding-bottom:50px;}
+#Container #Terms-Contents .Terms{width:1000px; height:auto; margin:0 auto;} 
+
+
+/*탭메뉴 시작 */
+
+#Tab{width:100%; height:42px; margin:0 auto; margin-top:3px;}
+#Tab li{float:left; width:333px; height:42px;}
+
+
+/*공통부분*/
+
+#Container #Terms-Contents h3{width:541px; height:63px; margin:30px 0 20px 30px;}
+#Container #Terms-Contents h4{font-weight:bold; font-size:16px; color:#333333; margin:10px 0; }
+
+ul.Section_Title{width:100%; height:100px;  margin-left:20px;}
+ul.Section_Title li{width:230px; height:40px; float:left;  margin:5px;} 
+ul.Section_Title li a{display:block; text-align:center; width:220px; height:40px; border:1px solid #3e5bd4; font-weight:bold; color:#3e5bd4; margin-top:10px; line-height:40px;}
+
+ul.Section_Title li a:hover{background:#3e5bd4; color:#ffffff;}
+
+dl dt{font-weight:bold; margin-left:10px; margin-bottom:5px; color:#666666; line-height:25px;}
+dl dt span{display:block; font-weight:normal;}
+dl dd{margin-left:20px; margin-bottom:5px; line-height:20px;}
+em{font-style:normal;}
+
+
+ol li{margin:10px; line-height:20px;}
+
+
+.Terms-Contents{clear:both; width:930px; margin:0 auto; margin-top:20px; padding-top:10px; }
+
+
+#Terms-C p{font-weight:bold; margin-left:10px; margin-bottom:5px; color:#666666; line-height:20px;}
+
+
+
+/*개인정보 취급방침*/
+
+#Terms-C .H4_Tit{clear:both; width:950px; margin:0 auto; padding-top:10px;}
+#Terms-C .H4_Tit span{display:block; font-weight:normal;}
+#Terms-C .H4_Tit em{display:block; font-weight:normal; color:#d64747;}
+
+#Terms-C ul li em , #Terms-C dl em{margin-right:5px; font-weight:bold;}
+
+/*
+

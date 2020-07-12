@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, width=device-width, initial-scale=1.5s, maximum-scale=1.5s, user-scalable=no">
+   <title>스마트포트테크놀로지</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/import.css" />
+	<link rel="stylesheet" type="text/css" href="../css/header.css" />
+	<link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="../css/main.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/animate.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/animate.min.css">
+
+
+
+ </head>
+ <body>
+  
+	
+	<div id="Wrapper">
+		<div id="Wrapper">
+			<div class="Top-Back" style="width:1900px; background:url(../images/main/visual.jpg) no-repeat;" >
+			<video title="영상"  height="" preload="auto" loop="loop" autoplay="autoplay" poster="../images/main/visual.jpg"  >
+				<source src="../images/main/visual_a.mp4" type="video/mp4" />
+		
+			</video>
+		</div><!--e://Top-Back-->
+		<!--*************헤더시작************* -->
+		<div id="Wrap-Contents">
+			<div id="Header" >
+				<div id="Header-Con" >
+						
+						<h1><a href="index.html"><img src="../images/header/logo.png" alt="스마트포트테크놀로지" width="100%" / ></a></h1>
+						<div id="Gnb">
+							<ul>
+								<li class="Category"><a href="#">회사소개</a>
+									<ul>
+										<li><a href="company_introduce.html">회사소개</a></li>
+										<li><a href="company_vision.html">비전</a></li>
+										<li><a href="company_ci.html">CI</a></li>
+									</ul>
+								</li>
+								<li class="Category"><a href="#">사업영역</a>
+									<ul>
+										<li><a href="si.html">SI</a></li>
+										<li><a href="si_consultion.html">컨설팅</a></li>
+										<li><a href="si_outsourcing.html">아웃소싱</a></li>
+									</ul>
+								</li>  
+								<li class="Category"><a href="#">솔루션</a>
+									<ul>
+										<li><a href="#">FIS</a></li>
+										<li><a href="#">HMCS</a></li>
+										<li><a href="#">MES</a></li>
+										<li><a href="#">ADS-B</a></li>
+									</ul>
+								</li>
+								<li class="Category"><a href="#">진행프로젝트</a>
+									<ul>
+										<li><a href="#">진행프로젝트 리스트</a></li>
+									</ul>
+								</li>
+								<li class="Category"><a href="#">채용안내</a>
+									<ul>
+										<li><a href="#">스마트포트 인재상</a></li>
+										<li><a href="#">채용공고</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>	<!--e://Gnb-->
+				</div><!--e://Header-Con-->
+			</div><!--e://Header-->
+
+
+
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+				<script type="text/javascript">
+					$(document).ready(function() {	
+						$('#Gnb ul li').hover(function() {
+							$('ul', this).slideDown(70);
+							$(this).children('a:first').addClass("hov");
+						}, function() {
+							$('ul', this).slideUp(100);
+							$(this).children('a:first').removeClass("hov");		
+						});
+					});
+					</script>
+
+
+			
+			<!--*************콘텐츠시작************* -->
+			<div id="Container"  >
+				<div id="Contents">
+
+					<!--**********사업영역 안내 시작 **********-->
+					<div id="Visual">
+						<div class="Business-Field">
+
+							<dl class="Business-Field-A block animate"  data-animate="fadeInDown" data-duration="0.5s" data-delay="0.5s"">
+								<dt><img src="../images/main/icon_airport.png" alt="공항/항공" /></dt>
+								<dd>공항/항공</dd>
+							</dl><!--e://Business-Field-A-->
+							
+							<dl class="Business-Field-B block animate"  data-animate="fadeInUp" data-duration="0.5s" data-delay="0.5s" >
+								<dt><img src="../images/main/icon_public_institution.png" alt="공공기관" /></dt>
+								<dd>공공기관</dd>
+							</dl><!--e://Business-Field-B-->
+							
+							<dl class="Business-Field-C block animate"  data-animate="fadeInDown" data-duration="0.5s" data-delay="0.5s">
+								<dt><img src="../images/main/icon_distribution.png" alt="유통" /></dt>
+								<dd>유통</dd>
+							</dl><!--e://Business-Field-C-->
+
+							<dl class="Business-Field-D block animate"  data-animate="fadeInUp" data-duration="0.5s" data-delay="0.5s">
+								<dt><img src="../images/main/icon_finance.png" alt="금융" /></dt>
+								<dd>금융</dd>
+							</dl><!--e://Business-Field-D-->
+
+							<dl class="Business-Field-E block animate"  data-animate="fadeInDown" data-duration="0.5s" data-delay="0.5s">
+								<dt><img src="../images/main/icon_factory.png" alt="제조" /></dt>
+								<dd>제조</dd>
+							</dl><!--e://Business-Field-E-->
+
+							<dl class="Business-Field-F block animate"  data-animate="fadeInUp" data-duration="0.5s" data-delay="0.5s">
+								<dt><img src="../images/main/icon_service.png" alt="서비스" /></dt>
+								<dd>서비스</dd>
+							</dl><!--e://Business-Field-F-->
+
+						</div><!--e://Business-Field-->
+						
+						<!--**********사업영역 안내 완료 **********-->
+						<p class="block animate" data-animate="fadeInUp" data-duration="1.5s" data-delay="0.5s">스마트 포트 테크노폴리지는 다양한 분야에서 축적된 풍부한 경험과 기술을 바탕으로
+						<span>한차원 높은 컨설팅 및 시스템 통합 서비스와  다양한 비지니스 모델을 제공합니다.</span> </p>	
+					</div><!--e://Visual-->
+					<!--**********솔루션 소개 시작 **********-->
+					<div id="Solution">
+						<div id="Solution-FIS" class="block animate"  data-animate="fadeInLeft" data-duration="2.0s" data-delay="0.5s">
+							<dl>
+								<dt><a href="#"><img src="../images/main/thumbnail_fis.png" alt="운항관리시스템" /></a></dt>
+								<dd>
+									<span class="Solution-Name">FIS</span>
+									<span class="Kor-Name">운항관리시스템</span>
+									<a href="#">more <em>></em></a>
+								</dd>
+							</dl>
+						</div><!--e://Solution-FIS-->
+						<div id="Solution-HMCS" class="block animate"  data-animate="fadeInLeft" data-duration="1.5s" data-delay="0.5s"> 
+							<dl>
+								<dt><a href="#"><img src="../images/main/thumbnail_hmcs.png" alt="중정비관리시스템" /></a></dt>
+								<dd>
+									<span class="Solution-Name">HMCS</span>
+									<span class="Kor-Name">중정비관리시스템</span>
+									<a href="#">more <em>></em></a>
+								</dd>
+							</dl>
+						</div><!--e://Solution -HMCS-->
+						<div id="Solution-MES" class="block animate"  data-animate="fadeInLeft" data-duration="1.0s" data-delay="0.5s">
+							<dl>
+								<dt><a href="#"><img src="../images/main/thumbnail_mes.png" alt="정비보금 시스템" /></a></dt>
+								<dd>
+									<span class="Solution-Name">MES</span>
+									<span class="Kor-Name">정비보금 시스템</span>
+									<a href="#">more <em>></em></a>
+								</dd>
+							</dl>
+						</div><!--e://Solution-MES-->
+						<div id="Solution-ADS-B" class="block animate"  data-animate="fadeInLeft" data-duration="0.5s" data-delay="0.5s">
+							<dl>
+								<dt><a href="#"><img src="../images/main/thumbnail_ads_b.png" alt="항공기 실시간 모니터링" /></a></dt>
+								<dd>
+									<span class="Solution-Name">ADS-B</span>
+									<span class="Kor-Name">항공기 실시간 모니터링</span>
+									<a href="#">more <em>></em></a>
+								</dd>
+							</dl>
+						</div><!--e://Solution-ADS-B-->
+						
+					</div><!--e://Solution-->
+
+
+					<!--*******스마트포트 캐치프레이즈 시작********-->
+						<div id="Catchphrase" style="background:url(../images/main/catchphrase.jpg) no-repeat;" >
+							<video title="영상" class=""  preload="auto" loop="loop" autoplay="autoplay" poster="../images/main/visual.jpg" >
+								<source src="../images/main/visual_b.mp4" type="video/mp4" />
+						
+							</video>
+							<div class="Catchphrase-Con" >
+								<ul>
+									<li class="Catchphrase-A block animate"  data-animate="fadeInRight" data-duration="0.5s" data-delay="0.5s"><a>창조</a></li>
+									<li class="Catchphrase-B block animate"  data-animate="fadeInRight" data-duration="0.5s" data-delay="1.5s"><a>혁신</a></li>
+									<li class="Catchphrase-C block animate"  data-animate="fadeInRight" data-duration="0.5s" data-delay="2.5s"><a>개혁</a></li>
+								</ul>
+							</div><!--e://Catchphrase-Con-->
+						</div><!--e://Catchphrase-->
+				<!--*******비지니스 종류 시작********-->
+						<div id="Business">
+							<h3><span>B</span>usiness<em>고객이 원하는 꿈과 열정에 스마트포트가 함께 합니다.</em></h3>
+							<div class="Business-SI block animate" data-animate="fadeInDown" data-duration="1.0s" data-delay="0.5s"><a href="si.html"><img src="../images/main/bnr_business_si.jpg" alt="business_si" /><span>System <em>Integration</em></span></a></div>
+							<div class="Business-E-Business block animate" data-animate="fadeInDown" data-duration="1.0s" data-delay="0.5s"><img src="../images/main/bnr_business_e_business.jpg" alt="business_e_business" /><span>e-business</span></div>
+							<div class="Business-Consulting block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.5s"><a href="si_consultion.html"><img src="../images/main/bnr_business_consulting.jpg" alt="business_consulting" /><span>Consulting</span></a></div>
+							<div class="Business-Outsourcing block animate" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.5s"><a href="si_outsourcing.html"><img src="../images/main/bnr_business_outsourcing.jpg" alt="business_e_business" /><span>Outsourcing</span></a></div>
+
+						</div><!--e://Business-->
+
+				<!--*******채용정보 시작********-->
+						<div id="Recruit">
+							<h3><span>R</span>ecruit<em>당신의 꿈에 지원하세요.</em></h3>
+							<div class="Right-People block animate" data-animate="fadeInLeft" data-duration="1.0s" data-delay="0.5s"> <p><em><img src="../images/main/bullet_red.gif" alt="bullet" /></em><span class="Txt-Black">스마트포트 인재 </span><span>Right People</span></p></div>
+							<div class="Recruit-Processes block animate" data-animate="fadeInRight" data-duration="1.0s" data-delay="0.5s"> <p><em><img src="../images/main/bullet_red.gif" alt="bullet" /></em><span class="Txt-Black">채용 프로세스 </span><span>Recruit Proesses</span></p></div>	
+						</div><!--e://Recruit--> 
+
+				</div><!--e://Contents--> 
+			</div><!--e://container--> 
+
+
+			<!--*************푸터시작************* -->
+			<div id="Footer"  >
+				<div class="Footer-Con">
+					<p class="F-Logo"><img src="../images/footer/f_logo.gif" alt="스마트포트로고" /></p>
+					<address>서울시 강서구 초원로 45 (방화동 다솜빌딩 5층) </address>
+					<p class="Copyright">Copyright SmartPort Technology Corp. All right reserved</p>
+				</div><!--e://Footer-Con-->
+			</div><!--e://Footer-->
+
+		</div><!--e://Wrapper-Contents-->
+
+	</div><!--e://Wrapper-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/scrolla.jquery.min.js"></script>
+	
+		<script>
+
+		$('.animate').scrolla({
+			mobile: false,
+			once: false
+		});
+
+		$('#button-show-window').click(function() {
+			var template = $('#modal-template').html();
+			$('body').append(template);
+			$('.animate').scrolla('bind');
+			$('section.modal .modal-close').click(function() {
+				$(this).closest('section.modal').remove();
+			});
+
+			return false;
+		});
+
+	</script>
+
+ </body>
+</html>
+
+
+

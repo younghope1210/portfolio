@@ -1,0 +1,276 @@
+
+
+
+@charset "utf-8";
+
+#Service{width:1200px; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Service #Service-Con{width:1151px; height:auto; margin:0 auto; position:relative;    }
+/*#Electric_Range_Explain #Electric_Range_Con img{width:100%; height:auto;}*/
+
+
+/*본문시작*/
+
+
+
+#Service-Con h3{width:100%; height:100px; line-height:100px; border-bottom:1px solid #000; font-size:40px; font-weight:bold; color:#000;}
+#Service-Con h3 em{color:#df323a;}
+.Service-Explain{width:100%; height:auto; margin:0 auto; margin-top:60px; color:#000; ;}
+.Service-Explain p.Title-Con{font-size:62px; text-align:center}
+.Service-Explain p.Title-Con span{color:#df323a;}
+.Service-Explain p.Title-Con em{display:block;}
+
+.Service-Explain p.Explain{width:70%; height:auto; margin:30px auto; font-size:22px; line-height:25px; text-align:center; }
+
+.Service-Explain ul{width:100%; height:auto; margin:0 auto; margin-top:70px;}
+.Service-Explain ul li{width:32%; height:auto; float:left; margin-left:1%;}
+
+
+/*상품패킹*/
+
+.packing-info{clear:both; width:100%; height:100%; margin:0 auto;}
+.packing-info h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+
+.packing-info dl{width:32%; height:auto; float:left; margin-left:1%;}
+.packing-info dd{width:100%; height:50px; background:#df323a; color:#fff; text-align:center;}
+.packing-info dd p{font-size:24px; line-height:50px; }
+.packing-info dd span{display:block; font-size:14px; line-height:20px; width:80%; margin:0 auto; }
+
+
+/*서비스 요금 안내*/
+
+
+
+.Service-Price{clear:both; width:100%; height:100%; margin:0 auto;}
+.Service-Price h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+.Service-Price .Service-Con-A,
+.Service-Price .Service-Con-B
+{width:48%; height:360px; float:left; border:2px solid #e6e6e6; margin-right:1.5%;}
+
+
+.Service-Price .Service-Con-A p.Service-Title,
+.Service-Price .Service-Con-B p.Service-Title
+{font-size:26px; color:#000; margin-top:20px; margin-left:20px}
+
+
+.Service-Price .Service-Con-A p.Service-Title span,
+.Service-Price .Service-Con-B p.Service-Title span
+{display:block; margin-top:20px; font-size:14px; }
+
+.Service-Price dl{width:95%; margin:0 auto; margin-top:20px; margin-left:20px; border-top:1px dotted gray; }
+.Service-Price dl dt{font-weight:bold; color:#df323a; margin-top:20px;}
+
+.Service-Price dl dd{padding:10px 0;}
+
+.Service-Price p.Col-Red{color:#df323a; margin-left:20px; margin-top:10px;}
+
+
+
+
+/*철거/이전설치 서비스 안내*/
+
+
+.Demolition-Install{clear:both; width:100%; height:100%; margin:0 auto; color:#000;}
+
+.Demolition-Install h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+
+.Demolition-Install p{font-size:26px; height:40px; color:#000;}
+.Demolition-Install ul{width:100%; height:50px;}
+.Demolition-Install ul li{margin-bottom:7px;}
+
+
+.Demolition-Install table{width:100%; height:auto; margin:0 auto; }
+.Demolition-Install table .Tit_line{ height:30px; border-top:2px solid #df323a; border-bottom:1px solid #cccccc; background:#fbf9f9;}
+.Demolition-Install table th{border-bottom:1px solid #cccccc; line-height:20px;}
+.Demolition-Install table td{height:100px; border-left:1px solid #cccccc; border-bottom:1px solid #cccccc;}
+
+.Demolition-Install table td ul li.Col-Red{color:red;}
+
+
+
+/*소비자분쟁기준*/
+
+
+.Conflict-Resolution{clear:both; width:100%; height:100%; margin:0 auto; color:#000; padding:50px 0;}
+
+.Conflict-Resolution h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+
+
+
+
+.Conflict-Resolution  ul{width:100%; height:50px; line-height:14px; }
+.Conflict-Resolution  ul li{margin-bottom:7px; line-height:14px; }
+
+
+.Conflict-Resolution table{width:100%; height:auto; margin:20px auto; }
+.Conflict-Resolution  table .Tit_line{ height:30px; text-align:center; border-top:2px solid #043e87; border-bottom:1px solid #cccccc; background:#fbf9f9;}
+.Conflict-Resolution  table th{border-bottom:1px solid #cccccc; line-height:20px; text-align:left;}
+.Conflict-Resolution table td{height:60px; border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; line-height:20px; }
+
+.Conflict-Resolution table td ul li.Col-Red{color:red;}
+
+.Conflict-Resolution p{color:#df323a;}
+.Conflict-Resolution table em{display:block; }
+.Conflict-Resolution table span{display:block; padding-top:30px; color:red;}
+
+@media (max-width: 1280px) {
+
+#Service{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Service #Service-Con{width:100%; height:auto; margin:0 auto; position:relative;    }
+
+
+}
+
+
+
+@media (max-width: 1008px) {
+
+
+#Service{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Service #Service-Con{width:100%; height:auto; margin:0 auto; position:relative;    }
+
+
+.Service-Explain ul{width:80%; height:auto; margin:0 auto; margin-top:70px;}
+.Service-Explain ul li{width:100%; height:auto; margin:0 auto; clear:both; margin-bottom:10px;}
+
+
+/*상품패킹*/
+
+.packing-info{clear:both; width:100%; height:100%; margin:0 auto;}
+.packing-info h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+
+.packing-info dl{width:100%; height:auto; clear:both; margin:0 auto; }
+.packing-info dd{width:100%; height:50px; background:#df323a; color:#fff; text-align:center;}
+.packing-info dd p{font-size:24px; line-height:50px; }
+.packing-info dd span{display:block; font-size:14px; line-height:20px; width:80%; margin:0 auto; }
+
+
+
+/*서비스 요금 안내*/
+
+
+
+.Service-Price{clear:both; width:100%; height:100%; margin:0 auto;}
+.Service-Price h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+.Service-Price .Service-Con-A,
+.Service-Price .Service-Con-B
+{clear:both; width:100%; height:360px; border:2px solid #e6e6e6; margin-bottom:20px;}
+
+
+.Service-Price .Service-Con-A p.Service-Title,
+.Service-Price .Service-Con-B p.Service-Title
+{font-size:26px; color:#000; margin-top:20px; margin-left:20px}
+
+
+.Service-Price .Service-Con-A p.Service-Title span,
+.Service-Price .Service-Con-B p.Service-Title span
+{display:block; margin-top:20px; font-size:14px; }
+
+.Service-Price dl{width:95%; margin:0 auto; margin-top:20px; margin-left:20px; border-top:1px dotted gray; }
+.Service-Price dl dt{font-weight:bold; color:#df323a; margin-top:20px;}
+
+.Service-Price dl dd{padding:10px 0;}
+
+.Service-Price p.Col-Red{color:#df323a; margin-left:20px; margin-top:10px;}
+
+
+}
+
+
+@media (max-width: 752px) {
+
+
+#Service{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Service #Service-Con{width:100%; height:auto; margin:0 auto; position:relative;    }
+
+
+.packing-info h4{width:100%; height:80px; padding-top:40px; font-size:30px; color:#000; text-align:center;}
+.Service-Price h4{width:100%; height:80px; padding-top:40px; font-size:30px;  color:#000; text-align:center;}
+.Demolition-Install h4{width:100%; height:80px; padding-top:40px; font-size:30px;  color:#000; text-align:center;}
+.Conflict-Resolution h4{width:100%; height:80px; padding-top:40px; font-size:30px; color:#000; text-align:center;}
+
+
+
+.Demolition-Install p{font-size:26px; height:50px; color:#000;}
+.Demolition-Install ul{width:100%; height:auto;}
+.Demolition-Install ul li{margin-bottom:7px;}
+
+
+.Conflict-Resolution  ul{width:100%; height:auto;}
+.Conflict-Resolution  ul li{margin-bottom:7px;}
+
+
+
+
+/*상품패킹*/
+
+.packing-info{clear:both; width:100%; height:100%; margin:0 auto;}
+.packing-info h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+
+.packing-info dl{width:100%; height:auto; clear:both; margin-left:1%;}
+.packing-info dd{width:100%; height:60px; background:#df323a; color:#fff; text-align:center;}
+.packing-info dd p{font-size:24px; line-height:50px; }
+.packing-info dd span{display:block; font-size:14px; line-height:20px; width:80%; margin:0 auto; }
+
+
+/*서비스 요금 안내*/
+
+
+
+.Service-Price{clear:both; width:100%; height:100%; margin:0 auto;}
+.Service-Price h4{width:100%; height:80px; padding-top:40px; font-size:36px; color:#000; text-align:center;}
+.Service-Price .Service-Con-A,
+.Service-Price .Service-Con-B
+{clear:both; width:100%; height:450px; border:2px solid #e6e6e6; margin-bottom:20px;}
+
+
+.Service-Price .Service-Con-A p.Service-Title,
+.Service-Price .Service-Con-B p.Service-Title
+{font-size:26px; color:#000; margin-top:20px; margin-left:20px}
+
+
+.Service-Price .Service-Con-A p.Service-Title span,
+.Service-Price .Service-Con-B p.Service-Title span
+{display:block; margin-top:20px; font-size:14px; }
+
+.Service-Price dl{width:95%; margin:0 auto; margin-top:20px; margin-left:20px; border-top:1px dotted gray; }
+.Service-Price dl dt{font-weight:bold; color:#df323a; margin-top:20px;}
+
+.Service-Price dl dd{padding:10px 0;}
+
+.Service-Price p.Col-Red{color:#df323a; margin-left:20px; margin-top:10px;}
+
+
+
+}
+
+
+
+
+@media (max-width: 480px) {
+
+
+
+
+#Service{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Service #Service-Con{width:100%; height:auto; margin:0 auto; position:relative;    }
+
+.packing-info h4{width:100%; height:80px; padding-top:40px; font-size:26px; color:#000; text-align:center;}
+.Service-Price h4{width:100%; height:80px; padding-top:40px; font-size:26px; color:#000; text-align:center;}
+.Demolition-Install h4{width:100%; height:80px; padding-top:40px; font-size:26px;  color:#000; text-align:center;}
+.Conflict-Resolution h4{width:100%; height:80px; padding-top:40px; font-size:26px; color:#000; text-align:center;}
+
+.Demolition-Install p{font-size:20px; height:40px; color:#000; margin-bottom:10px;}
+}
+
+
+
+
+
+@media (max-width: 320px) {
+
+
+#Service{width:100%; height:100%; margin:0 auto;  margin:0 auto; overflow:hidden;  }
+#Service #Service-Con{width: 320px; height:auto; margin:0 auto; position:relative;    }
+
+
+}

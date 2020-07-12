@@ -1,0 +1,80 @@
+
+
+
+/*+++++++++++ 회사소개 페이지 시작  공통+++++++++++ */
+
+#Recruit-Page{clear:both; width:100%; height:auto;  margin:0 auto; overflow:hidden; margin-top:30px }
+#Recruit-Page .Skin-Title{width:1920px; height:235px; margin:0 auto; background:url(../images/recruit/skin_title_recruit.gif) no-repeat; }
+
+#Recruit-Page .Skin-Title h2{width:1200px; margin:0 auto; font-size:48px; color:#fff; text-align:center; padding-top:70px; } 
+
+#Recruit-Navi{width:1200px; height:61px; margin:0 auto; margin-top:54px;}
+#Recruit-Navi ul.Navi-Con{width:100%; height:61px; margin:0 auto;}
+#Recruit-Navi ul.Navi-Con li{width:14%; height:61px; box-sizing:border-box; float:left; margin-right:0.1%}
+#Recruit-Navi ul.Navi-Con li a{display:block; width:100%; height:61px; line-height:62px; font-size:14px; color:#000; text-align:center; background:url(../images/common/back_sub_menu_white.png)  repeat-x; }
+#Recruit-Navi ul.Navi-Con li a:hover{background:url(../images/common/back_sub_menu_red.png) repeat-x; color:#fff;}
+
+
+.Recruit-Page-Contents{width:1200px; height:auto; margin:0 auto; }
+
+
+/* 페이징 공통 */
+.Paging{width:1200px; height:30px;  margin-top:20px; font: normal 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.Paging li{float:left; margin-right:10px; }
+.Paging li.Current{font-weight:bold; font-weight:bold;}
+
+
+/*h3 공통*/
+#Recruit-Page h3{font-size:36px; font-weight:bold; color:#000; text-align:center; }
+#Recruit-Page h3 span{margin:0 10px;}
+#Recruit-Page h3 span img{vertical-align:middle;}
+/*h4 공통*/
+#Recruit-Page h4{text-align:center; font-size:36px;}
+#Recruit-Page h4 span{display:block; margin:20px 0;}
+
+
+
+/*채용관 서브스킨 공통*/
+
+
+.Skin-Company{ width:1137px; height:248px; margin:20px auto; }
+
+
+/*+++++++++++ 회사소개 - 아마존 인슈 소개 페이지 시작 +++++++++++*/
+
+
+.Recruit-Page-Contents .Recruit-Page-Ins-Car{width:1140px; height:auto; margin:0 auto;color:#000; }
+
+.Recruit-Page-Contents  .Recruit-Page-Notice{width:1140px; height:auto; margin:0 auto; }
+
+.Recruit-Page-Contents  .Recruit-Page-Notice table.Eligibility-Condition{width:1100px; margin:50px auto; border-top:2px solid #ee4f4f; font-size:14px; font-family:"dotum" , sans-serif;} 
+
+.Recruit-Page-Notice table.Eligibility-Condition th.Title-Top{height:42px; border-bottom:1px solid #cccccc;}
+.Recruit-Page-Notice table.Eligibility-Condition th.Left-Title{width:20%; background:#faf8f8; border-bottom:1px solid #cccccc; }
+.Recruit-Page-Notice table.Eligibility-Condition th.Left-Title span{display:block; margin-top:10px;}
+.Recruit-Page-Notice table.Eligibility-Condition td{border-bottom:1px solid #cccccc; padding:30px 0; line-height:20px; padding-left:5px; padding-right:5px}
+.Recruit-Page-Notice table.Eligibility-Condition td ul li{height:35px; text-align:left; padding-left:30px; background:url(../images/recruit/bullet_red.gif) 20px 5px no-repeat; font-size:12px;}
+.Recruit-Page-Notice table.Eligibility-Condition td ul li.Bold-Text{font-weight:bold; }
+
+.Recruit-Page-Contents .Recruit-Page-Ins-Car .Way-to-Support{width:1100px; margin:0 auto; }
+.Recruit-Page-Contents .Recruit-Page-Ins-Car .Way-to-Support dl {width:95%; height:auto; margin-bottom:30px; margin-left:20px; }
+.Recruit-Page-Contents .Recruit-Page-Ins-Car .Way-to-Support dl dt{font-size:24px; height:40px; background:url(../images/recruit/bullet_red_big.gif) 0 8px no-repeat; text-indent:15px; }
+.Recruit-Page-Contents .Recruit-Page-Ins-Car .Way-to-Support dl dd{height:24px; font-size:14px; font-family:"dotum" , sans-serif; margin-left:18px; }
+.Recruit-Page-Contents .Recruit-Page-Ins-Car .Way-to-Support dl dd.Red-Text{font-weight:bold; color:red;}
+.Recruit-Page-Contents .Recruit-Page-Ins-Car .Way-to-Support dl dd.Bold-Text{font-weight:bold;}
+
+
+
+/*근무조건 */
+
+
+.Recruit-Page-Contents .Working-Conditions{width:1100px; height:auto; margin:0 auto; }
+.Recruit-Page-Contents .Working-Conditions h5{font-size:24px; text-align:center;}
+.Recruit-Page-Contents .Working-Conditions table{font-family:"dotum" , sans-serif;  width:1100px; height:auto; font-size:14px; margin-top:20px; border-top:2px solid #ee4f4f;}
+.Recruit-Page-Contents .Working-Conditions table th.Title-Top{height:46px; background:#fbfafa; border-bottom:1px solid #cccccc;}
+.Recruit-Page-Contents .Working-Conditions table th.Red-Text{height:46px; border-bottom:1px solid #cccccc; color:#ee4f4f;}
+.Recruit-Page-Contents .Working-Conditions table td{height:46px; border-bottom:1px solid #cccccc;}
+
+.Recruit-Page-Contents .Working-Conditions p.Amazon-Info{width:1087px; height:347px; margin:40px auto;}
+
+.Recruit-Page-Contents .Working-Conditions p.Btn-App{width:231px; height:56px; margin:40px auto;}

@@ -1,0 +1,179 @@
+
+
+
+/*+++++++++++ 회사소개 페이지 시작  공통+++++++++++ */
+
+#Company-Page{clear:both; width:100%; height:auto;  margin:0 auto; overflow:hidden; margin-top:35px}
+#Company-Page .Skin-Title{width:1905px; height:235px; margin:0 auto; background:url(../images/company/skin_title_company.gif) no-repeat; }
+
+#Company-Page .Skin-Title h2{width:1200px; margin:0 auto; font-size:48px; color:#fff; text-align:center; padding-top:70px; } 
+
+#Compnay-Navi{width:1200px; height:61px; margin:0 auto; margin-top:54px;}
+#Compnay-Navi ul.Navi-Con{width:100%; height:61px; margin:0 auto;}
+#Compnay-Navi ul.Navi-Con li{width:16.4%; height:61px; box-sizing:border-box; float:left; margin-right:0.1%}
+#Compnay-Navi ul.Navi-Con li a{display:block; width:100%; height:61px; line-height:62px; font-size:14px; color:#000; text-align:center; background:url(../images/common/back_sub_menu_white.png)  repeat-x; }
+#Compnay-Navi ul.Navi-Con li a:hover{background:url(../images/common/back_sub_menu_red.png) repeat-x; color:#fff;}
+
+
+.Company-Page-Contents{width:1200px; height:auto; margin:0 auto; }
+
+
+/* 페이징 공통 */
+.Paging{width:1200px; height:30px;  margin-top:20px; font: normal 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.Paging li{float:left; margin-right:10px; }
+.Paging li.Current{font-weight:bold; font-weight:bold;}
+
+
+/*h3 공통*/
+#Company-Page h3{font-size:36px; font-weight:bold; color:#000; text-align:center; }
+#Company-Page h3 span{margin:0 10px;}
+#Company-Page h3 span img{vertical-align:middle;}
+/*h4 공통*/
+#Company-Page h4{text-align:center; font-size:36px;}
+#Company-Page h4 span{display:block; margin:20px 0;}
+
+
+
+/*회사소개 서브스킨 공통*/
+
+
+.Skin-Company{width:1137px; height:248px; margin:20px auto;  }
+
+
+/*+++++++++++ 회사소개 - 아마존 인슈 소개 페이지 시작 +++++++++++*/
+
+
+.Company-Page-Contents .Company-Introduce{width:1080px; height:auto; margin:0 auto;}
+.Skin-Company-Int{margin-top:20px; width:1080px; height:auto; }
+
+.Company-Introduce .Company-Ex{width:95%; height:auto; margin:40px auto; }
+.Company-Introduce .Company-Ex dl{width:90%; margin:30px auto;  text-align:center;}  
+.Company-Introduce .Company-Ex dl dt{font-size:26px; color:#ee4f4f; padding:30px 0;  }
+.Company-Introduce .Company-Ex dl dd{ font: normal 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; line-height:25px;}
+.Company-Introduce .Company-Ex dl dd span{display:block;}
+.Company-Introduce .Company-Ex table{width:90%; height:auto; margin:0 auto;  font: normal 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color:#000; border-top:3px solid #ee4f4f;}
+.Company-Introduce .Company-Ex table th{width:25%; padding:20px 0; font-size:12px; background:#f5f4f4; border-bottom:1px solid #e1dfdf;}
+.Company-Introduce .Company-Ex table td{text-align:left; padding:15px; border-bottom:1px solid #e1dfdf;}
+.Company-Introduce .Company-Ex table td ul.Text-Red{color:red; margin-top:10px;}
+.Company-Introduce .Company-Ex table td ul li{margin-bottom:5px;}
+.Company-Introduce .Company-Ex table td ul li a{color:#283ddc;}
+.Company-Introduce .Company-Ex table td ul li a:hover{text-decoration:underline;}
+.Company-Introduce .Company-Ex table span{margin-left:15px; }
+.Company-Introduce .Company-Ex table span em{display:block; margin-left:47px;}
+
+
+
+/* +++++++++++회사소개 - 회사연혁 시작 +++++++++++*/
+
+
+.Company-Page-Contents .Company-History{width:1137px; height:auto; margin:0 auto; overflow:hidden;} 
+
+.Company-Page-Contents .Company-History-Con{width:1136px; height:auto; margin:0 auto;  margin-top:50px;}
+.Company-Page-Contents .Company-History-Con div.History{clear:both; width:1000px; height:auto; border-bottom:1px dashed #e5e5e5; }
+
+
+.Company-Page-Contents .Company-History-Con .Btn-More{width:113px; height:220px;  margin-top:20px; margin-left:502px;}
+
+
+/*
+div.History p.Years{font-size:30px; color:#cc3333;  float:left; margin-right:50px; padding-top:14px;}
+div.History dl{width:800px; float:left; padding:10px;}
+div.History dl dt{ width:100px; height:auto; font-size:30px; color:#e19092; margin-bottom:10px; }
+div.History dl dd{font-size:18px;  margin-bottom:10px;}
+*/
+
+
+/* +++++++++++회사소개 - CEO 소개 시작+++++++++++ */
+
+
+.Company-Page-Contents .CEO-Introduce{width:1137px; height:auto; margin:0 auto; overflow:hidden; }
+
+.Company-Page-Contents .CEO-Introduce .CEO-Introduce-Con{width:1000px; height:auto; margin:0 auto; overflow:hidden; }
+
+
+/*대표 인삿말*/
+
+.CEO-Introduce .CEO-Introduce-Con .CEO-Greeting{width:1000px; height:auto; margin:40px auto;}
+.CEO-Introduce .CEO-Introduce-Con .CEO-Greeting p{width:282px; height:282px; float:left;}
+.CEO-Introduce .CEO-Introduce-Con .CEO-Greeting dl{width:650px; float:left; margin-top:20px; margin-left:20px;}
+.CEO-Introduce .CEO-Introduce-Con .CEO-Greeting dl dt{font-size:22px; color:#000; margin:15px 0;}
+.CEO-Introduce .CEO-Introduce-Con .CEO-Greeting dl dt span{display:block; line-height:30px;}
+.CEO-Introduce .CEO-Introduce-Con .CEO-Greeting dl dt.Text-Red{font-size:25px; color:#cc3333; }
+.CEO-Introduce .CEO-Introduce-Con .CEO-Greeting dl dd{font-size:15px; line-height:18px;}
+.CEO-Introduce .CEO-Introduce-Con .CEO-Greeting dl dd span{display:block; margin-top:5px; }
+
+/*대표이사 약력*/
+.CEO-Introduce .CEO-Introduce-Con .CEO-History{clear:both; width:1000px; height:auto; margin:40px auto;}
+.CEO-Introduce .CEO-Introduce-Con .CEO-History .CEO-History-List{width:1000px; height:auto; margin-top:80px;}
+.CEO-History .CEO-History-List dl{width:1000px; height:70px;  border-bottom:1px dashed #d8d8d8; }
+.CEO-History .CEO-History-List dl dt{width:200px; float:left;  margin-right:30px; font-size:30px; color:#e64347; text-align:right; line-height:70px; font-weight:bold;}
+.CEO-History .CEO-History-List dl dd{font-size:17px; color:#000; line-height:70px; }
+
+
+
+/*출간 서적*/
+
+
+.Company-Page-Contents .CEO-Book-Publish{clear:both; width:1000px; height:auto; margin:50px auto; overflow:hidden; }
+.Company-Page-Contents .CEO-Book-Publish .Book-Publis{width:30%; float:left; margin-right:3%; margin-top:30px;}
+.Company-Page-Contents .CEO-Book-Publish .Book-Publis dl,
+.Company-Page-Contents .CEO-Book-Publish .Book-Publis ul{text-align:center; }
+.Company-Page-Contents .CEO-Book-Publish .Book-Publis dl dd{font-size:24px; color:#d9474b; margin-top:20px;}
+.Company-Page-Contents .CEO-Book-Publish .Book-Publis dl dd span{display:block;}
+.Company-Page-Contents .CEO-Book-Publish .Book-Publis ul{margin-top:20px;}
+.Company-Page-Contents .CEO-Book-Publish .Book-Publis ul li {font-size:14px;  font: normal 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color:#000;}
+.Company-Page-Contents .CEO-Book-Publish .Book-Publis ul li span{display:block;}
+
+
+
+/* +++++++++++회사소개 - 핵심사업 분류+++++++++++ */
+
+
+.Company-Page-Contents .Core-Business{width:1137px; height:auto; margin:0 auto; overflow:hidden;}
+.Company-Page-Contents .Core-Business-Con{clear:both; width:1000px; height:auto; margin:50px auto; overflow:hidden; }
+.Company-Page-Contents .Core-Business-Con p.Core-Business-Map{width:821px; height:519px; margin:0 auto;}
+
+
+
+.Core-Business-Con .Core-Business-Sort{width:100%; height:auto; margin:40px auto; }
+.Core-Business-Con .Core-Business-Sort .Core-Business-Sort-Con{clear:both; width:100%; height:260px; margin-bottom:10px; }
+.Core-Business-Sort-Con p.Business-Sort-Thumbnail{width:229px; height:225px; float:left;}
+.Core-Business-Con .Core-Business-Sort .Business-Sort-Explain{width:700px; height:auto; float:left; margin-left:20px;}
+.Core-Business-Con .Core-Business-Sort .Business-Sort-Explain h5{font-size:30px; color:#ee4f4f; margin:20px 0;}
+.Core-Business-Con .Core-Business-Sort .Business-Sort-Explain ul{font-size:16px; }
+.Core-Business-Con .Core-Business-Sort .Business-Sort-Explain ul li{height:30px; background:url(../images/company/bullet_squer_red.gif) 5px 6px no-repeat; text-indent:20px;}
+
+
+/* +++++++++++회사소개 - 아마존인슈 오시는 길+++++++++++ */
+
+
+.Company-Page-Contents .Contact-Us{width:1137px; height:auto; margin:0 auto; overflow:hidden;}
+.Company-Page-Contents .Contact-Us .Google-Map{width:1000px; height:500px; margin:20px auto;}
+
+
+/*심플 맵 펼쳐보기*/
+.Btn-Toggle{width:300px; height:50px; line-height:50px; text-align:center; margin:0 auto; padding:30px 0;} 
+.Btn-Toggle a{display:block; background:#4965ff; font-size:16px; color:#fff; border-radius:5px;}
+.Btn-Toggle a:hover{ background:#f53232;}
+
+.Company-Page-Contents .Contact-Us .Simple-Map{width:1000px; height:420px; margin:20px auto;}
+.Company-Page-Contents .Contact-Us .Simple-Map p.Amazon-Map{width:954px; height:407px; margin:30px auto;}
+
+.Company-Page-Contents .Contact-Us .Contact-Us-Explain{width:1000px; height:auto; margin:0 auto; }
+.Company-Page-Contents .Contact-Us .Contact-Us-Explain .Addr-Explain{width:900px; margin:40px auto 100px; padding-top:20px; border-top:1px solid  #000;}
+
+.Company-Page-Contents .Contact-Us .Contact-Us-Explain dl{clear:both; width:880px; height:40px; margin:20px auto; }
+.Company-Page-Contents .Contact-Us .Contact-Us-Explain dl dt{font-size:18px; width:100px; height:40px; line-height:40px; text-align:center; background:#ee4f4f; color:#fff; float:left;}
+.Company-Page-Contents .Contact-Us .Contact-Us-Explain dl dd{float:left; font-size:15px; margin-left:20px; line-height:40px;}
+.Company-Page-Contents .Contact-Us .Contact-Us-Explain dl dd span{display:block; line-height:20px;}
+
+
+
+
+/* +++++++++++회사소개 - 아마존인슈 조직도 +++++++++++ */
+
+
+
+.Company-Page-Contents .Organization-Chart{width:1137px; height:auto; margin:0 auto; overflow:hidden;}
+.Company-Page-Contents .Organization-Chart .Organization-Chart-Con{width:1100px; height:auto; margin:20px auto;}
+.Organization-Chart .Organization-Chart-Con p img{width:1099px; height:780px; margin:40px auto;}

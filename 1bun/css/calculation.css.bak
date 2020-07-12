@@ -1,0 +1,224 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+.Brand-Info{width:810px; height:290px; border:1px solid #cccccc; }
+.Brand-Info p.Brand-Img{width:169px; height:250px; float:left; margin:20px;}
+.Brand-Info .Brand_Info_Con {width:600px; height:306px; float:left;  }
+.Brand-Info .Brand_Info_Con h3{font-size:24px; color:#47557f; font-weight:bold; margin-top:30px;}
+.Brand-Info .Brand_Info_Con h3 span{font-size:14px; margin-left:10px;}
+
+.Characteristic{clear:both;  width:280px; height:150px; float:left; margin-top:30px; }
+.Terms{width:250px; height:130px; float:left; margin-top:30px; }
+.Brand_Info_Con dl dt{font-size:14px; font-weight:bold; color:#666666; background:url(../images/estimation/bullet_circle_red.gif) 10px 2px no-repeat; text-indent:28px; margin-bottom:20px;}
+
+.Brand_Info_Con dl dd{margin-bottom:8px; margin-left:10px; color:#666666; background:url(../images/estimation/bullet_tiny_blue.gif) 2px 2px no-repeat; text-indent:15px;}
+.Brand_Info_Con dl dd span{font-weight:bold;}
+
+.Info-Form{clear:both; width:640px;  }
+.Info-Form ul{margin:0 auto;}
+.Info-Form ul li{float:left; width:140px; height:31px; margin-left:5px;}
+.Info-Form ul li select{width:150px; height:32px; border:1px solid #666666; }
+
+
+
+/*--------플랜선택 시작 -----------*/
+
+
+#Plan_Choice{clear:both; width:810px; height:auto;  border-bottom:0; float:left; border:1px solid #cccccc; margin-bottom:20px;}
+
+#Plan_Choice h3{width:810px; height:52px; background:#eeeeef;}
+#Plan_Choice  .Plan-Choice-Con{width:670px; height:50px; margin:0 auto; padding:30px 0;  }
+#Plan_Choice  .Plan-Choice-Con li{ width:208px; height:52px; float:left; margin-left:10px; font-weight:bold;}
+#Plan_Choice  .Plan-Choice-Con li span{display:block; width:180px; margin:0 auto; text-align:center; padding-top:20px; line-height:13px; }
+#Plan_Choice  .Plan-Choice-Con li a{ display:block; width:208px; height:52px; background:url(../images/estimation/back_plan_chack.gif) no-repeat; color:#d64747;}
+#Plan_Choice  .Plan-Choice-Con li a:hover{background:url(../images/estimation/back_plan_chack_over.gif) no-repeat; color:#FFF;}
+
+
+
+/*--------직접산출 시작 -----------*/
+
+
+#Self-Calculation-Con{width:810px; height:auto; padding-bottom:100px; float:left; border:1px solid #cccccc; }
+
+#Self-Calculation-Con h3{width:810px; height:52px; background:#eeeeef;}
+#Self-Calculation-Con h4{width:100%; height:20px; font-weight:bold; font-size:14px; background:url(../images/estimation/bullet_red.gif) 4px 4px no-repeat; text-indent:15px; margin-top:30px; margin-left:20px;}
+
+
+/*직접산출 보험자 정보 입력*/
+
+.Insurer-Data-Input{width:790px; height:auto; margin:15px auto; background:#f9f9fb; }
+.Insurer-Data-Input th{width:80px; height:45px; text-align:left; text-indent:25px; background:url(../images/estimation/bullet_blue.gif) 10px 20px no-repeat;}
+.Insurer-Data-Input td{text-align:left; text-indent:10px;  }
+.Insurer-Data-Input td span{color:#ff3333; margin-left:10px;}
+.Insurer-Data-Input td select{width:100px; height:20px;}
+.Insurer-Data-Input td img{vertical-align:middle;}
+.Insurer-Data-Input td .wid_20{width:20px; height:15px;}
+.Insurer-Data-Input td input{vertical-align:middle; border:1px solid #cccccc; vertical-align:middle; height:20px;}
+.Insurer-Data-Input td input.wid_100{width:100px;}
+
+
+
+
+
+/*보험료 계산하기*/
+
+.Insurance-Estimation{width:580px; height:74px; margin:0 auto; margin-top:50px;  }
+.Insurance-Estimation2{width:580px; height:74px;}
+.Insurance-Estimation li{float:left;}
+.Insurance-Estimation li.Estimation{width:283px; height:73px; border:2px solid #3f8c70; margin-left:10px; text-align:center; color:#3f8c70; font-weight:bold;}
+.Insurance-Estimation li.Estimation span{display:block; line-height:73px; margin:0 auto;}
+.Insurance-Estimation li.Estimation span em{font-weight:bold; font-size:26px;  font-style:normal; margin-left:10px; color:#c92d03;}
+
+
+/*담보 안내 및 버튼 기능 설명*/
+
+
+.Btn-Info{clear:both; width:580px; margin:20px auto;}
+.Btn-Info li{margin-bottom:5px;}
+
+/*저장버튼 및 메일,문자 인쇄 버튼*/
+
+.Btn-Con{clear:both; width:810px; height:70px;  float:left; }
+
+
+.Btn-Con p.Save-Btn{width:128px; height:33px; float:left; margin-top:20px; margin-left:40px; }
+.Btn-Con ul{width:470px; height:32px; float:right; margin-top:25px; }
+.Btn-Con ul li{float:left;}
+
+
+
+
+/* 테이블 출력 */
+
+.Result-Con .Result-Con_Table{width:790px; height:100%; margin:0 auto;  }
+.Result-Con .Result-Con_Table th{background:url(../images/estimation/back_th.gif) no-repeat; height:45px;}
+.Result-Con .Result-Con_Table th.wid_200{width:200px;}
+.Result-Con .Result-Con_Table td{border-bottom:1px solid #e1e2e5; height:45px; }
+.Result-Con .Result-Con_Table td select{width:130px; height:25px; border:1px solid #cccccc;}
+
+
+
+
+
+/*-----------------------------------------팝업관련----------------------------------------------------------*/
+
+
+
+
+/*꼭 알아야할 사항*/
+
+
+.Precautions-Popup{width:700px; height:auto; border:3px solid #425296; }
+.Precautions-Popup-Con{border:3px solid #CCC;  position:relative;}
+
+.Precautions-Popup h5{font-weight:bold; margin:30px 25px; font-size:26px; color:#333;}
+.Precautions-Popup ul{margin:20px;  color:#d63636; padding:10px;}
+.Precautions-Popup ul li{margin:5px 10px; line-height:20px;}
+.Precautions-Popup dl{margin:20px; }
+.Precautions-Popup dl dt{font-weight:bold; margin-bottom:20px; color:#333364;}
+.Precautions-Popup dl dd{width:600px; line-height:18px; margin:10px 20px; }
+.Precautions-Popup dl dd em{display:block; font-style:normal;}
+.Precautions-Popup dl a{color:#666;}
+.Precautions-Popup dl a:hover{color:#F00;}
+
+
+
+
+/*공통 팝업 닫기 버튼*/
+
+.btn_closer{width:30px; height:30px; position:absolute; top:10px; right:10px;}
+
+
+/*직업 찾기 팝업 관련 2016_04_12 추가*/
+
+.Job-Search-Popup{clear:both; width:500px; height:auto; border:2px solid #425296; background:#cccccc; display:none;}
+.Job-Search-Popup-Con{width:480px; height:auto; margin:10px auto; background:#FFF; position:relative;}
+.Job-Search-Popup-Con h5{width:440px; height:60px;  margin-top:20px; margin-left:20px; float:left; border-bottom:1px dotted #cccccc; margin-bottom:20px;}
+.Job-Search-Popup-Con table{clear:both; width:435px; height:auto; margin:20px auto;}
+.Job-Search-Popup-Con table th{width:150px;}
+.Job-Search-Popup-Con table td input{width:200px; height:25px; border:1px solid #9fa8c2; vertical-align:middle;}
+.Job-Search-Popup-Con table td img{width:72px; height:30px; vertical-align:middle;}
+.Job-Search-Popup-Con p.Tit{background:url(../images/estimation/bullet_blue.gif) 3px 3px no-repeat; font-weight:bold; }
+.Job-Search-Popup-Con p.Case{width:435px; text-align:center;}
+.Job-Search-Popup-Con p.Explain{width:435px; text-align:center; margin-top:10px; color:#ff3333;}
+.Job-Search-Popup-Con p.Explain span{display:block; margin-top:5px;}
+
+.Job-Search-Popup-Con .Often-Search-Job{width:435px; height:auto; margin:20px auto;}
+.Job-Search-Popup-Con .Often-Search-Job p.Tit{text-indent:13px;}
+.Job-Search-Popup-Con .Often-Search-Job ul{width:425px; height:auto; margin:20px auto; }
+.Job-Search-Popup-Con .Often-Search-Job ul li{width:135px; height:34px; float:left; margin:2px;}
+.Job-Search-Popup-Con .Often-Search-Job ul li a{display:block; width:135px; height:34px;  text-align:center; line-height:34px;  border:1px solid #9fa8c2;}
+.Job-Search-Popup-Con .Often-Search-Job ul li a:hover{background:#636ccf; color:#FFF; font-weight:bold;}
+
+
+
+.Job-Search-Popup-Con .Search-Result{clear:both; width:435px; height:auto; margin:0 auto; padding:20px 0 10px 0; }
+.Job-Search-Popup-Con .Search-Result p.Tit{text-indent:13px;}
+.Job-Search-Popup-Con .Search-Result p.Explain{color:#ff3333; text-align:left; margin-left:10px;}
+
+.Job-Search-Popup-Con .Search-Result .Search-Result-Con{margin-top:10px; width:420px; height:100px; margin:10px auto; overflow:scroll; border:1px solid #9fa8c2;}
+.Job-Search-Popup-Con .Search-Result .Search-Result-Con ul{margin:10px; }
+.Job-Search-Popup-Con .Search-Result .Search-Result-Con ul li{margin:5px 0;}
+.Job-Search-Popup-Con .Search-Result .Search-Result-Con ul li a{color:#666666;}
+.Job-Search-Popup-Con .Search-Result .Search-Result-Con ul li a:hover{color:#2c326a; font-weight:bold;}
+
+
+
+
+
+/*2016_04_12 인쇄하기 팝업 추가*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*보장내용 팝업 출력*/
+.Guarantee{position:relative; display:none;}
+.Guarantee_Popup{width:420px; height:400px; height:auto; background:#fbfbfb; padding-bottom:20px; border:1px solid #f35357 ; position:absolute; top:20px; left:10px; text-align:left; display:none;}
+.Guarantee_Popup h5{width:100%; height:30px;  line-height:30px; font-weight:bold; text-indent:10px; color:#FFF; background:#f35357; font-size:14px;}
+.Guarantee_Popup dl{margin:20px 10px; width:95%;}
+.Guarantee_Popup dt{font-weight:bold; color:#f35357;}
+.Guarantee_Popup dd{margin-top:10px;}
+
+
+
+/*메일 보내기 팝업 관련*/
+
+.Mail_Popup{clear:both; width:680px; height:340px; border:2px solid #425296; background:#cccccc; display:none;}
+.Mail_Popup .Mail_Popup_Con{width:658px; height:316px; margin:10px auto; background:#FFF; position:relative;}
+.Mail_Popup .Mail_Popup_Con h5{width:600px; height:40px; margin-top:20px;  margin-left:20px; float:left; border-bottom:1px dotted #cccccc; margin-bottom:20px;}
+.Mail_Popup .Mail_Popup_Con table{width:600px; height:130px;}
+.Mail_Popup .Mail_Popup_Con table th{text-align:right; width:230px; height:30px;}
+.Mail_Popup .Mail_Popup_Con table td{text-align:left; padding-left:15px;}
+.Mail_Popup .Mail_Popup_Con table td input{width:330px; height:25px; border:1px solid #9fa8c2}
+.Mail_Popup .Mail_Popup_Con p.explaine{margin-left:40px; font-size:12px; margin-top:10px;}
+.Mail_Popup .Mail_Popup_Con p.explaine span{color:#F00;}
+.Mail_Popup .Mail_Popup_Con p.Btn_Submit{width:187px; height:36px; margin:20px auto;}
+
+
+/*문자 보내기 팝업 관련*/
+
+.Message_Popup{clear:both; width:500px; height:300px; border:2px solid #425296; background:#cccccc;display:none;}
+.Message_Popup .Message_Popup_Con{width:479px; height:284px; margin:10px auto; background:#FFF; position:relative;}
+.Message_Popup .Message_Popup_Con h5{width:445px; height:40px; margin-top:20px;  margin-left:20px; float:left; border-bottom:1px dotted #cccccc; margin-bottom:20px;}
+.Message_Popup .Message_Popup_Con table{width:445px; height:130px;}
+.Message_Popup .Message_Popup_Con table th{text-align:right; width:125px; height:30px;}
+.Message_Popup .Message_Popup_Con table th span{font-weight:normal; font-size:11px;}
+.Message_Popup .Message_Popup_Con table td{text-align:left; width:350px; padding-left:15px;}
+.Message_Popup .Message_Popup_Con table td input.wid_300{width:300px; height:25px; border:1px solid #9fa8c2}
+.Message_Popup .Message_Popup_Con table td input.wid_200{width:200px; height:25px; border:1px solid #9fa8c2}
+.Message_Popup .Message_Popup_Con table td select{width:95px; height:25px; border:1px solid #9fa8c2 }
+.Message_Popup .Message_Popup_Con p.explaine{margin-left:40px; font-size:12px; margin-top:10px;}
+.Message_Popup .Message_Popup_Con p.explaine span{color:#F00;}
+.Message_Popup .Message_Popup_Con p.Btn_Submit{width:187px; height:36px; margin:10px auto;}
+

@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+
+#wrapper{width:100%; min-width:1200px; height:4820px; margin:0 auto; color:black; overflow:hidden;}
+
+/*헤더 시작*/
+
+#wrapper #header{width:100%; height:160px; margin:0 auto;}
+
+
+#wrapper #header #header_con{ width:1200px; height:160px; margin:0 auto; position:relative; }
+
+/*헤더로고 */
+
+
+#wrapper #header h1{width:288px; height:97px; float:left; margin-top:30px;}
+
+
+/*헤더 유틸메뉴*/
+
+#header .util_menu{width:450px; height:40px; font-size:12px; float:right; margin-top:20px;}
+
+#header .util_menu ul{float:left;}
+
+#header .util_menu ul li{float:left; margin-right:10px; color:#000;}
+
+#header .util_menu ul li a{display:block; color:#000;}
+#header .util_menu ul li a:hover{text-decoration:none; color:#000; font-weight:bold;}
+
+
+
+/*gnb*/
+
+#gnb{clear:both;  width:100%; height:55px; font-family:"Courier New", Courier, monospace; font-size:24px; font-style:italic; background:#000; event_page/;}
+
+#gnb ul{width:900px; height:55px; margin:0 auto; }
+#gnb ul li{float:left; margin-right:50px; margin-top:15px;}
+#gnb ul li  a{text-decoration:none;  color:#999;}
+#gnb ul li a:hover{text-decoration:none; color:#FFF;  }
+
+
+/*보석 애니메이션*/
+
+#header .ani_spin_1{position:absolute; top:20px; left:350px;}
+#header .ani_spin_2{position:absolute; top:75px; left:515px;}
+#header .ani_spin_3{position:absolute; top:40px; left:590px;}
+/*서치창 */
+
+#header .search_con{clear:boht; width:400px; hegith:187px; position:absolute; top:100px; right:40px;}
+#header .search_con input{width:320px; height:34px; border:2px solid #000;}
+#header .search_con a{display:inline-block; width:70px; height:35px; line-height:35px;  background:#000; font-size:12px; color:#FFF; vertical-align:middle; text-align:center;  }
+#header .search_con a:hover{text-decoration:none;}
+
+/* 콘텐츠 시작 */
+
+#wrapper #container{width:100%; height:auto; } 
+#wrapper #container #contents{width:100%; height:auto; margin:0 auto;}
+#wrapper #container #contents  #visual{width:2000px; height:600px; margin:0 auto; position:relative; margin-top:60px }
+#wrapper #container #contents #visual visual_con{float:left; width:2000px; height:600px; }
+.sliderbutton img {cursor:pointer}
+.bnt_prev{width:32px; height:76px; position:absolute; top:250px; left:30px; z-index:100;}
+.bnt_next{position:absolute; top:250px; right:120px; z-index:100;}
+
+#slider {width:2000px; height:600px; border:2px solid #fff; background:#fff;}
+#slider ul {position:absolute; top:0; left:0}
+#slider li {float:left; width:1930px; height:600px; padding-right:10px}
+
+
+.pagination_con{position:absolute; bottom:10px; left:35%;}
+.pagination {float:left; list-style:none; height:25px; margin:15px 0 0 32px}
+.pagination li {width:104px; height:16px; float:left; cursor:pointer; text-indent:-9999px; background:url(../images/visual/btn_slider_white.png) no-repeat; }
+.pagination li:hover {background:url(../images/visual/btn_slider_orange.png) no-repeat;}
+
+
+li.current {background:url(../images/visual/btn_slider_orange.png) no-repeat;}
+
+
+
+
+/*컨텐츠 상단 섹션*/
+
+#contents_section{width:100%; height:auto; margin:0 auto;}
+
+
+#contents_section .top_section{width:1200px; height:400px; margin:0 auto; margin-top:40px;}
+
+#contents_section .top_section ul li{float:left; width:580px; height:350px; position:relative;}
+#contents_section .top_section ul li span{position:absolute; top:140px; left:20px; color:#FFF; font-size:30px;}
+#contents_section .top_section ul li span em{display:block; font-size:14px;}
+
+/*인포메이션 안내 섹션*/
+
+#contents_section .info_section{width:100%; height:350px; margin:0 auto; background:url(../images/visual/info_back_img.jpg) repeat-x;}
+#contents_section .info_section ul{width:1200px; height:300px; margin:0 auto;}
+#contents_section .info_section ul li{width:370px; height: 280px; float:left;  font-size:34px; color:#000; border-left:1px solid #000; margin-top:35px; padding-left:20px;}
+#contents_section .info_section ul li span{width:300px; display:block; font-size:22px; margin-top:10px; }
+#contents_section .info_section ul li em{display:block;width:300px; font-size:18px; margin-top:10px; }
+#contents_section .info_section ul li a{display:block; width:53px; height:53px; margin-top:20px;}
+
+
+
+/*베스트 상품 배너 나열*/
+
+.best_product_con{width:1200px; height:auto; margin:0 auto; clear:both; }
+.best_product_con  h3{font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; width:600px; font-size:40px; margin:50px auto; color:#000; }
+.best_product_con ul{margin-left:30px;}
+.best_product_con ul li{width:369px; height:406px; float:left;}
+
+
+
+/*상품 리스트 시작*/
+#contents_section .product_con{clear:both; width:1200px; height:980px; margin:0 auto; padding-top:50px;}
+#contents_section .product_con h3{font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; width:600px; font-size:40px; margin:0 auto; color:#000; }
+
+/*각각의 상품 박스*/
+.product_con .procuct_list{width:1200px; height:auto; margin:30px auto;}
+
+.product_con .procuct{width:280px; height:380px; float:left; margin:20px 8px;} 
+.product_con .procuct li.thumbnail{width:250px; height:250px; margin:10px auto;}
+
+.product_con .procuct li.title{font-weight:bold; margin:20px 10px; color:#000;}
+.product_con .procuct li.title a{color:#000;}
+.product_con .procuct li.title a:hover{display:block; color:#b99256; text-decoration:none;}
+
+.product_con .procuct li.price{color:#b99256; margin-left:10px; font-size:16px; font-weight:bold;}
+.product_con .procuct li.price span{display:inline-block; font-size:8px; text-decoration:line-through; margin-left:20px;}
+
+
+
+
+/*회사 소개*/
+
+
+
+#contents_section .about{clear:both; width:100%; height:400px; background:url(../images/visual/about_back_img.jpg) repeat-x; margin-bottom:30px; }
+
+.about .about_con{clear:both; width:1200px; height:400px; margin:0 auto; padding-top:50px; text-align:center; color:#000;}
+.about .about_con h3{font-size:40px;}
+.about .about_con h3 span{display:block; font-size:24px; margin-top:20px; padding:20px;}
+.about .about_con p{width:900px; margin:20px auto; padding:10px; border:1px solid #000; }
+
+
+/*패밀리사이트 로고*/
+.logo_con{width:1200px; height:120px; margin:50px auto; border:2px solid #eaeaea;}
+.logo_con ul{margin-left:20px; margin-top:15px;}
+.logo_con ul li{width:194px; height:92px; float:left;}
+
+
+
+
+
+/*푸터 시작*/
+
+#footer{width:100%; height:200px; background:#000; color:#CCC;}
+#footer .footer_con{width:1200px; height:200px; margin:0 auto;}
+#footer .footer_con h2{float:left; width:250px; height:80px;  font-family: "Times New Roman"; font-size:35px; font-style:italic; color:#666; margin-top:50px;}
+#footer .footer_con .site_guide{float:right; width:800px; height:30px; margin-top:20px;}
+#footer .footer_con .site_guide ul li{float:left; margin-right:15px;}
+#footer .footer_con .site_guide ul li a{color:#FFF;}
+#footer .footer_con .site_guide ul li a:hover{text-decoration:none; color:#e8504f;}
+
+#footer .footer_con address{float:right; width:800px; height:30px; margin-top:10px;}
+#footer .footer_con .copyright{clear:both; width:500px; height:30px; margin:0 auto; padding-top:20px;text-align:center;}
+

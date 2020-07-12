@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+
+
+
+
+
+#Container{ width:100%; height:auto; margin:0 auto; overflow:hidden; position:relative;}
+
+#section_a{width:100%; height:2145px; margin:0 auto; background:url(../images/back_sub_1.jpg) repeat-x}
+#section_a p{margin:0 auto; width:1200px; height:2145px;}
+
+
+
+#section_b{width:100%; height:1064px; margin:0 auto;}
+#section_b p{margin:0 auto; width:1200px; height:965px;}
+
+#section_c{width:100%; height:1064px; margin:0 auto;}
+#section_c p{margin:0 auto; width:1200px; eight:1064px;}
+
+
+#section_d{width:100%; height:832px; margin:0 auto;}
+#section_d p{margin:0 auto; width:1200px; height:832px;}
+
+
+#section_e{width:100%; height:829px; margin:0 auto;}
+#section_e p{margin:0 auto; width:1200px;; height:965px;}

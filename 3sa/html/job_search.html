@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ 
+  <title>직업찾기 팝업</title>
+ 
+
+
+ <style>
+
+*{margin:0; padding:0;}
+/* font */
+body { font:75% /1.2 Dotum, "돋움", sans-serif;}
+input, select, textarea{ font:100% Dotum, "돋움", sans-serif; color:#4a4a4a; }
+
+/* anchor 
+a { text-decoration:none; }
+a:link { color:white; }
+a:visited { color:white; }
+a:hover { text-decoration:underline; color:white; }
+a:focus { background:white; }*/
+
+/* skip */
+.skip, legend, caption {position:absolute; top:0; left:0; text-indent:-9999px; width:0; height:0; line-height:0; font-size:0; overflow:hidden; visibility:hidden; }
+
+fieldset{border:0;}
+li{list-style:none;}
+img{border:0;}
+
+/*common*/
+
+table {table-layout:fixed; border-collapse:collapse; border-spacing:0; color:#666666;}
+thead{color:#fff;}
+th{vertical-align:middle;}
+td{vertical-align:middle; text-align:center;}
+
+/*** 직업찾기 시작***/
+
+#Wrapper{width:563px; height:701px; margin:0 auto; background:url(../images/job_search/back_img.jpg) no-repeat;}
+#Wrapper .Container{width: 544px; height:600px; margin:0 auto; }
+#Wrapper .Container h2{width:242px; height:57px; margin:0 auto; padding-top:20px;}
+#Wrapper .Container .Contents{width:544px; height:595px; background:#fff; margin-top:15px;} 
+
+
+.Container .Contents .Job-Search{width:500px; height:auto; margin:10px auto; padding-top:20px; }
+.Container .Contents .Job-Search table th{background:url(../images/job_search/bullet_square_orange.gif) 5px 12px no-repeat; text-indent:20px; font-size:14px; color:#000}
+.Container .Contents .Job-Search table td input{width:286px; height:30px; border:1px solid #cccccc; margin-left:10px;}
+.Container .Contents .Job-Search table td img{width:85px; height:30px; vertical-align:middle; margin-left:10px;}
+.Contents .Job-Search .Advice{width:490px; height:83px; margin:30px auto; background:#f7f7f7; border-radius:10px;}
+.Contents .Job-Search .Advice p{height:20px; color:#ff0000; text-align:center; padding-top:10px;}
+.Contents .Job-Search .Advice ul{height:30px; color:#000; text-align:center; padding-top:10px;}
+.Contents .Job-Search .Advice ul li{padding-bottom:5px;}
+
+
+
+.Often-Search-Job{width:500px; height:auto; margin:0 auto;}
+.Often-Search-Job h3{background:url(../images/job_search/bullet_square_orange.gif) 5px 3px no-repeat; text-indent:20px;}
+.Often-Search-Job ul{margin-top:10px;}
+.Often-Search-Job ul li {width:164px; height:39px; border:1px solid #dddada; float:left; text-align:center; line-height:39px;}
+.Often-Search-Job ul li a{display:block; color:#666666; text-decoration:none; font-weight:bold; background:#fff;}
+.Often-Search-Job ul li a:hover{background:#fe6e0d; color:#fff;}
+
+
+.Often-Search-result{clear:both; width:500px; height:auto; margin:0 auto; padding-top:30px;}
+.Often-Search-result h3{background:url(../images/job_search/bullet_square_orange.gif) 5px 3px no-repeat; text-indent:20px;}
+.Often-Search-result h3 span{display:inline-block; color:#ff0000; text-indent:0;}
+.Often-Search-result h3 em{display:inline-block; font-style:normal; text-indent:0; color:#fe6e0d; padding:0 10px;}
+
+.Often-Search-result ul{500px; height:120px; margin-top:10px; overflow:auto; border:2px solid #dddddd;}
+.Often-Search-result ul li {height:15px; margin:8px;}
+.Often-Search-result ul li a{display:block; text-decoration:none; color:#000;}
+.Often-Search-result ul li a:hover{color:#f43a0e;}
+
+
+
+
+
+</style>
+ 
+ 
+ </head>
+ <body>
+  
+
+	<div id="Wrapper">
+		<div class="Container">
+			<h2><img src="../images/job_search/h2.gif" alt="직업찾기" /></h2>
+			<div class="Contents">
+			
+				<div class="Job-Search">
+					<table>
+						<tr>
+							<th>직업명 입력</th>
+							<td><input type="text" /></td>
+							<td><a href="#"><img src="../images/job_search/btn_search.gif" alt="검색버튼" /></a></td>
+						</tr>
+					</table>
+					<div class="Advice">
+						<p>예) 사무, 학생, 기술직, 무직, 공무원 등..</p>
+						<ul>
+							<li>직업급수별로 각 담보별 금액제한이 있을 수 있습니다.</li>
+							<li>세부적인 인수지침은 담당상담원에게 문의해주십시오.</li>
+
+						</ul>
+					</div><!--e://Advice-->
+				</div><!--e://Job-Search-->
+
+					<div class="Often-Search-Job">
+						<h3>자주찾는 직업</h3>
+						<ul>
+							<li><a href="#">사무직</a></li>
+							<li><a href="#">학생/미취학 아동</a></li>
+							<li><a href="#">판매원</a></li>
+							<li><a href="#">주부</a></li>
+							<li><a href="#">전문직/기술/연구</a></li>
+							<li><a href="#">농림어업</a></li>
+							<li><a href="#">교육 전문</a></li>
+							<li><a href="#">배달/운송</a></li>
+							<li><a href="#">군인/경찰/소방</a></li>
+							<li><a href="#">공무원</a></li>
+							<li><a href="#">서비스</a></li>
+							<li><a href="#">기타무직</a></li>
+						</ul>
+					</div><!--e://Often-Search-Job-->	
+
+					<div class="Often-Search-result ">
+						<h3><span>'사무직' 검색결과</span><em> | </em>직업명을 선택하세요.</h3>
+						<ul>
+							<li><a href="#">사무직</a></li>
+							<li><a href="#">학생/미취학 아동</a></li>
+							<li><a href="#">판매원</a></li>
+							<li><a href="#">주부</a></li>
+							<li><a href="#">전문직/기술/연구</a></li>
+							<li><a href="#">농림어업</a></li>
+							<li><a href="#">교육 전문</a></li>
+							<li><a href="#">배달/운송</a></li>
+						</ul>
+					</div><!--e://Often-Search-Job-->
+			
+			</div><!--e://Contents-->
+		</div><!--e://Container-->
+	</div><!--e://Wrapper-->
+
+ </body>
+</html>

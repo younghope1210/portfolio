@@ -1,0 +1,101 @@
+
+
+@charset "utf-8";
+
+
+#Footer{clear:both; width:100%; height:auto; border-top:3px solid #999999; margin:0 auto;}
+
+#Footer-Con{width:1200px; height:160px; margin:0 auto;}
+#Footer-Con address{font-style:normal; color:#000; }
+#Footer-Con h2{width:302px; height:153px; float:left;}
+#Footer-Con address ul{float:left; margin-top:30px;}
+#Footer-Con address ul li{margin-bottom:5px; }
+#Footer-Con address ul li.Copyright{margin-top:20px;}
+
+
+
+#Footer #Certifi-Mark{ border-top:1px dotted #959595; width:100%; }
+#Footer #Certifi-Mark ul{width:1200px; height:auto; margin:0 auto;}
+#Footer #Certifi-Mark ul li{float:left; width:240px;}
+#Footer #Certifi-Mark ul li img{float:left; width:59px; height:59px; }
+#Footer #Certifi-Mark ul li span{float:left; margin-top:15px; margin-left:5px; color:#000;}
+#Footer #Certifi-Mark ul li span em{display:block; margin-top:5px;}
+
+
+
+
+@media (max-width: 1280px) {
+
+#Footer{clear:both; width:100%; height:auto; border-top:3px solid #999999; margin:0 auto;}
+#Footer #Certifi-Mark ul{width:100%;  height:auto; margin:0 auto;}
+#Footer #Certifi-Mark ul li{float:left; width:200px;}
+
+}
+
+
+
+@media (max-width: 1008px) {
+
+#Footer{clear:both; width:100%; height:auto; border-top:3px solid #999999; margin:0 auto; }
+#Footer-Con h2{display:none;}
+#Footer-Con address ul{float:left; margin-top:30px; margin-left:20px;}
+#Footer #Certifi-Mark ul{width:100%; height:auto; margin:0 auto; }
+#Footer #Certifi-Mark ul li{float:left; width:200px;}
+
+}
+
+
+@media (max-width: 752px) {
+
+#Footer{clear:both; width:100%; height:100%; border-top:3px solid #999999; margin:0 auto;}
+#Footer-Con{width:100%; height:100%; margin:0 auto;}
+#Footer-Con address{font-style:normal; color:#000; }
+#Footer-Con h2{ display:none;}
+#Footer-Con address ul{float:left; margin-top:30px; margin-left:10px;}
+#Footer-Con address ul li{margin-bottom:5px; }
+#Footer-Con address ul li.Copyright{margin-top:20px;}
+
+#Footer #Certifi-Mark ul{width:100%; height:auto; margin:0 auto;}
+#Footer #Certifi-Mark ul li{float:left; width:200px;}
+
+}
+
+
+
+
+@media (max-width: 480px) {
+
+
+#Footer{clear:both; width:100%; height:auto; border-top:3px solid #999999; margin:0 auto; background:orange;} 
+#Footer{clear:both; width:100%; height:auto; border-top:3px solid #999999; margin:0 auto;}
+
+#Footer-Con{width:100%; height:100%; margin:0 auto;}
+#Footer-Con address{font-style:normal; color:#000; }
+#Footer-Con h2{width:100%; height:100%; display:none;}
+#Footer-Con address ul{margin-top:30px; width:100%; }
+#Footer-Con address ul li{margin-bottom:5px; line-height:15px;}
+#Footer-Con address ul li.Copyright{margin-top:20px;}
+
+#Footer #Certifi-Mark ul{width:480px; height:auto; margin:0 auto;}
+#Footer #Certifi-Mark ul li{float:left; width:200px;}
+}
+
+
+
+
+
+@media (max-width: 320px) {
+
+#Footer{clear:both; width:320px; height:auto; border-top:3px solid #999999; margin:0 auto; background:yellow;}
+
+#Footer-Con{width:100%; height:200px; margin:0 auto;}
+#Footer-Con address{font-style:normal; color:#000; }
+#Footer-Con h2{width:100%; height:153px; }
+#Footer-Con address ul{margin-top:30px; width:302px;}
+#Footer-Con address ul li{margin-bottom:5px; line-height:15px;}
+#Footer-Con address ul li.Copyright{margin-top:20px;}
+
+
+#Footer #Certifi-Mark ul{width:100%;height:auto; margin:0 auto;}
+#Footer #Certifi-Mark ul li{float:left; width:200px;}
+}

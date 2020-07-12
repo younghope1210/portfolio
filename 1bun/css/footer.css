@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/*footer 시작*/
+
+
+#Footer{clear:both; width:100%; height:202px; background:url(../images/footer/back_footer.gif) repeat-x;}
+
+.F-Navi{width:100%; height:37px; background:url(../images/footer/back_f_navi.gif) repeat-x; }
+.F-Navi ul{width:1000px; height:37px; margin:0 auto;}
+.F-Navi ul li{display:inline;}
+
+
+#Footer .Footer-Con{width:1000px; margin:0 auto; }
+#Footer .Footer-Con p.F-Logo{width:149px; height:77px; float:left; margin-top:15px;}
+
+#Footer .Footer-Con .F-Rignt-Con{float:left; color:#ffffff; margin-top:25px; margin-left:30px;}
+#Footer .Footer-Con .F-Rignt-Con address{font-style:normal;}
+#Footer .Footer-Con .F-Rignt-Con ul{margin-top:5px;}
+#Footer .Footer-Con .F-Rignt-Con ul li{margin-top:5px;}
+#Footer .Footer-Con .F-Rignt-Con p.licensee-No{margin-top:5px;}
+#Footer .Footer-Con .copyright{clear:both; color:#FCF9F9; text-align:center; height:30px; line-height:100px;}
+
+

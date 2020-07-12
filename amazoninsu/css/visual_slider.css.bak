@@ -1,0 +1,491 @@
+/* The slider */
+.iviewSlider {
+	overflow: hidden;
+}
+
+/* The timer in the Slider */
+#iview2  #iview-timer {
+	position: absolute;
+	top:440px;
+	left:1800px;
+	z-index: 100;
+	border-radius: 5px;
+	cursor: pointer;
+	
+}
+
+#iview-timer div {
+	border-radius: 3px;
+}
+
+/* The Preloader in the Slider */
+#iview-preloader {
+	position: absolute;
+	z-index: 1000;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: #000 1px solid;
+	padding: 1px;
+	width: 100px;
+	height: 3px;
+}
+#iview-preloader div {
+	float: left;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	height: 3px;
+	background: #000;
+	width: 0px;
+}
+
+/* The strips and boxes in the Slider */
+.iview-strip {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+.iview-block {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.iview-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.iview-prevNav {
+	left:0px;
+}
+.iview-nextNav {
+	right:0px;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.iview-controlNav {
+	position:absolute;
+	z-index:9;
+}
+.iview-controlNav a {
+	z-index:9;
+	cursor:pointer;
+}
+.iview-controlNav a.active {
+	font-weight:bold;
+}
+.iview-controlNav .iview-items ul {
+	list-style: none;
+}
+.iview-controlNav .iview-items ul li {
+	display: inline;
+	position: relative;
+}
+.iview-controlNav .iview-tooltip {
+	position: absolute;
+}
+
+/* The captions in the Slider */
+.iview-caption {
+	position:absolute; 
+	top:10px;
+	z-index:4;
+	overflow: hidden;
+	cursor: default;
+}
+
+/* The video show in the Slider */
+.iview-video-show {
+	background: #000;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 101;
+}
+.iview-video-show .iview-video-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.iview-video-show .iview-video-container a.iview-video-close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background: #222;
+	color: #FFF;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	line-height: 29px;
+	font-size: 22px;
+	font-weight: bold;
+	overflow: hidden;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.iview-video-show .iview-video-container a.iview-video-close:hover {
+	background: #444;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+#iview2 {
+	position:relative;
+	display: block;
+	width: 1920px;
+	height: 535px;
+	/*background: #000;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 5px;
+	border-radius: 5px;
+	position: relative;
+	-webkit-box-shadow: 0 38px 30px -18px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 38px 30px -18px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 38px 30px -18px rgba(0, 0, 0, 0.5);*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+
+ #iview2 .iviewSlider {
+	display: block;
+	width: 1900px;
+	height: 535px;
+	overflow: hidden;
+	/*border-radius: 4px;*/
+}
+
+
+/* 슬라이드 제어 버튼 시작 */
+
+#iview2 .iview-controlNav {
+	position: absolute;
+	top: 500px;
+	left: 50%;
+
+}
+
+#iview2 .iview-controlNav a {
+	text-indent: -9999px;
+}
+
+#iview2 .iview-controlNav a.iview-control {
+	padding: 0px;
+	float: left;
+	width: 11px;
+	height: 11px;
+	background: url('../../img/bullets_2.png') no-repeat 0px 0px;
+	line-height: 0px;
+	margin-right: 7px;
+
+	
+}
+
+#iview2 .iview-controlNav a.iview-control.active {
+	background-position: 0px -11px;
+}
+
+#iview2 div.iview-directionNav {
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	z-index: 9;
+	width: 100%;
+}
+
+#iview2 div.iview-directionNav a {
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	width: 40px;
+	height: 100px;
+	background-image: url(../../img/nav_paddles.png);
+	text-indent: -9999px;
+}
+
+#iview2 div.iview-directionNav a:active {
+	background-image: url(../../img/nav_paddles_down.png);
+}
+
+#iview2 div.iview-directionNav a.iview-nextNav {
+	right: 20px;
+	background-position: 56px 0px;
+}
+
+#iview2 div.iview-directionNav a.iview-prevNav {
+	left: 20px;
+	background-position: -16px 0px
+}
+
+
+
+
+/*카피 문구 출력 시작 */
+
+
+
+
+.iview-caption {
+	background: url('../../img/caption-bg.png');
+	color: #FFF;
+	border-radius: 3px;
+	
+	font-family: Verdana;
+	font-size: 34px;
+	text-shadow: #000 1px 1px 0px;
+	
+
+}
+
+.iview-caption span{display:block; margin-top:10px;}
+
+.iview-caption.video-caption {
+	padding: 10px;
+}
+
+.iview-caption.caption1 {
+	background: #c4302b;
+
+	text-shadow: none;
+	
+	padding:20px 40px;
+	border:1px solid red;
+}
+
+.iview-caption.caption2 {
+	background: #00b4ff;
+	font-size: 36px;
+
+	text-shadow: none;
+	padding:20px 40px;
+}
+
+.iview-caption.caption3 {
+	background: #c4302b;
+	
+	text-shadow: none;
+	padding:20px 40px;
+}
+
+
+
+.iview-caption.caption4 {
+	background: #00b4ff;
+	font-size: 36px;
+	/*box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;*/
+	text-shadow: none;
+	padding:20px 40px;
+}
+
+
+
+#iview-preloader {
+	border: #666 1px solid;
+	width: 150px
+}
+
+#iview-preloader div {
+	background: #666;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+#iview2 {
+	position:relative;
+	display: block;
+	width: 1920px;
+	height: 535px;
+	/*background: #000;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 5px;
+	border-radius: 5px;
+	position: relative;
+	-webkit-box-shadow: 0 38px 30px -18px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 38px 30px -18px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 38px 30px -18px rgba(0, 0, 0, 0.5);*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+
+ #iview2 .iviewSlider {
+	display: block;
+	width: 1900px;
+	height: 535px;
+	overflow: hidden;
+	/*border-radius: 4px;*/
+}
+
+
+/* 슬라이드 제어 버튼 시작 */
+
+#iview2 .iview-controlNav {
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	z-index:10;
+	
+
+
+}
+
+#iview2 .iview-controlNav a {
+	text-indent: -9999px;
+}
+
+#iview2 .iview-controlNav a.iview-control {
+	padding: 0px;
+	float: left;
+	width: 11px;
+	height: 11px;
+	background: url('../images/main/bullets_2.png') no-repeat 0px 0px;
+	line-height: 0px;
+	margin-right: 7px;
+
+	
+}
+
+#iview2 .iview-controlNav a.iview-control.active {
+	background-position: 0px -11px;
+}
+
+#iview2 div.iview-directionNav {
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	z-index: 9;
+	width: 100%;
+}
+
+#iview2 div.iview-directionNav a {
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	width: 40px;
+	height: 100px;
+	background-image: url(../../img/nav_paddles.png);
+	text-indent: -9999px;
+}
+
+#iview2 div.iview-directionNav a:active {
+	background-image: url(../../img/nav_paddles_down.png);
+}
+
+#iview2 div.iview-directionNav a.iview-nextNav {
+	right: 20px;
+	background-position: 56px 0px;
+}
+
+#iview2 div.iview-directionNav a.iview-prevNav {
+	left: 20px;
+	background-position: -16px 0px
+}
+
+
+
+
+/*카피 문구 출력 시작 */
+
+
+
+
+.iview-caption {
+	background: url('../../img/caption-bg.png');
+	color: #FFF;
+	border-radius: 3px;
+	
+	font-family: Verdana;
+	font-size: 34px;
+	text-shadow: #000 1px 1px 0px;
+	
+	
+
+}
+
+.iview-caption span{display:block; margin-top:10px;}
+
+.iview-caption.video-caption {
+	padding: 10px;
+}
+
+.iview-caption.caption1 {
+	background: #c4302b;
+
+	text-shadow: none;
+	padding:20px 40px;
+}
+
+.iview-caption.caption2 {
+	background: #00b4ff;
+	font-size: 36px;
+
+	text-shadow: none;
+	padding:20px 40px;
+}
+
+.iview-caption.caption3 {
+	background: #c4302b;
+	
+	text-shadow: none;
+	padding:20px 40px;
+}
+
+
+
+.iview-caption.caption4 {
+	background: #00b4ff;
+	font-size: 36px;
+	/*box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 15px 0px;*/
+	text-shadow: none;
+	padding:20px 40px;
+}
+
+
+
+#iview-preloader {
+	border: 1px solid #666;
+	width: 150px
+}
+
+#iview-preloader div {
+	background: #666;
+}

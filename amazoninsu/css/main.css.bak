@@ -1,0 +1,250 @@
+
+
+
+/*비주얼배너 시작*/
+
+#Visual{margin-top:50px;}
+
+
+
+
+/*30초 아마존 배너 시작 */
+
+
+#Article .Section-A{width:100%; height:248px; margin:0 auto; background:#f1efef;}
+
+#Article .Section-A-Con{width:1200px; margin:0 auto;}
+#Article .Section-A .Amazon-30cho{width:800px; height:248px; float:left; background:#fff; }
+#Article .Section-A .Bnr-Skin{width:400px; height:248px; float:right;}
+
+
+#Article .Section-A .Amazon-30cho h3{width:80%; height:auto; text-align:center; margin:0 auto; margin-top:40px; color:#cc3333; font-size:22px;}
+#Article .Section-A .Amazon-30cho h3 span{display:block; font-size:46px; color:#000; margin-top:10px;}
+#Article .Section-A .Amazon-30cho p.Explain{font-weight:bold; color:#666666; margin:0 auto; margin-top:10px; text-align:center; width:85%; line-height:17px;}
+
+#Article .Section-A .Amazon-30cho p.Btn-Go{width:192px; height:37px; margin:15px auto; font-size:15px;} 
+#Article .Section-A .Amazon-30cho p.Btn-Go a{display:block; width:192px; height:37px; line-height:37px; background-color:#ed4f4f; color:#fff; font-weight:bold; text-align:center; border-radius:20px;}
+
+		
+#Article .Section-A .Bnr-Skin{width:400px; height:248px; float:left; }
+#Article .Section-A .Bnr-Skin p{text-indent:-9999px; overflow:hidden;}
+#Article .Section-A .Bnr-Skin p a{display:block; width:400px; height:248px; background:url(../images/main/bnr_30cho.jpg)  no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+background-size: cover; background-position: center center;}
+
+#Article .Section-A .Bnr-Skin p a:hover{ -webkit-animation: animatedBackground 0.5s ease-out 0.5;
+		-moz-animation: animatedBackground 0.5s ease-out 0.5;
+		animation: animatedBackground 0.5s ease-out 0.5;
+		-webkit-animation-fill-mode: forwards;
+		animation-fill-mode: forwards;
+}
+
+	@-webkit-keyframes animatedBackground {
+		0% {
+			-webkit-transform: scale(0.5, 0.5);
+			-moz-transform: scale(0.5, 0.5);
+			-ms-transform: scale(0.5, 0.5);
+			-o-transform: scale(0.5, 0.5);
+			transform: scale(0.5, 0.5)
+		}
+		100% {
+		-webkit-transform: scale(1.1, 1.1);
+		-moz-transform: scale(1.1, 1.1);
+		-ms-transform: scale(1.1, 1.1);
+		-o-transform: scale(1.1, 1.1);
+		transform: scale(1.1, 1.1)
+		} 
+
+	}
+	
+	
+	@-moz-keyframes animatedBackground {
+		0% {
+			-webkit-transform: scale(0.5, 0.5);
+			-moz-transform: scale(0.5, 0.5);
+			-ms-transform: scale(0.5, 0.5);
+			-o-transform: scale(0.5, 0.5);
+			transform: scale(0.5, 0.5)
+		}
+		100% {
+			-webkit-transform: scale(1.1, 1.1);
+			-moz-transform: scale(1.1, 1.1);
+			-ms-transform: scale(1.1, 1.1);
+			-o-transform: scale(1.1, 1.1);
+			transform: scale(1.1, 1.1)
+		}
+
+	}
+	@keyframes animatedBackground {
+		0% {
+			-webkit-transform: scale(1, 1);
+			-moz-transform: scale(1, 1);
+			-ms-transform: scale(1, 1);
+			-o-transform: scale(1, 1);
+			transform: scale(1, 1)
+		}
+		100% {
+			-webkit-transform: scale(1.1, 1.1);
+			-moz-transform: scale(1.1, 1.1);
+			-ms-transform: scale(1.1, 1.1);
+			-o-transform: scale(1.1, 1.1);
+			transform: scale(1.1, 1.1)
+		}
+
+	}
+
+
+
+
+
+/*홍보미디어관 / 아마존 가족관 / 아마존 채용정보*/
+#Article .Section-B{ width:1200px; height:248px; margin:0 auto; }
+#Article .Section-B h3{width:90%; height:30px; margin:0 auto; font-size:30px;  text-align:center; color:#fff;   padding-bottom:20px; padding-top:20px; padding-bottom:20px; border-bottom:1px solid #fff;}
+#Article .Section-B h3 img{margin-left:5px;}
+#Article .Section-B .Btn-More{position:absolute; top:35px; right:26px;}
+
+
+/* 홍보미디어관 */    
+#Article .Section-B .Media{width:33.3%; height:328px; float:left; background:#6a77bb; position:relative;}
+.Media h3{background:url(../images/main/bullet_white.png) 60px 24px no-repeat;}
+
+/*홍보미디어관 탭*/
+#Article .Section-B .Media .Media-Con{width:100%; height:auto; margin:0 auto; }
+#Article .Section-B .Media .Media-Con ul#Tab-Media{width:100%; height:37px; position:absolute; bottom:0; left:0; }
+#Article .Section-B .Media .Media-Con ul#Tab-Media .Tab-Media-A{width:33.3%; height:37px; float:left;}
+#Article .Section-B .Media .Media-Con ul#Tab-Media .Tab-Media-B{width:33.3%; height:37px; float:left;}
+#Article .Section-B .Media .Media-Con ul#Tab-Media .Tab-Media-C{width:33.3%; height:37px; float:left;}
+#Article .Section-B .Media .Media-Con ul#Tab-Media li a{display:block; color:#fff; font-weight:bold; text-align:center; line-height:37px; font-size:14px;}
+#Article .Section-B .Media .Media-Con ul#Tab-Media li.Tab-Media-A a{background-color:#7683c4;}
+#Article .Section-B .Media .Media-Con ul#Tab-Media li.Tab-Media-B a{background-color:#5f6db5;}
+#Article .Section-B .Media .Media-Con ul#Tab-Media li.Tab-Media-C a{background-color:#505d9f;}
+#Article .Section-B .Media .Media-Con ul#Tab-Media li a:hover{background-color:#2c3874;}
+#Article .Section-B .Media .Media-Con ul#Tab-Media li a.active{background-color:#2c3874;}
+
+/*공통 노출되는 썸네일 이미지 */
+.Section-B  dl{width:30%; height:auto; float:left; position:relative; margin-left:10px; margin-top:30px;}
+.Section-B  dl dt span{position:absolute; top:0; left:0; }
+.Section-B  dl dd{color:#fff; font-size:14px; text-align:center; margin-top:10px; line-height:20px;}
+
+
+/*홍보미디어관 - 아마존발자취 시작 */
+
+.Amazon-History-Con{clear:both; width:100%; height:328px; float:left; }
+
+
+
+
+
+/* 아마존 가족관 */
+.Section-B .Family-Story{width:33.3%; height:328px; float:left; background:#62bdc2; position:relative;}
+.Family-Story h3{background:url(../images/main/bullet_white.png) 60px 24px no-repeat;}
+
+
+#Article .Section-B .Family-Story .Family-Story-Con{width:100%; height:auto; margin:0 auto; }
+#Article .Section-B .Family-Story .Family-Story-Con ul#Tab-Family{width:100%; height:37px; position:absolute; bottom:0; left:0; }
+#Article .Section-B .Family-Story .Family-Story-Con ul#Tab-Family .Tab-Family-A{width:50%; height:37px; float:left;}
+#Article .Section-B .Family-Story .Family-Story-Con ul#Tab-Family .Tab-Family-B{width:50%; height:37px; float:left;}
+#Article .Section-B .Family-Story .Family-Story-Con ul#Tab-Family li a{display:block; color:#fff; font-weight:bold; text-align:center; line-height:37px; font-size:14px;}
+#Article .Section-B .Family-Story .Family-Story-Con ul#Tab-Family li.Tab-Family-A a{background-color:#39b9c0;}
+#Article .Section-B .Family-Story .Family-Story-Con ul#Tab-Family li.Tab-Family-B a{background-color:#50abb0;}
+#Article .Section-B .Family-Story .Family-Story-Con ul#Tab-Family li a:hover{background-color:#388589;}
+#Article .Section-B .Family-Story .Family-Story-Con ul#Tab-Family li a.active{background-color:#388589;}
+
+
+#Article .Section-B .Family-Story ul.board-list {width:80%; height:auto; margin:0 auto; margin-top:30px; color:#fff; }
+#Article .Section-B .Family-Story ul.board-list li{font-size:14px; font-weight:bold; margin-top:20px; background:url(../images/main/bullet_white.gif) 0  5px no-repeat; text-indent:15px;} 
+
+
+/* 아마존 채용정보 */
+
+.Section-B .Recruiting-Info{width:33.4%; height:328px; float:left; background:#eb5255; position:relative;}
+.Recruiting-Info h3{background:url(../images/main/bullet_white.png) 15px 24px no-repeat;}
+
+.Recruiting-Info ul{width:100%; height:auto; margin:0 auto; }
+.Recruiting-Info ul li{width:33.3%; float:left; text-align:center; color:#fff; height:122px; margin-top:7px; }
+.Recruiting-Info ul li span {display:block; margin-top:10px; font-weight:bold;}
+.Recruiting-Info ul li span em{display:block; line-height:22px;}
+
+.Recruiting-Info ul li a{margin:0 auto;}
+.Recruiting-Info ul li.Recruiting-Icon-A a{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_a.png) no-repeat; } 
+.Recruiting-Info ul li.Recruiting-Icon-A a:hover{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_over_a.png) no-repeat; }
+
+.Recruiting-Info ul li.Recruiting-Icon-B a{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_b.png) no-repeat; } 
+.Recruiting-Info ul li.Recruiting-Icon-B a:hover{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_over_b.png) no-repeat; }
+
+.Recruiting-Info ul li.Recruiting-Icon-C a{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_c.png) no-repeat; } 
+.Recruiting-Info ul li.Recruiting-Icon-C a:hover{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_over_c.png) no-repeat; }
+
+.Recruiting-Info ul li.Recruiting-Icon-D a{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_d.png) no-repeat; } 
+.Recruiting-Info ul li.Recruiting-Icon-D a:hover{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_over_d.png) no-repeat; }
+
+.Recruiting-Info ul li.Recruiting-Icon-E a{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_e.png) no-repeat; } 
+.Recruiting-Info ul li.Recruiting-Icon-E a:hover{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_over_e.png) no-repeat; }
+
+.Recruiting-Info ul li.Recruiting-Icon-F a{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_f.png) no-repeat; } 
+.Recruiting-Info ul li.Recruiting-Icon-F a:hover{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_over_f.png) no-repeat; }
+
+.Recruiting-Info ul li.Recruiting-Icon-G a{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_g.png) no-repeat; } 
+.Recruiting-Info ul li.Recruiting-Icon-G a:hover{display:block; width:66px; height:68px; background:url(../images/main/btn_recruiting_over_g.png) no-repeat; }
+
+
+
+
+/* 사진 / 영상관 및 전국지사 FC 모집  */
+
+.Section-C{ clear:both; width:1200px; height:248px; margin:0 auto; }
+
+
+
+
+/* 사진 / 영상관*/
+.Photo-Video{width:800px; height:328px; float:left; background-color:#f6f5f5; position:relative;}
+
+.Photo-Video p.Btn-More{position:absolute; top:35px; right:26px;}
+
+
+.Photo-Video .Photo-Video-Con{width:100%; height:auto;}
+.Photo-Video-Con h3{width:90%; height:auto; text-align:center; margin:0 auto; color:#000; margin-top:20px; padding-bottom:20px;  font-size:30px; background:url(../images/main/bullet_red.png) 240px 5px no-repeat; border-bottom:1px solid #000;}
+.Photo-Video .Photo-Video-Con #Tab-Photo-Video{width:100%;  height:37px; position:absolute; bottom:0; left:0; }
+.Photo-Video .Photo-Video-Con #Tab-Photo-Video li{width:33.33%; height:37px;float:left;}
+.Photo-Video .Photo-Video-Con #Tab-Photo-Video li a{display:block; width:100%; height:37px; color:#fff; font-weight:bold; text-align:center; line-height:37px; font-size:14px; }
+.Photo-Video .Photo-Video-Con #Tab-Photo-Video li.Tab-Photo-Video-A a, li.Tab-Photo-Video-C a 
+{background:#545659;} 
+.Photo-Video .Photo-Video-Con #Tab-Photo-Video li.Tab-Photo-Video-B a{background:#505d9f;} 
+.Photo-Video .Photo-Video-Con #Tab-Photo-Video li a:hover{background-color:#2c3874;}
+.Photo-Video .Photo-Video-Con #Tab-Photo-Video li a.active{background-color:#2c3874;}
+
+/*공통 노출되는 썸네일 이미지 */
+
+.Amazon-News-Con dl,
+.Amazon-Travel-Con dl,
+.Amazon-Event-Con dl{width:18%; margin-top:40px; margin-left:15px; float:left; }
+.Photo-Video-Con dl dt{width:100%; margin-left:5px; position:relative;}
+.Photo-Video-Con dl dt span{position:absolute; top:0; left:0;}
+.Photo-Video-Con dl dd{text-align:center; color:#000; margin-top:10px;}
+
+
+
+
+
+
+/* 전국지사 FC 모집*/
+.Fc_Branch_Recruitment{width:400px; height:328px; float:left; font-size:12px;}
+
+
+
+
+/* 아마존 패밀리 사이트*/
+
+.Amazon-Family-Site{clear:both; width:100%; height:100%; float:left; margin:0 auto; background:#dedede;  } 
+
+.Amazon-Family-Site-Con{width:1200px; height:100%; margin:0 auto;}
+.Amazon-Family-Site-Con h3{width:90%; height:auto; text-align:center; margin:0 auto; color:#000; margin-top:20px; padding-bottom:20px;  font-size:30px; background:url(../images/main/bullet_red.png) 360px 5px no-repeat; border-bottom:1px solid #000;}
+
+.Amazon-Family-Site-Con .Site-Conents{width:90%; height:auto; margin:0 auto;}
+
+.Amazon-Family-Site-Con .Site-Con {width:23%; float:left;  margin-left:18px; margin-top:30px; padding-bottom:30px; } 
+.Amazon-Family-Site-Con .Site-Con dl{width:220px;  margin:0 auto; padding-bottom:15px; background:#fff; }
+.Amazon-Family-Site-Con .Site-Con dl dt{width:219px; height:108px;}
+.Amazon-Family-Site-Con .Site-Con dl dd.h4{color:#505d9f; text-align:center; font-weight:bold; height:40px;  line-height:40px;}
+.Amazon-Family-Site-Con .Site-Con dl dd.Site-List{width:220px; height:30px; text-align:center; font-weight:bold; font-size:12px; color:#000;}
+.Amazon-Family-Site-Con .Site-Con dl dd.Site-List a{display:inline-block; background:#eb5255; width:65px; height:16px; line-height:16px;color:#fff; text-align:center; font-size:11px; font-weight:normal;}  

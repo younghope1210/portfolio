@@ -1,0 +1,9 @@
+
+.Footer-Conents{width:1200px; height:auto; margin:0 auto; }
+.Footer-Conents	ul.F-Menu{width:1200px; padding-top:12px;}
+.Footer-Conents	ul.F-Menu li{float:left; font-weight:bold; margin-right:20px;}
+.Footer-Conents	ul.F-Menu li a{display:block; color:#fff;}
+.Footer-Conents address{clear:both; width:1200px; margin-top:40px; font-style:normal; color:#fff;}
+.Footer-Conents address span{display:block; margin-top:5px;}
+.Footer-Conents .copyright{margin-top:10px; margin-top:15px; color:#fff;}
+

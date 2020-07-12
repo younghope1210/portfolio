@@ -1,0 +1,493 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <title>틸만 중앙 전시장</title>
+	 <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/header.css" />
+	  <link rel="stylesheet" type="text/css" href="../css/common.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/build.css" />
+	 <!--<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />-->
+
+
+
+ </head>
+ <body>
+
+
+	<div id="Wrapper">
+		
+		<div id="Container">
+
+			<div id="Header">
+				<div id="Header-Con">
+				
+				<h1><a href="#"><img src="../images/header/h1_logo.gif" alt="틸만 로고" /></a></h1>
+				
+				<!--★★★★★★★★★★★ 유틸메뉴 시작 ★★★★★★★★★★★  -->
+
+				<div id="Util-Menu">
+					
+
+						<ul>
+							<li class="Info-A"><img src="../images/header/icon_headset.png" alt="제품문의 아이콘" />제품문의</li>
+							<li class="Info-B"><img src="../images/header/icon_telephone.png" alt="전화번호출력" />02-3476-0901</li>
+							<li class="Info-C"><img src="../images/header/icon_phone.png" alt="핸드폰번호출력" />010-6730-0440</li>
+						</ul>
+					
+				</div><!--e://Util-Menu-->
+
+				<!-- ★★★★★★★★★★★ GNB 시작 ★★★★★★★★★★★ -->
+
+				<div id="Gnb">
+				
+					<ul id="Gnb_Bar">
+						<li><a href="#">회사소개</a></li>		
+						<li><a href="#">제품소개</a></li>	
+						<li><a href="#">제품타입</a></li>	
+						<li><a href="#">파트너모집</a></li>	
+						<li><a href="#">커뮤니티</a></li>	
+					</ul>
+
+					<p><a href="#">빠른 상담예약</a></p>
+					
+				</div><!--e://Gnb-->
+				<div id="Gnb-Sub-Con" style="display:none;">
+					
+					<div id="Gnb-Sub-Contents" >
+						<ul>
+							<li><a href="#">틸만이란?</a></li>
+							<li><a href="#">인증서리스트</a></li>
+							<li><a href="#">전시장갤러리</a></li>
+							<li><a href="#">오시는길</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">상품리스트</a></li>
+							<li><a href="#">전기레인지란?</a></li>
+							<li><a href="#">틸만소개영상</a></li>
+							<li><a href="#">서비스안내</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">인덕션특징</a></li>
+							<li><a href="#">하이라이트특징</a></li>
+							<li><a href="#">타이별차이점</a></li>
+							
+						</ul>
+						<ul>
+							<li><a href="#">파트너모집</a></li>
+							<li><a href="#">파트너신청</a></li>
+							
+						</ul>
+						<ul>
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">Q&A</a></li>
+							<li><a href="#">설치후기</a></li>
+							<li><a href="#">EVENT</a></li>
+						</ul>
+
+					</div><!--e://Gnb-Sub-Contents-->
+
+				</div>	<!--e://Gnb-Sub-Con-->
+
+				</div><!--e://Header-Con-->
+			</div><!--e://header-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+
+		
+		
+			<script src="../js/jquery-1.9.1.min.js"></script>
+		    <script src="../js/jquery.slides.min.js"></script>
+
+
+			<script>
+				var zoomx = 100;
+				  $(document).ready(function() {
+					$("#Gnb_Bar").hover(
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideDown(400);
+					  },
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideUp(600);
+					  }
+					);
+
+					$("#Gnb-Sub-Con").hover(
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideDown(400);
+					  },
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideUp(600);
+					  }
+					);
+
+				  
+
+				//class="tabBtn tabBtngroupA" tar="lastA_1" tarc="lastA_1" tarx="tabBtngroupA"
+				  });
+
+				</script>
+			
+
+			<div id="Contents">
+
+
+			<!-- ★★★★★★★★★★★ visual ★★★★★★★★★★★ -->
+				
+				<div id="Sub-Visual">
+					  <div id="Visual-Con">
+						
+						
+						<p class="Top-Skin"><span class="Tiny-Title">Intelligent Look </span>틸만의 디지털 원터치 패널방식 <span class="Squer">Thielmann Ceramic Range</span></p>
+							
+						</div>
+					</div><!--e://Sub-Visual-->
+					
+					<div id="build">
+					<div id="build-Con">
+						<h3><span>프레임<em>설치유형</em></span></h3>
+
+						
+							<div id="tab">
+									<ul>
+										<li class="Tab-A fst active"><a href="#;" onclick="tab_menu(0);">빌트인</a></li>
+										<li class="Tab-B"><a href="#;" onclick="tab_menu(1);">2단 프레임</a></li>
+										<li class="Tab-C"><a href="#;" onclick="tab_menu(2);">1단 프레임</a></li>
+										<li class="Tab-D"><a href="#;" onclick="tab_menu(3);">h55 프레임</a></li>
+										<li class="Tab-E"><a href="#;" onclick="tab_menu(4);">630 프레임</a></li>
+										<li class="Tab-F"><a href="#;" onclick="tab_menu(5);">750(H) 프레임</a></li>
+										<li class="Tab-G"><a href="#;" onclick="tab_menu(6);">750(L)  프레임</a></li>
+										<li class="Tab-H"><a href="#;" onclick="tab_menu(7);">870 프레임</a></li>
+										<li class="Tab-I"><a href="#;" onclick="tab_menu(8);">플랫 프레임</a></li>
+										<li class="Tab-J"><a href="#;" onclick="tab_menu(9);">프론트 프레임</a></li>
+
+									</ul>
+							    </div><!--e://tab-->	
+										
+										<!--프레임 설치유형 상품별 리뷰 시작 -->
+
+								<div class="Build-Contents">
+
+								<!--빌트인 설치 시작-->
+									<div class="menu_tab00 mTs">
+										<h4>
+											<img src="../images/build/h4_icon_builtin.png" alt="빌트인설치" />
+											<span>빌트인 설치
+												<em>싱크대 상판을 규격 사이즈로 타공(자르는 작업)하여 전기레인지를 올려서 싱크대에 매립하는 방식입니다</em>
+												<em class="Col-Red">빌트인 타공 규격 : 가로 x 세로 x 깊이 / 560 x 490 x 55 (단위 : mm)</em>
+											</span>
+										</h4>
+										<div class="Build-Floor-Plan">
+											<p><img src="../images/build/builtin_ex.png" alt="빌트인 시공도면"  width="100%" /></p>
+											<p class="Build-Floor-Plan-Explane">
+												빌트인 시공도면
+												<span>※ 본 시공도면은 틸만 3구 이상 제품의 도면입니다</span>
+											
+											</p>
+
+										</div><!--e://Build-Floor-Plan-->
+										
+									    <div class="Build-Photo_List">
+											<ul>
+												<li><img src="../images/build/builtin_1_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/builtin_1_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/builtin_2_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/builtin_2_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/builtin_3_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/builtin_3_after.jpg" alt="설치후사진"  width="100%" /></li>
+											</ul>
+											
+										</div><!--e://Build-Photo_List-->
+										
+									</div><!--e://menu_tab00 mTs-->
+									
+									
+									<!--2단프레임 설치 시작-->
+										<div class="menu_tab01 mTs" style="display:none;">
+											<h4>
+												<img src="../images/build/h4_icon_2dan.png" alt="2단 프레임설치" />
+												<span>2단 프레임
+													<em>기본적인 환경 또는 일반적인 가스레인지를 철거 후 대체하는 환경에 적용</em>
+													<em class="Col-Red">기본 스탠드형 / 높이 : 15cm</em>
+												</span>	
+											</h4>
+											
+											<div class="Build-Photo_List">
+												<ul>
+													<li><img src="../images/build/2dan_1_before.jpg" alt="설치전사진" width="100%" /></li>
+													<li class="After"><img src="../images/build/2dan_1_after.jpg" alt="설치후사진"  width="100%" /></li>
+													<li><img src="../images/build/2dan_2_before.jpg" alt="설치전사진" width="100%" /></li>
+													<li class="After"><img src="../images/build/2dan_2_after.jpg" alt="설치후사진"  width="100%" /></li>
+													<li><img src="../images/build/2dan_3_before.jpg" alt="설치전사진" width="100%" /></li>
+													<li class="After"><img src="../images/build/2dan_3_after.jpg" alt="설치후사진"  width="100%" /></li>
+												</ul>
+												
+											</div><!--e://Build-Photo_List-->
+								
+									</div><!--e://menu_tab01 mTs-->
+									
+
+									<!--1단프레임 설치 시작-->
+									<div class="menu_tab02 mTs" style="display:none;">
+										
+										<h4>
+											<img src="../images/build/h4_icon_1dan.png" alt="2단 프레임설치" />
+											<span>1단 프레임
+												<em>빌트인 설치를 하지 못하거나 싱크대 위에 바로 올려놓고 사용할 때 적용</em>
+												<em class="Col-Red">높이 : 8cm</em>
+											</span>
+										</h4>
+										
+										<div class="Build-Photo_List">
+											<ul>
+												<li><img src="../images/build/1dan_1_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/1dan_1_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/1dan_2_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/1dan_2_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/1dan_3_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/1dan_3_after.jpg" alt="설치후사진"  width="100%" /></li>
+											</ul>
+											
+										</div><!--e://Build-Photo_List-->
+									</div><!--e://menu_tab02 mTs-->
+									
+
+
+									<!--h55 프레임 설치 시작-->
+									<div class="menu_tab03 mTs" style="display:none;">
+										<h4>
+											<img src="../images/build/h4_icon_h55.png" alt="2단 프레임설치" />
+											<span>H55 프레임
+												<em>빌트인 설치가 안 되거나 사용 중인 싱크대를 타공할 수 없는 경우 적용</em>
+												<em class="Col-Red">높이 : 5.5cm</em>
+											</span>
+										</h4>
+										
+										<div class="Build-Photo_List">
+											<ul>
+												<li><img src="../images/build/h55_1_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/h55_1_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/h55_2_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/h55_2_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/h55_3_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/h55_3_after.jpg" alt="설치후사진"  width="100%" /></li>
+											</ul>
+											
+										</div><!--e://Build-Photo_List-->
+								
+									</div><!--e://menu_tab03 mTs-->
+									
+									
+									<!--630 프레임 설치 시작-->
+									<div class="menu_tab04 mTs" style="display:none;">
+										
+										<h4>
+											<img src="../images/build/h4_icon_630.png" alt="2단 프레임설치" />
+											<span>630 프레임
+												<em>빌트인 환경이지만 다른 기기로 인하여 매립 깊이가 부족한 경우 적용</em>
+											</span>
+										</h4>
+										
+										<div class="Build-Photo_List">
+											<ul>
+												<li><img src="../images/build/630_1_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/630_1_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/630_2_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/630_2_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/630_3_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/630_3_after.jpg" alt="설치후사진"  width="100%" /></li>
+											</ul>
+											
+										</div><!--e://Build-Photo_List-->
+
+										
+									</div><!--e://menu_tab04 mTs-->
+									
+
+									<!--750(h)프레임 설치 시작-->
+									<div class="menu_tab05 mTs" style="display:none;">
+									
+										<h4>
+											<img src="../images/build/h4_icon_750_h.png" alt="2단 프레임설치" />
+											<span>750(H) 프레임
+												<em>빌트인 설치가 안 되거나 사용 중인 싱크대를 타공 할 수 없는 경우 적용</em>
+										    </span>
+										</h4>
+										
+										<div class="Build-Photo_List">
+											<ul>
+												<li><img src="../images/build/750h_1_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/750h_1_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/750h_2_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/750h_2_after.jpg" alt="설치후사진"  width="100%" /></li>
+											
+											</ul>
+										</div><!--e://Build-Photo_List-->	
+											
+									</div><!--e://menu_tab05 mTs-->
+									
+
+									<!--750(L)프레임 설치 시작-->
+										
+									<div class="menu_tab06 mTs" style="display:none;">
+										<h4>
+											<img src="../images/build/h4_icon_750_l.png" alt="2단 프레임설치" />
+											<span>750(L) 프레임
+												<em>빌트인 설치가 안 되거나 사용 중인 싱크대를 타공 할 수 없는 경우 적용</em>
+											</span>
+										</h4>
+										
+										<div class="Build-Photo_List">
+											<ul>
+												<li><img src="../images/build/750l_1_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/750l_1_after.jpg" alt="설치후사진"  width="100%" /></li>
+												
+											</ul>
+										</div><!--e://Build-Photo_List-->	
+
+									</div><!--e://menu_tab06 mTs-->
+									
+									<!--870 프레임 설치 시작-->
+									<div class="menu_tab07 mTs" style="display:none;">
+										<h4>
+											<img src="../images/build/h4_icon_870.png" alt="2단 프레임설치" />
+											<span>870 프레임
+												<em>가스레인지 가로가 긴 타입의 경우 또는 타공 규격이 넓은 환경에 설치할 때 적용</em>
+											</span>
+										</h4>
+										
+										<div class="Build-Photo_List">
+											<ul>
+												<li><img src="../images/build/870_1_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/870_1_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/870_2_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/870_2_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/870_3_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/870_3_after.jpg" alt="설치후사진"  width="100%" /></li>
+											
+											
+											</ul>
+										</div><!--e://Build-Photo_List-->	
+									</div><!--e://menu_tab07 mTs-->
+									
+
+									<!--플랫 프레임 설치 시작-->
+									<div class="menu_tab08 mTs" style="display:none;">
+										<h4>
+											<img src="../images/build/h4_icon_flat.png" alt="2단 프레임설치" />
+											<span>플랫 프레임
+												<em>가스레인지 가로가 긴 타입의 경우 또는 타공 규격이 넓은 환경에 설치할 때 적용</em>
+											</span>
+										</h4>
+										
+										<div class="Build-Photo_List">
+											<ul>
+												<li><img src="../images/build/flat_1_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/flat_1_after.jpg" alt="설치후사진"  width="100%" /></li>
+												
+											</ul>
+										</div><!--e://Build-Photo_List-->	
+									</div><!--e://menu_tab08 mTs-->
+									
+									<!--프론트프레임 설치 시작-->
+									<div class="menu_tab09 mTs" style="display:none;"> 
+										<h4>
+											<img src="../images/build/h4_icon_front.png" alt="2단 프레임설치" />
+											<span>프런트 프레임
+												<em>그릴 가스레인지를 철거 후 전면에 생긴 빈 공간을 가려주기 위해 적용</em>
+											</span>
+										</h4>
+										
+										<div class="Build-Photo_List">
+											<ul>
+												<li><img src="../images/build/front_1_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/front_1_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/front_2_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/front_2_after.jpg" alt="설치후사진"  width="100%" /></li>
+												<li><img src="../images/build/front_3_before.jpg" alt="설치전사진" width="100%" /></li>
+												<li class="After"><img src="../images/build/front_3_after.jpg" alt="설치후사진"  width="100%" /></li>
+											
+											
+											</ul>
+										</div><!--e://Build-Photo_List-->	
+									</div><!--e://menu_tab10 mTs-->
+								
+								</div><!--e://Build-Contents-->	
+
+
+						<script type="text/javascript" src="../js/jquery-latest.js"></script>
+							<script type="text/javascript">
+
+
+							// 탭 메뉴 
+							function tab_menu(num){	
+								var f = $('#tab').find('li');
+								for ( var i = 0; i < f.length; i++ ) {			
+									if ( i == num) {			
+										f.eq(i).addClass('active');	
+										$('.menu_tab0' + i ).show();
+									} else {
+										f.eq(i).removeClass('active');					
+										$('.menu_tab0' + i ).hide();
+									}
+								}
+							}
+
+
+
+							</script>
+
+
+
+					</div><!--e://build-Con-->	
+					
+				</div><!--e://build-->	 
+				
+					
+			</div><!--e://Contents-->
+		
+		</div><!--e://Container-->
+
+		<div id="Footer">
+			<div id="Footer-Con">
+				<h2><img src="../images/footer/f_logo.gif" alt="F-logo" /></h2>
+		
+				<address>
+					
+					<ul>
+						<li>| 상호 : 틸만㈜ | 사이트명 : 틸만중앙전시장 | 대표 : 채수민 </li>
+						<li>| 사업자등록번호 : 107-87-67225 | 통신판매업신고 : 2012-서울서초-0543호 | 고객센터 : 02-3476-0901 </li>
+						<li>| 방문판매업신고번호 : 제 2012-서울서초-0055호  제 2012-서울서초-0055호 | 개인정보관리책임자 : 심정은 </li>
+						<li>| 이메일 : webmaster@tilman.co.kr  | 주소 : 서울 서초구 반포동 107-6번지 대국빌딩 1층 </li>
+						<li class="Copyright">Copyrightⓒ 2016 CSM㈜ All rights </li>
+					</ul>
+					
+				</address>
+				
+				
+				
+			</div><!--e://Footer-Con-->	
+			<div style="clear:both; width:1800px;"></div>
+				<div id="Certifi-Mark">
+					<ul>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_kcl.gif" alt="한국건설 생활환경 시험연구원" /><span>한국건설생활환경<em>시험연구원</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_ccm.gif" alt="소비자중심경영 인증" /><span>소비자중심경영<em>인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_ktc.gif" alt="한국전기전자시험연구소 적자파 적합인증" /><span>한국전기전자시험연구소<em>적자파 적합인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_iec.gif" alt="안전보건공단 위험성평가 인증" /><span>안전보건공단<em>위험성평가 인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_kipo.gif" alt="특허청상표등록" /><span>특허청<em>상표등록</em></span></a></li>
+
+					</ul>
+				</div><!--e://Certifi-Mark-->	
+		
+		</div><!--e://Footer-->	
+	
+		
+	</div><!--e://Wrapper-->
+
+  
+
+ </body>
+</html>

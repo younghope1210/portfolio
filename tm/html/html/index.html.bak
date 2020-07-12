@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">-->
+  <title>보험 TM교육 전문회사</title>
+
+	   <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	  <link rel="stylesheet" type="text/css" href="../css/main.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/header.css" />
+	   <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+      <link rel="stylesheet" type="text/css" href="../css/animate.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/animate.min.css">
+
+	
+
+
+	
+ </head>
+ <body>
+
+	<div id="Wrappper">
+
+		<div id="header">
+		
+			<div id="Util">
+				<ul id="utile-menu">
+				
+					<li><a href="#">로그인</a></li>
+					<li><a href="#">회원가입</a></li>
+
+				</ul><!--e://util-menu-->
+			
+			</div>
+
+			<div class="header-container">
+				<div class="header-con">
+					
+				
+				<h1><a href="index.html"><img src="../images/header/h1.png" alt="tm전문교육원" /></a></h1>
+					
+				<div id="gnb">
+
+					<ul>
+						<li><a href="../images/sub/sub_1.jpg">회사소개</a></li>
+						<li><a href="../images/sub/sub_2.jpg">강사진소개</a></li>
+						<li><a href="../images/sub/sub_3.jpg">프로그램안내</a></li>
+						<li><a href="#">교육후기</a></li>
+						<li><a href="#">공지사항</a></li>
+					</ul>
+
+
+				</div><!--e://gnb-->
+
+				</div><!--e://header-con-->	
+			</div><!--e://header-container-->
+
+		
+		</div><!--e:header-->
+
+
+
+		<div id="container" >
+			
+			<div id  ="visual">
+
+				<h4><img src="../images/main/visual-slogon.png" alt="20년의 TM노하우와 상품에 대한 전문교육을 통해 일회성 교육이 아닌 
+센터 구축, 상품컨설팅, 코칭과정까지 차별화된 현장교육을 추구합니다." /></h4>
+
+				<p><img src="../images/main/visual_a.jpg" alt="20년의 TM노하우와 상품에 대한 전문교육을 통해 일회성 교육이 아닌 
+센터 구축, 상품컨설팅, 코칭과정까지 차별화된 현장교육을 추구합니다." /></p>
+
+			</div><!--e://visual-->
+
+
+
+			<div id="Contents">
+
+				<div id="Con-A">
+						
+					<div class="bnr-A-con">
+						<h3>강사진 소개</h3>
+						<dl>
+							<dt>TM전문교육원 최고의 <span>전문 강사진을 소개합니다.</span></dt>
+						    <dl><a href="#">바로가기 <span> > </span></a></dl>
+						</dl>
+						<p class="lightSpeedIn animated"><img src="../images/main/bnr_icon_a.png"  alt="이미지처리" /></p>
+					</div><!--e://bnr-A-con-->
+
+
+					<div class="bnr-B-con">
+						<h3>교육프로그램</h3>
+						<dl>
+							<dt>TM전문교육원 교육프로그램이  <span>궁금하세요?</span></dt>
+						    <dl><a href="#">바로가기 <span> > </span></a></dl>
+						</dl>
+						<p class="lightSpeedIn animated"><img src="../images/main/bnr_icon_b.png"  alt="이미지처리" /></p>
+					</div><!--e://bnr-B-con-->
+
+
+					<div class="bnr-C-con">
+						<h3>교육문의</h3>
+						<dl>
+							<dt>TM전문교육원 교육에 대해  <span>궁금하신가요?</span></dt>
+						    <dl><a href="#">바로가기 <span> > </span></a></dl>
+						</dl>
+						<p class="lightSpeedIn animated"><img src="../images/main/bnr_icon_c.png"  alt="이미지처리" /></p>
+					</div><!--e://bnr-C-con-->
+
+
+				</div><!--e://Con-A-->
+
+				<div id="Con-B" >
+						
+					<ul>
+						<li class="block animate"  data-animate="fadeInLeft" data-duration="2.0s" data-delay="0.1s"><a href="#"><img src="../images/main/bnr_b_1.jpg" alt="교육신청하기" /></a></li>
+						<li class="block animate"  data-animate="fadeInRight" data-duration="2.0s" data-delay="0.1s"><a href="#"><img src="../images/main/bnr_b_2.jpg" alt="교육신청하기" /></a></li>
+						<li class="block animate"  data-animate="fadeInLeft" data-duration="2.0s" data-delay="0.1s"><a href="#"><img src="../images/main/bnr_b_3.jpg" alt="교육신청하기" /></a></li>
+					
+					</ul>
+
+				</div><!--e://Con-B-->
+				<div id="Con-C">
+					
+						<div class="bnr-B-con-back">
+
+							
+								<h4><img src="../images/main/h4_title.png" alt="TMR지원하기" /></h4>
+								<ul>
+									<li class="block animate"  data-animate="fadeInDown" data-duration="2.0s" data-delay="0.1s"><a href="#"><img src="../images/main/btn_tmr.png" alt="TMR지원하기" /></a></li>
+									<li class="block animate"  data-animate="fadeInLeft" data-duration="2.0s" data-delay="0.1s"><a href="#"><img src="../images/main/btn_techer.png" alt="전문강사지원하기" /></a></li>
+								</ul>
+
+						</div><!--e://bnr-B-contents-back-->
+					<div class="bnr-B-contents-back">
+						<img src="../images/main/info_back.jpg" alt="TMR지원하기" />
+						
+				</div><!--e://bnr-B-con-back-->
+
+				</div><!--e://Con-C-->
+
+				<div id="Con-D">
+
+						<div id="notice">
+
+							<h4><span>공지사항</span><em><a href="#"><img src="../images/main/btn_more.png" alt="more" /></a></em></h4>
+
+							<ul>
+								<li><a href="#">공지사항 공지사항 공지사항..</a><span>2017-08-15</span></li>
+								<li><a href="#">공지사항 공지사항 공지사항..</a><span>2017-08-15</span></li>
+								<li><a href="#">공지사항 공지사항 공지사항..</a><span>2017-08-15</span></li>
+								<li><a href="#">공지사항 공지사항 공지사항..</a><span>2017-08-15</span></li>
+								<li><a href="#">공지사항 공지사항 공지사항..</a><span>2017-08-15</span></li>
+							
+							</ul>
+
+						</div><!--e://notice-->
+
+
+						<div id="review">
+
+							<h4><span>교육후기</span><em><a href="#"><img src="../images/main/btn_more.png" alt="more" /></a></em></h4>
+
+							<ul>
+								<li><a href="#">교육후기 남깁니다.발전된.. </a><span>2017-08-15</span></li>
+								<li><a href="#">교육후기 남깁니다.발전된.. </a><span>2017-08-15</span></li>
+								<li><a href="#">교육후기 남깁니다.발전된.. </a><span>2017-08-15</span></li>
+								<li><a href="#">교육후기 남깁니다.발전된.. </a><span>2017-08-15</span></li>
+								<li><a href="#">교육후기 남깁니다.발전된.. </a><span>2017-08-15</span></li>
+							
+							</ul>
+
+						</div><!--e://eview-->
+
+
+						<div id="costomer">
+							
+							<img src="../images/main/customer.jpg" alt="문의전화번호" />
+							
+						</div><!--e://costomer-->
+
+				</div><!--e://Con-D-->
+
+			</div><!--e://contents-->
+		
+		</div><!--e://container-->
+
+
+		<div id="footer">
+
+			<div id="footer-Con">
+
+				<div id="f-Menu">
+
+					<ul>
+						<li><a href="#">이용약관</a></li>
+						<li class="line"> | </li>
+						<li><a href="#">개인정보 취급방침</a></li>
+					
+					</ul>
+					
+				</div><!--e://f-Menu-->
+				
+				<div class="Addr-Con">
+					<p class="f_logo"><img src="../images/main/f_logo.png" alt="more" /></p>
+					<div class="Address-Contents">
+					<address>서울 영등포구 문래동3가 대소빌딩6층 
+<span>사업자 : 123-12-1234      TEL: 02-0000-0000      FAX: 02-0000-0000</span></address>
+					<p class="copyright">Copyright ⓒ TM PRO. All rights reserved.</p>
+					</div>	
+				</div><!--e://Addr-Con-->
+		
+		</div><!--e://footer-Con-->
+
+		
+		</div><!--e://footer-->
+
+
+	<div><!--Wrapper-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/scrolla.jquery.min.js"></script>
+	
+		<script>
+
+		$('.animate').scrolla({
+			mobile: false,
+			once: false
+		});
+
+		$('#button-show-window').click(function() {
+			var template = $('#modal-template').html();
+			$('body').append(template);
+			$('.animate').scrolla('bind');
+			$('section.modal .modal-close').click(function() {
+				$(this).closest('section.modal').remove();
+			});
+
+			return false;
+		});
+
+	</script>
+
+
+  </body>
+</html>

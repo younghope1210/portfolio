@@ -1,0 +1,16 @@
+
+
+#footer{width:100%; height:190px; background:url(../images/footer/back_footer.jpg)repeat-x}
+#footer #f-Menu{width:1200px; height:40px; margin:0 auto;}
+#footer #f-Menu ul li{width:150px; height:40px; line-height:40px; float:left;}
+#footer #f-Menu ul li a{display:block; font-family:dotum; font-size:14px; color:#fff; text-align:center;}
+#footer #f-Menu ul li.line{width:30px; color:#fff;}
+
+#footer .Addr-Con{width:1200px; height:auto; margin:0 auto;}
+
+#footer .Addr-Con p.f_logo{width:199px; height:67px; float:left; margin-top:40px;}
+.Address-Contents{float:left;  font-family:dotum; font-size:14px; margin-left:20px; margin-top:40px; color:#000;}
+#footer .Addr-Con address{font-style:normal; }
+#footer .Addr-Con address span{display:block; margin-top:5px;}
+#footer .Addr-Con .copyright{margin-top:10px;}
+

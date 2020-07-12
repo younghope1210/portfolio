@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>日本ゾイス株式会社</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="日本ゾイス(株), zois, www.zois.co.jp" > 
+<meta name="description" content="日本ゾイス,ウェブ・モバイルシステム開発,ホームページ製作">
+<meta name="keywords" content="ソフトウェアの開発,アウトソーシング,ウェブ開発,モバイル開発,hompee.com,ホームページ製作">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0, user-scalable=yes, target-densitydpi=medium-dpi">
+<meta name="google-site-verification" content="W9wuiOsQvSPhxM98DfLwOAGzaT7YS5OlfMks_QT7KnM" />
+
+<link rel="stylesheet" href="/css/default.css" media="all"/>
+<link rel="stylesheet" href="/css/bootstrap.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+<link rel="stylesheet" href="/css/contents.css" media="all">
+<link rel="stylesheet" href="/css/jquery.bxslider.css" media="all">
+
+<script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="/js/jquery.bxslider.js" type="text/javascript" ></script>
+<script src="/js/ui.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="/js/respond.min.js"></script>
+<script src="/js/html5.js"></script>
+<![endif]-->    
+</head>
+<body>
+    
+<ul id="skipnavi" class="maxw_1100">
+    <li><a href="#lnb_area">メニュー</a></li>
+    <li><a href="#contents_wrap">本文</a></li>
+    <li><a href="#footer_wrap">下部</a></li>
+</ul>    
+    
+<div id="wrap">
+    <!-- header -->
+    <div id="header_wrap" class="visible-xs">
+        <div class="header maxw_1000">
+            <div class="logo">
+                <a href="/index.jos"><img src="/images/common/m_logo.png" alt="" class="max">mobile_logo</a>
+            </div>
+            <div class="mo-menu">
+                <a class="menu-trigger" href="#">
+                    <span></span><span></span><span></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- header -->
+    
+    <!-- lnb -->
+    <div id="lnb_area">
+        <div class="logo maxw_1000 hidden-xs">
+            <div class="gnb_wrap hidden-xs">
+                <a href="http://www.zois.co.kr/" target="_blank">株式会社ゾイス(韓国)</a>
+            </div>
+            <a href="/index.jos"><img src="/images/common/logo.png" alt="">logo</a>
+            <div class="lang_wrap hidden-xs">
+                <a href="/online/index.jos">お問合せ</a>
+                <a href="/sitemap.jos">サイトマップ</a>
+            </div>
+        </div>
+        
+        
+        <div class="lnb">
+            <div class="lnb-bg"></div>
+            <div class="gnb_wrap visible-xs">
+                <a href="/location.jos">アクセス</a> l
+                <a href="/online/index.jos">お問合せ</a> l
+                <a href="http://www.zois.co.kr/" target="_blank">株式会社ゾイス(韓国)</a>
+            </div>
+            <ul>
+                <li>
+                    <a href="/company/greeting.jos">会社概要</a>
+                    <ul>
+                        <li><a href="/company/greeting.jos">ご挨拶</a></li>
+                        <li><a href="/company/company.jos">会社情報</a></li>
+                        <li><a href="/company/organization.jos">組織図</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/corevalue/corevalue.jos">企業理念</a>
+                    <ul>
+                        <li><a href="/corevalue/corevalue.jos">経営理念</a></li>
+                        <li><a href="/corevalue/mainstrategy.jos">主な戦略</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/business/si.jos">主な事業</a>
+                    <ul>
+                        <li><a href="/business/si.jos">SI事業</a></li>
+                        <li class="nav_exception"><a href="/business/outsourcing.jos">ITアウトソーシング</a></li>
+                        <li class="nav_exception"><a href="/business/web.jos">ウェブ・モバイル開発</a></li>
+                        <li class="nav_exception"><a href="/business/hompee.jos">ホンピドットコム</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/recruit.jos">採用情報</a>
+                </li>
+                <!--<li>
+                    <a href="/board_list.jos">お知らせ</a>
+                </li>-->
+                <li>
+                    <a href="/location.jos">アクセス</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //lnb -->
+
+
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+         slider = $('#main_visual .bxslider').bxSlider({
+            mode: 'fade',
+            auto: true,
+            autoControls: false,
+          onSliderLoad : function(index){
+              if(index == 0){
+                        $(".visual01 .visual_text01").stop().delay(1000).animate({opacity: 1},1000);
+                        $(".visual01 .visual_text02").stop().delay(1100).animate({opacity: 1},1200);
+                }
+            },
+            onSlideAfter : function(slideElement, oldIndex, newIndex){
+                if(newIndex == 0){
+                        $(".bxslider li").eq(newIndex).find(".visual_text01").stop().animate({opacity: 1},1000);
+                        $(".bxslider li").eq(newIndex).find(".visual_text02").stop().animate({opacity: 1},1200);
+                }else if(newIndex == 1){ 
+                        $(".bxslider li").eq(newIndex).find(".visual_text01").stop().animate({opacity: 1},1000);
+                        $(".bxslider li").eq(newIndex).find(".visual_text02").stop().animate({opacity: 1},1200);
+                }
+                if(oldIndex == 0){
+                        $(".bxslider li").eq(oldIndex).find(".visual_text01").stop().animate({opacity: 0},1000);
+                        $(".bxslider li").eq(oldIndex).find(".visual_text02").stop().animate({opacity: 0},1200);
+                }else if(oldIndex==1){
+                        $(".bxslider li").eq(oldIndex).find(".visual_text01").stop().animate({opacity: 0},1000);
+                        $(".bxslider li").eq(oldIndex).find(".visual_text02").stop().animate({opacity: 0},1200);
+                }
+            }
+         });	
+
+    });
+    </script>
+    <div id="main_visual">
+		<ul class="bxslider">
+			<li class="visual01">
+				<div class="bgarea" style="background:url(/images/main/main_visual01.jpg) no-repeat center;"></div>
+				<div class="visual_text01">
+					<span class="bold1">ZOIS IT <span class="bold2">技術力</span></span> 
+                </div>
+				<div class="visual_text02">
+				ITビジネス価値の極大化のためのITマスタとしてソリュションもとに<span class="dis_block"></span>
+                最高のIT技術力で顧客と弊社の発展に寄与します。
+                </div>
+			</li>
+					
+			<li class="visual02">
+				<div class="bgarea" style="background:url(/images/main/main_visual02.jpg) no-repeat center;"></div>
+				
+				<div class="visual_text01">
+					<span class="bold1">hompee.com<span class="bold2"></span></span> 
+                </div>
+				<div class="visual_text02">
+				誰でも簡単にホームページの作成ができます。
+                <span class="dis_block"></span>
+                低コストで気軽にホンピドットコムから始めましょう！
+                </div>
+			</li>
+		</ul>
+	</div><!--main_visual-->	
+
+    <div id="main_content01">
+        <div class="business_area">
+            <div class="business_cont bg_1">
+                
+                <h2><span>SI</span> 事業</h2>
+                <ul class="txt">
+                    <li>システム設計</li>
+                    <li>最適のハードウェア 選定と発注・調達</li>
+                    <li>応用ソフトウェアの開発</li>
+                    <li>システム維持・保守</li>
+                </ul>
+                <a href="/business/si.jos"><p class="more">詳細はこちら</p></a>
+            </div>
+            <div class="business_cont bg_2">
+                <h2><span>IT</span> アウトソーシング</h2>
+                <ul class="txt">
+                    <li>企業内ITと関連</li>
+                    <li>組織の機能及び活動</li>
+                    <li>専門化されたコンサルティング</li>
+                    <li>最適化になったサービスを提供</li>
+                </ul>
+                <a href="/business/outsourcing.jos"><p class="more">詳細はこちら</p></a>
+            </div>
+            <div class="business_cont bg_3">
+                <h2>ウェブ・モバイルシステム開発</h2>
+                <ul class="txt">
+                    <li>スマートフォン</li>
+                    <li>必要なウェブサイトにアクセス</li>
+                    <li>最先端の技術・ 研究・開発</li>
+                </ul>
+                <a href="/business/web.jos"><p class="more">詳細はこちら</p></a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="main_content02">
+        <div class="hompee_text01">www.hompee.com</div>
+        <h4 class="hompee_text02">誰でも簡単にホームページの作成ができます。</h4>
+        <div class="about_hompee maxw_1100">
+            <dl>
+                <dt class="bg_1"><span>差別化</span></dt>
+                <dd class="text03">ホンピドットコムだけのメリット</dd>
+                <dd>ホームページの製作、ホスティングサービス、ドメイン管理などが低コストで解決可能</dd>
+            </dl>
+            <dl>
+                <dt class="bg_2"><span>便利な<br />機能</span></dt>
+                <dd class="text03">誰でもやりやすくホームページの運用ができる。</dd>
+                <dd>様々なホームページ制作の管理者機能によりどこでも誰でも管理ができる。</dd>
+            </dl>
+            <dl>
+                <dt class="bg_3"><span>技術力<br />アップ</span></dt>
+                <dd class="text03">未来を考える</dd>
+                <dd>技術力アップに力を出し、顧客のニーズを把握や満足度を高める</dd>
+            </dl>
+        </div>
+        <ul class="btn_area">
+            <li><a href="/online/index.jos">お問合せ</a></li>
+            <li><a href="/business/hompee.jos">詳細はこちら</a></li>
+        </ul>
+    </div>    
+    
+    
+    
+    <div id="main_content03">
+        <div class="aboutzois animation-element">
+            <h3 class="mtit slideUp">ABOUT <span>日本ゾイス</span></h3>
+            <div class="text slideUp2">ITビジネス価値の極大化のためのITマスタとしてソリュションもとに
+    最高のIT技術力で顧客と弊社の発展に寄与します。</div>
+            <ul class="icon_box slideUp3">
+                <li class="no1">熱情<span>(Zest)</span></li>
+                <li class="no2">独創<span>(Orinality)</span></li>
+                <li class="no3">革新<span>(Innovation)</span></li>
+                <li class="no4">サービス<span>(Service)</span></li>
+            </ul>
+            <div class="btn"><a href="/corevalue/corevalue.jos">詳細はこちら</a></div>
+        </div>
+    </div>
+    
+    <div class="main_content04">
+        <div class="map">
+            <script type="text/javascript" src="http://openapi.map.naver.com/openapi/v3/maps.js?clientId=MCY__Gs2GjKbHTILafun"></script>
+            <!--구글 API 출력 화면 시작-->
+            <div id="map" class="Map"></div><!--e://Map-->
+
+            <script>
+              var map;
+              function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                  center: {lat: 35.686200, lng: 139.780312},
+                  zoom: 18
+                });
+
+                var image = new google.maps.MarkerImage('', new google.maps.Size(40, 40), '', '', new google.maps.Size(40, 40));
+
+                var address = '東京都中央区日本橋人形町3丁目3-5'; // DB에서 주소 가져와서 검색하거나 왼쪽과 같이 주소를 바로 코딩.
+                var marker = null;
+                var geocoder = new google.maps.Geocoder();
+                geocoder.geocode( { 'address': address}, function(results, status) {
+                    if (status == google.maps.GeocoderStatus.OK) {
+                        map.setCenter(results[0].geometry.location);
+                        marker = new google.maps.Marker({
+                                        map: map,
+                                        icon: image, // 마커로 사용할 이미지(변수)
+                                        title: 'zois', // 마커에 마우스 포인트를 갖다댔을 때 뜨는 타이틀
+                                        position: results[0].geometry.location
+                                    });
+
+                        var content = "東京都中央区日本橋人形町3丁目3-5<br/>"; // 말풍선 안에 들어갈 내용
+                        // 마커를 클릭했을 때의 이벤트. 말풍선 뿅~
+                        var infowindow = new google.maps.InfoWindow({ content: content});
+                        google.maps.event.addListener(marker, "click", function() {infowindow.open(map,marker);});
+                    }
+                });
+              }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGKQyvDRMm24EKgqaM_8de7qjXijzqt34&callback=initMap" async defer></script>
+            <!--구글 API 출력 화면 끝-->
+        </div>
+
+        <div class="locate">
+            <h2>アクセス</h2>
+            <p>〒103-0013<br />
+                東京都中央区日本橋人形町3丁目3番5<br/>
+                天翔日本橋人形町ビル804</p>
+
+            <div class="local">
+                <ul>
+                    <li>都営浅草線　人形町駅</li>
+                    <li>東京メトロ日比谷線　人形町駅</li>
+                    <li>A5番出口から徒歩3分</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div id="footer_wrap">
+        <div class="footer">
+            <p class="footer_logo"><img src="/images/common/f_logo.png" alt="zois logo" /><span>日本ゾイス株式会社</span></p>
+            <div class="address_area">
+                <ul class="adrs_area01">
+                    <li>Tel. 050-3554-8749</li>
+                    <li>Fax. 03-3669-0144</li>
+                    <li>E-mail. info@zois.co.jp</li>
+                </ul>
+                <ul class="adrs_area02">
+                    <li>〒103-0013　東京都中央区日本橋人形町3丁目3番5号 天翔日本橋人形町ビル804号</li>
+                    <li>韓国：〒07219　ソウル特別市永登浦区唐山路159フィソンビル2階</li>
+                    <li>TEL：82-2-2637-8749 | FAX：82-2-2637-8750 | H.P：http://www.zois.co.kr</li>
+                </ul>
+            </div>
+            <span class="copyright">Copyright © 2017-2018 ZOIS JAPAN INC. All Rights</span>
+        </div>    
+    </div>    
+    
+</div> 
+    
+<script type="text/javascript">
+    $(".snb_on").hide()
+    $(".nav3").mouseenter(function(){	
+             $(this).find(".snb_on").stop().slideDown(250)
+    })
+    $(".nav3").mouseleave(function(){	
+             $(".snb_on").hide()
+    })
+</script> 
+
+</body>
+</html>    

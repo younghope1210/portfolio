@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+
+
+/*공통*/
+
+h3{font-size:48px;}
+h3 span{color:#e92328;}
+h3 em{display:block; font-size:18px; color:#999999; margin-top:5px; margin-bottom:20px;}
+
+
+/*비주얼 회사 사업영역 소개 시작 */
+
+#Visual{width:1200px; margin:0 auto; z-index:2; }
+.Business-Field{width:1200px; height:auto; margin:0 auto; overflow:hidden; margin-top:30px; }
+.Business-Field dl{width:141px; height:141px; background:url(../images/main/icon_back.png) no-repeat; float:left; margin:0 28px}
+.Business-Field dl dt img{display:block; width:73px; height:52px; margin:0 auto; margin-top:30px;}
+.Business-Field dl dd{text-align:center; font-size:20px; color:#fff; margin-top:10px;}
+
+.Business-Field dl.Business-Field-B,
+.Business-Field dl.Business-Field-D,
+.Business-Field dl.Business-Field-F{ margin-top:30px;}
+
+#Visual p{text-align:center; margin-top:50px; font-size:25px; color:#000;}
+#Visual p span{display:block; margin-top:8px;}
+
+
+
+/*솔루션 소개 시작 */
+
+#Solution{width:1200px; height:360px; margin:79px auto; }
+#Solution dl{width:262px; height:310px; float:left;  margin:0 17px;}
+#Solution dl dt{width:262px; height:178px;}
+#Solution dl dd{width:262px; height:131px; background:url(../images/main/back_fis.png) no-repeat; color:#fff; text-align:center;}
+#Solution #Solution-HMCS dl dd{ background:url(../images/main/back_hmcs.png) no-repeat;}
+#Solution #Solution-MES dl dd{ background:url(../images/main/back_mes.png) no-repeat;}
+#Solution #Solution-ADS-B dl dd{ background:url(../images/main/back_ads_b.png) no-repeat;}
+
+#Solution dl dd span{display:block;}
+
+#Solution dl dd span.Solution-Name{font-size:26px; padding-top:15px;}
+#Solution dl dd span.Kor-Name{font-size:20px; padding-top:10px;}
+#Solution dl dd a{display:block; width:90px; height:22px; line-height:20px; border:1px solid #fff; margin:15px auto; font-size:14px; font-family:dotum; color:#fff;}
+#Solution dl dd a:hover{font-weight:bold; color:#fff;}
+#Solution dl dd a em{display:inline-block; font-size:11px;}
+
+/*스마트포트 캐치프레이즈 시작 */
+
+
+
+#Catchphrase{ width:1900px; height:360px; overflow:hidden; margin:0 auto;  position:relative; overflow:hidden;}
+.Catchphrase-Con{width:100%; height:368px; position:absolute; top:0; left:0; }
+#Catchphrase ul{ width:1000px; height:368px;  margin-top:52px; margin-left:780px; }
+#Catchphrase ul li{ width:258px; height:257px; float:left;}
+#Catchphrase ul li a{display:block; width:258px; height:257px; text-indent:-9999px; font-size:0; background:url(../images/main/rhombus_bnr_a.png) no-repeat; }
+#Catchphrase ul li a:hover{ background:url(../images/main/rhombus_bnr_a_over.png) no-repeat; }
+
+
+#Catchphrase ul li.Catchphrase-B a{background:url(../images/main/rhombus_bnr_b.png) no-repeat;}
+#Catchphrase ul li.Catchphrase-B a:hover{background:url(../images/main/rhombus_bnr_b_over.png) no-repeat;}
+#Catchphrase ul li.Catchphrase-C a{background:url(../images/main/rhombus_bnr_c.png) no-repeat;}
+#Catchphrase ul li.Catchphrase-C a:hover{background:url(../images/main/rhombus_bnr_c_over.png) no-repeat;}
+
+
+
+
+/*Business 안내 시작 */
+
+#Business{width:1150px; height:500px; margin:80px auto;}
+#Business div{width:557px; height:210px; float:left; position:relative; }
+#Business div span{display:inline-block; width:284px; height:188px; background:url(../images/main/back_si.png) no-repeat; color:#fff; text-align:center; font-size:30px; line-height:180px}
+#Business div span em{display:block;}
+
+#Business div.Business-SI,
+#Business div.Business-Consulting{margin-right:25px;}
+
+#Business div.Business-SI span{position:absolute; top:0; right:0; line-height:40px; padding-top:52px; }
+#Business div.Business-E-Business span{background:url(../images/main/back_business_e_business.png) no-repeat; position:absolute; top:0; left:0; }
+#Business div.Business-Consulting span{background:url(../images/main/back_business_consulting.png) no-repeat; position:absolute; top:0; left:0 }
+#Business div.Business-Outsourcing span{background:url(../images/main/back_business_outsourcing.png) no-repeat; position:absolute; top:0; right:0; }
+
+
+
+/*채용정보 시작 */
+
+#Recruit{width:1150px; height:340px; margin:0 auto; }
+
+#Recruit div{width:557px; height:210px; float:left; background:url(../images/main/bnr_right_people.jpg) no-repeat; font-size:26px; color:#000; }
+#Recruit div.Recruit-Processes{width:557px; height:210px; float:left; background:url(../images/main/bnr_recruit_processes.jpg) no-repeat; margin-left:25px; }
+
+#Recruit p{text-align:center; width:200px; height:100px; margin-top:50px; margin-left:30px;}
+
+
+#Recruit p em{display:inline-block; width:34px; height:20px; }
+#Recruit p span.Txt-Black{color:#000; height:30px; line-height:30px; font-size:25px;}
+#Recruit p span{display:block; color:#e92328; font-size:19px;  margin-top:5px; }

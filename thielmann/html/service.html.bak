@@ -1,0 +1,454 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <title>틸만 중앙 전시장</title>
+	 <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/header.css" />
+	  <link rel="stylesheet" type="text/css" href="../css/common.css" />
+	 <link rel="stylesheet" type="text/css" href="../css/service.css" />
+	 <!--<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />-->
+
+
+
+ </head>
+ <body>
+
+
+	<div id="Wrapper">
+		
+		<div id="Container">
+
+			<div id="Header">
+				<div id="Header-Con">
+				
+				<h1><a href="#"><img src="../images/header/h1_logo.gif" alt="틸만 로고" /></a></h1>
+				
+				<!--★★★★★★★★★★★ 유틸메뉴 시작 ★★★★★★★★★★★  -->
+
+				<div id="Util-Menu">
+					
+
+						<ul>
+							<li class="Info-A"><img src="../images/header/icon_headset.png" alt="제품문의 아이콘" />제품문의</li>
+							<li class="Info-B"><img src="../images/header/icon_telephone.png" alt="전화번호출력" />02-3476-0901</li>
+							<li class="Info-C"><img src="../images/header/icon_phone.png" alt="핸드폰번호출력" />010-6730-0440</li>
+						</ul>
+					
+				</div><!--e://Util-Menu-->
+
+				<!-- ★★★★★★★★★★★ GNB 시작 ★★★★★★★★★★★ -->
+
+				<div id="Gnb">
+				
+					<ul id="Gnb_Bar">
+						<li><a href="#">회사소개</a></li>		
+						<li><a href="#">제품소개</a></li>	
+						<li><a href="#">제품타입</a></li>	
+						<li><a href="#">파트너모집</a></li>	
+						<li><a href="#">커뮤니티</a></li>	
+					</ul>
+
+					<p><a href="#">빠른 상담예약</a></p>
+					
+				</div><!--e://Gnb-->
+				<div id="Gnb-Sub-Con" style="display:none;">
+					
+					<div id="Gnb-Sub-Contents" >
+						<ul>
+							<li><a href="#">틸만이란?</a></li>
+							<li><a href="#">인증서리스트</a></li>
+							<li><a href="#">전시장갤러리</a></li>
+							<li><a href="#">오시는길</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">상품리스트</a></li>
+							<li><a href="#">전기레인지란?</a></li>
+							<li><a href="#">틸만소개영상</a></li>
+							<li><a href="#">서비스안내</a></li>
+						</ul>
+						<ul>
+							<li><a href="#">인덕션특징</a></li>
+							<li><a href="#">하이라이트특징</a></li>
+							<li><a href="#">타이별차이점</a></li>
+							
+						</ul>
+						<ul>
+							<li><a href="#">파트너모집</a></li>
+							<li><a href="#">파트너신청</a></li>
+							
+						</ul>
+						<ul>
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">Q&A</a></li>
+							<li><a href="#">설치후기</a></li>
+							<li><a href="#">EVENT</a></li>
+						</ul>
+
+					</div><!--e://Gnb-Sub-Contents-->
+
+				</div>	<!--e://Gnb-Sub-Con-->
+
+				</div><!--e://Header-Con-->
+			</div><!--e://header-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+
+		
+		
+			<script src="../js/jquery-1.9.1.min.js"></script>
+		    <script src="../js/jquery.slides.min.js"></script>
+
+
+			<script>
+				var zoomx = 100;
+				  $(document).ready(function() {
+					$("#Gnb_Bar").hover(
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideDown(400);
+					  },
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideUp(600);
+					  }
+					);
+
+					$("#Gnb-Sub-Con").hover(
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideDown(400);
+					  },
+					  function() {
+						$("#Gnb-Sub-Con").stop().slideUp(600);
+					  }
+					);
+
+				  
+
+				//class="tabBtn tabBtngroupA" tar="lastA_1" tarc="lastA_1" tarx="tabBtngroupA"
+				  });
+
+				</script>
+			
+
+			<div id="Contents">
+
+
+			<!-- ★★★★★★★★★★★ visual ★★★★★★★★★★★ -->
+				
+				<div id="Sub-Visual">
+					  <div id="Visual-Con">
+						
+						
+						<p class="Top-Skin"><span class="Tiny-Title">Intelligent Look </span>틸만의 디지털 원터치 패널방식 <span class="Squer">Thielmann Ceramic Range</span></p>
+							
+						</div>
+					</div><!--e://Sub-Visual-->
+					<div id="Service">
+					<div id="Service-Con">
+						<h3><span>서비스 <em>안내</em></span></h3>
+
+						<div class="Service-Explain">
+							<p class="Title-Con">
+							틸만은 <span>100% 독일 완제품</span>을  
+							<em>수입합니다.</em>
+							</p>
+							<p class="Explain">틸만 전기레인지는 독일에서 완제품으로 수입된 제품을 판매하고 있으며, 부품 교체 A/S 역시 
+독일 SCHOTT사의 상판과 E.G.O사의 발열체 터치 패널 등 정품 부품만을 사용해 진행하고 있습니다.
+완벽하게 만들어진 제품과 철저하게 관리된 부품으로 감동을 주는 틸만의 서비스를 경험해 보세요.</p>
+
+							<ul>
+								<li><img src="../images/electric_range_explain/service_img_a.jpg" alt="이미지" width="100%"  /></li>
+								<li><img src="../images/electric_range_explain/service_img_b.jpg" alt="이미지" width="100%" /></li>
+								<li><img src="../images/electric_range_explain/service_img_c.jpg" alt="이미지" width="100%"  /></li>
+							
+							</ul>
+								
+						</div>	<!--e://Service-Title-->
+						<div class="packing-info">
+							<h4>제품 포장 과정</h4>
+							<dl>
+							
+								<dt><img src="../images/electric_range_explain/service_img_d.jpg" alt="이미지" width="100%"  /></dt>
+								<dd>
+									<p>E.G.O정품 식별번호</p>
+									<span>독일 E.G.O사 부품 식별번호로 재고 및 
+사후 A/S 정보로 철저하게 관리되어 집니다.</span>
+								<dd>
+							</dl>
+
+							<dl>
+							
+								<dt><img src="../images/electric_range_explain/service_img_e.jpg" alt="이미지" width="100%"  /></dt>
+								<dd>
+									<p>E안전한 맞춤형 패키지</p>
+									<span>부품의 보관과 이동을 위해 맞춤형 패키지로 
+안전하게 관리되어 집니다.</span>
+								<dd>
+							</dl>
+
+							<dl>
+							
+								<dt><img src="../images/electric_range_explain/service_img_f.jpg" alt="이미지" width="100%"   /></dt>
+								<dd>
+									<p>더욱 안전한 절연 포장재</p>
+									<span>부품의 더욱 안전한 보관과 이동을 위해 
+정전기 방지용 절연 포장재가 이용됩니다.</span>
+								<dd>
+							</dl>
+
+						
+						</div><!--e://packing-info-->
+						
+							
+						<div class="Service-Price">
+							<h4> 서비스 요금 안내 </h4>
+
+							<div class="Service-Con-A">
+								
+								<p class="Service-Title">서비스 요금 기준<span>출장비, 수리비, 부품비를 기준으로 각 요금에 대한 확인 후 사용자에게 
+청구합니다.</span></p>
+
+								<dl>
+									<dt>+ 출장비</dt>
+									<dd>제품 수리 여부와 상관없이 고객의 요청으로 방문하게 되는 경우 비용이 
+청구됩니다.</dd>
+									<dt>+ 수리비</dt>
+									<dd>제품을 수리하기 위해 전문기사의 기술료가 청구됩니다.
+</dd>
+									<dt>+ 부품비</dt>
+									<dd> 제품을 수리하는 데 필요한 부품에 대한 가격이 청구됩니다.</dd>	
+								</dl>
+
+							</div><!--e://Service-Con-A-->
+
+
+							<div class="Service-Con-B">
+								
+								<p class="Service-Title">서비스 요금 기간<span>출장비, 수리비, 부품비를 기준으로 각 요금에 대한 확인 후 사용자에게 
+청구합니다.</span></p>
+
+								<dl>
+									<dt>+ 보증기간</dt>
+									<dd>보증기간은 1년입니다.
+ <span>(단, 전기레인지의 경우 세라믹 상판은 무상 서비스 대상이 아니며, 유상처리 됩니다.)</span></dd>
+									<dt>+ 무상서비스</dt>
+									<dd>보증기간 이내에 정상적인 사용 중 발생한 기능고장 및 확인 가능한 문제에 
+ 대해서는 무상서비스를 받으실 수 있습니다.</dd>
+									<dt>+ 구성품관련</dt>
+									<dd> 제품 외 기타 지급되는 구성품은 보증 대상이 아닙니다.</dd>	
+								</dl>
+								<p class="Col-Red">※ 보증기간 중에도 단순 방문을 요청하실 경우 기본출장비용(￦22,000)이 
+    청구됩니다</p>
+							</div><!--e://Service-Con-B-->
+
+
+						
+						</div><!--e://Service-Price-->
+
+						<div class="Demolition-Install">
+							<h4>철거/이전설치 서비스 안내</h4>
+							<p>제품의 이전으로 발생하는 서비스 비용</p>
+							<ul>
+								<li>- 서비스 비용(아래)은 설치 환경에 따라 추가비용이 발생 될 수 있습니다. 정확한 비용은 방문기사를 통해서 안내받시기 바랍니다.</li>
+								<li>- 서비스 비용은 지역과 상관없이 고정비용입니다.</li>
+		
+							</ul>
+
+							<table>
+								<tr>
+									<th class="Tit_line">제품군</th>
+									<th class="Tit_line">서비스구분</th>
+									<th class="Tit_line">서비스 비용</th>
+								</tr>
+
+								<tr>
+									<th>전기레인지</th>
+									<td>
+										<ul>
+											<li>철거</li>
+											<li>이전설치</li>
+											<li class="Col-Red">철거 + 이전설치</li>
+										</ul>
+									</td>
+									
+									<td>
+										<ul>
+											<li>￦22,000</li>
+											<li>￦44,000</li>
+											<li class="Col-Red">￦66,000</li>
+										</ul>
+									</td>
+								</tr>
+
+
+								<tr>
+									<th>오븐</th>
+									<td>
+										<ul>
+											<li>철거</li>
+											<li>이전설치</li>
+											<li class="Col-Red">철거 + 이전설치</li>
+										</ul>
+									</td>
+									
+									<td>
+										<ul>
+											<li>￦22,000</li>
+											<li>￦44,000</li>
+											<li class="Col-Red">￦66,000</li>
+										</ul>
+									</td>
+								</tr>
+							
+							</table>
+						</div><!--e://Demolition-Install-->
+
+
+							<div class="Conflict-Resolution">
+							<h4>소비자 분쟁 해결 기준</h4>
+							
+							<ul>
+								<li>본 기준은 소비자 기본법 제16조 2항, 법 시행령 제8조 제3항에 의하여 소비자분쟁해결기준을 정함으로써 소비자와 당사 간에 발생한 분쟁이 원활하게 해결 또는 합의 기준을 제시하는 데 그 목적이 있다. </li>
+								<li>소비자와 해결 또는 합의를 이루지 못하는 경우 행정기관 또는 소비자단체를 통해서 구제를 청구할 수 있다. </li>
+								<li>이 규정은 2009년 10월 1일부터 시행한다. </li>
+							</ul>
+
+							<table>
+								<tr>
+									<th class="Tit_line">분쟁유형</th>
+									<th class="Tit_line">분쟁기준</th>
+									<th class="Tit_line">비고</th>
+								</tr>
+
+								<tr>
+									<th>설치(구매)일로부터 7일 이내에 정상적인 사용과정에서 발생한 성능 - 기능상의 문제로 중요한 A/S를 필요로 할 때</th>
+									<td>제품 교환 또는 구매가 환급(영수증 확인)</td>
+									<td rowspan="12">정액 감가상각은 제품의 잔존 가치액을 환산하여 <em>금액에 구매가의 5%를 가산하여 환급(보상)함</em>
+													 <span>구매가 - 감가상각비(사용연수 ÷ 내용연수 × 구매가)<span>
+</td>
+								</tr>
+
+								<tr>
+									<th>설치(구매)일로부터 1개월 이내에 정상적인 사용상태에서 발생한 성능 · 기능상의 문제로 중요한 A/S를 필요로 할 때</th>
+									<td>제품 교환 또는 무상 A/S</td>
+								
+								</tr>
+
+								<tr>
+									<th>품질보증 기간 이내에 정상적인 사용상태에서 발생한 성능·기능상의 문제로 A/S를 필요로 할 때</th>
+									<td>무상 A/S</td>
+								
+								</tr>
+								<tr>
+									<th>품질보증 기간 이내에 정상적인 사용상태에서 발생한 성능·기능상의 문제로 A/S가 불가능할 때</th>
+									<td>제품 교환 및 구매가 환급(영수증 확인)</td>
+								
+								</tr>
+
+								<tr>
+									<th>품질보증 기간 이내에 정상적인 사용상태에서 발생한 성능·기능상의 문제로 3회 이상 A/S가 발생하였을 때</th>
+									<td>제품 교환 및 구매가 환급(영수증 확인)</td>
+								
+								</tr>
+
+								<tr>
+									<th>소비자가 제품을 회수하여 서비스 도중 사업자가 분실한 경우 보증기간 이내의 경우</th>
+									<td>동일 제품 교체 또는 구매가 환급(영수증 확인)</td>
+								
+								</tr>
+
+								<tr>
+									<th>소비자가 제품을 회수하여 서비스 도중 사업자가 분실한 경우 보증기간 경과한 경우</th>
+									<td>내용연수를 확인하여 정액 감가상각 후 환급 또는 보상판매</td>
+								
+								</tr>
+
+								<tr>
+									<th>유상 서비스 후 1년 이내 동일한 불량일 발생한 경우</th>
+									<td>무상 A/S</td>
+								
+								</tr>
+
+								<tr>
+									<th>보증기간 이내에 당사에서 A/S 부품을 보유하고 있지 않을 경우</th>
+									<td>내용연수를 확인하여 정액 감가상각 후 환급 또는 보상판매</td>
+								
+								</tr>
+
+								<tr>
+									<th>보증기간 이내의 제품이지만 당사에서 A/S 부품을 보유하고 있지 않을 경우</th>
+									<td>A/S 해당하는 금액 징수 후 제품교환</td>
+								
+								</tr>
+
+								<tr>
+									<th>단종된 제품의 A/S의 경우</th>
+									<td>내용연수를 확인하여 정액 감가상각 후 환급 또는 보상판매</td>
+								
+								</tr>
+
+								<tr>
+									<th>제품 설치 시 발생한 문제</th>
+									<td>제품 교환</td>
+								
+								</tr>
+									
+							</table>
+
+							<p>※ 구매 또는 설치 일자 확인이 어려운 경우 제품 뒷면에 표시된 제조일로부터 90일 경과한 날을 기준으로 적용합니다. </p>
+						</div><!--e://Conflict-Resolutions-->
+
+
+					
+					
+					</div><!--e://Service-Con-->	
+					
+				</div><!--e://"Service-->	 
+				
+					
+			</div><!--e://Contents-->
+		
+		</div><!--e://Container-->
+
+		<div id="Footer">
+			<div id="Footer-Con">
+				<h2><img src="../images/footer/f_logo.gif" alt="F-logo" /></h2>
+		
+				<address>
+					
+					<ul>
+						<li>| 상호 : 틸만㈜ | 사이트명 : 틸만중앙전시장 | 대표 : 채수민 </li>
+						<li>| 사업자등록번호 : 107-87-67225 | 통신판매업신고 : 2012-서울서초-0543호 | 고객센터 : 02-3476-0901 </li>
+						<li>| 방문판매업신고번호 : 제 2012-서울서초-0055호  제 2012-서울서초-0055호 | 개인정보관리책임자 : 심정은 </li>
+						<li>| 이메일 : webmaster@tilman.co.kr  | 주소 : 서울 서초구 반포동 107-6번지 대국빌딩 1층 </li>
+						<li class="Copyright">Copyrightⓒ 2016 CSM㈜ All rights </li>
+					</ul>
+					
+				</address>
+				
+				
+				
+			</div><!--e://Footer-Con-->	
+			<div style="clear:both; width:1800px;"></div>
+				<div id="Certifi-Mark">
+					<ul>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_kcl.gif" alt="한국건설 생활환경 시험연구원" /><span>한국건설생활환경<em>시험연구원</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_ccm.gif" alt="소비자중심경영 인증" /><span>소비자중심경영<em>인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_ktc.gif" alt="한국전기전자시험연구소 적자파 적합인증" /><span>한국전기전자시험연구소<em>적자파 적합인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_iec.gif" alt="안전보건공단 위험성평가 인증" /><span>안전보건공단<em>위험성평가 인증</em></span></a></li>
+						<li><a href="#" target="_blank"><img src="../images/footer/f_logo_kipo.gif" alt="특허청상표등록" /><span>특허청<em>상표등록</em></span></a></li>
+
+					</ul>
+				</div><!--e://Certifi-Mark-->	
+		
+		</div><!--e://Footer-->	
+	
+		
+	</div><!--e://Wrapper-->
+
+  
+
+ </body>
+</html>
